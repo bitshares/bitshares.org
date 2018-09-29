@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Industrial Performance and Scalability - Bitshares</title>
+	<base href="https://demo.bitshares.org/">
+    <!-- Styles -->
+    <link href="assets/css/core.min.css" rel="stylesheet">
+    <link href="assets/css/thesaas.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+	<!-- Slide Menu -->
+		<link rel="stylesheet" href="slide-menu/slidebars.css">
+		<link rel="stylesheet" href="slide-menu/style.css">
+	
+    <!--  Open Graph Tags -->
+    <meta property="og:title" content="Bitshares - Industrial Performance and Scalability">
+    <meta property="og:description" content="BitShares 2.0 offers a stack of financial services including exchange and banking on a blockchain.">
+    <meta property="og:image" content="assets/img/og-img.jpg">
+    <meta property="og:url" content="https://bitshares.org/">
+    <meta name="twitter:card" content="summary_large_image">
+<!-- 104830888 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '7777777', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+  <div canvas="container">
+    <!-- Topbar -->
+	<nav class="topbar topbar-inverse topbar-expand-md topbar-sticky">
+		<div class="container container_bar">
+			<div class="topbar-left">
+			<a class="topbar-brand" href="/">
+			  <img class="logo-default" src="assets/img/logo.png" alt="Bitshares">
+			  <img class="logo-inverse" src="assets/img/logo.png" alt="Bitshares">
+			</a>
+			</div>
+<!--			<div class="topbar-brand">
+			   <h5 class="logo-default titlebar1">Industrial Performance and Scalability</h5>
+			   <h5 class="logo-inverse titlebar2">Industrial Performance and Scalability</h5>
+			</div> -->
+			<div class="topbar-right">
+				<ul class="topbar-nav nav nav-toggle-click">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About <i class="fa fa-caret-down"></i></a>
+					<div class="nav-submenu">
+						<div class="nav-item">
+							<a class="nav-link" href="#">Development<i class="fa fa-caret-right"></i></a>
+							<div class="nav-submenu">
+								<a class="nav-link" target="_blank" href="https://github.com/bitshares" >GitHub</a>
+								<a class="nav-link" target="_blank" href="http://docs.bitshares.eu/integration/index.html">Integration Guide</a>
+								<a class="nav-link" target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a>
+							</div>
+						</div>
+
+						<div class="nav-item">
+							<a class="nav-link" href="#">Native dApps<i class="fa fa-caret-right"></i></a>
+							<div class="nav-submenu">
+								<a class="nav-link" href="bitshares-dex" target="_blank">BitShares DEX</a>
+								<a class="nav-link" href="bitshares-token-factory" target="_blank">BitShares Token Factory</a>
+								<a class="nav-link" href="bts-token" target="_blank">BitShares Core Token</a>
+							</div>
+						</div>
+						<a class="nav-link" target="_blank" href="http://docs.bitshares.eu/">Documentation</a>
+					</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#">Technology <i class="fa fa-caret-down"></i></a>
+					<div class="nav-submenu">
+						<a class="nav-link" href="price-stable-cryptocurrencies">Price-Stable Cryptocurrencies</a>
+						<a class="nav-link" href="decentralized-asset-exchange">Decentralized Asset Exchange</a>
+						<a class="nav-link" href="industrial-performance-scalability">Industrial Performance and Scalability</a>
+						<a class="nav-link" href="dynamic-account-permissions">Dynamic Account Permissions</a>
+						<a class="nav-link" href="recurring-scheduled-payments">Recurring &amp; Scheduled Payments</a>
+						<a class="nav-link" href="referral-rewards-program">Referral Rewards Program</a>
+						<a class="nav-link" href="user-issued-assets">User-Issued Assets</a>
+						<a class="nav-link" href="stakeholder-approved-project-funding">Stakeholder-Approved Project Funding</a>
+						<a class="nav-link" href="transferable-named-accounts">Transferable Named Accounts</a>
+						<a class="nav-link" href="delegated-proof-of-stake-consensus">Delegated Proof-of-Stake Consensus</a>
+					</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" target="_blank" href="https://www.bitshares.foundation/papers/BitSharesBlockchain.pdf">Whitepaper</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact <i class="fa fa-caret-down"></i></a>
+					<div class="nav-submenu">
+						<a class="nav-link" target="_blank" href="#">Elected Spokesperson</a>
+						<a class="nav-link" target="_blank" href="#">Business Development</a>
+						<a class="nav-link" target="_blank" href="#">Media Kit</a>
+						<a class="nav-link" target="_blank" href="#">Press</a>
+						<a class="nav-link" target="_blank" href="#">Support</a>
+					</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+      </nav>
+    <!-- END Topbar -->
+
+    <!-- Header -->
+    <header class="header header-inverse inner-headers">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-lg-8 offset-lg-2">
+            <h1>Industrial Performance and Scalability</h1>
+            <p class="fs-18 opacity-70">Graphene is capable of 100,000 TPS when we pay for the network to go with it</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END Header -->
+    <!-- Main container -->
+    <main class="main-content">
+		<section class="section no-show-btn pt-0 pb-0 cmc_div">
+			<!-- MARKET CAP & PRICE -->
+			<div class="price_mc">
+			<div class="mc_data">
+				<div class="mc_bts_price">BTS Price:</div><div class="coinmarketcap-currency-wig" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="true"></div>
+			
+				<div class="mc_bts_mc">Market Cap:</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="true" data-volume="false" data-stats="USD" data-statsticker="true"></div>
+			
+				<div class="mc_bts_24">Volume (24h):</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="true" data-stats="USD" data-statsticker="true"></div>
+			</div>
+			</div>
+			<!-- MARKET CAP & PRICE -->
+		</section>
+      <section class="section section-x">
+        <div class="container">
+          <p>High performance blockchain technology is necessary for cryptocurrencies and smart contract platforms to provide a viable alternative to existing financial platforms. BitShares is designed from the ground up to process more transactions every second than VISA and MasterCard combined. With Delegated Proof of Stake, the BitShares network can confirm transactions in an average of just 1 second, limited only by the speed of light.</p>
+		  <br />
+		  <h4>Overview</h4>
+		  <p>To achieve this industry-leading performance, BitShares has borrowed <a href="http://martinfowler.com/articles/lmax.html">lessons learned from the LMAX Exchange</a>, which is able to process 6 million transactions per second. Among these lessons are the following key points:</p>
+			<ol class="ml-50">
+				<li>Keep everything in memory.</li>
+				<li>Keep the core business logic in a single thread.</li>
+				<li>Keep cryptographic operations (hashes and signatures) out of the core business logic.</li>
+				<li>Divide validation into state-dependent and state-independent checks.</li>
+				<li>Use an object oriented data model.</li>
+			</ol>
+		  			<p>By following these simple rules, BitShares is able to process 100,000 transactions per second without any significant
+			effort devoted to optimization. Future optimizations are expected to bring the performance of BitShares to levels similar to
+			LMAX.</p>
+			<p>It should be noted that the performance achieved by BitShares is highly dependent upon having a compatible transaction
+			protocol. It would not be possible to achieve the same level of performance in a protocol where the Core Business Logic
+			is run in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
+			Blockchains are inherently single-threaded, and the performance of a single core of a CPU is the most limited and least
+			scalable resource of all. BitShares is designed to get the most out of this single thread of execution.</p>
+			<br />
+			<h4 id="background">Background</h4>
+			<p>A blockchain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global
+			state at a specified timestamp. The order in which transactions are processed can change the validity of other transactions.
+			For example, you cannot withdraw money from your bank account until after your paycheck deposit has cleared.
+			It becomes impossible to know whether or not a transaction is valid until after all prior transactions that impact a particular
+			account have been processed.</p>
+			<p>In theory, transactions for two unrelated accounts can be processed at the same time, provided that they do not share any
+			common dependency. In practice, the cost of identifying which transactions are truly independent of each other on a
+			ledger empowered by smart contracts with arbitrary conditions is intractable. The only way to be sure that two
+			transactions are truly independent is by maintaining completely separate ledgers and then periodically transferring
+			value between them. An analogy could be made to the performance trade offs in the design of Non-Uniform Memory Access
+			(NUMA) vs Uniform Memory Access.</p>
+			<p>In practice, Uniform Memory Access is much easier for developers to design for, and has lower costs. NUMA architectures
+			are usually adopted as a last resort when building supercomputers or giant clusters.</p>
+			<p>The computer industry has grown to realize that scaling performance through parallelism is nowhere near as easy as the
+			early days when all that was necessary was to increase the clock speed of the CPU. It is for this reason that CPU
+			designers pushed the single-threaded performance to the limits before attempting to adopt a multi-threaded approach to
+			increase performance. When multi-threading is not enough, then, and only then, is cluster computing considered an
+			option.</p>
+			<p>Many in the cryptocurrency industry have attempted to solve the scalability issue by immediately moving to a “cluster”
+			solution without fully exploring what is technologically possible on a single core of a single computer.</p>
+			
+			<br />
+			<h4 id="lmax-disruptor">LMAX Disruptor</h4>
+			<p>The LMAX Disruptor provides a case study on an architecture with a high degree of scalability and performance, showing what is achievable within a single execution thread. LMAX is a retail trading
+			platform that aims to be the fastest exchange in the world. They have been generous enough to share what they have
+			learned publicly.</p>
+			<p>Here is a brief overview of their architecture:</p>
+			<p>The Business Logic Processor is where all of the sequential transactions and order matching is processed. It is a
+			single thread that is able to process millions of orders per second. This architecture is readily ported to the realm
+			of cryptocurrencies and blockchain designs.</p>
+			<p>The role of the Input Disruptor is to gather orders from users from many different sources and assign them a
+			deterministic order. After assigning them an order they are replicated, logged, and broadcast to many redundant
+			business logic processors. The tasks of the Input Disruptor are embarrassingly parallel and easily farmed out to a
+			cluster of computers.</p>
+			<p>After the Business Logic Processor has processed the inputs, an Output Disruptor takes care of notifying anyone who
+			cares about the results. This is also an embarrassingly parallel task.</p>
+			<p>Ultimately, LMAX was able to process 6 million transactions per second through the Business Logic Processor using a
+			single core of a commodity CPU using the Java virtual machine. If LMAX can achieve 6 million transactions per second,
+			then certainly there is no need for cryptocurrency and smart contract platforms to reach for clustered solutions
+			when they are not even processing 10 transactions per second.</p>
+			
+			<br />
+			<h4 id="high-performance-blockchains">High Performance Blockchains</h4>
+			<p>To implement a high performance blockchain, BitShares must adopt the same techniques used by LMAX. Several key
+			fundementals must be met:</p>
+			<ul class="ml-50">
+			<li>Keep everything in memory.</li>
+			<li>Avoid synchronization primitives (locks, atomic operations).</li>
+			<li>Minimize unnecessary computation in the business logic processor.</li>
+			</ul>
+			<p>Memory is becoming cheaper every day because it is extremely parallel in its design. The amount of information
+			that is required to track the account balance and permissions of every person on the Internet is less than 1 Terabyte of
+			RAM, which can be purchased for less than $15,000 and installed on commodity (high-end) server motherboards. Long
+			before 3 billion people adopt the system, this kind of hardware will be in the average desktop.</p>
+			<p>The real bottleneck is not the memory requirements, but the bandwidth requirements. At 1 million transactions per
+			second and 256 bytes per transaction, the network would require 256 megabytes per second (1 Gbit/sec). This kind of
+			bandwidth is not widely available to the average desktop; however, this level of bandwidth is a fraction of the 100
+			Gbit/s that <a href="http://www.internet2.edu/vision-initiatives/initiatives/innovation-platform/" target="_blank">Internet 2</a> furnishes to more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.</p>
+			<p>Therefore, blockchain technology can easily keep everything in RAM and scale to handle millions of transactions per
+			second if it is designed properly.</p>
+			
+			<br />
+			<h4 id="avoid-hashes-assign-ids-instead">Avoid Hashes, Assign IDs Instead</h4>
+			<p>In a single threaded system, CPU cycles are a scarce resource that need to be conserved. Traditional blockchain designs
+			use cryptographic hashes to generate globally unique IDs that are statistically guaranteed to never have a collision.
+			The problem with these hashes is that they require significantly more memory and more CPU cycles to manipulate. It
+			takes significantly more CPU time to look up an account record by hash than with a direct array index. For example,
+			64 bit integers are easier to compare and manipulate than 160+bit IDs. Larger hash IDs means there is less room in
+			the CPU cache and that more memory is required. On modern operating systems, infrequently accessed RAM is
+			compressed, but hash identifiers are random data that is not compressible.</p>
+			<p>Fortunately, blockchains give us a means to globally assign unique IDs that do not conflict with one another, so it
+			is possible to completely remove the need to use hash-based identifiers (Bitcoin addresses) to refer to an account,
+			balance, or permission.</p>
+			
+			<br />
+			<h4 id="remove-signature-verification-from-business-logic-processor">Remove Signature Verification from Business Logic Processor</h4>
+			<p>All transactions on cryptocurrency networks depend upon cryptographic signatures to validate permissions. In the
+			general case, the permissions required can change as a result of other transactions. This means that permissions need
+			to be defined in terms that require no cryptographic calculations within the Business Logic Processor.</p>
+			<p>To do this, every public key needs to be assigned a unique and immutable ID. After an ID has been assigned, the Input
+			Disruptor(s) can verify that the signature provided matches the ID specified. By the time the transaction makes it to
+			the Business Logic Processor, the only remaining step is to check the IDs.</p>
+			
+			<p>This same technique can be used to remove pre-condition checking on any immutable object with a static ID.</p>
+			
+			<br />
+			<h4 id="design-transactions-for-static-validation">Design Transactions for Static Validation</h4>
+			<p>Many transaction properties can be checked statically, without the need to reference the current global state.<br/>
+			These checks include range checking of parameters, de-duplication of inputs, sort order of arrays, etc.
+			Generally speaking, many checks can be performed if the transaction includes the data it “assumes” about
+			the global state. After these checks are performed, all that is necessary for the Business Logic Processor to do is
+			make sure the “assumptions” are still true, which can usually be boiled down to checking a modification timestamp on
+			objects referenced relative to the time the transaction was signed.</p>
+			
+			<br />
+			<h4 id="smart-contracts">Smart Contracts</h4>
+			<p>Many blockchains are adopting a general purpose scripting language to define all operations. These designs end up
+			defining the “Business Logic Processor” as a virtual machine and all transactions are defined as scripts to be run by
+			the virtual machine. This approach takes the single-threaded limitations of a real CPU and compounds them by forcing
+			everything through a virtual CPU. A virtual CPU, even with Just-In-Time compilation, will always be slower than a
+			real CPU, but pure speed of calculation isn’t the only issue with the “everything is a script” approach.</p>
+			<p>When transactions are defined at such a low level, it means that most of the static checks and cryptographic operations
+			get sucked back into the Business Logic Processing and the overall throughput falls. A scripting engine should never
+			require a cryptographic signature check to be performed even if it is done through a native call.</p>
+			<p>Based upon the lessons we learn from LMAX, we know that a virtual machine for a blockchain should be designed with
+			single-threaded performance in mind. This means it should be optimized for Just-In-Time compilation from the beginning,
+			and that the most frequently used smart contracts should be supported natively by the blockchain, leaving only the
+			rarely-used custom contracts to run in a virtual machine. These custom contracts should be designed around performance,
+			which means the Virtual Machine should limit the addressable memory to something that will fit within the CPU cache.</p>
+			
+			<br />
+			<h4 id="object-oriented-data-model">Object Oriented Data Model</h4>
+			<p>One of the benefits of keeping everything in memory is that the software can be designed to mimic the real-world
+			relationships of data. This means that the Business Logic Processor can quickly follow in-memory pointers to the
+			data it needs, rather than being forced to perform expensive database queries. It also means that data can be accessed
+			without copying it, and that the data can be modified in-place. This single optimization offers an order-of-magnitude
+			performance gain over using a database-based approach.</p>
+			
+			<br />
+			<h4 id="transaction-sizes">Transaction Sizes</h4>
+			<p>A blockchain that processes 100,000 transactions every second generates a lot of data. The average size of
+			a transaction on competing networks, such as Ripple and Bitcoin, is about 250 bytes. A similar transaction on BitShares
+			averages just 100 bytes. In other words, competing systems require 2.5 times the bandwidth to propagate the
+			same number of transactions. Assuming a gigabit connection to the internet, it would take about 0.1 seconds just to
+			transfer a block containing 100,000 transactions. Competing networks would require 0.25 seconds. After latency and
+			multiple hops on a peer-to-peer network are factored in, it becomes clear that transaction size directly impacts the block interval, and therefore the confirmation latency.</p>
+			<p>Transaction sizes are often an indication of the amount of data the CPU must process in its critical path. Therefore, they
+			serve as an indication of how soon the single threaded performance of a CPU will be hit.</p>
+			<p>Some optimizations are possible in all protocols if they assume that all nodes have prior knowledge of all broadcast transactions
+			and only require the ordered list of transaction IDs to broadcast every block. This would be an implementation detail.</p>
+			
+			<br />
+			<h4 id="conclusion">Conclusion</h4>
+			<p>Designing a high-performance blockchain isn’t rocket-science, and doesn’t require complex, hard-to-understand protocols,
+			nor does it require dividing processing among all the nodes on the network. Instead, all that is necessary to build
+			a high-performance blockchain is to remove all calculations that are not part of the critical, order-dependent,
+			evaluation from the core business logic, and to design a protocol that facilitates these kinds of optimizations. This
+			is what BitShares has done.</p>
+			<p><a href="https://bitshares.org/blog/2015/06/08/measuring-performance/">Measuring Performance &amp; Scalability</a></p>
+        </div>
+      </section>
+    </main>
+    <!-- END Main container -->
+
+	<!-- Footer -->
+      <footer class="site-footer py-90">
+        <div class="container">
+          <div class="row gap-y">
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">Learn</h6>
+              <div class="nav flex-column">
+                <a class="nav-link" href="http://docs.bitshares.eu/">Documentation</a>
+                <a class="nav-link" href="http://bitshares-explorer.io/">Block Explorer</a>
+				<a class="nav-link" href="http://docs.bitshares.eu/migration/">Migration Guide</a>
+				<!--<a class="nav-link" href="infographic">Infographic</a>-->
+				<a class="nav-link" href="https://bitshares.org/doxygen/">Doxygen</a>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">Participate</h6>
+              <div class="nav flex-column">
+				<a class="nav-link" href="referral-program">Referral Program</a>
+				<a class="nav-link" href="assets/bitshares-media-kit.zip">Media Kit</a>
+				<a class="nav-link" href="#">Press</a>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">Social</h6>
+              <div class="nav flex-column">
+				<a class="nav-link" target="_blank" href="https://github.com/bitshares">GitHub</a>
+				<a class="nav-link" target="_blank" href="https://www.bitsharestalk.org/">Forum</a>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">More</h6>
+              <div class="nav flex-column">
+			    <a class="nav-link" href="#">Contact</a> 
+                <a class="nav-link" href="terms-of-use">Terms of Use</a>
+				<a class="nav-link" href="privacy-policy">Privacy Policy</a>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-3">
+              <h6 class="heading-alt text-center text-uppercase fs-14 mb-3">BITSHARES.ORG NEWSLETTER</h6>
+
+              <form class="form-inline form-round1 justify-content-center justify-content-lg-end" action="" method="post" target="_blank">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                  <input type="text" name="EMAIL" class="form-control" placeholder="Signup with your email...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-info"><i class="fa fa-paper-plane"></i></button>
+                  </span>
+                </div>
+              </form>
+
+              <hr>
+
+              <div class="social text-center">
+				  <a class="social-twitter" target="_blank" href="https://twitter.com/search?q=bitshares"><i class="fa fa-twitter"></i></a>
+				  <a class="social-github" target="_blank" href="https://github.com/bitshares"><i class="fa fa-github"></i></a>
+              </div>
+              <br>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+    <!-- END Footer -->
+</div>
+
+<!-- Slide Menu -->
+<div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+<div class="overlay" id="overlay">
+	<div class="scrollbar2" id="style-2">
+		<a href="/"><img class="logo-default my-15 mx-25" src="assets/img/logo.png" alt="Bitshares" width="130"></a>
+		<nav class="overlay-menu h-full mt-25">
+			<div class="containerz">
+				<div class="main">
+					<nav id="cbp-hrmenu" class="cbp-hrmenu">
+					<nav id="cbp-hrmenu" class="cbp-hrmenu">
+						<ul>
+							<li>
+								<a href="#">ABOUT</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-part">
+										<a class="fw-600" href="#">DEVELOPMENT</a>
+											<ul>
+												<li class="ml-20"><a target="_blank" href="https://github.com/bitshares">GitHub</a></li>
+												<li class="ml-20"><a target="_blank" href="http://docs.bitshares.eu/integration/index.html">Integration Guide</a></li>
+												<li class="ml-20"><a target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a></li>
+											</ul>
+										</div>
+									</div>
+									
+									<div class="cbp-hrsub-inner">
+										<div class="menu-part">
+										<a class="fw-600" href="#">NATIVE dAPPS</a>
+											<ul>
+												<li class="ml-20"><a href="bitshares-dex.php">BitShares DEX</a></li>
+												<li class="ml-20"><a href="bitshares-token-factory.php">BitShares Token Factory</a></li>
+												<li class="ml-20"><a href="bts-token.php">BitShares Core Token</a></li>
+											</ul>
+										</div>
+									</div>
+									
+									<div class="cbp-hrsub-inner"> 
+										<div>
+											<ul>
+												<li><a target="_blank" href="http://docs.bitshares.eu/">Documentation</a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+													
+							<li>
+								<a href="#">TECHNOLOGY</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-comm">
+											<ul>
+												<li><a href="price-stable-cryptocurrencies">Price-Stable Cryptocurrencies</a></li>
+												<li><a href="decentralized-asset-exchange">Decentralized Asset Exchange</a></li>
+												<li><a href="industrial-performance-scalability">Industrial Performance and Scalability</a></li>
+												<li><a href="dynamic-account-permissions">Dynamic Account Permissions</a></li>
+												<li><a href="recurring-scheduled-payments">Recurring &amp; Scheduled Payments</a></li>
+												<li><a href="referral-rewards-program">Referral Rewards Program</a></li>
+												<li><a href="user-issued-assets">User-Issued Assets</a></li>
+												<li><a href="stakeholder-approved-project-funding">Stakeholder-Approved Project Funding</a></li>
+												<li><a href="transferable-named-accounts">Transferable Named Accounts</a></li>
+												<li><a href="delegated-proof-of-stake-consensus">Delegated Proof-of-Stake Consensus</a></li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<li>
+								<a href="#">WHITEPAPER</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-part">
+											<ul>
+												<li class="ml-20"><a target="_blank" href="https://www.bitshares.foundation/papers/BitSharesBlockchain.pdf">BitShares Blockchain Whitepaper</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">PRIVACY &amp; TERMS OF USE</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-res">
+											<ul>
+												<li><a href="privacy-policy">Privacy Policy</a></li>
+												<li><a href="terms-of-use">Terms of Use</a></li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<li>
+								<a href="#">CONTACT</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-res">
+											<ul>
+												<li><a target="_blank" href="#">Elected Spokesperson</a></li>
+												<li><a target="_blank" href="#">Business Development</a></li>
+												<li><a target="_blank" href="#">Media Kit</a></li>
+												<li><a target="_blank" href="#">Press</a></li>
+												<li><a target="_blank" href="#">Support</a></li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<li>
+								<a href="#">PRICE & MARKET CAP</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="mb-10">
+											<h4>BITSHARES&nbsp;PRICE</h4>
+											<ul>
+												<li>
+												<div class="coinmarketcap-currency-wig b-0" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="true">
+												</div>
+												</li>
+											</ul>
+										</div>
+										<div>
+											<h4>MARKET&nbsp;CAP</h4>
+											<ul>
+												<li>
+												<div class="coinmarketcap-currency-widget b-0" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="true" data-volume="false" data-stats="USD" data-statsticker="true">
+												</div>
+												</li>
+											</ul>
+										</div>
+										<div>
+											<h4>24&nbsp;HOUR&nbsp;VOLUME</h4>
+											<ul>
+												<li>
+												<div class="coinmarketcap-currency-widget b-0" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="true" data-stats="USD" data-statsticker="true">
+												</div>
+												</li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<!--<div class="gap-multiline-items-2 centered my-24 mx-10">
+								<a class="btn btn-primary fs-11 py-5 px-12 mb-15" href="download">DOWNLOAD WALLET</a>
+								<a id="walletLink6" class="btn btn-outline btn-info fs-11 py-5 px-12 mb-15" href="https://wallet.bitshares.org/">ONLINE EXCHANGE</a>
+							</div> -->
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- END Slide Menu -->
+
+    <!-- Scripts -->
+    <script src="assets/js/core.min.js"></script>
+    <script src="assets/js/thesaas.js"></script>
+    <script src="assets/js/script.js"></script>
+	<script type="text/javascript" src="assets/js/marketcap.js"></script>
+	<!-- End Scripts -->
+	<!-- Go to Top Button -->
+	  <div id="stop" class="scrollTop bttt-border bttt-round bttt-positionRight bttt-slideFromBottom">
+		<i class='fa fa-chevron-up'></i>
+	  </div>
+	<!-- End Go to Top Button -->
+</body>
+</html>
