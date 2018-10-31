@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>User-Issued Assets - Bitshares</title>
+	<base href="https://demo.bitshares.org/">
+    <!-- Styles -->
+    <link href="assets/css/core.min.css" rel="stylesheet">
+    <link href="assets/css/thesaas.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <!--  Open Graph Tags -->
+    <meta property="og:title" content="Bitshares - User-Issued Assets">
+    <meta property="og:description" content="BitShares 2.0 offers a stack of financial services including exchange and banking on a blockchain.">
+    <meta property="og:image" content="assets/img/og-img.jpg">
+    <meta property="og:url" content="https://bitshares.org/">
+    <meta name="twitter:card" content="summary_large_image">
+<!-- 104830888 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '7777777', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+  <body>
+  <div canvas="container">
+    <!-- Topbar -->
+	<nav class="topbar topbar-inverse topbar-expand-md topbar-sticky">
+		<div class="container container_bar">
+			<div class="topbar-left">
+			<a class="topbar-brand" href=/>
+			  <img class="logo-default" src="assets/img/logo.png" alt="Bitshares">
+			  <img class="logo-inverse" src="assets/img/logo.png" alt="Bitshares">
+			</a>
+			</div>
+			<div class="topbar-right">
+				<ul class="topbar-nav nav nav-toggle-click">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About <i class="fa fa-caret-down"></i></a>
+					<div class="nav-submenu">
+						<div class="nav-item">
+							<a class="nav-link" href="#">Development<i class="fa fa-caret-right"></i></a>
+							<div class="nav-submenu">
+								<a class="nav-link" target="_blank" href="https://github.com/bitshares" >GitHub</a>
+								<a class="nav-link" target="_blank" href="http://docs.bitshares.eu/integration/index.html">Integration Guide</a>
+								<a class="nav-link" target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a>
+							</div>
+						</div>
+
+						<div class="nav-item">
+							<a class="nav-link" href="#">Native dApps<i class="fa fa-caret-right"></i></a>
+							<div class="nav-submenu">
+								<a class="nav-link" href="bitshares-dex" target="_blank">BitShares DEX</a>
+								<a class="nav-link" href="bitshares-token-factory" target="_blank">BitShares Token Factory</a>
+								<a class="nav-link" href="bts-token" target="_blank">BitShares Core Token</a>
+							</div>
+						</div>
+						<a class="nav-link" target="_blank" href="http://docs.bitshares.eu/">Documentation</a>
+					</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#">Technology <i class="fa fa-caret-down"></i></a>
+					<div class="nav-submenu">
+						<a class="nav-link" href="price-stable-cryptocurrencies">Price-Stable Cryptocurrencies</a>
+						<a class="nav-link" href="decentralized-asset-exchange">Decentralized Asset Exchange</a>
+						<a class="nav-link" href="industrial-performance-scalability">Industrial Performance and Scalability</a>
+						<a class="nav-link" href="dynamic-account-permissions">Dynamic Account Permissions</a>
+						<a class="nav-link" href="recurring-scheduled-payments">Recurring &amp; Scheduled Payments</a>
+						<a class="nav-link" href="referral-rewards-program">Referral Rewards Program</a>
+						<a class="nav-link" href="user-issued-assets">User-Issued Assets</a>
+						<a class="nav-link" href="stakeholder-approved-project-funding">Stakeholder-Approved Project Funding</a>
+						<a class="nav-link" href="transferable-named-accounts">Transferable Named Accounts</a>
+						<a class="nav-link" href="delegated-proof-of-stake-consensus">Delegated Proof-of-Stake Consensus</a>
+					</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" target="_blank" href="https://www.bitshares.foundation/papers/BitSharesBlockchain.pdf">Whitepaper</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact <i class="fa fa-caret-down"></i></a>
+					<div class="nav-submenu">
+						<a class="nav-link" target="_blank" href="#">Elected Spokesperson</a>
+						<a class="nav-link" target="_blank" href="#">Business Development</a>
+						<a class="nav-link" target="_blank" href="#">Media Kit</a>
+						<a class="nav-link" target="_blank" href="#">Press</a>
+						<a class="nav-link" target="_blank" href="#">Support</a>
+					</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+      </nav>
+    <!-- END Topbar -->
+
+    <!-- Header -->
+    <header class="header header-inverse inner-headers">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-lg-8 offset-lg-2">
+
+            <h1>User-Issued Assets</h1>
+            <p class="fs-18 opacity-70">Regulation-compatible cryptoasset issuance</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END Header -->
+
+    <!-- Main container -->
+    <main class="main-content">
+		<section class="section no-show-btn pt-0 pb-0 cmc_div">
+			<!-- MARKET CAP & PRICE -->
+			<div class="price_mc">
+			<div class="mc_data">
+				<div class="mc_bts_price">BTS Price:</div><div class="coinmarketcap-currency-wig" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="true"></div>
+			
+				<div class="mc_bts_mc">Market Cap:</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="true" data-volume="false" data-stats="USD" data-statsticker="true"></div>
+			
+				<div class="mc_bts_24">Volume (24h):</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="true" data-stats="USD" data-statsticker="true"></div>
+			</div>
+			</div>
+			<!-- MARKET CAP & PRICE -->
+		</section>
+      <section class="section section-x">
+        <div class="container">
+          <p>The BitShares platform provides a feature known as "user-issued assets" to help facilitate profitable business models for certain types of services. The term refers to a type of custom token registered on the platform, which users can hold and trade within certain restrictions. The creator of such an asset publically names, describes, and distributes its tokens, and can specify customized requirements, such as an approved whitelist of accounts permitted to hold the tokens, or the associated trading and transfer fees.</p>
+  
+<p>BitShares allows individuals and companies to issue their own tokens for anything they can imagine. Common use cases
+include:</p>
+<ul id="markdown-toc" class="ml-50">
+<li><a href="#deposit-receipts" id="markdown-toc-deposit-receipts">Deposit Receipts</a> <ul>
+<li class="ml-25""><a href="#1-know-your-customer" id="markdown-toc-1-know-your-customer">1. Know Your Customer</a></li>
+<li class="ml-25"><a href="#2-asset-seizing" id="markdown-toc-2-asset-seizing">2. Asset Seizing</a></li>
+<li class="ml-25"><a href="#3-market-restriction" id="markdown-toc-3-market-restriction">3. Market Restriction</a></li>
+<li class="ml-25"><a href="#4-transfer-restrictions" id="markdown-toc-4-transfer-restrictions">4. Transfer Restrictions</a></li>
+</ul>
+</li>
+<li><a href="#company-shares" id="markdown-toc-company-shares">Company Shares</a></li>
+<li><a href="#event-tickets" id="markdown-toc-event-tickets">Event Tickets</a></li>
+<li><a href="#rewards-points" id="markdown-toc-rewards-points">Rewards Points</a></li>
+<li><a href="#individual-or-corporate-debt" id="markdown-toc-individual-or-corporate-debt">Individual or Corporate Debt</a></li>
+<li><a href="#crowd-funding" id="markdown-toc-crowd-funding">Crowd Funding</a></li>
+<li><a href="#digital-property" id="markdown-toc-digital-property">Digital Property</a></li>
+<li><a href="#privatized-smartcoins-stable-cryptocurrencies" id="markdown-toc-privatized-smartcoins-stable-cryptocurrencies">Privatized SmartCoins (Stable Cryptocurrencies)</a></li>
+<li><a href="#informationprediction-markets" id="markdown-toc-informationprediction-markets">Information/Prediction Markets</a></li>
+<li><a href="#how-to-profit-by-issuing-an-asset" id="markdown-toc-how-to-profit-by-issuing-an-asset">How to Profit by Issuing an Asset</a> 
+
+<ul>
+<li class="ml-50"><a href="#fee-pools" id="markdown-toc-fee-pools">Fee Pools</a></li>
+</ul>
+</li>
+</ul>
+<p>The potential use cases for user-issued assets are innumerable, and the regulations that apply to each kind of token vary
+widely, and are often different in every jurisdiction. BitShares provides the tools to allow issuers to remain compliant
+with all applicable regulations when issuing assets.</p>
+<p>Following are a few example use cases for user-issued assets.</p>
+<br />
+<h4 id="deposit-receipts">Deposit Receipts</h4>
+<p>Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these
+assets among their depositors. Companies like Dwolla and Paypal essentially issue deposit receipts, and then
+offer cheaper transfers among their users than between banks. With BitShares, it is now possible to move these
+internal databases onto the blockchain where the deposits can be used with other smart contracts such as the internal
+markets, escrow, or bonds.</p>
+<p>In talking to many different banks and exchanges, we have learned a lot about what the law requires of those who wish
+to issue deposit receipts.</p>
+<br />
+<h4 id="1-know-your-customer">1. Know Your Customer</h4>
+<p>First and foremost the issuer must know every single customer. BitShares supports this by enabling both whitelists and
+blacklists. Rather than requiring every issuer to whitelist every customer separately, an issuer may specify a set of
+identity verifiers that they trust to do this job. This allows issuers to benefit from the network effect of validated
+users without having to do any direct identity verification themselves.</p>
+<p>When an asset enables whitelists, no account may send or receive that asset without being on an authorized whitelist. An
+accounts funds can be frozen by removing them from the whitelist.</p>
+<br />
+<h4 id="2-asset-seizing">2. Asset Seizing</h4>
+<p>From time to time, an issuer may be required to seize funds as a result of a court order. While this may be unappealing
+to cryptocurrency purists, it is an unavoidable reality of trust-based assets. An issuer
+can determine whether or not they wish to revoke this privilege, but it may be a requirement in some jurisdictions.</p>
+<br />
+<h4 id="3-market-restriction">3. Market Restriction</h4>
+<p>An issuer who offers both USD and EUR deposits may need to restrict direct trading between their USD and EUR assets to
+avoid being subject to foreign currency exchange regulations. Some cryptocurrency exchanges allow trading between fiat and
+cryptocurrencies, but not between two fiat currencies. Without this feature, many exchanges would be unable to
+issue their assets on the BitShares blockchain.</p>
+<br />
+<h4 id="4-transfer-restrictions">4. Transfer Restrictions</h4>
+<p>A transfer-restricted asset allows the holders of the asset to trade it in the markets but not transfer it from person
+to person. Only a few cryptocurrency exchanges allow user-to-user transfer of funds outside the market, because this
+particular activity is often subject to a different set of money transmission regulations.</p>
+<p>The deposit receipt example is probably one of the most important, and yet most heavily regulated, use cases of
+user-issued assets.</p>
+<br />
+<h4 id="company-shares">Company Shares</h4>
+<p>Corporate shares are heavily regulated by the SEC, but none of those regulations prevent them from being issued or
+traded on an <a href="http://en.wikipedia.org/wiki/Alternative_trading_system" target="_blank">alternative trading system</a>.
+The regulations in many jurisdictions require all shares to be registered (aka held by known identities). BitShares corporate
+shares can be used as collateral for a bond or be used in any number of smart contracts.</p>
+<br />
+<h4 id="event-tickets">Event Tickets</h4>
+<p>Event tickets are a largely unregulated use case for user-issued assets. Tickets to a school play
+could be issued as digital tokens that are auctioned off to the highest bidder, who would then resell them. This ensures
+that the ticket issuer raises as much money as possible up front, while transferring the risk of ticket sales on to
+speculators.</p>
+<p>On the day of the event, the issuer can freeze all trading of the asset and then allow users to cryptographically check in.</p>
+<br />
+<h4 id="rewards-points">Rewards Points</h4>
+<p>Merchants around the world offer rewards points for loyal customers. These points are accumulated to
+earn discounts on future purchases. Rewards systems are a prime opportunity to add value by making them available to Bitshares smart contracts.</p>
+<br />
+<h4 id="individual-or-corporate-debt">Individual or Corporate Debt</h4>
+<p>Many businesses raise money by selling bonds. With BitShares, these bonds can be made tradeable and/or fungible, which
+makes them more compelling to investors.</p>
+<br />
+<h4 id="crowd-funding">Crowd Funding</h4>
+<p>Whether being used as a transferable coupon for a pre-sale, or doing an IPO on a small company, issuing an asset is one
+of the most effective means of raising money for a cause.</p>
+<br />
+<h4 id="digital-property">Digital Property</h4>
+<p>Software and music licenses can be made transferable by issuing them as a digital asset. Every copy of a program can
+check to make sure that the user has control of a token before running. Software implementing such a licensing scheme
+can remain functional even if the company that produced the license goes out of business.</p>
+<p>Trading cards can be simulated by creating many limited issue assets. Online games can use these assets to represent
+game items.</p>
+<br />
+<h4 id="privatized-smartcoins-stable-cryptocurrencies">Privatized SmartCoins (Stable Cryptocurrencies)</h4>
+<p><a href="price-stable-cryptocurrencies" target="_blank">Price-stable cryptocurrencies</a> (aka SmartCoins) were the inspiration
+for BitShares. Now, users can create their own price-stable assets with custom parameters designed to track the value of
+any asset they can imagine. The benefit of price-stable cryptocurrencies is that they are fully collateralized, and
+the issuer only needs to be trusted to appoint an honest set of independent (non-collusive) feed producers. Unlike
+deposit receipts, the value of a Privatized SmartCoin is secured even if the issuer disappears.</p>
+<p>Bitshares provides many parameters that an issuer may tune. In addition to account whitelists, market restrictions, and transfer
+restrictions, the issuer of a private SmartCoin has control over:</p>
+<ol class="ml-50">
+<li>Collateral Type</li>
+<li>Initial Collateral Rate</li>
+<li>Maintenance Collateral Rate</li>
+<li>Forced Settlement Fee, Delay, and Daily Volume</li>
+<li>Price Feed Update Rate</li>
+<li>Global Forced Settlement</li>
+</ol>
+<p>With these tools it is possible to emulate a pure contract for difference with periodic global forced settlement (ie:
+monthly, yearly, etc), or to emulate BitShares 1.0 BitAssets by having a 30 day delay on forced settlement.</p>
+<p>Arbitrary financial indexes can be used for the price feed to mimic all manner of exotic assets.</p>
+<br />
+<h4 id="informationprediction-markets">Information/Prediction Markets</h4>
+<p>A <a href="http://en.wikipedia.org/wiki/Prediction_market" target="_blank">prediction market</a> is a specialization of SmartCoins where there is no
+need for margin calls or forced settlement because all positions are fully collateralized at any price. A prediction
+market has a price between 0 and 1 and the issuer settles all positions after the event occurs and the final price is
+known. These prediction markets can be very secure if the issuer is a multi-sig account with many independent and
+trustworthy parties involved.</p>
+<br />
+<h4 id="how-to-profit-by-issuing-an-asset">How to Profit by Issuing an Asset</h4>
+<p>There are many ways to profit from issuing an asset. As the issuer you have complete control over market fees and can
+tune parameters such as the percent of each trade that is collected as a fee. This percentage can be bounded by a
+minimum and maximum fee. The combination of these three parameters give issuers great flexibility in pricing.</p>
+<br />
+<h4 id="fee-pools">Fee Pools</h4>
+<p>Issuers may optionally maintain a Fee Pool. The Fee Pool is a pool of BTS and an exchange rate at which the issued
+asset may be converted into BTS. When a user wishes to pay a network fee with the asset, the fee pool will step in to
+convert the asset into BTS at the rate that the issuer has specified. This means that issuers may charge a premium
+every time users opt to use their asset to pay network fees rather than paying them directly with BTS.</p>
+<p>The purpose of the fee pool is to provide a convenience to users that would like to use an asset without concerning
+themselves with the details of acquiring BTS. Anyone may fund the fee pool, but only the issuer may specify the
+exchange rate. This exchange rate is automatically set to the settlement price if the asset is collateralized by BTS.</p>
+        </div>
+      </section>
+    </main>
+    <!-- END Main container -->
+	<!-- Footer -->
+      <footer class="site-footer py-90">
+        <div class="container">
+          <div class="row gap-y">
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">Learn</h6>
+              <div class="nav flex-column">
+                <a class="nav-link" href="http://docs.bitshares.eu/">Documentation</a>
+                <a class="nav-link" href="http://bitshares-explorer.io/">Block Explorer</a>
+				<a class="nav-link" href="http://docs.bitshares.eu/migration/">Migration Guide</a>
+				<!--<a class="nav-link" href="infographic">Infographic</a>-->
+				<a class="nav-link" href="https://bitshares.org/doxygen/">Doxygen</a>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">Participate</h6>
+              <div class="nav flex-column">
+				<a class="nav-link" href="referral-program">Referral Program</a>
+				<a class="nav-link" href="assets/bitshares-media-kit.zip">Media Kit</a>
+				<a class="nav-link" href="#">Press</a>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">Social</h6>
+              <div class="nav flex-column">
+				<a class="nav-link" target="_blank" href="https://github.com/bitshares">GitHub</a>
+				<a class="nav-link" target="_blank" href="https://www.bitsharestalk.org/">Forum</a>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 hideit">
+              <h6 class="heading-alt text-uppercase fs-14 mb-3">More</h6>
+              <div class="nav flex-column">
+			    <a class="nav-link" href="#">Contact</a> 
+                <a class="nav-link" href="terms-of-use">Terms of Use</a>
+				<a class="nav-link" href="privacy-policy">Privacy Policy</a>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-3">
+              <h6 class="heading-alt text-center text-uppercase fs-14 mb-3">BITSHARES.ORG NEWSLETTER</h6>
+
+              <form class="form-inline form-round1 justify-content-center justify-content-lg-end" action="" method="post" target="_blank">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                  <input type="text" name="EMAIL" class="form-control" placeholder="Signup with your email...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-info"><i class="fa fa-paper-plane"></i></button>
+                  </span>
+                </div>
+              </form>
+
+              <hr>
+
+              <div class="social text-center">
+				  <a class="social-twitter" target="_blank" href="https://twitter.com/search?q=bitshares"><i class="fa fa-twitter"></i></a>
+				  <a class="social-github" target="_blank" href="https://github.com/bitshares"><i class="fa fa-github"></i></a>
+              </div>
+              <br>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+    <!-- END Footer -->
+</div>
+
+<!-- Slide Menu -->
+<div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+<div class="overlay" id="overlay">
+	<div class="scrollbar2" id="style-2">
+		<a href="/"><img class="logo-default my-15 mx-25" src="assets/img/logo.png" alt="Bitshares" width="130"></a>
+		<nav class="overlay-menu h-full mt-25">
+			<div class="containerz">
+				<div class="main">
+					<nav id="cbp-hrmenu" class="cbp-hrmenu">
+					<nav id="cbp-hrmenu" class="cbp-hrmenu">
+						<ul>
+							<li>
+								<a href="#">ABOUT</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-part">
+										<a class="fw-600" href="#">DEVELOPMENT</a>
+											<ul>
+												<li class="ml-20"><a target="_blank" href="https://github.com/bitshares">GitHub</a></li>
+												<li class="ml-20"><a target="_blank" href="http://docs.bitshares.eu/integration/index.html">Integration Guide</a></li>
+												<li class="ml-20"><a target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a></li>
+											</ul>
+										</div>
+									</div>
+									
+									<div class="cbp-hrsub-inner">
+										<div class="menu-part">
+										<a class="fw-600" href="#">NATIVE dAPPS</a>
+											<ul>
+												<li class="ml-20"><a href="bitshares-dex.php">BitShares DEX</a></li>
+												<li class="ml-20"><a href="bitshares-token-factory.php">BitShares Token Factory</a></li>
+												<li class="ml-20"><a href="bts-token.php">BitShares Core Token</a></li>
+											</ul>
+										</div>
+									</div>
+									
+									<div class="cbp-hrsub-inner"> 
+										<div>
+											<ul>
+												<li><a target="_blank" href="http://docs.bitshares.eu/">Documentation</a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+													
+							<li>
+								<a href="#">TECHNOLOGY</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-comm">
+											<ul>
+												<li><a href="price-stable-cryptocurrencies">Price-Stable Cryptocurrencies</a></li>
+												<li><a href="decentralized-asset-exchange">Decentralized Asset Exchange</a></li>
+												<li><a href="industrial-performance-scalability">Industrial Performance and Scalability</a></li>
+												<li><a href="dynamic-account-permissions">Dynamic Account Permissions</a></li>
+												<li><a href="recurring-scheduled-payments">Recurring &amp; Scheduled Payments</a></li>
+												<li><a href="referral-rewards-program">Referral Rewards Program</a></li>
+												<li><a href="user-issued-assets">User-Issued Assets</a></li>
+												<li><a href="stakeholder-approved-project-funding">Stakeholder-Approved Project Funding</a></li>
+												<li><a href="transferable-named-accounts">Transferable Named Accounts</a></li>
+												<li><a href="delegated-proof-of-stake-consensus">Delegated Proof-of-Stake Consensus</a></li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<li>
+								<a href="#">WHITEPAPER</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-part">
+											<ul>
+												<li class="ml-20"><a target="_blank" href="https://www.bitshares.foundation/papers/BitSharesBlockchain.pdf">BitShares Blockchain Whitepaper</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">PRIVACY &amp; TERMS OF USE</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-res">
+											<ul>
+												<li><a href="privacy-policy">Privacy Policy</a></li>
+												<li><a href="terms-of-use">Terms of Use</a></li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<li>
+								<a href="#">CONTACT</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="menu-res">
+											<ul>
+												<li><a target="_blank" href="#">Elected Spokesperson</a></li>
+												<li><a target="_blank" href="#">Business Development</a></li>
+												<li><a target="_blank" href="#">Media Kit</a></li>
+												<li><a target="_blank" href="#">Press</a></li>
+												<li><a target="_blank" href="#">Support</a></li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<li>
+								<a href="#">PRICE & MARKET CAP</a>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner">
+										<div class="mb-10">
+											<h4>BITSHARES&nbsp;PRICE</h4>
+											<ul>
+												<li>
+												<div class="coinmarketcap-currency-wig b-0" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="true">
+												</div>
+												</li>
+											</ul>
+										</div>
+										<div>
+											<h4>MARKET&nbsp;CAP</h4>
+											<ul>
+												<li>
+												<div class="coinmarketcap-currency-widget b-0" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="true" data-volume="false" data-stats="USD" data-statsticker="true">
+												</div>
+												</li>
+											</ul>
+										</div>
+										<div>
+											<h4>24&nbsp;HOUR&nbsp;VOLUME</h4>
+											<ul>
+												<li>
+												<div class="coinmarketcap-currency-widget b-0" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="true" data-stats="USD" data-statsticker="true">
+												</div>
+												</li>
+											</ul>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+							<!--<div class="gap-multiline-items-2 centered my-24 mx-10">
+								<a class="btn btn-primary fs-11 py-5 px-12 mb-15" href="download">DOWNLOAD WALLET</a>
+								<a id="walletLink6" class="btn btn-outline btn-info fs-11 py-5 px-12 mb-15" href="https://wallet.bitshares.org/">ONLINE EXCHANGE</a>
+							</div> -->
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- END Slide Menu -->
+
+    <!-- Scripts -->
+    <script src="assets/js/core.min.js"></script>
+    <script src="assets/js/thesaas.js"></script>
+    <script src="assets/js/script.js"></script>
+	<script type="text/javascript" src="assets/js/marketcap.js"></script>
+	<!-- End Scripts -->
+	<!-- Go to Top Button -->
+	  <div id="stop" class="scrollTop bttt-border bttt-round bttt-positionRight bttt-slideFromBottom">
+		<i class='fa fa-chevron-up'></i>
+	  </div>
+	<!-- End Go to Top Button -->
+  </body>
+</html>
