@@ -137,7 +137,7 @@
 		</section>
       <section class="section section-x">
         <div class="container">
-          <p>High performance and scalability are neccessary in blockchain technology to deliver the required speed for cryptocurrencies and smart contract platforms. BitShares is designed from the ground up to process more transactions every second than VISA and MasterCard combined. With Delegated Proof of Stake, the BitShares network can confirm transactions in an average of just 1.5 seconds.</p>
+          <p>High performance and scalability are necessary in blockchains to deliver the required speed for cryptocurrency and smart contract platforms. BitShares by design processes more transactions per second than VISA and MasterCard. With Delegated Proof of Stake, the BitShares network can confirm transactions in an average of 1.5 seconds.</p>
 		  <br />
 		  <h2>BitShares Performance and Scalability Overview</h2>
 		  <p>To achieve industry-leading levels of performance and scalability, BitShares has borrowed <a href="http://martinfowler.com/articles/lmax.html">lessons learned from the LMAX Exchange</a>, which is able to process 6 million transactions per second. Among these lessons are the following key points:</p>
@@ -148,23 +148,19 @@
 				<li>Divide validation into state-dependent and state-independent checks.</li>
 				<li>Use an object oriented data model.</li>
 			</ol>
-		  			<p>By following these simple rules, BitShares provides for scalability up to 100,000 transactions per second without any significant
-			effort devoted to optimization. Future optimizations are expected to bring the performance and scalability of BitShares to levels similar to
-			LMAX.</p>
-			<p>It should be noted that the tranasactional scalability achieved by BitShares is highly dependent upon having a compatible transaction
-			protocol. It would not be possible to achieve the same level of scalability and performance in a protocol where the Core Business Logic
-			is run in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
-			Blockchains are inherently single-threaded, and the performance of a single core of a CPU is the most likely resource of all to limit
-			scalability. BitShares is designed to get the most out of this single thread of execution.</p>
+		  			<p>By following these simple rules, BitShares provides for scalability up to 100,000 transactions per second without any significant effort devoted to optimization.
+              Future optimizations could bring the performance and scalability of BitShares to LMAX levels.</p>
+			<p>Do note that the transactional scalability achieved by BitShares is dependent upon having a compatible transaction protocol. It would not be possible to achieve the same level of scalability and performance in a protocol with the Core Business Logic running in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
+			Blockchains are single-threaded, and the performance of a single core of a CPU is the most likely resource of all to limit scalability.
+      BitShares is designed to get the most out of this single thread of execution.</p>
 			<br />
 			<h2 id="background">Industry Background</h2>
 			<p>A blockchain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global
 			state at a specified timestamp. The order in which transactions are processed can change the validity of other transactions.
 			For example, you cannot withdraw money from your bank account until after your paycheck deposit has cleared.
-			It becomes impossible to know whether or not a transaction is valid until after all prior transactions that impact a particular
-			account have been processed.</p>
-			<p>In theory, transactions for two unrelated accounts can be processed at the same time, provided that they do not share any
-			common dependency. In practice, the cost of identifying which transactions are truly independent of each other on a
+			 It becomes impossible to know whether a transaction is valid until after all prior transactions that impact a particular account get processed.</p>
+			<p>In theory, transactions for two unrelated accounts could process at the same time, if they do not share any common dependency.
+         In practice, the cost of identifying which transactions are truly independent of each other on a
 			ledger empowered by smart contracts with arbitrary conditions is intractable. The only way to be sure that two
 			transactions are truly independent is by maintaining completely separate ledgers and then periodically transferring
 			value between them. An analogy could be made to the performance trade offs in the design of Non-Uniform Memory Access
@@ -210,9 +206,9 @@
 			</ul>
 			<p>Memory is becoming cheaper every day because it is extremely parallel in its design. The amount of information
 			that is required to track the account balance and permissions of every person on the Internet is less than 1 Terabyte of
-			RAM, which can be purchased for less than $15,000 and installed on commodity (high-end) server motherboards. Long
+			RAM. This can be purchased for less than $15,000 and installed on commodity (high-end) server motherboards. Long
 			before 3 billion people adopt the system, this kind of hardware will be in the average desktop.</p>
-			<p>Memory isn't the real bottleneck, bandwidth requirements are critical to scalability. At 1 million transactions per
+			<p>Memory isn't the real bottleneck, yet bandwidth is critical to scalability. At 1 million transactions per
 			second and 256 bytes per transaction, the network would require 256 megabytes per second (1 Gbit/sec). This kind of
 			bandwidth is not widely available to the average desktop; however, this level of bandwidth is a fraction of the 100
 			Gbit/s that <a href="http://www.internet2.edu/vision-initiatives/initiatives/innovation-platform/" target="_blank">Internet 2</a> furnishes to more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.</p>
