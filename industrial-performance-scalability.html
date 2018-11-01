@@ -139,8 +139,8 @@
         <div class="container">
           <p>High performance and scalability are necessary in blockchains to deliver the required speed for cryptocurrency and smart contract platforms. BitShares by design processes more transactions per second than VISA and MasterCard. With Delegated Proof of Stake, the BitShares network can confirm transactions in an average of 1.5 seconds.</p>
 		  <br />
-		  <h2>BitShares Performance and Scalability Overview</h2>
-		  <p>To achieve industry-leading levels of performance and scalability, BitShares has borrowed <a href="http://martinfowler.com/articles/lmax.html">lessons learned from the LMAX Exchange</a>, which is able to process 6 million transactions per second. Among these lessons are the following key points:</p>
+		  <h2>Achieving Industry Leading Performance and Scalability</h2>
+      <p>BitShares took lessons from the <a href="http://martinfowler.com/articles/lmax.html">LMAX Exchange</a>, to achieve industry-leading performance and scalability. LMAX is able to process 6 million transactions per second. These were the key lesson points:</p>
 			<ol class="ml-50">
 				<li>Keep everything in memory.</li>
 				<li>Keep the core business logic in a single thread.</li>
@@ -148,7 +148,7 @@
 				<li>Divide validation into state-dependent and state-independent checks.</li>
 				<li>Use an object oriented data model.</li>
 			</ol>
-		  			<p>By following these simple rules, BitShares provides for scalability up to 100,000 transactions per second without any significant effort devoted to optimization.
+		  			<p>Following these simple rules, BitShares scalability runs up to 100,000 tps. This is without any significant effort devoted to optimization.
               Future optimizations could bring the performance and scalability of BitShares to LMAX levels.</p>
 			<p>Do note that the transactional scalability achieved by BitShares is dependent upon having a compatible transaction protocol. It would not be possible to achieve the same level of scalability and performance in a protocol with the Core Business Logic running in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
 			Blockchains are single-threaded, and the performance of a single core of a CPU is the most likely resource of all to limit scalability.
@@ -158,7 +158,7 @@
 			<p>A blockchain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global
 			state at a specified timestamp. The order in which transactions are processed can change the validity of other transactions.
 			For example, you cannot withdraw money from your bank account until after your paycheck deposit has cleared.
-			 It becomes impossible to know whether a transaction is valid until after all prior transactions that impact a particular account get processed.</p>
+			 It becomes impossible to know whether a transaction is valid before all prior transactions that impact a particular account get processed.</p>
 			<p>In theory, transactions for two unrelated accounts could process at the same time, if they do not share any common dependency.
          In practice, the cost of identifying which transactions are truly independent of each other on a
 			ledger empowered by smart contracts with arbitrary conditions is intractable. The only way to be sure that two
@@ -198,7 +198,7 @@
 			<br />
 			<h2 id="high-performance-blockchains">High Performance and Scalability on Blockchains</h2>
 			<p>To implement high performance and scalability on the blockchain, BitShares must adopt the same techniques used by LMAX. Several key
-			fundementals must be met:</p>
+			fundamentals must be met:</p>
 			<ul class="ml-50">
 			<li>Keep everything in memory.</li>
 			<li>Avoid synchronization primitives (locks, atomic operations).</li>
