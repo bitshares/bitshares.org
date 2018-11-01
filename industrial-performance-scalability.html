@@ -137,10 +137,10 @@
 		</section>
       <section class="section section-x">
         <div class="container">
-          <p>High performance and scalability are neccessary in blockchain technology to deliver the required speed for cryptocurrencies and smart contract platforms, and provide a viable alternative to existing financial platforms. BitShares is designed from the ground up to process more transactions every second than VISA and MasterCard combined. With Delegated Proof of Stake, the BitShares network can confirm transactions in an average of just 1 second, limited only by the speed of light.</p>
+          <p>High performance and scalability are neccessary in blockchain technology to deliver the required speed for cryptocurrencies and smart contract platforms. BitShares is designed from the ground up to process more transactions every second than VISA and MasterCard combined. With Delegated Proof of Stake, the BitShares network can confirm transactions in an average of just 1.5 seconds.</p>
 		  <br />
-		  <h2>BitShares Performance Overview</h2>
-		  <p>To achieve this industry-leading scalability, BitShares has borrowed <a href="http://martinfowler.com/articles/lmax.html">lessons learned from the LMAX Exchange</a>, which is able to process 6 million transactions per second. Among these lessons are the following key points:</p>
+		  <h2>BitShares Performance and Scalability Overview</h2>
+		  <p>To achieve industry-leading levels of performance and scalability, BitShares has borrowed <a href="http://martinfowler.com/articles/lmax.html">lessons learned from the LMAX Exchange</a>, which is able to process 6 million transactions per second. Among these lessons are the following key points:</p>
 			<ol class="ml-50">
 				<li>Keep everything in memory.</li>
 				<li>Keep the core business logic in a single thread.</li>
@@ -148,16 +148,16 @@
 				<li>Divide validation into state-dependent and state-independent checks.</li>
 				<li>Use an object oriented data model.</li>
 			</ol>
-		  			<p>By following these simple rules, BitShares has scalability upto 100,000 transactions per second without any significant
-			effort devoted to optimization. Future optimizations are expected to bring the performance of BitShares to levels similar to
+		  			<p>By following these simple rules, BitShares provides for scalability up to 100,000 transactions per second without any significant
+			effort devoted to optimization. Future optimizations are expected to bring the performance and scalability of BitShares to levels similar to
 			LMAX.</p>
-			<p>It should be noted that the tranasaction scalability achieved by BitShares is highly dependent upon having a compatible transaction
-			protocol. It would not be possible to achieve the same level of performance in a protocol where the Core Business Logic
+			<p>It should be noted that the tranasactional scalability achieved by BitShares is highly dependent upon having a compatible transaction
+			protocol. It would not be possible to achieve the same level of scalability and performance in a protocol where the Core Business Logic
 			is run in a virtual machine that performs cryptographic operations and references all objects with hash identifiers.
 			Blockchains are inherently single-threaded, and the performance of a single core of a CPU is the most likely resource of all to limit
 			scalability. BitShares is designed to get the most out of this single thread of execution.</p>
 			<br />
-			<h2 id="background">Background</h2>
+			<h2 id="background">Industry Background</h2>
 			<p>A blockchain is a global ledger that orders transactions, whereby each transaction deterministically modifies a shared global
 			state at a specified timestamp. The order in which transactions are processed can change the validity of other transactions.
 			For example, you cannot withdraw money from your bank account until after your paycheck deposit has cleared.
@@ -171,8 +171,8 @@
 			(NUMA) vs Uniform Memory Access.</p>
 			<p>In practice, Uniform Memory Access is much easier for developers to design for, and has lower costs. NUMA architectures
 			are usually adopted as a last resort when building supercomputers or giant clusters.</p>
-			<p>The computer industry has grown to realize that scaling performance through parallelism is nowhere near as easy as the
-			early days when all that was necessary was to increase the clock speed of the CPU. It is for this reason that CPU
+			<p>The computer industry has grown to realize that increases in scalability and performance through parallelism is nowhere near as easy as the
+			early days, when all that was necessary was to increase the clock speed of the CPU. It is for this reason that CPU
 			designers pushed the single-threaded performance to the limits before attempting to adopt a multi-threaded approach to
 			increase performance. When multi-threading is not enough, then, and only then, is cluster computing considered an
 			option.</p>
@@ -184,7 +184,7 @@
 			<p>The LMAX Disruptor provides a case study on an architecture with a high degree of scalability and performance, showing what is achievable within a single execution thread. LMAX is a retail trading
 			platform that aims to be the fastest exchange in the world. They have been generous enough to share what they have
 			learned publicly.</p>
-			<p>Here is a brief overview of their architecture:</p>
+			<p>Here is a brief overview of the LMAX architecture:</p>
 			<p>The Business Logic Processor is where all of the sequential transactions and order matching is processed. It is a
 			single thread that is able to process millions of orders per second. This architecture is readily ported to the realm
 			of cryptocurrencies and blockchain designs.</p>
@@ -200,8 +200,8 @@
 			when they are not even processing 10 transactions per second.</p>
 
 			<br />
-			<h2 id="high-performance-blockchains">High Performance Blockchains</h2>
-			<p>To implement a high performance blockchain, BitShares must adopt the same techniques used by LMAX. Several key
+			<h2 id="high-performance-blockchains">High Performance and Scalability on Blockchains</h2>
+			<p>To implement high performance and scalability on the blockchain, BitShares must adopt the same techniques used by LMAX. Several key
 			fundementals must be met:</p>
 			<ul class="ml-50">
 			<li>Keep everything in memory.</li>
@@ -212,11 +212,11 @@
 			that is required to track the account balance and permissions of every person on the Internet is less than 1 Terabyte of
 			RAM, which can be purchased for less than $15,000 and installed on commodity (high-end) server motherboards. Long
 			before 3 billion people adopt the system, this kind of hardware will be in the average desktop.</p>
-			<p>The real bottleneck is not the memory requirements, but the bandwidth requirements. At 1 million transactions per
+			<p>Memory isn't the real bottleneck, bandwidth requirements are critical to scalability. At 1 million transactions per
 			second and 256 bytes per transaction, the network would require 256 megabytes per second (1 Gbit/sec). This kind of
 			bandwidth is not widely available to the average desktop; however, this level of bandwidth is a fraction of the 100
 			Gbit/s that <a href="http://www.internet2.edu/vision-initiatives/initiatives/innovation-platform/" target="_blank">Internet 2</a> furnishes to more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.</p>
-			<p>Therefore, blockchain technology can easily keep everything in RAM and scale to handle millions of transactions per
+			<p>Therefore, for scalability and performance, blockchain technology can easily keep everything in RAM to handle millions of transactions per
 			second if it is designed properly.</p>
 
 			<br />
