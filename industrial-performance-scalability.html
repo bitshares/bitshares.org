@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="An overview of how BitShares blockchain achieves industrial transaction rate performance and scalability in a manner comparable to a global trading network.">
+    <meta name="description" content="An overview of how BitShares blockchain achieves industrial transaction rate performance and scalability capable of supporting a global retail network.">
     <meta name="keywords" content="BitShares, industrial, blockchain, performance, scalability">
 
     <title>Industrial Performance and Scalability | BitShares Blockchain</title>
@@ -23,7 +23,7 @@
 
     <!--  Open Graph Tags -->
     <meta property="og:title" content="Industrial Performance and Scalability | BitShares Blockchain">
-    <meta property="og:description" content="An overview of how BitShares blockchain achieves industrial transaction rate performance and scalability in a manner comparable to a global trading network.">
+    <meta property="og:description" content="An overview of how BitShares blockchain achieves industrial transaction rate performance and scalability capable of supporting a global retail network.">
     <meta property="og:image" content="assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
@@ -129,7 +129,7 @@
              BitShares design allows for more transactions per second than VISA and MasterCard combined. Delegated Proof of Stake enables BitShares to confirm a transaction within 1.5 seconds on average.</p>
 		  <br />
 		  <h2>Achieving Industry Leading Performance and Scalability</h2>
-      <p>BitShares took lessons from the <a href="http://martinfowler.com/articles/lmax.html">LMAX Exchange</a>, to achieve industry-leading performance and scalability. LMAX is able to process 6 million transactions per second. These were the key lesson points:</p>
+      <p>BitShares borrowed lessons from the <a href="http://martinfowler.com/articles/lmax.html">LMAX Exchange</a>, to achieve industry-leading performance and scalability capable of processing 6 million transactions per second. These were the key lessons learned:</p>
 			<ol class="ml-50">
 				<li>Keep everything in memory.</li>
 				<li>Keep the core business logic in a single thread.</li>
@@ -137,7 +137,7 @@
 				<li>Divide validation into state-dependent and state-independent checks.</li>
 				<li>Use an object oriented data model.</li>
 			</ol>
-		  			<p>Following these simple rules, BitShares scalability runs up to 100,000 tps. This is without any significant effort devoted to optimization.
+		  			<p>Following these simple rules, BitShares is capable of scaling up to 100,000 tps. This is without any significant effort devoted to optimization.
               Future optimizations could bring the performance and scalability of BitShares to LMAX levels.</p>
 			<p>Transactional scalability achieved by BitShares is dependent upon having a compatible transaction protocol.
         It would be impossible to achieve the same level of scalability and performance with the Core Business Logic running in a virtual machine,
@@ -150,7 +150,8 @@
         until your paycheck clears. It is impossible to know whether a transaction is valid, before processing all prior transactions that impact a specific account.</p>
 			<p>In theory, transactions for two unrelated accounts could process at the same time, if they do not share any common dependency. In practice,
         the cost of identifying which transactions are independent of each other on a ledger empowered by smart contracts with arbitrary conditions is
-        intractable. The only way to be sure that two transactions are truly independent, is by maintaining completely separate ledgers and then periodically transferring value between them. An analogy could be the performance trade-offs in the design of Non-Uniform Memory Access (NUMA) vs Uniform Memory Access.</p>
+        intractable. The only way to be sure that two transactions are truly independent, is by maintaining completely separate ledgers and then periodically transferring value between them. 
+	An analogy could be the performance trade-offs in the design of Non-Uniform Memory Access (NUMA) vs Uniform Memory Access.</p>
 			<p>In practice, Uniform Memory Access is much easier and lower cost for developers to design for. NUMA architecture is usually adopted last resort,
         on supercomputers or giant clusters.</p>
 			<p>The computer industry has grown to realize that increases in scalability and performance through parallelism are nowhere near as easy as the
@@ -162,10 +163,9 @@
 
 			<br />
 			<h2 id="lmax-disruptor">The LMAX Disruptor</h2>
-			<p>The LMAX Disruptor provides a case study on high scalability and performance architecture.
-        LMAX shows what is achievable within a single execution thread. LMAX is a retail trading platform that aims to be the fastest
+			<p>The LMAX Disruptor provides a case study on high scalability and performance architecture, and shows what is achievable within a single execution thread. LMAX is a retail trading platform that aims to be the fastest
         exchange in the world. They have been generous enough to make public what they learned.</p>
-			<p>Here is a brief overview of the LMAX architecture:</p>
+			<p>Here is a brief overview of their architecture:</p>
 			<p>The Business Logic Processor is where all of the sequential transactions and order matching is processed. It is a
 			single thread that is able to process millions of orders per second. This architecture is readily ported to the realm
 			of cryptocurrencies and blockchain designs.</p>
@@ -189,13 +189,13 @@
 			</ul>
 			<p>Memory is becoming cheaper every day because it is extremely parallel in its design.
         The amount of information required to track the account balance and permissions of every person on the Internet
-        is less than 1 Terabyte of RAM. It can cost less than $15,000 and be installed on commodity (high-end) server motherboards.
+        is less than 1 Terabyte of RAM. It costs less than $15,000 installed on commodity (high-end) server motherboards.
         Long before 3 billion people adopt the system, this kind of hardware will be in the average desktop.</p>
 			<p>Memory isn't the real bottleneck, bandwidth is critical to performance and scalability. At 1 million transactions per second
         and 256 bytes per transaction, the network would need 256 megabytes per second (1 Gbit/sec).
         This kind of bandwidth is not available to the average desktop; but it is a fraction of the 100 Gbit/s that
         <a href="http://www.internet2.edu/vision-initiatives/initiatives/innovation-platform/" target="_blank">Internet 2</a> furnishes
-        to more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.</p>
+        more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.</p>
 			<p>For scalability and performance, a well designed blockchain keeps everything in RAM to handle millions of transactions per second</p>
 
 			<br />
@@ -208,7 +208,7 @@
         compressed, yet hash identifiers are random un-compressible data.</p>
 			<p>Luckily, blockchains give us a means to globally assign unique IDs.
         They do not conflict with one another, so it is possible to completely remove the need to use hash-based identifiers.
-        Long hex Bitcoin addresses to refer to an account, balance, or permission are not needed.</p>
+        Long hex addresses to refer to an account, balance, or permission are not needed on BitShares.</p>
 
 			<br />
 			<h2 id="remove-signature-verification-from-business-logic-processor">Remove Signature Verification from Business Logic Processor</h2>
@@ -238,7 +238,7 @@
 			everything through a virtual CPU. A virtual CPU, even with Just-In-Time compilation, will always be slower than a
 			real CPU, but pure speed of calculation isn’t the only issue with the “everything is a script” approach.</p>
 			<p>When transactions get defined at such a low level, it means that most of the static checks and cryptographic
-        operations get sucked back into the Business Logic Processing and the overall throughput falls. A scripting
+        operations get sucked back into the Business Logic Processing, and the overall throughput falls. A scripting
         engine should never require a cryptographic signature check to be performed even if it is done through a native call.</p>
 			<p>Based upon the lessons we learn from LMAX, we know that a virtual machine for a blockchain should be designed with
         single-threaded performance in mind. This means it should get optimized for Just-In-Time compilation from the beginning,
