@@ -1,237 +1,178 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="210px" height="160px" viewBox="0 0 210 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
-    <title>icons</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="13.5" y="0.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-2" x="26" y="0.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-3" x="39" y="0.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-4" x="13" y="13.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-5" x="39" y="13.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-6" x="101" y="26.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-7" x="101" y="39.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-8" x="13" y="39.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-9" x="88" y="26.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-10" x="88" y="39.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-11" x="39" y="39.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-12" x="114" y="39.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-13" x="114" y="26.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-14" x="13" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-15" x="88" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-16" x="26" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-17" x="39" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-18" x="13" y="65.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-19" x="0" y="0.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-20" x="0" y="13.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-21" x="0" y="26.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-22" x="76" y="26.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-23" x="76" y="39.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-24" x="0" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-25" x="76" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-26" x="0" y="65.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-27" x="76" y="65.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-28" x="26" y="65.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-29" x="101" y="65.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-30" x="39" y="65.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-31" x="52" y="0.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-32" x="52" y="13.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-33" x="52" y="26.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-34" x="127" y="26.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-35" x="127" y="39.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-36" x="52" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-37" x="127" y="52.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-38" x="52" y="65.5" width="11" height="11" rx="2"></rect>
-        <rect id="path-39" x="127" y="65.5" width="11" height="11" rx="2"></rect>
-    </defs>
-    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="icons" sketch:type="MSArtboardGroup">
-            <g id="icon-corporate-acc" sketch:type="MSLayerGroup" transform="translate(29.000000, 26.000000)">
-                <rect id="Rectangle-115-Copy" stroke="#546979" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0.5" y="12.5" width="76" height="95" rx="2"></rect>
-                <rect id="Rectangle-115-Copy-2" stroke="#546979" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup" x="75.5" y="38.5" width="76" height="69" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-55" stroke="#546979" fill="#ACD7F7" sketch:type="MSShapeGroup" x="33" y="34.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-57" stroke="#546979" fill="#FDE699" sketch:type="MSShapeGroup" x="20" y="47.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-59" stroke="#546979" fill="#FDE699" sketch:type="MSShapeGroup" x="46" y="47.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-61" stroke="#546979" fill="#F7A696" sketch:type="MSShapeGroup" x="33" y="60.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-94" stroke="#546979" fill="#FDE699" sketch:type="MSShapeGroup" x="108" y="73.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-96" stroke="#546979" fill="#ACD7F7" sketch:type="MSShapeGroup" x="95" y="86.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-70" stroke="#546979" fill="#F7A696" sketch:type="MSShapeGroup" x="7" y="60.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-104" stroke="#546979" fill="#F7A696" sketch:type="MSShapeGroup" x="121" y="86.5" width="11" height="11" rx="2"></rect>
-                <rect id="Rectangle-85-Copy-78" stroke="#546979" fill="#F7A696" sketch:type="MSShapeGroup" x="59" y="60.5" width="11" height="11" rx="2"></rect>
-                <g id="light-windows" transform="translate(7.000000, 21.000000)">
-                    <rect id="Rectangle-85-Copy-58" stroke="#E0EDF5" sketch:type="MSShapeGroup" x="26" y="26.5" width="11" height="11" rx="2"></rect>
-                    <rect id="Rectangle-85-Copy-95" stroke="#E0EDF5" sketch:type="MSShapeGroup" x="114" y="52.5" width="11" height="11" rx="2"></rect>
-                    <g id="Rectangle-85-Copy-51">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
-                        <use stroke="none" xlink:href="#path-1"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-52">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
-                        <use stroke="none" xlink:href="#path-2"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-53">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
-                        <use stroke="none" xlink:href="#path-3"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-54">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
-                        <use stroke="none" xlink:href="#path-4"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-56">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-5"></use>
-                        <use stroke="none" xlink:href="#path-5"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-88">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-6"></use>
-                        <use stroke="none" xlink:href="#path-6"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-91">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-7"></use>
-                        <use stroke="none" xlink:href="#path-7"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-60">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-8"></use>
-                        <use stroke="none" xlink:href="#path-8"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-90">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-9"></use>
-                        <use stroke="none" xlink:href="#path-9"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-108">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-10"></use>
-                        <use stroke="none" xlink:href="#path-10"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-62">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-11"></use>
-                        <use stroke="none" xlink:href="#path-11"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-92">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-12"></use>
-                        <use stroke="none" xlink:href="#path-12"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-100">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-13"></use>
-                        <use stroke="none" xlink:href="#path-13"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-63">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-14"></use>
-                        <use stroke="none" xlink:href="#path-14"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-93">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-15"></use>
-                        <use stroke="none" xlink:href="#path-15"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-64">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-16"></use>
-                        <use stroke="none" xlink:href="#path-16"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-65">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-17"></use>
-                        <use stroke="none" xlink:href="#path-17"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-66">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-18"></use>
-                        <use stroke="none" xlink:href="#path-18"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-67">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-19"></use>
-                        <use stroke="none" xlink:href="#path-19"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-68">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-20"></use>
-                        <use stroke="none" xlink:href="#path-20"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-69">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-21"></use>
-                        <use stroke="none" xlink:href="#path-21"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-99">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-22"></use>
-                        <use stroke="none" xlink:href="#path-22"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-111">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-23"></use>
-                        <use stroke="none" xlink:href="#path-23"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-71">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-24"></use>
-                        <use stroke="none" xlink:href="#path-24"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-101">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-25"></use>
-                        <use stroke="none" xlink:href="#path-25"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-72">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-26"></use>
-                        <use stroke="none" xlink:href="#path-26"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-102">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-27"></use>
-                        <use stroke="none" xlink:href="#path-27"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-73">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-28"></use>
-                        <use stroke="none" xlink:href="#path-28"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-103">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-29"></use>
-                        <use stroke="none" xlink:href="#path-29"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-74">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-30"></use>
-                        <use stroke="none" xlink:href="#path-30"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-75">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-31"></use>
-                        <use stroke="none" xlink:href="#path-31"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-76">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-32"></use>
-                        <use stroke="none" xlink:href="#path-32"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-77">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-33"></use>
-                        <use stroke="none" xlink:href="#path-33"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-107">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-34"></use>
-                        <use stroke="none" xlink:href="#path-34"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-112">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-35"></use>
-                        <use stroke="none" xlink:href="#path-35"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-79">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-36"></use>
-                        <use stroke="none" xlink:href="#path-36"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-109">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-37"></use>
-                        <use stroke="none" xlink:href="#path-37"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-80">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-38"></use>
-                        <use stroke="none" xlink:href="#path-38"></use>
-                    </g>
-                    <g id="Rectangle-85-Copy-110">
-                        <use stroke="#E0EDF5" stroke-width="1" sketch:type="MSShapeGroup" xlink:href="#path-39"></use>
-                        <use stroke="none" xlink:href="#path-39"></use>
-                    </g>
-                </g>
-                <path d="M33.5,45 L30.5,48" id="Line-Copy-6" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M46.5,58 L43.5,61" id="Line-Copy-7" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M33.5,58 L30.5,61" id="Line-Copy-8" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(32.000000, 59.500000) scale(-1, 1) translate(-32.000000, -59.500000) "></path>
-                <path d="M20.5,58 L17.5,61" id="Line-Copy-9" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <path d="M59.5,58 L56.5,61" id="Line-Copy-10" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(58.000000, 59.500000) rotate(90.000000) translate(-58.000000, -59.500000) "></path>
-                <path d="M122,84 L119,87" id="Line-Copy-12" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(120.500000, 85.500000) rotate(90.000000) translate(-120.500000, -85.500000) "></path>
-                <path d="M108,84 L105,87" id="Line-Copy-13" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(106.500000, 85.500000) scale(-1, 1) rotate(90.000000) translate(-106.500000, -85.500000) "></path>
-                <path d="M46.5,45 L43.5,48" id="Line-Copy-11" stroke="#546979" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(45.000000, 46.500000) scale(-1, 1) translate(-45.000000, -46.500000) "></path>
-                <path d="M126,36.8928856 L126,26.5039967" id="Line" stroke="#627584" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-                <path d="M121,36.8928856 L121,30.7817745" id="Line-Copy" stroke="#627584" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-                <path d="M25,10.8928856 L25,0.503996747" id="Line-Copy-3" stroke="#627584" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-                <path d="M20,10.8928856 L20,4.78177452" id="Line-Copy-2" stroke="#627584" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-                <path d="M30.1,10.8928856 L30.1,7.50000003" id="Line-Copy-4" stroke="#627584" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
-            </g>
-        </g>
+<svg width="210" height="160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" x="13.5" y=".5" width="11" height="11" rx="2"/>
+    <rect id="b" x="26" y=".5" width="11" height="11" rx="2"/>
+    <rect id="c" x="39" y=".5" width="11" height="11" rx="2"/>
+    <rect id="d" x="13" y="13.5" width="11" height="11" rx="2"/>
+    <rect id="e" x="39" y="13.5" width="11" height="11" rx="2"/>
+    <rect id="f" x="101" y="26.5" width="11" height="11" rx="2"/>
+    <rect id="g" x="101" y="39.5" width="11" height="11" rx="2"/>
+    <rect id="h" x="13" y="39.5" width="11" height="11" rx="2"/>
+    <rect id="i" x="88" y="26.5" width="11" height="11" rx="2"/>
+    <rect id="j" x="88" y="39.5" width="11" height="11" rx="2"/>
+    <rect id="k" x="39" y="39.5" width="11" height="11" rx="2"/>
+    <rect id="l" x="114" y="39.5" width="11" height="11" rx="2"/>
+    <rect id="m" x="114" y="26.5" width="11" height="11" rx="2"/>
+    <rect id="n" x="13" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="o" x="88" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="p" x="26" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="q" x="39" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="r" x="13" y="65.5" width="11" height="11" rx="2"/>
+    <rect id="s" y=".5" width="11" height="11" rx="2"/>
+    <rect id="t" y="13.5" width="11" height="11" rx="2"/>
+    <rect id="u" y="26.5" width="11" height="11" rx="2"/>
+    <rect id="v" x="76" y="26.5" width="11" height="11" rx="2"/>
+    <rect id="w" x="76" y="39.5" width="11" height="11" rx="2"/>
+    <rect id="x" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="y" x="76" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="z" y="65.5" width="11" height="11" rx="2"/>
+    <rect id="A" x="76" y="65.5" width="11" height="11" rx="2"/>
+    <rect id="B" x="26" y="65.5" width="11" height="11" rx="2"/>
+    <rect id="C" x="101" y="65.5" width="11" height="11" rx="2"/>
+    <rect id="D" x="39" y="65.5" width="11" height="11" rx="2"/>
+    <rect id="E" x="52" y=".5" width="11" height="11" rx="2"/>
+    <rect id="F" x="52" y="13.5" width="11" height="11" rx="2"/>
+    <rect id="G" x="52" y="26.5" width="11" height="11" rx="2"/>
+    <rect id="H" x="127" y="26.5" width="11" height="11" rx="2"/>
+    <rect id="I" x="127" y="39.5" width="11" height="11" rx="2"/>
+    <rect id="J" x="52" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="K" x="127" y="52.5" width="11" height="11" rx="2"/>
+    <rect id="L" x="52" y="65.5" width="11" height="11" rx="2"/>
+    <rect id="M" x="127" y="65.5" width="11" height="11" rx="2"/>
+  </defs>
+  <g transform="translate(29 26)" fill="none" fill-rule="evenodd">
+    <rect stroke="#546979" stroke-linecap="round" stroke-linejoin="round" fill="#FFF" x=".5" y="12.5" width="76" height="95" rx="2"/>
+    <rect stroke="#546979" stroke-linecap="round" stroke-linejoin="round" fill="#FFF" x="75.5" y="38.5" width="76" height="69" rx="2"/>
+    <rect stroke="#546979" fill="#ACD7F7" x="33" y="34.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#FDE699" x="20" y="47.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#FDE699" x="46" y="47.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#F7A696" x="33" y="60.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#FDE699" x="108" y="73.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#ACD7F7" x="95" y="86.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#F7A696" x="7" y="60.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#F7A696" x="121" y="86.5" width="11" height="11" rx="2"/>
+    <rect stroke="#546979" fill="#F7A696" x="59" y="60.5" width="11" height="11" rx="2"/>
+    <g transform="translate(7 21)">
+      <rect stroke="#E0EDF5" x="26" y="26.5" width="11" height="11" rx="2"/>
+      <rect stroke="#E0EDF5" x="114" y="52.5" width="11" height="11" rx="2"/>
+      <use stroke="#E0EDF5" xlink:href="#a"/>
+      <use xlink:href="#a"/>
+      <use stroke="#E0EDF5" xlink:href="#b"/>
+      <use xlink:href="#b"/>
+      <use stroke="#E0EDF5" xlink:href="#c"/>
+      <use xlink:href="#c"/>
+      <use stroke="#E0EDF5" xlink:href="#d"/>
+      <use xlink:href="#d"/>
+      <use stroke="#E0EDF5" xlink:href="#e"/>
+      <use xlink:href="#e"/>
+      <use stroke="#E0EDF5" xlink:href="#f"/>
+      <use xlink:href="#f"/>
+      <use stroke="#E0EDF5" xlink:href="#g"/>
+      <use xlink:href="#g"/>
+      <use stroke="#E0EDF5" xlink:href="#h"/>
+      <use xlink:href="#h"/>
+      <use stroke="#E0EDF5" xlink:href="#i"/>
+      <use xlink:href="#i"/>
+      <use stroke="#E0EDF5" xlink:href="#j"/>
+      <use xlink:href="#j"/>
+      <use stroke="#E0EDF5" xlink:href="#k"/>
+      <use xlink:href="#k"/>
+      <use stroke="#E0EDF5" xlink:href="#l"/>
+      <use xlink:href="#l"/>
+      <use stroke="#E0EDF5" xlink:href="#m"/>
+      <use xlink:href="#m"/>
+      <use stroke="#E0EDF5" xlink:href="#n"/>
+      <use xlink:href="#n"/>
+      <use stroke="#E0EDF5" xlink:href="#o"/>
+      <use xlink:href="#o"/>
+      <use stroke="#E0EDF5" xlink:href="#p"/>
+      <use xlink:href="#p"/>
+      <use stroke="#E0EDF5" xlink:href="#q"/>
+      <use xlink:href="#q"/>
+      <use stroke="#E0EDF5" xlink:href="#r"/>
+      <use xlink:href="#r"/>
+      <use stroke="#E0EDF5" xlink:href="#s"/>
+      <use xlink:href="#s"/>
+      <use stroke="#E0EDF5" xlink:href="#t"/>
+      <use xlink:href="#t"/>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#u"/>
+        <use xlink:href="#u"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#v"/>
+        <use xlink:href="#v"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#w"/>
+        <use xlink:href="#w"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#x"/>
+        <use xlink:href="#x"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#y"/>
+        <use xlink:href="#y"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#z"/>
+        <use xlink:href="#z"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#A"/>
+        <use xlink:href="#A"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#B"/>
+        <use xlink:href="#B"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#C"/>
+        <use xlink:href="#C"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#D"/>
+        <use xlink:href="#D"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#E"/>
+        <use xlink:href="#E"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#F"/>
+        <use xlink:href="#F"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#G"/>
+        <use xlink:href="#G"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#H"/>
+        <use xlink:href="#H"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#I"/>
+        <use xlink:href="#I"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#J"/>
+        <use xlink:href="#J"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#K"/>
+        <use xlink:href="#K"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#L"/>
+        <use xlink:href="#L"/>
+      </g>
+      <g>
+        <use stroke="#E0EDF5" xlink:href="#M"/>
+        <use xlink:href="#M"/>
+      </g>
     </g>
+    <path d="M33.5 45l-3 3M46.5 58l-3 3M30.5 58l3 3M20.5 58l-3 3M59.5 61l-3-3M122 87l-3-3M105 87l3-3M43.5 45l3 3" stroke="#546979" stroke-linecap="square"/>
+    <path d="M126 36.893V26.504M121 36.893v-6.111M25 10.893V.504M20 10.893V4.782M30.1 10.893V7.5" stroke="#627584" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
