@@ -1,2 +1,2 @@
 # bitshares.org
-(TBA) Website content for new bitshares.org website
+Website content for new and live bitshares.org website
