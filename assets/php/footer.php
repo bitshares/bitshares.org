@@ -98,7 +98,7 @@
             <div class="col-6 col-md-4 col-lg-2 hideit">
               <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Learn</h6>
               <div class="nav flex-column">
-                <a class="nav-link" target="_blank" href="http://bitshares-explorer.io/">Block Explorer</a>
+                <a class="nav-link" target="_blank" href="https://bitshares-explorer.io/">Block Explorer</a>
                 <a class="nav-link" target="_blank" href="https://dev.bitshares.works">Dev Integration Guide</a>
                 <a class="nav-link" target="_blank" href="https://how.bitshares.works">Documentation</a>
                 <a class="nav-link" target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a>
