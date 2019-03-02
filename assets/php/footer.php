@@ -98,7 +98,7 @@
             <div class="col-6 col-md-4 col-lg-2 hideit">
               <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Learn</h6>
               <div class="nav flex-column">
-                <a class="nav-link" target="_blank" href="http://bitshares-explorer.io/">Block Explorer</a>
+                <a class="nav-link" target="_blank" href="https://bitshares-explorer.io/">Block Explorer</a>
                 <a class="nav-link" target="_blank" href="https://dev.bitshares.works">Dev Integration Guide</a>
                 <a class="nav-link" target="_blank" href="https://how.bitshares.works">Documentation</a>
                 <a class="nav-link" target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a>
@@ -437,7 +437,7 @@
               <div class="social text-center">
               <a class="social-twitter" target="_blank" href="https://github.com/bitshares"><img class="social-btns" src="../assets/img/github.svg" /></a>
 			  <a class="social-reddit" target="_blank" href="https://reddit.com/r/bitshares"><img class="social-btns" src="../assets/img/reddit.svg" /></a>
-			  <a class="social-reddit" target="_blank" href="https://steemit.com/r/bitshares"><img class="social-btns" src="../assets/img/steemit.svg" /></a>
+			  <a class="social-reddit" target="_blank" href="https://steemit.com/trending/bitshares"><img class="social-btns" src="../assets/img/steemit.svg" /></a>
 			  <a class="social-twitter" target="_blank" href="https://twitter.com/search?q=bitshares"><img class="social-btns" src="../assets/img/twitter.svg" /></a>		  
 			  <a class="social-reddit" target="_blank" href="https://whaleshares.io/trending/bitshares"><img class="social-btns" src="../assets/img/whaleshares.svg" /></a>
 			  
