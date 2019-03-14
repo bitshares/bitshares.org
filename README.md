@@ -1,2 +1,5 @@
 # bitshares.org
-Website content for new and live bitshares.org website
+
+Live version of https://bitshares.org
+
+More info coming soon.
