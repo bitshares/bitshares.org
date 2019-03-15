@@ -20,7 +20,7 @@
     <!--OpenGraphTags-->
     <meta property="og:title" content="BitShares 2.0">
     <meta property="og:description" content="Industrial-grade decentralized (DPoS) eco-system on blockchain">
-    <meta property="og:image" content="assets/img/bitshares-img.jpg">
+    <meta property="og:image" content="assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
 
