@@ -61,9 +61,7 @@
 		</section>
       <section class="section section-x">
         <div class="container">
-          <p>BitShares is designed to be self-funded and self-sustaining, so that Stakeholder-Approved Funding directs where blockchain budgets are spent. There is a reserve
-            pool of 1.2 billion BTS (at the time of writing) that automatically grows as transaction fees are collected. Each day, the blockchain is authorized to
-            autonomously spend up to 432,000 BTS, which at current market rates is enough to hire a small team to maintain the network for years.</p>
+          <p>BitShares is self-funded and self-sustaining so that stakeholder-approved funding directs where to spend blockchain budgets. There is a reserve pool of 0.9 billion BTS (March 2019) that automatically grows with the collection of transaction fees. Each day, the blockchain is authorized to autonomously spend up to 432,000 BTS, which at current market rates is enough to hire a small team to maintain the <a href="https://bitshares.org/technology/industrial-performance-scalability" target="_blank"> network</a> for years.</p>
 <br />
 <p><img class="img-responsive img-thumbnail" src="assets/img/cashflow.png" alt="Cashflow"/></p>
 <br />
@@ -74,19 +72,13 @@
   or centralized exchanges (0.2% of trade volume).</p>
 <br />
 <h2 id="workers">Workers</h2>
-<p>A worker is a paid position elected by the stakeholders to fund new blockchain infrastructure or features and dApps. A Worker employment “smart contract” specifies a start date, an end date, a
-  daily pay rate ($BTS), and a vesting period for pay received. Each day, a budget totaling 432,000 BTS is allocated to be paid to all workers. The workers are automatically
-  sorted by net stakeholder approval, and paid in turn until the daily budget runs out at which point no further workers can be approved.</p>
-  <!-- RW Dec 1 2018: New paragraph -->
-  <p>Workers typically engage the whole community to campaign votes for their proposal. Once in action, progress is public to the stakeholders and community, possibly along with a
-    foundation or escrow service acting in proxy for the funds. This applies an additional layer of reassurance, with professional reviews of work undertaken. All stakeholders
-    (holders of BTS tokens) have the opportunity to review workers, follow links published to their descriptions, GitHub pages, and accounting, and make decisions whether to vote for them.</p>
-<p>Each worker can specify a vesting period for funds received. This optional vesting period reassures stakeholders that a proposed worker has a long-term commitment, because
-  it prevents the received funds from being sold immediately.</p>
+<p>A worker is a paid position elected by the stakeholders to fund new blockchain infrastructure or features and dApps. A Worker’s “smart contract” specifies a start date, an end date, a daily pay rate ($BTS), and a vesting period for receiving their pay. Each day, a budget allocation totalling 432,000 BTS is paid to all workers. The workers are automatically sorted by net stakeholder approval and paid in turn, until the daily budget runs out. After this point, approving further workers is not possible.</p>
+  <!-- New paragraph -->
+<p>Workers typically engage the whole community to campaign votes for their proposal. Once in action, progress is public to the stakeholders and community, possibly along with a foundation or escrow service acting in proxy for the funds. This applies an additional layer of reassurance, with professional reviews of work undertaken. All stakeholders (holders of BTS tokens) have the opportunity to review workers, follow links published to their descriptions, GitHub pages, and accounting, and make decisions whether to vote for them.</p>
+<p>Each worker can specify a vesting period for funds received. This optional vesting period reassures stakeholders that a proposed worker has a long-term commitment because it prevents them from selling their received funds immediately.</p>
 <br />
-<h4 id="refund-workers">Refund Workers</h4>
-<p>Refund workers are a special worker type that return their pay to the reserve pool. These workers can be elected to prevent spending on other workers, which saves more funds
-  in the reserve pool for future projects.</p>
+<h2 id="refund-workers">Refund Workers</h2>
+<p>Refund workers are a special type of worker who return their pay to the reserve pool. Electing these workers can prevent spending on other workers, which saves more funds in the reserve pool for future projects.</p>
         </div>
       </section>
     </main>
