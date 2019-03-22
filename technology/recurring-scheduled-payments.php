@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BitShares is the first smart contract platform with built-in support for recurring payments and subscription payments. This feature allows users to authorize third parties to make withdrawals from their accounts within certain limits.">
+    <meta name="description" content="BitShares is the first smart contract platform with built-in support for recurring payments, allowing users to authorize third parties within certain limits.">
     <meta name="keywords" content="bitshares, payments, scheduled, blockchain, subscriptions">
 	<base href="/">
 
@@ -21,7 +21,7 @@
 	
     <!--  Open Graph Tags -->
     <meta property="og:title" content="Recurring and Scheduled Payments | BitShares Blockchain">
-    <meta property="og:description" content="BitShares is the first smart contract platform with built-in support for recurring payments and subscription payments. This feature allows users to authorize third parties to make withdrawals from their accounts within certain limits.">
+    <meta property="og:description" content="BitShares is the first smart contract platform with built-in support for recurring payments, allowing users to authorize third parties within certain limits.">
     <meta property="og:image" content="assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
@@ -66,12 +66,12 @@
       <section class="section section-x">
         <div class="container">
           <p>BitShares is the first smart contract platform with built-in support for recurring payments and subscription payments. This feature allows users to 
-          authorize third parties to make withdrawals from their accounts within certain limits. For example, this feature can be used as a convenient way to “set it and forget it” for monthly 
-          bills and subscriptions.</p>
+          set permissions for third parties to make withdrawals from their accounts within certain limits. For example, this feature is a convenient way to “set it and forget it” for monthly 
+          payments and subscriptions.</p>
 <br />
 <h2 id="how-it-works">How it Works</h2>
-<p>Recurring Payments are implemented as a set of withdrawal permissions. Each account can grant any number of withdrawal
-permissions to other accounts. A withdrawal permission includes the following properties:</p>
+<p>Recurring Payments are used for implementing a set of withdrawal permissions. Each account can grant any number of withdrawal
+permissions to other accounts. Withdrawal permission includes the following properties:</p>
 <ol class="ml-50">
 <li>Start Date</li>
 <li>End Date</li>
@@ -79,26 +79,24 @@ permissions to other accounts. A withdrawal permission includes the following pr
 <li>Period Length (i.e. 1 month)</li>
 </ol>
 <p>Any asset type can be used in the withdrawal limit.</p>
-<p>After a user grants the withdrawal permissions, the authorized account is allowed to make one transfer per period of an
-amount up to the limit. If there is insufficient funds then the withdrawal will fail. Withdrawal permissions are
-designed to be a convenience for merchants and users, as they do not represent a commitment to pay.</p>
+<p>After a user grants the withdrawal permissions, the authorized account can make one transfer per period of an
+amount up to the limit. If there are insufficient funds then the withdrawal will fail. Withdrawal permissions aim to be a convenience for merchants and users, as they do not represent a commitment to pay.</p>
 <p>It is up to each merchant to initiate each withdrawal. The BitShares platform does not automatically authorize the
-transfer of funds unless sufficient signing authority has been reached.</p>
+transfer of funds unless sufficient signing authority is reached.</p>
 <br />
 <h2 id="daily-withdrawal-limits">Daily Withdrawal Limits</h2>
-<p>For security purposes, many banks place daily withdrawal limits on user accounts. In the event that an account is
-compromised, a thief is limited in the amount of damage they could do. Withdrawal permissions enable users to
+<p>For security purposes, many banks place daily withdrawal limits on user accounts. Limiting a thief in the amount of damage they can do if an account is compromised. Withdrawal permissions enable users to
 protect their BitShares funds in the same manner. To do so, a user creates two accounts: savings and checking.</p>
-<p>The savings account has keys kept offline where they are unlikely to be compromised. Before placing the keys in cold
-storage, the savings account authorizes the checking account to make a daily withdrawal of up to $1000, for example.</p>
+<p>The savings account has keys kept offline where they are unlikely to become compromised. Before placing the keys in cold
+storage, the savings account can authorize the checking account to make a daily withdrawal of up to $1000, for example.</p>
 <p>The checking account can then pull money out of savings up to this limit, per day, and use those funds as
-needed. This gives the user confidence that their losses would be limited if their account is compromised.</p>
+needed. This gives the user confidence that their losses are limited if their account is ever compromised.</p>
 <br />
 <h2 id="scheduled-payments">Scheduled Payments</h2>
 <p>As stated above, the withdrawal permission system does not automatically make payments. However, BitShares has another
 feature which enables scheduled payments: <em>proposed</em> transactions. At any time, a user can propose a transaction to
 execute at a specific date and time in the future. If the transaction has sufficient authorization (i.e. is properly
-signed by authorities) at the specified time, then it will automatically be executed.</p>
+signed by authorities) at the specified time, then it is automatically executed.</p>
 <p>A merchant can use this feature, combined with withdrawal permissions, to implement automatic payments after a one-time
 setup fee. In practice, it may be cheaper for merchants to maintain their own scheduler to automate billing, since the
 blockchain charges a fee to propose a transaction separately from the transaction’s own fees.</p>
