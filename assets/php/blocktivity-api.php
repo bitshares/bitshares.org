@@ -171,8 +171,9 @@ $needle = '"}';
 $unconfirmed_eth = substr($unconfirmed_eth,0,strpos($unconfirmed_eth,$needle));	
 
 $table_text = "";
-for ($i = 0 ; $i<count($symbol) ; $i++){
-
+//for ($i = 0 ; $i<count($symbol) ; $i++){
+for ($i = 0 ; $i<10 ; $i++){
+	
 $act = $new_order_tx[$i];
 $count = $i+1;
 
