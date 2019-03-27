@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -66,7 +66,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">vesting_balance_evaluator.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -75,6 +76,7 @@ $(function() {
 <code>#include &lt;<a class="el" href="database_8hpp_source.html">graphene/chain/database.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="vesting__balance__evaluator_8hpp_source.html">graphene/chain/vesting_balance_evaluator.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="vesting__balance__object_8hpp_source.html">graphene/chain/vesting_balance_object.hpp</a>&gt;</code><br />
+<code>#include &lt;graphene/chain/hardfork.hpp&gt;</code><br />
 </div>
 <p><a href="vesting__balance__evaluator_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -89,11 +91,18 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacegraphene_1_1chain"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html">graphene::chain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacegraphene_1_1chain_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html">graphene::chain::detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab1c31326a0139124df9911c0ca05538c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#ab1c31326a0139124df9911c0ca05538c">graphene::chain::detail::check_vesting_balance_policy_hf_1268</a> (const fc::time_point_sec &amp;block_time, const vesting_policy_initializer &amp;policy)</td></tr>
+<tr class="separator:ab1c31326a0139124df9911c0ca05538c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:32 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -108,7 +108,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>The <a class="el" href="structgraphene_1_1chain_1_1bitasset__options.html" title="The bitasset_options struct contains configurable options available only to BitAssets. ">bitasset_options</a> struct contains configurable options available only to BitAssets. </p>
 <dl class="section note"><dt>Note</dt><dd>Changes to this struct will break protocol compatibility </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00090">90</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00097">97</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1dfb904fce8f8e2e750d20f130234b1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1dfb904fce8f8e2e750d20f130234b1a">&#9670;&nbsp;</a></span>validate()</h2>
@@ -148,7 +148,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00108">108</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00115">115</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 
 </div>
 </div>
@@ -166,7 +166,7 @@ Public Attributes</h2></td></tr>
 
 <p>Time before a price feed expires. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00092">92</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00099">99</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 
 </div>
 </div>
@@ -184,7 +184,7 @@ Public Attributes</h2></td></tr>
 
 <p>This is the delay between the time a long requests settlement and the chain evaluates the settlement. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00096">96</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00103">103</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 
 </div>
 </div>
@@ -202,7 +202,7 @@ Public Attributes</h2></td></tr>
 
 <p>This is the percent to adjust the feed price in the short's favor in the event of a forced settlement. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00098">98</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00105">105</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 
 </div>
 </div>
@@ -219,7 +219,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Force settlement volume can be limited such that only a certain percentage of the total existing supply of the asset may be force-settled within any given chain maintenance interval. This field stores the percentage of the current supply which may be force settled within the current maintenance interval. If force settlements come due in an interval in which the maximum volume has already been settled, the new settlements will be enqueued and processed at the beginning of the next maintenance interval. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00104">104</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00111">111</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 
 </div>
 </div>
@@ -237,7 +237,7 @@ Public Attributes</h2></td></tr>
 
 <p>Minimum number of unexpired feeds required to extract a median feed from. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00094">94</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00101">101</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 
 </div>
 </div>
@@ -254,7 +254,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This speicifies which asset type is used to collateralize short sales This field may only be updated if the current supply of the asset is zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00107">107</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset__ops_8hpp_source.html#l00114">114</a> of file <a class="el" href="asset__ops_8hpp_source.html">asset_ops.hpp</a>.</p>
 
 </div>
 </div>
@@ -265,7 +265,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:15 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:32 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

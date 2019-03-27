@@ -10,5 +10,7 @@ var searchData=
   ['initial_5fcommittee_5fmember_5ftype',['initial_committee_member_type',['../structgraphene_1_1chain_1_1genesis__state__type_1_1initial__committee__member__type.html',1,'graphene::chain::genesis_state_type']]],
   ['initial_5fvesting_5fbalance_5ftype',['initial_vesting_balance_type',['../structgraphene_1_1chain_1_1genesis__state__type_1_1initial__vesting__balance__type.html',1,'graphene::chain::genesis_state_type']]],
   ['initial_5fwitness_5ftype',['initial_witness_type',['../structgraphene_1_1chain_1_1genesis__state__type_1_1initial__witness__type.html',1,'graphene::chain::genesis_state_type']]],
-  ['initial_5fworker_5ftype',['initial_worker_type',['../structgraphene_1_1chain_1_1genesis__state__type_1_1initial__worker__type.html',1,'graphene::chain::genesis_state_type']]]
+  ['initial_5fworker_5ftype',['initial_worker_type',['../structgraphene_1_1chain_1_1genesis__state__type_1_1initial__worker__type.html',1,'graphene::chain::genesis_state_type']]],
+  ['instant_5fvesting_5fpolicy',['instant_vesting_policy',['../structgraphene_1_1chain_1_1instant__vesting__policy.html',1,'graphene::chain']]],
+  ['instant_5fvesting_5fpolicy_5finitializer',['instant_vesting_policy_initializer',['../structgraphene_1_1chain_1_1instant__vesting__policy__initializer.html',1,'graphene::chain']]]
 ];

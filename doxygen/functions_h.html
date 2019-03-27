@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -96,6 +96,9 @@ $(function() {
 <li>has_special_authority()
 : <a class="el" href="classgraphene_1_1chain_1_1account__object.html#a01cd90355b340dd46817f917155750d9">graphene::chain::account_object</a>
 </li>
+<li>hash_lock
+: <a class="el" href="structgraphene_1_1chain_1_1htlc__object_1_1condition__info.html#a40cb58a4bdc2008b534c195d6cc2b0cf">graphene::chain::htlc_object::condition_info</a>
+</li>
 <li>hash_value
 : <a class="el" href="classgraphene_1_1chain_1_1address.html#ae4ce2352ad36d5689d87fc2f59b22d9d">graphene::chain::address</a>
 , <a class="el" href="structgraphene_1_1chain_1_1vote__id__type.html#a5c46a07b7559a27aae62782ee0a26897">graphene::chain::vote_id_type</a>
@@ -131,11 +134,42 @@ $(function() {
 <li>history_api()
 : <a class="el" href="classgraphene_1_1app_1_1history__api.html#ad034d3e3420e431ad72159b9f3bd807a">graphene::app::history_api</a>
 </li>
+<li>htlc_create()
+: <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#addea79f4d2045fb72eab5dc0e9c0453f">graphene::wallet::detail::wallet_api_impl</a>
+, <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#aac7f688ab2a43a0810e3e7449d8d924b">graphene::wallet::wallet_api</a>
+</li>
+<li>htlc_extend()
+: <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#ab41d319db32ff15aae7f95ea02627491">graphene::wallet::detail::wallet_api_impl</a>
+, <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#ae8f0ab32a3be8f144bb2172ac117fa2a">graphene::wallet::wallet_api</a>
+</li>
+<li>htlc_id
+: <a class="el" href="structgraphene_1_1chain_1_1htlc__extend__operation.html#aaf22e1e0fcfa8327e65bbd67fcaa06a3">graphene::chain::htlc_extend_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__redeem__operation.html#acdafecc3b377ad61c0f1b6c96d6e49db">graphene::chain::htlc_redeem_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__redeemed__operation.html#a873c27bdd351b1e917d9c1c3b2f9d111">graphene::chain::htlc_redeemed_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__refund__operation.html#a4d8e501e24887a7d72f649cbffab250a">graphene::chain::htlc_refund_operation</a>
+</li>
+<li>htlc_obj
+: <a class="el" href="classgraphene_1_1chain_1_1htlc__extend__evaluator.html#aea28dda1bb67a3374e750a46f8652820">graphene::chain::htlc_extend_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1htlc__redeem__evaluator.html#ab6157240f45157e0d9fe1d3838ba8c93">graphene::chain::htlc_redeem_evaluator</a>
+</li>
+<li>htlc_redeem()
+: <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#af50e4d900b98a0ef1b6a8826e53cacfb">graphene::wallet::detail::wallet_api_impl</a>
+, <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#af34528f4f60d82210c3256433f2aaf18">graphene::wallet::wallet_api</a>
+</li>
+<li>htlc_redeem_visitor()
+: <a class="el" href="classgraphene_1_1chain_1_1htlc__redeem__visitor.html#a7aa6582f24b396b6b3f6d138369523ce">graphene::chain::htlc_redeem_visitor</a>
+</li>
+<li>htlc_redeemed_operation()
+: <a class="el" href="structgraphene_1_1chain_1_1htlc__redeemed__operation.html#ab8435798ef28153e6296928cd9c6a5c5">graphene::chain::htlc_redeemed_operation</a>
+</li>
+<li>htlc_refund_operation()
+: <a class="el" href="structgraphene_1_1chain_1_1htlc__refund__operation.html#a4af9b09e387e43c9b7a566345ef7e7ce">graphene::chain::htlc_refund_operation</a>
+</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:33 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

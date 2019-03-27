@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vesting_5fvisitor',['VESTING_VISITOR',['../vesting__balance__object_8cpp.html#a679079687d3fc4686413f95d6d6d0fea',1,'vesting_balance_object.cpp']]]
+  ['seconds_5fper_5fday',['SECONDS_PER_DAY',['../htlc_8cpp.html#a427ffe4394306d962b8972b3bc952e1c',1,'htlc.cpp']]]
 ];

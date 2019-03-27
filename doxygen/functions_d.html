@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -94,6 +94,7 @@ $(function() {
 <li>db()
 : <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a9f906a5670b56865a2e9b4029a67ba81">graphene::chain::generic_evaluator</a>
 , <a class="el" href="structgraphene_1_1chain_1_1predicate__evaluator.html#a9805fbc50a0030aa70f7b6a439b90bf4">graphene::chain::predicate_evaluator</a>
+, <a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a4d984fd0d3673e8dd5d232e7674b90ab">graphene::chain::proposal_operation_hardfork_visitor</a>
 , <a class="el" href="structgraphene_1_1chain_1_1special__authority__evaluate__visitor.html#abb16adaca78533b1d602e5ab09d8f0ce">graphene::chain::special_authority_evaluate_visitor</a>
 , <a class="el" href="classgraphene_1_1chain_1_1transaction__evaluation__state.html#a705054dfedf58cc972b4a5cf57b44bc2">graphene::chain::transaction_evaluation_state</a>
 , <a class="el" href="structgraphene_1_1chain_1_1worker__init__visitor.html#a9d9ea3fd45960e8f3adac5d68a933488">graphene::chain::worker_init_visitor</a>
@@ -174,7 +175,10 @@ $(function() {
 : <a class="el" href="classgraphene_1_1chain_1_1database.html#ada0ca07bcd351e7ee1f95719b8543579">graphene::chain::database</a>
 </li>
 <li>deposit_lazy_vesting()
-: <a class="el" href="classgraphene_1_1chain_1_1database.html#ab505e9971cb4636f2f15278893f4ba9f">graphene::chain::database</a>
+: <a class="el" href="classgraphene_1_1chain_1_1database.html#a47c4b977b360da1178df3a5ef5d1cb0e">graphene::chain::database</a>
+</li>
+<li>deposit_market_fee_vesting_balance()
+: <a class="el" href="classgraphene_1_1chain_1_1database.html#a8f8a92f72cc2c03fb8b144419011e746">graphene::chain::database</a>
 </li>
 <li>deposit_to_account
 : <a class="el" href="structgraphene_1_1chain_1_1balance__claim__operation.html#a5fbfb45b23f459f29056c7c3f9bf0664">graphene::chain::balance_claim_operation</a>
@@ -211,8 +215,8 @@ $(function() {
 : <a class="el" href="structgraphene_1_1wallet_1_1account__history__operation__detail.html#a429bf74a72b1a88e250d72b458f89d68">graphene::wallet::account_history_operation_detail</a>
 </li>
 <li>digest()
-: <a class="el" href="structgraphene_1_1chain_1_1block__header.html#a8fb1588edbc4ff2e7b5867aac435f984">graphene::chain::block_header</a>
-, <a class="el" href="structgraphene_1_1chain_1_1transaction.html#aba25fb0435684c2088b0d0ae5e0d27d2">graphene::chain::transaction</a>
+: <a class="el" href="classgraphene_1_1chain_1_1block__header.html#a8fb1588edbc4ff2e7b5867aac435f984">graphene::chain::block_header</a>
+, <a class="el" href="classgraphene_1_1chain_1_1transaction.html#aba25fb0435684c2088b0d0ae5e0d27d2">graphene::chain::transaction</a>
 </li>
 <li>do_apply()
 : <a class="el" href="classgraphene_1_1chain_1_1account__create__evaluator.html#a815d3385729b4fbe4647c4d2802cba27">graphene::chain::account_create_evaluator</a>
@@ -241,6 +245,9 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1committee__member__update__evaluator.html#a701f961ad6b3bafed78e2879a5f6d20a">graphene::chain::committee_member_update_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1committee__member__update__global__parameters__evaluator.html#a8105f383ee7a02dac455eb0b588f4497">graphene::chain::committee_member_update_global_parameters_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1custom__evaluator.html#a2498cb48f7b53cfd433a32ca2e3f85c6">graphene::chain::custom_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1htlc__create__evaluator.html#a768bb012c181cfc5f2f764c407e4aacc">graphene::chain::htlc_create_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1htlc__extend__evaluator.html#a74e196a334ea69a7f9c0aa55352c1f85">graphene::chain::htlc_extend_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1htlc__redeem__evaluator.html#a47147de3bdebdcfe8aac9697c55f05b1">graphene::chain::htlc_redeem_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1limit__order__cancel__evaluator.html#ab9c454190b29214568a8457a1e551676">graphene::chain::limit_order_cancel_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1limit__order__create__evaluator.html#ae8e1d9808d097eed30d48c61f330e32e">graphene::chain::limit_order_create_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1override__transfer__evaluator.html#a7c1921f01d559f898da0a3c68e5a278d">graphene::chain::override_transfer_evaluator</a>
@@ -287,6 +294,9 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1committee__member__update__evaluator.html#a76bc7ff511a77709e406e498efe08a4b">graphene::chain::committee_member_update_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1committee__member__update__global__parameters__evaluator.html#a7bb32220afab6183eebaa5041670b73b">graphene::chain::committee_member_update_global_parameters_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1custom__evaluator.html#a1ad38230396f9c234d5759461805c0b7">graphene::chain::custom_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1htlc__create__evaluator.html#a06ee185f6a289d1f89dd05ac0911d002">graphene::chain::htlc_create_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1htlc__extend__evaluator.html#a2a3cc8937e42b14723659e13a57f658d">graphene::chain::htlc_extend_evaluator</a>
+, <a class="el" href="classgraphene_1_1chain_1_1htlc__redeem__evaluator.html#ae6c0ba3516d3f0031f34254d09e79a04">graphene::chain::htlc_redeem_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1limit__order__cancel__evaluator.html#ac88c6be3369602bfd7327ccb918a1f1c">graphene::chain::limit_order_cancel_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1limit__order__create__evaluator.html#ab5a5547c340f2061f47fd138dad8486e">graphene::chain::limit_order_create_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1override__transfer__evaluator.html#a100d3f3bf0f65f73a24c487c37c4a35e">graphene::chain::override_transfer_evaluator</a>
@@ -305,6 +315,9 @@ $(function() {
 , <a class="el" href="classgraphene_1_1chain_1_1witness__create__evaluator.html#aca1966b4243807a459488a1d81f88633">graphene::chain::witness_create_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1witness__update__evaluator.html#a2b69c4be45f9459a4e3bc9b7efb96ee0">graphene::chain::witness_update_evaluator</a>
 , <a class="el" href="classgraphene_1_1chain_1_1worker__create__evaluator.html#af85438ea74b7666b978ae075d4ea6160">graphene::chain::worker_create_evaluator</a>
+</li>
+<li>do_hash()
+: <a class="el" href="classgraphene_1_1wallet_1_1detail_1_1wallet__api__impl.html#a3d8ad9dd436222726c215a6aca1623c2">graphene::wallet::detail::wallet_api_impl</a>
 </li>
 <li>dump_private_keys()
 : <a class="el" href="classgraphene_1_1wallet_1_1wallet__api.html#a98369ea6e10699066c7beb181996a219">graphene::wallet::wallet_api</a>
@@ -325,7 +338,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:33 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

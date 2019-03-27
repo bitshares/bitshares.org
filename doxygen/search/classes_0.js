@@ -20,6 +20,7 @@ var searchData=
   ['account_5fupgrade_5foperation',['account_upgrade_operation',['../structgraphene_1_1chain_1_1account__upgrade__operation.html',1,'graphene::chain']]],
   ['account_5fwhitelist_5fevaluator',['account_whitelist_evaluator',['../classgraphene_1_1chain_1_1account__whitelist__evaluator.html',1,'graphene::chain']]],
   ['account_5fwhitelist_5foperation',['account_whitelist_operation',['../structgraphene_1_1chain_1_1account__whitelist__operation.html',1,'graphene::chain']]],
+  ['additional_5fasset_5foptions',['additional_asset_options',['../structgraphene_1_1chain_1_1additional__asset__options.html',1,'graphene::chain']]],
   ['address',['address',['../classgraphene_1_1chain_1_1address.html',1,'graphene::chain']]],
   ['api_5faccess',['api_access',['../structgraphene_1_1app_1_1api__access.html',1,'graphene::app']]],
   ['api_5faccess_5finfo',['api_access_info',['../structgraphene_1_1app_1_1api__access__info.html',1,'graphene::app']]],

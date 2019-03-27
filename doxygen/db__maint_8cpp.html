@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -73,13 +73,13 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;boost/multiprecision/integer.hpp&gt;</code><br />
-<code>#include &lt;fc/smart_ref_impl.hpp&gt;</code><br />
 <code>#include &lt;fc/uint128.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="database_8hpp_source.html">graphene/chain/database.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="fba__accumulator__id_8hpp_source.html">graphene/chain/fba_accumulator_id.hpp</a>&gt;</code><br />
 <code>#include &lt;graphene/chain/hardfork.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="account__object_8hpp_source.html">graphene/chain/account_object.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="asset__object_8hpp_source.html">graphene/chain/asset_object.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="budget__record__object_8hpp_source.html">graphene/chain/budget_record_object.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="buyback__object_8hpp_source.html">graphene/chain/buyback_object.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="chain__property__object_8hpp_source.html">graphene/chain/chain_property_object.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="committee__member__object_8hpp_source.html">graphene/chain/committee_member_object.hpp</a>&gt;</code><br />
@@ -98,9 +98,6 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1worker__pay__visitor.html">graphene::chain::worker_pay_visitor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A visitor for <a class="el" href="namespacegraphene_1_1chain.html#aff2faab1253f21209aaad5771fdda38c">worker_type</a> which calls pay_worker on the worker within.  <a href="structgraphene_1_1chain_1_1worker__pay__visitor.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1budget__record.html">graphene::chain::budget_record</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A budget record struct to be used in initialize_budget_record and process_budget.  <a href="structgraphene_1_1chain_1_1budget__record.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -125,8 +122,17 @@ Functions</h2></td></tr>
 <tr class="separator:a8708850467d84b28bded18bba06d2bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a519e1c11323acf5f5e2feb9b6b5f85eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a519e1c11323acf5f5e2feb9b6b5f85eb">graphene::chain::deprecate_annual_members</a> (database &amp;db)</td></tr>
 <tr class="separator:a519e1c11323acf5f5e2feb9b6b5f85eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25dcec1f7b80098fb265d56dc7d74bd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a25dcec1f7b80098fb265d56dc7d74bd3">graphene::chain::update_and_match_call_orders</a> (database &amp;db)</td></tr>
-<tr class="separator:a25dcec1f7b80098fb265d56dc7d74bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d9a77c7e843ae267732844937d5cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a81d9a77c7e843ae267732844937d5cfb">graphene::chain::update_call_orders_hf_343</a> (database &amp;db)</td></tr>
+<tr class="separator:a81d9a77c7e843ae267732844937d5cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f80d49d04cbec788eeb3c55bed5d1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ac6f80d49d04cbec788eeb3c55bed5d1f">graphene::chain::update_call_orders_hf_1270</a> (database &amp;db)</td></tr>
+<tr class="separator:ac6f80d49d04cbec788eeb3c55bed5d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc23be0df6f5961c6f3699a5e13345f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#adc23be0df6f5961c6f3699a5e13345f9">graphene::chain::match_call_orders</a> (database &amp;db)</td></tr>
+<tr class="memdesc:adc23be0df6f5961c6f3699a5e13345f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match call orders for all bitAssets, including PMs.  <a href="namespacegraphene_1_1chain.html#adc23be0df6f5961c6f3699a5e13345f9">More...</a><br /></td></tr>
+<tr class="separator:adc23be0df6f5961c6f3699a5e13345f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b6bc83d0d75a636ca349bd6cf910d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ac6b6bc83d0d75a636ca349bd6cf910d5">graphene::chain::process_hf_1465</a> (database &amp;db)</td></tr>
+<tr class="separator:ac6b6bc83d0d75a636ca349bd6cf910d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d66965ec60bed8abf45d9dc16dbef08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a5d66965ec60bed8abf45d9dc16dbef08">graphene::chain::update_median_feeds</a> (database &amp;db)</td></tr>
+<tr class="separator:a5d66965ec60bed8abf45d9dc16dbef08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc4304b10c4172d10f36baad1f0244b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#afc4304b10c4172d10f36baad1f0244b0">graphene::chain::process_hf_868_890</a> (database &amp;db, bool skip_check_call_orders)</td></tr>
 <tr class="separator:afc4304b10c4172d10f36baad1f0244b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa703c7284a50526bc665b089570e645f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#aa703c7284a50526bc665b089570e645f">graphene::chain::process_hf_935</a> (database &amp;db)</td></tr>
@@ -135,7 +141,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:32 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -81,8 +81,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae38da1d6089d0c64992294de675ebba0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#ae38da1d6089d0c64992294de675ebba0">proposal_operation_hardfork_visitor</a> (const fc::time_point_sec bt, const fc::time_point_sec nmt)</td></tr>
-<tr class="separator:ae38da1d6089d0c64992294de675ebba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80b3700e7234cbb7f4990e7b00c3fa30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a80b3700e7234cbb7f4990e7b00c3fa30">proposal_operation_hardfork_visitor</a> (const <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;_db, const fc::time_point_sec bt)</td></tr>
+<tr class="separator:a80b3700e7234cbb7f4990e7b00c3fa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b670c3dbd01f7bd5bae1068af9701af"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4b670c3dbd01f7bd5bae1068af9701af"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a4b670c3dbd01f7bd5bae1068af9701af">operator()</a> (const T &amp;v) const</td></tr>
 <tr class="separator:a4b670c3dbd01f7bd5bae1068af9701af"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -90,17 +90,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5a0ca408e157392966a90af280c7367b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56618d4712e99e76d9b423f0f13dac32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a56618d4712e99e76d9b423f0f13dac32">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1asset__create__operation.html">graphene::chain::asset_create_operation</a> &amp;v) const</td></tr>
 <tr class="separator:a56618d4712e99e76d9b423f0f13dac32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add434bd02a501d483afec4a8c35b7d65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#add434bd02a501d483afec4a8c35b7d65">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1asset__update__operation.html">graphene::chain::asset_update_operation</a> &amp;v) const</td></tr>
+<tr class="separator:add434bd02a501d483afec4a8c35b7d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3de3c4f1392f8951fa79ba3d1e13cadb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a3de3c4f1392f8951fa79ba3d1e13cadb">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1vesting__balance__create__operation.html">graphene::chain::vesting_balance_create_operation</a> &amp;v) const</td></tr>
+<tr class="separator:a3de3c4f1392f8951fa79ba3d1e13cadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fc444b535e171ea309090774acc0ae3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a3fc444b535e171ea309090774acc0ae3">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1asset__update__issuer__operation.html">graphene::chain::asset_update_issuer_operation</a> &amp;v) const</td></tr>
 <tr class="separator:a3fc444b535e171ea309090774acc0ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5323b3cdb79b2aa13c5e6f957e72052"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#ac5323b3cdb79b2aa13c5e6f957e72052">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1asset__claim__pool__operation.html">graphene::chain::asset_claim_pool_operation</a> &amp;v) const</td></tr>
 <tr class="separator:ac5323b3cdb79b2aa13c5e6f957e72052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20e3afcb35c0dfd43812d97692fb6a48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a20e3afcb35c0dfd43812d97692fb6a48">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1asset__settle__cancel__operation.html">graphene::chain::asset_settle_cancel_operation</a> &amp;v) const</td></tr>
 <tr class="separator:a20e3afcb35c0dfd43812d97692fb6a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f10d72d34a461351aa3484063ae588"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#af9f10d72d34a461351aa3484063ae588">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1committee__member__update__global__parameters__operation.html">graphene::chain::committee_member_update_global_parameters_operation</a> &amp;op) const</td></tr>
+<tr class="separator:af9f10d72d34a461351aa3484063ae588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae55b70a472da87689818ef543997a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a1ae55b70a472da87689818ef543997a2">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1htlc__create__operation.html">graphene::chain::htlc_create_operation</a> &amp;op) const</td></tr>
+<tr class="separator:a1ae55b70a472da87689818ef543997a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7535d1b108b235a9a36254755b31657c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a7535d1b108b235a9a36254755b31657c">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1htlc__redeem__operation.html">graphene::chain::htlc_redeem_operation</a> &amp;op) const</td></tr>
+<tr class="separator:a7535d1b108b235a9a36254755b31657c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a7675a8f24ef0c6d01ade1bba81b0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a98a7675a8f24ef0c6d01ade1bba81b0b">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1htlc__extend__operation.html">graphene::chain::htlc_extend_operation</a> &amp;op) const</td></tr>
+<tr class="separator:a98a7675a8f24ef0c6d01ade1bba81b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8198469d601b9c7fd58e91ce7044398b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a8198469d601b9c7fd58e91ce7044398b">operator()</a> (const <a class="el" href="structgraphene_1_1chain_1_1proposal__create__operation.html">graphene::chain::proposal_create_operation</a> &amp;v) const</td></tr>
 <tr class="separator:a8198469d601b9c7fd58e91ce7044398b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a4d984fd0d3673e8dd5d232e7674b90ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a4d984fd0d3673e8dd5d232e7674b90ab">db</a></td></tr>
+<tr class="separator:a4d984fd0d3673e8dd5d232e7674b90ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49d262acc4a43da659e0aee75d1665d1"><td class="memItemLeft" align="right" valign="top">const fc::time_point_sec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a49d262acc4a43da659e0aee75d1665d1">block_time</a></td></tr>
 <tr class="separator:a49d262acc4a43da659e0aee75d1665d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e8c44ebd54d5aa07097f0321d48756"><td class="memItemLeft" align="right" valign="top">const fc::time_point_sec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1proposal__operation__hardfork__visitor.html#a60e8c44ebd54d5aa07097f0321d48756">next_maintenance_time</a></td></tr>
@@ -108,7 +122,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00034">34</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00036">36</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="adb804e5e83320af04f6cdb29b944a36d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb804e5e83320af04f6cdb29b944a36d">&#9670;&nbsp;</a></span>result_type</h2>
@@ -122,13 +136,13 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00036">36</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00038">38</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae38da1d6089d0c64992294de675ebba0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae38da1d6089d0c64992294de675ebba0">&#9670;&nbsp;</a></span>proposal_operation_hardfork_visitor()</h2>
+<a id="a80b3700e7234cbb7f4990e7b00c3fa30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80b3700e7234cbb7f4990e7b00c3fa30">&#9670;&nbsp;</a></span>proposal_operation_hardfork_visitor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139,14 +153,14 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">graphene::chain::proposal_operation_hardfork_visitor::proposal_operation_hardfork_visitor </td>
           <td>(</td>
-          <td class="paramtype">const fc::time_point_sec&#160;</td>
-          <td class="paramname"><em>bt</em>, </td>
+          <td class="paramtype">const <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;&#160;</td>
+          <td class="paramname"><em>_db</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const fc::time_point_sec&#160;</td>
-          <td class="paramname"><em>nmt</em>&#160;</td>
+          <td class="paramname"><em>bt</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -161,13 +175,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00040">40</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00043">43</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4b670c3dbd01f7bd5bae1068af9701af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b670c3dbd01f7bd5bae1068af9701af">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b670c3dbd01f7bd5bae1068af9701af">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,12 +206,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00044">44</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00047">47</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a5a0ca408e157392966a90af280c7367b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a0ca408e157392966a90af280c7367b">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a0ca408e157392966a90af280c7367b">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,12 +234,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00048">48</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00049">49</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a56618d4712e99e76d9b423f0f13dac32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56618d4712e99e76d9b423f0f13dac32">&#9670;&nbsp;</a></span>operator()() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a56618d4712e99e76d9b423f0f13dac32">&#9670;&nbsp;</a></span>operator()() <span class="overload">[3/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,12 +262,68 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00055">55</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00068">68</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="add434bd02a501d483afec4a8c35b7d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add434bd02a501d483afec4a8c35b7d65">&#9670;&nbsp;</a></span>operator()() <span class="overload">[4/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::proposal_operation_hardfork_visitor::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1asset__update__operation.html">graphene::chain::asset_update_operation</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00077">77</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3de3c4f1392f8951fa79ba3d1e13cadb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3de3c4f1392f8951fa79ba3d1e13cadb">&#9670;&nbsp;</a></span>operator()() <span class="overload">[5/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::proposal_operation_hardfork_visitor::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1vesting__balance__create__operation.html">graphene::chain::vesting_balance_create_operation</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00081">81</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a3fc444b535e171ea309090774acc0ae3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fc444b535e171ea309090774acc0ae3">&#9670;&nbsp;</a></span>operator()() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc444b535e171ea309090774acc0ae3">&#9670;&nbsp;</a></span>operator()() <span class="overload">[6/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -276,12 +346,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00062">62</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00085">85</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <a id="ac5323b3cdb79b2aa13c5e6f957e72052"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5323b3cdb79b2aa13c5e6f957e72052">&#9670;&nbsp;</a></span>operator()() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5323b3cdb79b2aa13c5e6f957e72052">&#9670;&nbsp;</a></span>operator()() <span class="overload">[7/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,12 +374,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00068">68</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00091">91</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a20e3afcb35c0dfd43812d97692fb6a48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20e3afcb35c0dfd43812d97692fb6a48">&#9670;&nbsp;</a></span>operator()() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e3afcb35c0dfd43812d97692fb6a48">&#9670;&nbsp;</a></span>operator()() <span class="overload">[8/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,12 +402,124 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00092">92</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00115">115</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af9f10d72d34a461351aa3484063ae588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f10d72d34a461351aa3484063ae588">&#9670;&nbsp;</a></span>operator()() <span class="overload">[9/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::proposal_operation_hardfork_visitor::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1committee__member__update__global__parameters__operation.html">graphene::chain::committee_member_update_global_parameters_operation</a> &amp;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00120">120</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1ae55b70a472da87689818ef543997a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae55b70a472da87689818ef543997a2">&#9670;&nbsp;</a></span>operator()() <span class="overload">[10/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::proposal_operation_hardfork_visitor::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1htlc__create__operation.html">graphene::chain::htlc_create_operation</a> &amp;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00128">128</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7535d1b108b235a9a36254755b31657c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7535d1b108b235a9a36254755b31657c">&#9670;&nbsp;</a></span>operator()() <span class="overload">[11/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::proposal_operation_hardfork_visitor::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1htlc__redeem__operation.html">graphene::chain::htlc_redeem_operation</a> &amp;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00131">131</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a98a7675a8f24ef0c6d01ade1bba81b0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a7675a8f24ef0c6d01ade1bba81b0b">&#9670;&nbsp;</a></span>operator()() <span class="overload">[12/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::proposal_operation_hardfork_visitor::operator() </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1htlc__extend__operation.html">graphene::chain::htlc_extend_operation</a> &amp;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00134">134</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a8198469d601b9c7fd58e91ce7044398b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8198469d601b9c7fd58e91ce7044398b">&#9670;&nbsp;</a></span>operator()() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8198469d601b9c7fd58e91ce7044398b">&#9670;&nbsp;</a></span>operator()() <span class="overload">[13/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,7 +542,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00098">98</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00138">138</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -377,7 +559,23 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00037">37</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00040">40</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4d984fd0d3673e8dd5d232e7674b90ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d984fd0d3673e8dd5d232e7674b90ab">&#9670;&nbsp;</a></span>db</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a>&amp; graphene::chain::proposal_operation_hardfork_visitor::db</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00039">39</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -393,7 +591,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00038">38</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="proposal__evaluator_8cpp_source.html#l00041">41</a> of file <a class="el" href="proposal__evaluator_8cpp_source.html">proposal_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -403,7 +601,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:15 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:33 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

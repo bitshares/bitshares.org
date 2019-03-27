@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -84,9 +84,19 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1detail_1_1skip__flags__restorer.html">skip_flags_restorer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1detail_1_1vbo__mfs__key.html">vbo_mfs_key</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1detail_1_1vesting__balance__object__equal.html">vesting_balance_object_equal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1detail_1_1vesting__balance__object__hash.html">vesting_balance_object_hash</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab5dda7f167eaf3fb1a1dc1e573fd2a02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#ab5dda7f167eaf3fb1a1dc1e573fd2a02">check_asset_options_hf_1268</a> (const fc::time_point_sec &amp;block_time, const <a class="el" href="structgraphene_1_1chain_1_1asset__options.html">asset_options</a> &amp;options)</td></tr>
+<tr class="separator:ab5dda7f167eaf3fb1a1dc1e573fd2a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9674cc06b09a4f89bb63e48f102ed05"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#ae9674cc06b09a4f89bb63e48f102ed05">calculate_percent</a> (const <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> &amp;value, uint16_t percent)</td></tr>
+<tr class="separator:ae9674cc06b09a4f89bb63e48f102ed05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca4a272b9680f8b5e6fffde26344e1fe"><td class="memTemplParams" colspan="2">template&lt;typename T , int... Is&gt; </td></tr>
 <tr class="memitem:aca4a272b9680f8b5e6fffde26344e1fe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#aca4a272b9680f8b5e6fffde26344e1fe">for_each</a> (T &amp;&amp;t, const <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &amp;a, <a class="el" href="structgraphene_1_1chain_1_1detail_1_1seq.html">seq</a>&lt; Is... &gt;)</td></tr>
 <tr class="separator:aca4a272b9680f8b5e6fffde26344e1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -98,6 +108,10 @@ Functions</h2></td></tr>
 <tr class="separator:a70f0b14f841b7731fbd6e68d4b6f1ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7528055c48b6e603a8f4e15bc9654d57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#a7528055c48b6e603a8f4e15bc9654d57">_is_authorized_asset</a> (const <a class="el" href="classgraphene_1_1chain_1_1database.html">database</a> &amp;d, const <a class="el" href="classgraphene_1_1chain_1_1account__object.html">account_object</a> &amp;acct, const <a class="el" href="classgraphene_1_1chain_1_1asset__object.html">asset_object</a> &amp;asset_obj)</td></tr>
 <tr class="separator:a7528055c48b6e603a8f4e15bc9654d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d845a5d9600381031796cecdd8a7cd0"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#a8d845a5d9600381031796cecdd8a7cd0">vbo_mfs_hash</a> (const <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &amp;account_id, const <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &amp;asset_id)</td></tr>
+<tr class="separator:a8d845a5d9600381031796cecdd8a7cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c31326a0139124df9911c0ca05538c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#ab1c31326a0139124df9911c0ca05538c">check_vesting_balance_policy_hf_1268</a> (const fc::time_point_sec &amp;block_time, const <a class="el" href="namespacegraphene_1_1chain.html#ad283cbef2b9a09dc0ac8d920fcc20f6d">vesting_policy_initializer</a> &amp;policy)</td></tr>
+<tr class="separator:ab1c31326a0139124df9911c0ca05538c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a7528055c48b6e603a8f4e15bc9654d57"></a>
@@ -136,6 +150,96 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae9674cc06b09a4f89bb63e48f102ed05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9674cc06b09a4f89bb63e48f102ed05">&#9670;&nbsp;</a></span>calculate_percent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t graphene::chain::detail::calculate_percent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#ab4bea4aef5fe40c66b42537da931bffe">share_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>percent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="db__market_8cpp_source.html#l00037">37</a> of file <a class="el" href="db__market_8cpp_source.html">db_market.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab5dda7f167eaf3fb1a1dc1e573fd2a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5dda7f167eaf3fb1a1dc1e573fd2a02">&#9670;&nbsp;</a></span>check_asset_options_hf_1268()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::detail::check_asset_options_hf_1268 </td>
+          <td>(</td>
+          <td class="paramtype">const fc::time_point_sec &amp;&#160;</td>
+          <td class="paramname"><em>block_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structgraphene_1_1chain_1_1asset__options.html">asset_options</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="asset__evaluator_8cpp_source.html#l00040">40</a> of file <a class="el" href="asset__evaluator_8cpp_source.html">asset_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab1c31326a0139124df9911c0ca05538c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c31326a0139124df9911c0ca05538c">&#9670;&nbsp;</a></span>check_vesting_balance_policy_hf_1268()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void graphene::chain::detail::check_vesting_balance_policy_hf_1268 </td>
+          <td>(</td>
+          <td class="paramtype">const fc::time_point_sec &amp;&#160;</td>
+          <td class="paramname"><em>block_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#ad283cbef2b9a09dc0ac8d920fcc20f6d">vesting_policy_initializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>policy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vesting__balance__evaluator_8cpp_source.html#l00034">34</a> of file <a class="el" href="vesting__balance__evaluator_8cpp_source.html">vesting_balance_evaluator.cpp</a>.</p>
+
+</div>
+</div>
 <a id="aca4a272b9680f8b5e6fffde26344e1fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca4a272b9680f8b5e6fffde26344e1fe">&#9670;&nbsp;</a></span>for_each()</h2>
 
@@ -170,7 +274,46 @@ template&lt;typename T , int... Is&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00568">568</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="database_8hpp_source.html#l00609">609</a> of file <a class="el" href="database_8hpp_source.html">database.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8d845a5d9600381031796cecdd8a7cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d845a5d9600381031796cecdd8a7cd0">&#9670;&nbsp;</a></span>vbo_mfs_hash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t graphene::chain::detail::vbo_mfs_hash </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee">account_id_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>account_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegraphene_1_1chain.html#a8719a403aa47e9d369890c01d60d0bb2">asset_id_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>asset_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculate a hash for account_id_type and asset_id. Use 48 bit value (see object_id.hpp) for account_id and XOR it with 24 bit for asset_id </p>
+
+<p class="definition">Definition at line <a class="el" href="vesting__balance__object_8hpp_source.html#l00211">211</a> of file <a class="el" href="vesting__balance__object_8hpp_source.html">vesting_balance_object.hpp</a>.</p>
 
 </div>
 </div>
@@ -209,7 +352,7 @@ template&lt;typename Lambda &gt; </div>
 </div><div class="memdoc">
 <p>Set the skip_flags to the given value, call callback, then reset skip_flags to their previous value after callback is done. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__with_8hpp_source.html#l00121">121</a> of file <a class="el" href="db__with_8hpp_source.html">db_with.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__with_8hpp_source.html#l00113">113</a> of file <a class="el" href="db__with_8hpp_source.html">db_with.hpp</a>.</p>
 
 </div>
 </div>
@@ -249,14 +392,14 @@ template&lt;typename Lambda &gt; </div>
 <p>Empty pending_transactions, call callback, then reset pending_transactions after callback is done.</p>
 <p>Pending transactions which no longer validate will be culled. </p>
 
-<p class="definition">Definition at line <a class="el" href="db__with_8hpp_source.html#l00140">140</a> of file <a class="el" href="db__with_8hpp_source.html">db_with.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="db__with_8hpp_source.html#l00132">132</a> of file <a class="el" href="db__with_8hpp_source.html">db_with.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:15 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:33 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
