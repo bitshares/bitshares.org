@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['no_5flisting',['no_listing',['../structgraphene_1_1chain_1_1account__whitelist__operation.html#abba3d110e073c52309b894c4342fc660a5784b62ddb2021fb6f337578f714ef3e',1,'graphene::chain::account_whitelist_operation']]],
-  ['null_5fobject_5ftype',['null_object_type',['../namespacegraphene_1_1chain.html#aa6e32c79e2b22c998deddedcb696633da6cf1a67aee814a4f80eeb903cbddeec1',1,'graphene::chain']]]
+  ['maintenance_5fflag',['maintenance_flag',['../classgraphene_1_1chain_1_1dynamic__global__property__object.html#a566f83c180a362c4296d06e5d1930482ab2946fc5c4d7acc1bbf1880ebe5a1c12',1,'graphene::chain::dynamic_global_property_object']]],
+  ['market_5ffee_5fsharing',['market_fee_sharing',['../namespacegraphene_1_1chain.html#a4efc4a0f6c3e0ba09fc0091955ed8bc7a5c1138674024b3854b4da9c0972646a6',1,'graphene::chain']]]
 ];

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -124,6 +124,14 @@ $(function() {
 , <a class="el" href="structgraphene_1_1chain_1_1execute__bid__operation.html#a8bdf12f0fb04cd0947a61a6e9e424f2e">graphene::chain::execute_bid_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1fba__distribute__operation.html#af82a7d4bf6d08c90a6b0e36af3fdf1cb">graphene::chain::fba_distribute_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1fill__order__operation.html#a50e3a6eae78e9052b4f24eebbcb2bfe1">graphene::chain::fill_order_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__create__operation.html#a8aabec9bbaa606db81fc80a80f5ba3c2">graphene::chain::htlc_create_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__create__operation_1_1fee__parameters__type.html#a1e7ba9e4a62b1d4c28fe75425589058f">graphene::chain::htlc_create_operation::fee_parameters_type</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__extend__operation.html#ae19e2597d9ae0c9823e0dfcca7ad345e">graphene::chain::htlc_extend_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__extend__operation_1_1fee__parameters__type.html#a5060d922427d5a7e22190d96ca024bd4">graphene::chain::htlc_extend_operation::fee_parameters_type</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__redeem__operation.html#aeef0f1e7c466bf98691b5af05ef2c92e">graphene::chain::htlc_redeem_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__redeem__operation_1_1fee__parameters__type.html#a756760732bfb35d7e6fb50e24d5cfcc4">graphene::chain::htlc_redeem_operation::fee_parameters_type</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__redeemed__operation.html#a13be1d6635d486f8285c983f122c3fee">graphene::chain::htlc_redeemed_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__refund__operation.html#aeac966e408d36b74d4fb159a00b67a81">graphene::chain::htlc_refund_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1limit__order__cancel__operation.html#afe07af8861bf3be4167687215d150e01">graphene::chain::limit_order_cancel_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1limit__order__cancel__operation_1_1fee__parameters__type.html#a06fc9d1d1a5b3b0fb6375985d6119fb9">graphene::chain::limit_order_cancel_operation::fee_parameters_type</a>
 , <a class="el" href="structgraphene_1_1chain_1_1limit__order__create__operation.html#a65b934a4323443dbb7902ac2ca0ec91f">graphene::chain::limit_order_create_operation</a>
@@ -184,6 +192,13 @@ $(function() {
 <li>fee_paying_account_statistics
 : <a class="el" href="classgraphene_1_1chain_1_1generic__evaluator.html#a9f7422a38474ca4ede2f9bd82ac6cf91">graphene::chain::generic_evaluator</a>
 </li>
+<li>fee_per_day
+: <a class="el" href="structgraphene_1_1chain_1_1htlc__create__operation_1_1fee__parameters__type.html#ae027f0482ea6a621a302713efda85584">graphene::chain::htlc_create_operation::fee_parameters_type</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__extend__operation_1_1fee__parameters__type.html#a8218349c5f112ae194594adcb835e671">graphene::chain::htlc_extend_operation::fee_parameters_type</a>
+</li>
+<li>fee_per_kb
+: <a class="el" href="structgraphene_1_1chain_1_1htlc__redeem__operation_1_1fee__parameters__type.html#af01093aace2675d972080e769a93db02">graphene::chain::htlc_redeem_operation::fee_parameters_type</a>
+</li>
 <li>fee_pool
 : <a class="el" href="classgraphene_1_1chain_1_1asset__dynamic__data__object.html#a724dd171541800a1ad822fb3eff9b8a3">graphene::chain::asset_dynamic_data_object</a>
 </li>
@@ -222,6 +237,9 @@ $(function() {
 </li>
 <li>from
 : <a class="el" href="structgraphene_1_1chain_1_1blind__memo.html#a3e4202fadff177d3e5edd7c358da4d47">graphene::chain::blind_memo</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__create__operation.html#a7c1e43cc62639a1d0c1c3946a44ffb57">graphene::chain::htlc_create_operation</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__object_1_1transfer__info.html#a776e5f583205b1f8e4efc70264eb1d3c">graphene::chain::htlc_object::transfer_info</a>
+, <a class="el" href="structgraphene_1_1chain_1_1htlc__redeemed__operation.html#a8d13d0c60e6070649bf15b8c1298dd08">graphene::chain::htlc_redeemed_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1memo__data.html#aac0b2a2bb5c1274c8f4fa5a68ecca274">graphene::chain::memo_data</a>
 , <a class="el" href="structgraphene_1_1chain_1_1override__transfer__operation.html#a924f3735c38fdca24b30a187ef67d23b">graphene::chain::override_transfer_operation</a>
 , <a class="el" href="structgraphene_1_1chain_1_1stealth__confirmation_1_1memo__data.html#a76af975b09b16ad26e39d4b615a33189">graphene::chain::stealth_confirmation::memo_data</a>
@@ -255,7 +273,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:16 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:33 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

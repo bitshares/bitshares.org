@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -201,9 +201,10 @@ Public Attributes</h2></td></tr>
 <p>The black swan price is defined as debt/collateral, we want to perform a margin call before debt == collateral. Given a debt/collateral ratio of 1 USD / CORE and a maintenance collateral requirement of 2x we can define the call price to be 2 USD / CORE.</p>
 <p>This method divides the collateral by the maintenance collateral ratio to derive a call price for the given black swan ratio.</p>
 <p>There exists some cases where the debt and collateral values are so small that dividing by the collateral ratio will result in a 0 price or really poor rounding errors. No matter what the collateral part of the price ratio can never go to 0 and the debt can never go more than GRAPHENE_MAX_SHARE_SUPPLY</p>
-<p>CR * DEBT/COLLAT or DEBT/(COLLAT/CR) </p>
+<p>CR * DEBT/COLLAT or DEBT/(COLLAT/CR)</p>
+<p>Note: this function is only used before core-1270 hard fork. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00207">207</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00209">209</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
 
 </div>
 </div>
@@ -222,7 +223,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00221">221</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00222">222</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
 
 </div>
 </div>
@@ -428,7 +429,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00227">227</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00228">228</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
 
 </div>
 </div>
@@ -472,7 +473,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:15 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:33 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

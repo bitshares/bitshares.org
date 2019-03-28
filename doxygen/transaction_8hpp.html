@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -80,11 +80,13 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">groups operations that should be applied atomically  <a href="structgraphene_1_1chain_1_1transaction.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1transaction.html">graphene::chain::transaction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">groups operations that should be applied atomically  <a href="classgraphene_1_1chain_1_1transaction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1signed__transaction.html">graphene::chain::signed_transaction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a signature to a transaction  <a href="structgraphene_1_1chain_1_1signed__transaction.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1signed__transaction.html">graphene::chain::signed_transaction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a signature to a transaction  <a href="classgraphene_1_1chain_1_1signed__transaction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1precomputable__transaction.html">graphene::chain::precomputable_transaction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1processed__transaction.html">graphene::chain::processed_transaction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">captures the result of evaluating the operations contained in the transaction  <a href="structgraphene_1_1chain_1_1processed__transaction.html#details">More...</a><br /></td></tr>
@@ -99,13 +101,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga48bf3d11043fdbf6ce62604e448e3313"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transactions.html#ga48bf3d11043fdbf6ce62604e448e3313">graphene::chain::verify_authority</a> (const vector&lt; operation &gt; &amp;ops, const flat_set&lt; public_key_type &gt; &amp;sigs, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_active, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_owner, uint32_t max_recursion=<a class="el" href="config_8hpp.html#aea0bc2216bc54371f7f54d6f6d6e4d9d">GRAPHENE_MAX_SIG_CHECK_DEPTH</a>, bool allow_committe=false, const flat_set&lt; account_id_type &gt; &amp;active_aprovals=flat_set&lt; account_id_type &gt;(), const flat_set&lt; account_id_type &gt; &amp;owner_approvals=flat_set&lt; account_id_type &gt;())</td></tr>
-<tr class="separator:ga48bf3d11043fdbf6ce62604e448e3313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ea1187779e6b5339be4900a65debed0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transactions.html#ga3ea1187779e6b5339be4900a65debed0">graphene::chain::verify_authority</a> (const vector&lt; operation &gt; &amp;ops, const flat_set&lt; public_key_type &gt; &amp;sigs, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_active, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_owner, bool allow_non_immediate_owner, uint32_t max_recursion=<a class="el" href="config_8hpp.html#aea0bc2216bc54371f7f54d6f6d6e4d9d">GRAPHENE_MAX_SIG_CHECK_DEPTH</a>, bool allow_committe=false, const flat_set&lt; account_id_type &gt; &amp;active_aprovals=flat_set&lt; account_id_type &gt;(), const flat_set&lt; account_id_type &gt; &amp;owner_approvals=flat_set&lt; account_id_type &gt;())</td></tr>
+<tr class="separator:ga3ea1187779e6b5339be4900a65debed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:32 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

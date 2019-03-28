@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -67,7 +67,9 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">vesting_balance_object.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -75,6 +77,9 @@ $(function() {
 <div class="textblock"><code>#include &lt;<a class="el" href="asset_8hpp_source.html">graphene/chain/protocol/asset.hpp</a>&gt;</code><br />
 <code>#include &lt;graphene/db/object.hpp&gt;</code><br />
 <code>#include &lt;graphene/db/generic_index.hpp&gt;</code><br />
+<code>#include &lt;boost/multi_index/composite_key.hpp&gt;</code><br />
+<code>#include &lt;boost/multi_index/hashed_index.hpp&gt;</code><br />
+<code>#include &lt;boost/multi_index/identity.hpp&gt;</code><br />
 <code>#include &lt;fc/static_variant.hpp&gt;</code><br />
 <code>#include &lt;fc/uint128.hpp&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
@@ -91,7 +96,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1cdd__vesting__policy.html">graphene::chain::cdd_vesting_policy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines vesting in terms of coin-days accrued which allows for dynamic deposit/withdraw  <a href="structgraphene_1_1chain_1_1cdd__vesting__policy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1instant__vesting__policy.html">graphene::chain::instant_vesting_policy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">instant vesting policy  <a href="structgraphene_1_1chain_1_1instant__vesting__policy.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphene_1_1chain_1_1vesting__balance__object.html">graphene::chain::vesting_balance_object</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1detail_1_1vesting__balance__object__hash.html">graphene::chain::detail::vesting_balance_object_hash</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1detail_1_1vesting__balance__object__equal.html">graphene::chain::detail::vesting_balance_object_equal</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -100,20 +112,40 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacegraphene_1_1chain"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html">graphene::chain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacegraphene_1_1chain_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html">graphene::chain::detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a53807c77a8d2a7efb30e13b772e99b3a"><td class="memItemLeft" align="right" valign="top">typedef fc::static_variant&lt; linear_vesting_policy, cdd_vesting_policy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a53807c77a8d2a7efb30e13b772e99b3a">graphene::chain::vesting_policy</a></td></tr>
-<tr class="separator:a53807c77a8d2a7efb30e13b772e99b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3ffe5ca8fd7dbe899aca8f78f36a2b7"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; vesting_balance_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_account &gt;, member&lt; vesting_balance_object, account_id_type, &amp;vesting_balance_object::owner &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#af3ffe5ca8fd7dbe899aca8f78f36a2b7">graphene::chain::vesting_balance_multi_index_type</a></td></tr>
-<tr class="separator:af3ffe5ca8fd7dbe899aca8f78f36a2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5fee9165e8f378bf91976a523747c2"><td class="memItemLeft" align="right" valign="top">typedef fc::static_variant&lt; linear_vesting_policy, cdd_vesting_policy, instant_vesting_policy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ada5fee9165e8f378bf91976a523747c2">graphene::chain::vesting_policy</a></td></tr>
+<tr class="separator:ada5fee9165e8f378bf91976a523747c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df2b2b04b2faf511e46a478fca8df91"><td class="memItemLeft" align="right" valign="top">typedef multi_index_container&lt; vesting_balance_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; object, object_id_type, &amp;object::id &gt; &gt;, ordered_non_unique&lt; tag&lt; by_account &gt;, member&lt; vesting_balance_object, account_id_type, &amp;vesting_balance_object::owner &gt; &gt;, hashed_unique&lt; tag&lt; by_vesting_type &gt;, identity&lt; vesting_balance_object &gt;, detail::vesting_balance_object_hash, detail::vesting_balance_object_equal &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a5df2b2b04b2faf511e46a478fca8df91">graphene::chain::vesting_balance_multi_index_type</a></td></tr>
+<tr class="separator:a5df2b2b04b2faf511e46a478fca8df91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab04613b07ed5a248119544dce7824ea4"><td class="memItemLeft" align="right" valign="top">typedef generic_index&lt; vesting_balance_object, vesting_balance_multi_index_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#ab04613b07ed5a248119544dce7824ea4">graphene::chain::vesting_balance_index</a></td></tr>
 <tr class="separator:ab04613b07ed5a248119544dce7824ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a4efc4a0f6c3e0ba09fc0091955ed8bc7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain.html#a4efc4a0f6c3e0ba09fc0091955ed8bc7">graphene::chain::vesting_balance_type</a> { <br />
+&#160;&#160;<a class="el" href="namespacegraphene_1_1chain.html#a4efc4a0f6c3e0ba09fc0091955ed8bc7ad415f0e30c471dfdd9bc4f827329ef48">graphene::chain::vesting_balance_type::unspecified</a>, 
+<a class="el" href="namespacegraphene_1_1chain.html#a4efc4a0f6c3e0ba09fc0091955ed8bc7ad943641d1ed7d29e955f36d6327ead93">graphene::chain::vesting_balance_type::cashback</a>, 
+<a class="el" href="namespacegraphene_1_1chain.html#a4efc4a0f6c3e0ba09fc0091955ed8bc7ab61822e8357dcaff77eaaccf348d9134">graphene::chain::vesting_balance_type::worker</a>, 
+<a class="el" href="namespacegraphene_1_1chain.html#a4efc4a0f6c3e0ba09fc0091955ed8bc7a256f446b60e5cfbd429443fd756d01ef">graphene::chain::vesting_balance_type::witness</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacegraphene_1_1chain.html#a4efc4a0f6c3e0ba09fc0091955ed8bc7a5c1138674024b3854b4da9c0972646a6">graphene::chain::vesting_balance_type::market_fee_sharing</a>
+<br />
+ }</td></tr>
+<tr class="separator:a4efc4a0f6c3e0ba09fc0091955ed8bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8d845a5d9600381031796cecdd8a7cd0"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegraphene_1_1chain_1_1detail.html#a8d845a5d9600381031796cecdd8a7cd0">graphene::chain::detail::vbo_mfs_hash</a> (const account_id_type &amp;account_id, const asset_id_type &amp;asset_id)</td></tr>
+<tr class="separator:a8d845a5d9600381031796cecdd8a7cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:32 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

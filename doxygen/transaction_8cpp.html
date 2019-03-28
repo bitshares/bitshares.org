@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -78,7 +78,6 @@ $(function() {
 <code>#include &lt;<a class="el" href="block_8hpp_source.html">graphene/chain/protocol/block.hpp</a>&gt;</code><br />
 <code>#include &lt;fc/io/raw.hpp&gt;</code><br />
 <code>#include &lt;fc/bitutil.hpp&gt;</code><br />
-<code>#include &lt;fc/smart_ref_impl.hpp&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 </div>
 <p><a href="transaction_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -97,8 +96,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga48bf3d11043fdbf6ce62604e448e3313"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transactions.html#ga48bf3d11043fdbf6ce62604e448e3313">graphene::chain::verify_authority</a> (const vector&lt; operation &gt; &amp;ops, const flat_set&lt; public_key_type &gt; &amp;sigs, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_active, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_owner, uint32_t max_recursion=<a class="el" href="config_8hpp.html#aea0bc2216bc54371f7f54d6f6d6e4d9d">GRAPHENE_MAX_SIG_CHECK_DEPTH</a>, bool allow_committe=false, const flat_set&lt; account_id_type &gt; &amp;active_aprovals=flat_set&lt; account_id_type &gt;(), const flat_set&lt; account_id_type &gt; &amp;owner_approvals=flat_set&lt; account_id_type &gt;())</td></tr>
-<tr class="separator:ga48bf3d11043fdbf6ce62604e448e3313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ea1187779e6b5339be4900a65debed0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__transactions.html#ga3ea1187779e6b5339be4900a65debed0">graphene::chain::verify_authority</a> (const vector&lt; operation &gt; &amp;ops, const flat_set&lt; public_key_type &gt; &amp;sigs, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_active, const std::function&lt; const authority *(account_id_type)&gt; &amp;get_owner, bool allow_non_immediate_owner, uint32_t max_recursion=<a class="el" href="config_8hpp.html#aea0bc2216bc54371f7f54d6f6d6e4d9d">GRAPHENE_MAX_SIG_CHECK_DEPTH</a>, bool allow_committe=false, const flat_set&lt; account_id_type &gt; &amp;active_aprovals=flat_set&lt; account_id_type &gt;(), const flat_set&lt; account_id_type &gt; &amp;owner_approvals=flat_set&lt; account_id_type &gt;())</td></tr>
+<tr class="separator:ga3ea1187779e6b5339be4900a65debed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -108,7 +107,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:14 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:32 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

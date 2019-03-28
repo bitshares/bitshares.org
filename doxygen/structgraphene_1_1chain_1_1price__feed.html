@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Bitshares-Core
-   &#160;<span id="projectnumber">2.0.181105</span>
+   &#160;<span id="projectnumber">3.0.0</span>
    </div>
    <div id="projectbrief">BitShares blockchain implementation and command-line interface software</div>
   </td>
@@ -100,6 +100,11 @@ Friends</h2></td></tr>
 <tr class="separator:ade63ae5128fdb1373fdf67d769eb2951"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c303acae96e84c266f2ac33c848e63e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a2c303acae96e84c266f2ac33c848e63e">max_short_squeeze_price</a> () const</td></tr>
 <tr class="separator:a2c303acae96e84c266f2ac33c848e63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10e7b15e7df932d58294336499f6ff3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1price__feed.html#ae10e7b15e7df932d58294336499f6ff3">max_short_squeeze_price_before_hf_1270</a> () const</td></tr>
+<tr class="memdesc:ae10e7b15e7df932d58294336499f6ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Another implementation of <a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a2c303acae96e84c266f2ac33c848e63e">max_short_squeeze_price()</a> before the core-1270 hard fork.  <a href="#ae10e7b15e7df932d58294336499f6ff3">More...</a><br /></td></tr>
+<tr class="separator:ae10e7b15e7df932d58294336499f6ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad385ffdb4f511a38b8a62f5c053c3282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgraphene_1_1chain_1_1price__feed.html#ad385ffdb4f511a38b8a62f5c053c3282">maintenance_collateralization</a> () const</td></tr>
+<tr class="separator:ad385ffdb4f511a38b8a62f5c053c3282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>defines market parameters for margin positions </p>
@@ -122,7 +127,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00247">247</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00250">250</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad385ffdb4f511a38b8a62f5c053c3282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad385ffdb4f511a38b8a62f5c053c3282">&#9670;&nbsp;</a></span>maintenance_collateralization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> graphene::chain::price_feed::maintenance_collateralization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Call orders with collateralization (aka collateral/debt) not greater than this value are in margin call territory. Calculation: ~settlement_price * maintenance_collateral_ratio / GRAPHENE_COLLATERAL_RATIO_DENOM </p>
+
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00287">287</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
 
 </div>
 </div>
@@ -140,11 +165,31 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>When updating a call order the following condition must be maintained:</p>
-<p>debt * maintenance_price() &lt; collateral debt * settlement_price &lt; debt * maintenance debt * maintenance_price() &lt; debt * <a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a2c303acae96e84c266f2ac33c848e63e">max_short_squeeze_price()</a> price maintenance_price()const;When selling collateral to pay off debt, the least amount of debt to receive should be min_usd = <a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a2c303acae96e84c266f2ac33c848e63e">max_short_squeeze_price()</a> * collateral</p>
+<p>When selling collateral to pay off debt, the least amount of debt to receive should be min_usd = <a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a2c303acae96e84c266f2ac33c848e63e">max_short_squeeze_price()</a> * collateral</p>
 <p>This is provided to ensure that a black swan cannot be trigged due to poor liquidity alone, it must be confirmed by having the <a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a2c303acae96e84c266f2ac33c848e63e">max_short_squeeze_price()</a> move below the black swan price. </p>
 
-<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00261">261</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00281">281</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae10e7b15e7df932d58294336499f6ff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae10e7b15e7df932d58294336499f6ff3">&#9670;&nbsp;</a></span>max_short_squeeze_price_before_hf_1270()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgraphene_1_1chain_1_1price.html">price</a> graphene::chain::price_feed::max_short_squeeze_price_before_hf_1270 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Another implementation of <a class="el" href="structgraphene_1_1chain_1_1price__feed.html#a2c303acae96e84c266f2ac33c848e63e">max_short_squeeze_price()</a> before the core-1270 hard fork. </p>
+
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00266">266</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
 
 </div>
 </div>
@@ -163,7 +208,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00234">234</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8cpp_source.html#l00235">235</a> of file <a class="el" href="asset_8cpp_source.html">asset.cpp</a>.</p>
 
 </div>
 </div>
@@ -202,7 +247,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="asset_8hpp_source.html#l00214">214</a> of file <a class="el" href="asset_8hpp_source.html">asset.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="asset_8hpp_source.html#l00212">212</a> of file <a class="el" href="asset_8hpp_source.html">asset.hpp</a>.</p>
 
 </div>
 </div>
@@ -286,7 +331,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 6 2018 06:26:15 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 15:04:33 for Bitshares-Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['account_5fbalance_5fid_5ftype',['account_balance_id_type',['../namespacegraphene_1_1chain.html#a1b76ad0aa6ebbfd3956fb923bf2e244f',1,'graphene::chain']]],
   ['account_5fbalance_5findex',['account_balance_index',['../namespacegraphene_1_1chain.html#a4c78c201450b21a1df4539d4fc3165c7',1,'graphene::chain']]],
-  ['account_5fbalance_5fobject_5fmulti_5findex_5ftype',['account_balance_object_multi_index_type',['../namespacegraphene_1_1chain.html#a9804a0f0630b758e8705712232eaf1d7',1,'graphene::chain']]],
+  ['account_5fbalance_5fobject_5fmulti_5findex_5ftype',['account_balance_object_multi_index_type',['../namespacegraphene_1_1chain.html#ae4b5486b79c95a308081e5b8f3cc309b',1,'graphene::chain']]],
   ['account_5fid_5ftype',['account_id_type',['../namespacegraphene_1_1chain.html#a11927fb343f953514ab6235d6e7233ee',1,'graphene::chain']]],
   ['account_5findex',['account_index',['../namespacegraphene_1_1chain.html#ad4a4b0840d255da34979146e37fcc15c',1,'graphene::chain']]],
   ['account_5fmulti_5findex_5ftype',['account_multi_index_type',['../namespacegraphene_1_1chain.html#a2cb69664c48f3d41eb5ac8b6bc4847cc',1,'graphene::chain']]],
@@ -12,6 +12,7 @@ var searchData=
   ['account_5ftransaction_5fhistory_5fid_5ftype',['account_transaction_history_id_type',['../namespacegraphene_1_1chain.html#a55238260801231918a43259ed4e3e29f',1,'graphene::chain']]],
   ['account_5ftransaction_5fhistory_5findex',['account_transaction_history_index',['../namespacegraphene_1_1chain.html#a2f5ae5a61a0c45744eebd38df81927fc',1,'graphene::chain']]],
   ['account_5ftransaction_5fhistory_5fmulti_5findex_5ftype',['account_transaction_history_multi_index_type',['../namespacegraphene_1_1chain.html#a9815651fea36aadd403a46cf1a8fd7b9',1,'graphene::chain']]],
+  ['additional_5fasset_5foptions_5ft',['additional_asset_options_t',['../namespacegraphene_1_1chain.html#a0d73748598fcf5c908d21370e7a0b09f',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5fid_5ftype',['asset_bitasset_data_id_type',['../namespacegraphene_1_1chain.html#abd48ba1ebfcc2fd007dbbe91f54407aa',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5findex',['asset_bitasset_data_index',['../namespacegraphene_1_1chain.html#a237c018a120acefc4a75f7473a413379',1,'graphene::chain']]],
   ['asset_5fbitasset_5fdata_5fobject_5fmulti_5findex_5ftype',['asset_bitasset_data_object_multi_index_type',['../namespacegraphene_1_1chain.html#af0e56b1725c516fa8fdb9a7000899616',1,'graphene::chain']]],
