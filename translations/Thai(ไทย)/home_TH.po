@@ -1,0 +1,270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BitShares website 2.0\n"
+"POT-Creation-Date: 2019-04-12 13:47+0700\n"
+"PO-Revision-Date: 2019-04-15 19:24+0700\n"
+"Last-Translator: \n"
+"Language-Team: bitshares.org\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: index.php\n"
+
+#: index.php:8
+msgid "BitShares 2.0 - Industrial-grade decentralized (DPoS) eco-system on blockchain"
+msgstr "BitShares 2.0 - รูปแบบการกระจายอำนาจระดับอุตสาหกรรม (DPos) มาตรตราฐานระดับสูง บน Blockchain"
+
+#: index.php:71
+msgid "Decentralized Autonomous Cooperation (DAC)"
+msgstr "ความร่วมมือการกระจายอำนาจที่ไม่ขึ้นกับส่วนกลาง (DAC)"
+
+#: index.php:73
+msgid ""
+"BitShares Blockchain implements an industrial-grade technology focused on businesses, organizations or "
+"individuals, with an amazing eco-system and free-market economy. Based on open-source MIT-licensed "
+"Graphene technology, BitShares was launched in its existing form on 13th October 2015, known prior to "
+"that as a community project: 'ProtoShares'. Ever since then, the BitShares blockchain and its dApps "
+"have been maintained and developed  by workers elected via stakeholder consensus, consisting of more "
+"than 30 highly skilled professionals."
+msgstr ""
+"BitShares บนนวัตกรรม Blockchain ในเทคโนโลยีมาตรฐานอุตสาหกรรม ระดับองค์กร หรือ บุคคล, ด้วยเทคโนโลยี eco-system "
+"และ ระบบเศรษฐกิจแบบตลาดเสรี บนพื้นฐานของซอฟต์แวร์ที่เปิดเผยต่อสาธารณชน (open-source) มาตราฐานของ MIT-licensed "
+"Graphene technology, BitShares ได้ถือกำเนิด เมื่อ 13 ตุลาคม 2558, ในรูปแบบของ การรวมตัวกันพัฒนาโครงการ นาม "
+"‘ProtoShares’ นั้นคือจุดเริ่มต้นนับแต่นั้นมา, Bitshares บนเทคโนโลยี Blockchain นั้นใช้ระบบ dApps "
+"ที่ถูกบริหารจัดการและพัฒนาโดย บุคคลที่ได้รับการคัดเลือกจากการลงมติของผู้ก่อตั้ง, ซึ่งประกอบไปด้วยผู้เชี่ยวชาญที่มีทักษะสูงมากกว่า 30 "
+"คน."
+
+#: index.php:86
+msgid "DPoS Consensus"
+msgstr "DPoS ฉันทามติ"
+
+#: index.php:94
+msgid ""
+"The DPOS algorithm is divided into two parts: electing a group of block producers and scheduling "
+"production."
+msgstr "DPOS อัลกอริทึมจะแบ่งออกเป็นสองส่วนคือ  ลงคะแนนเสียงเลือกกลุ่มผู้ผลิตบล็อก และ การจัดการเวลาของการผลิต."
+
+#: index.php:99
+msgid ""
+"The election process makes sure that stakeholders are ultimately in control because stakeholders lose "
+"the most when the network does not operate smoothly”. <em>Dan Larimer</em></p>\n"
+"\t\t\t\t\t\t\t\t\t\t<p>DPoS (Delegated Proof of Stake) specifically replaces environmentally reckless "
+"‘mining’."
+msgstr ""
+"‘กระบวนการเลือกตั้งจะสร้างความมั่นใจได้ว่า stakeholders จะไม่ถูกควบคุม เพราะการสูญเสีย "
+"ของการทำงานที่ไม่เสถียรของเครื่อข่าย’. <em>Dan Larimer</em></p>\n"
+"\n"
+"\t\t\t\t\t\t\t\t\t\t<p>DPoS (หลักฐานแสดงการเป็นผู้รับอำนาจ) เอกลักษณ์เฉพาะที่จะมาทดแทน ‘การขุด’."
+
+#: index.php:113
+msgid "Permissions"
+msgstr "สิทธิ์การเข้าถึง"
+
+#: index.php:121
+msgid ""
+"The BitShares Blockchain designs permissions around accounts and then cryptography for ease of use"
+msgstr "BitShares Blockchain ออกแบบ สิทธิ์การเข้าถึงบัญชีผู้ใช้ และทำการเข้ารหัสความปลอดภัย เพื่อสะดวกในการนำไปใช้งาน"
+
+#: index.php:126
+msgid ""
+"Every account can be controlled by single or weighted combinations of other account/s and/or keys. "
+"This creates a hierarchical structure which can be built to reflect real-life permissions – for "
+"example a company or organization approval and signing processes in digital form."
+msgstr ""
+"ทุกบัญชีผู้ใช้สามารถควมคุมผ่าน บุคคลเดียว หรือ หลายบุคคล หรือ รวมกับบัญชีผู้ใช้อื่นได้ ซึ่งจะสร้างโครงสร้างแบบลำดับชั้น "
+"สามารถสร้างขึ้นเพื่อ สะท้อนถึงสิทธิ์ในชีวิตจริง เช่น การอนุมัติและลงนามของบริษัทหรือองค์กร ในรูปแบบดิจิทัล."
+
+#: index.php:139
+msgid "Transactions"
+msgstr "การทำธุรกรรม"
+
+#: index.php:147
+msgid ""
+"Any user interacting with a Blockchain does so with transactions which are authentic and authorized."
+msgstr "บัญชีผู้ใช้ใดๆ ที่โต้ตอบกับ Blockchain เพื่อทำธุรกรรมที่เป็นของแท้และได้รับอนุญาต."
+
+#: index.php:152
+msgid ""
+"Transactions are constructed then transmitted to the network, containing instructions the user wants "
+"to perform. The most simple form is the transfer operation, which contains sender, receiver, amount, "
+"and optionally, encrypted memo."
+msgstr ""
+"การสร้างธุรกรรมแล้วส่งไปยังเครือข่าย, เป็นรูปแบบตามที่ผู้ใช้ต้องการ รูปแบบที่ง่ายที่สุด, คือการถ่ายโอนข้อมูล ซึ่งมีผู้ส่ง, ผู้รับ, จำนวน, "
+"และบันทึกข้อมูลเข้าเป็นรหัสลับ."
+
+#: index.php:165
+msgid "Token Factory"
+msgstr "อุตสาหกรรม Token"
+
+#: index.php:173
+msgid ""
+"Create your own cryptocurrency tokens by publically representing and listing a User-Issued Asset on "
+"the blockchain"
+msgstr ""
+"สร้างสกุลเงินดิจิทอลของคุณเองได้ ด้วยความโปร่งใส อีกทั้ง ทุกรายการสินทรัพย์ของบัญชีผู้ใช้ เผยแพร่ต่อสาธารณชน ใน Blockchain"
+
+#: index.php:178
+msgid ""
+"User-Issued Assets enable entrepreneurs to issue their own tokens. Event tickets, company shares, "
+"crowd-funding, loyalty/credits are just a few of the examples. Whitelist to create fully regulatory "
+"compliant KYC/AML tokens. Publically describe, list, and provide liquidity for your assets."
+msgstr ""
+"รายการสินทรัพย์สามารถเปลี่ยนเป็น tokens ของตนเองได้ หรือแม้กระทั่งเปลี่ยนเป็น ตั๋ว, หุ้นของ บริษัท, การระดมทุน, การตอบแทน "
+"สิ่งเหล่านี้เป็นเพียงตัวอย่างบางส่วนเท่านั้น KYC / AML ได้รับอนุญาตในการสร้าง tokens อย่างถูกต้อง "
+"พร้อมทั้งมีการกำกับดูแลอย่างเต็มที่ ทุกข้อมูล โปร่งใส เปิดเผยทุกธุรกรรมต่อสาธารณะ เพื่อเสริมสภาพคล่องสำหรับสินทรัพย์ของคุณ."
+
+#: index.php:193
+msgid "Extensibility"
+msgstr "การขยายตัว"
+
+#: index.php:201
+msgid ""
+"Operations on the BitShares Blockchain allow for extending its range of functions towards built-in or "
+"external dApps."
+msgstr ""
+"การดำเนินการใน BitShares Blockchain เปิดให้สามารถขยาย ความต้องการใหม่ของฟังก์ชัน ที่อยู่ใน dApps ทั้งแบบภายใน หรือ "
+"แบบภายนอกได้."
+
+#: index.php:206
+msgid ""
+"The BitShares Blockchain is extensively modularized and implements operations independently of one "
+"another. BitShares is considered so stable because core blockchain modifications require vetting by "
+"the core developer team, followed and approved by BTS holders before any network-wide protocol upgrade."
+msgstr ""
+"BitShares Blockchain เป็นโมดูลที่แยกเป็นส่วน ๆ และใช้งานได้อย่างอิสระ BitShares จึงว่าเป็นระบบที่มีความเสถียรอย่างมาก "
+"เพราะเมื่อ core หลักของ blockchain มีการเปลี่ยนแปลงจะต้องรับการตรวจสอบโดยทีมผู้พัฒนาหลัก ต้องเปิดเผย และผ่านการอนุมัติ "
+"โดยผู้ถือ BTS ก่อนการอัปเกรด โปรโตคอล ทั่วทั้งเครือข่าย."
+
+#: index.php:220
+msgid "Identity"
+msgstr "เอกลักษณ์"
+
+#: index.php:228
+msgid ""
+"Human-readable account names that must be registered together with public-keys in the blockchain prior "
+"to usage"
+msgstr "ชื่อบัญชีผู้ใช้ที่มนุษย์สามารถอ่านได้ ต้องลงทะเบียนร่วมกับ public-keys ใน blockchain ก่อนจะถูกนำมาใช้"
+
+#: index.php:233
+msgid ""
+"The BitShares Blockchain acts as a name-to-public-key resolver in a similar way to the traditional "
+"Domain Name Service (DNS). Users can easily remember and pass on their account information instead of "
+"error-prone addresses."
+msgstr ""
+"BitShares Blockchain ทำหน้าที่ name-to-public-key เป็นผู้จำแนกในการเข้าถึง Domain Name Service (DNS). "
+"ทำให้ง่ายสำหรับผู้ใช้ที่จะจดจำ และส่งต่อข้อมูลบัญชีของตน โดยปราศจากข้อผิดพลาด."
+
+#: index.php:244
+msgid "More Features of the BitShares industrial grade blockchain:"
+msgstr "หลากหลายฟีเจอร์สำหรับ BitShares มาตรตราฐานระดับสูงของ blockchain:"
+
+#: index.php:253
+msgid "Processing Speed"
+msgstr "ความเร็วในทำงาน"
+
+#: index.php:254
+msgid ""
+"Fastest block confirmations. Transactions get written to the blockchain within 3 seconds, and on "
+"average in under 1.5 seconds."
+msgstr ""
+"สุดยอดความเร็วในการตอบรับยืนยัน ทุกการทำธุรกรรมที่บันทึกเข้าสู่ blockchain ใช้เวลาสูงสุด 3 วินาที ซึ่งเฉลี่ยเวลาเพียง 1.5 "
+"วินาทีเท่านั้น."
+
+#: index.php:266
+msgid "Lowest Fees"
+msgstr "ค่าธรรมเนียมต่ำ"
+
+#: index.php:267
+msgid ""
+"Like other Blockchains, BitShares also has fees yet they are much lower than average, with 80% vesting "
+"cashback for lifetime members."
+msgstr ""
+"เมื่อเปรียบเทียบกับ Blockchains อื่นๆแล้วนั้น BitShares ยังมีค่าธรรมเนียมที่ต่ำกว่า ค่าเฉลี่ยค่าธรรมเนียมของทุกเจ้า อีกทั้งยังมีการ "
+"ทยอยให้หุ้นตามเวลา 80% แก่สมาชิกประเภทตลอดชีพ."
+
+#: index.php:279
+msgid "Recurring and Scheduled Payments"
+msgstr "กำหนดและวางแผนการชำระเงินได้"
+
+#: index.php:280
+msgid ""
+"Supports recurring payments, subscription payments, allow users to authorize third parties to make "
+"withdrawals within certain limits."
+msgstr ""
+"สนับสนุนการชำระเงินแบบอัตโนมัติ หรือที่เรียกว่า recurring payments, สนับสนุนการชำระแบบ ค่าสมัครรับบริการ, "
+"อีกทั้งผู้ใช้อนุญาตให้บุคคลที่สาม ถอนเงินภายในขอบเขตที่กำหนดได้."
+
+#: index.php:292
+msgid "Dynamic Account Permissions"
+msgstr "สิทธิ์การเข้าถึงบัญชีแบบ Dynamic"
+
+#: index.php:293
+msgid ""
+"Enabling management for the corporate environment, control wallets using a weighted combination of "
+"other account approvals."
+msgstr "สามารถบริหารจัดการ ควบคุม ภายใน wellets อย่างสมบรูณ์แบบ โดยผ่านการอนุมัติจากบัญชีผู้ใช้อื่น."
+
+#: index.php:305
+msgid "Self-Sustaining"
+msgstr "ระบบพึ่งพาตนเอง"
+
+#: index.php:306
+msgid ""
+"Powered by an eco-system of dApps which self-fund the core token BTS, ensuring the blockchain covers "
+"costs to keep going in perpetuity."
+msgstr ""
+"ขับเคลื่อนระบบ eco-system ของ dApps โดย กองทุนของตนเอง core หลัก BTS, เพื่อความ มั่นใจว่า blockchain "
+"จะมีการพัฒนาและเติบโตอย่างต่อเนื่อง."
+
+#: index.php:318
+msgid "Security"
+msgstr "ความปลอดภัย"
+
+#: index.php:319
+msgid ""
+"Delegated Proof of Stake (DPOS) is virtually impossible to hack, as it would involve taking out many "
+"active and backup, global, trusted delegates."
+msgstr ""
+"Delegated Proof of Stake (DPOS) ลงความเห็นเพื่อพิสูจน์การทำธุรกรรม ระบบที่สามารถปิดกั้นการ hack ได้อย่างสมบรูณ์ "
+"จากการลงความเห็นที่โปร่งใส และเชื่อถือได้."
+
+#: index.php:333
+msgid "Blockchain Activity Matrix"
+msgstr "ตารางสถานะ Blockchain"
+
+#: index.php:337
+msgid "Activity"
+msgstr "สถานะ"
+
+#: index.php:338
+msgid "Value"
+msgstr "ค่า"
+
+#: index.php:339
+msgid "Index"
+msgstr "ลำดับ"
+
+#: index.php:354
+msgid "Visit Blocktivity.info for more information and analysis."
+msgstr "อ่านข้อมูลเพิ่มเติม Blocktivity.info."
+
+#: index.php:365
+msgid "Press & Community News"
+msgstr "ข่าวสารและสิ่งที่สนใจ"
+
+#: index.php:366
+msgid "The latest and best stories about BitShares curated from around the web."
+msgstr "ข่าวสารความเคลื่อนไหวล่าสุดของ BitShares จากรอบโลก."
+
+#: index.php:483
+msgid "Join the World’s Fastest Industrial Grade Blockchain Platform and Eco-System!"
+msgstr "ร่วมเป็นส่วนหนึ่ง ของมาตราฐานระดับสูง Blockchain และ Eco-system กับความเร็วเหนือชั้นที่สุดในโลก."
+
+#: index.php:484 index.php:485
+msgid "Become Basic Member"
+msgstr "เข้าร่วมเป็นสมาชิก"
