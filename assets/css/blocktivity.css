@@ -10,7 +10,7 @@ a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:
 dfn{font-style:italic}mark{background:#ff0;color:#000}
 small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
 sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}svg:not(:root){overflow:hidden}
-code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+code,kbd,pre,samp{font-family:"Lato",monospace,monospace;font-size:1em}
 button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:bold}
 button,input{overflow:visible}button,select{text-transform:none}
 button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}
@@ -26,9 +26,9 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
 
-.w3-serif{font-family:serif}
+.w3-serif{font-family:"Lato",serif}
 .w3-wide{letter-spacing:4px}
-.w3-tablet{font-family:lato;font-size:15px;line-height:1.5}
+.w3-tablet{font-family:"Lato";font-size:15px;line-height:1.5}
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
 .w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}.w3-striped tbody tr:nth-child(even){background-color:#f1f1f1}
 .w3-table-all tr:nth-child(odd){background-color:#fff}.w3-table-all tr:nth-child(even){background-color:#f1f1f1}
@@ -106,7 +106,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 .w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
 .w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
-.w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
+.w3-code,.w3-codespan{font-family:"Lato",Consolas,"courier new";font-size:16px}
 .w3-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
 .w3-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
 .w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
@@ -216,9 +216,9 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 .table a:hover{color:#000; text-decoration:none;}
 .table td, th {border-top:0px; padding:;}
 .cell-pad{padding:4px!important; border-top: 1px solid #ccc!important;}
-.title_cell{font-family:lato;height:50px;vertical-align:middle;text-align: left;}
-.line_cell{font-family:lato;height:40px;vertical-align:middle;text-align: left;}
-.line_btm{font-family:lato;font-size:15px;text-align: center;}
+.title_cell{font-family:"Lato";height:50px;vertical-align:middle;text-align: left;}
+.line_cell{font-family:"Lato";height:40px;vertical-align:middle;text-align: left;}
+.line_btm{font-family:"Lato";font-size:15px;text-align: center;}
 .line_1_cell{max-width:20px;}
 .separator_piechart{margin-top:45px;margin-bottom:80px;border-bottom:1px rgb(180, 180, 180) solid;}
 .border_bottom{border-bottom:1px rgb(180, 180, 180) solid;}
@@ -249,14 +249,14 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 .pie_chart_all{max-width: 600px;}
 #container {height:100%;width:100%;}
 .table_mc_proj{width: 50%;margin-bottom:15px;margin:auto;margin-top:15px;text-align: left;padding: 10px;font-size: 100%;font-weight:bold;}}
-@media (max-width:768px){.font_size_title{font-family:lato; font-weight:700;font-size: 90%}.font_size_row{font-family:lato;font-size: 85%}.main_div_table{border-radius: 10px;max-width:768px;}.pie_chart_all{max-width: 600px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
-@media (max-width:600px){.font_size_title{font-family:lato; font-weight:700;font-size: 75%}.font_size_row{font-family:lato;font-size: 70%}.main_div_table{border-radius: 10px;max-width:600px;}.pie_chart_all{max-width: 500px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
-@media (max-width:414px){.font_size_title{font-family:lato; font-weight:700;font-size: 50%}.font_size_row{font-family:lato;font-size: 45%}.main_div_table{border-radius: 10px;max-width:414px;}.pie_chart_all{max-width: 380px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
-@media (max-width:375px){.font_size_title{font-family:lato; font-weight:700;font-size: 45%}.font_size_row{font-family:lato;font-size: 40%}.main_div_table{border-radius: 10px;max-width:375px;}.pie_chart_all{max-width: 350px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
-@media (max-width:360px){.font_size_title{font-family:lato; font-weight:700;font-size: 40%}.font_size_row{font-family:lato;font-size: 35%}.main_div_table{border-radius: 10px;max-width:360px;}.pie_chart_all{max-width: 340px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
-@media (max-width:320px){.font_size_title{font-family:lato; font-weight:700;font-size: 35%}.font_size_row{font-family:lato;font-size: 30%}.main_div_table{border-radius: 10px;max-width:320px;}.pie_chart_all{max-width: 300px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
-@media (max-width:240px){.font_size_title{font-family:lato; font-weight:700;font-size: 15%}.font_size_row{font-family:lato;font-size: 12%}.main_div_table{border-radius: 10px;max-width:240px;}.pie_chart_all{max-width: 230px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
-@media (max-width:176px){.font_size_title{font-family:lato; font-weight:700;font-size: 10%}.font_size_row{font-family:lato;font-size: 8%}.main_div_table{border-radius: 10px;max-width:176ppx;}.pie_chart_all{max-width: 160px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:768px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 90%}.font_size_row{font-family:"Lato";font-size: 85%}.main_div_table{border-radius: 10px;max-width:768px;}.pie_chart_all{max-width: 600px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:600px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 75%}.font_size_row{font-family:"Lato";font-size: 70%}.main_div_table{border-radius: 10px;max-width:600px;}.pie_chart_all{max-width: 500px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:414px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 50%}.font_size_row{font-family:"Lato";font-size: 45%}.main_div_table{border-radius: 10px;max-width:414px;}.pie_chart_all{max-width: 380px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:375px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 45%}.font_size_row{font-family:"Lato";font-size: 40%}.main_div_table{border-radius: 10px;max-width:375px;}.pie_chart_all{max-width: 350px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:360px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 40%}.font_size_row{font-family:"Lato";font-size: 35%}.main_div_table{border-radius: 10px;max-width:360px;}.pie_chart_all{max-width: 340px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:320px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 35%}.font_size_row{font-family:"Lato";font-size: 30%}.main_div_table{border-radius: 10px;max-width:320px;}.pie_chart_all{max-width: 300px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:240px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 15%}.font_size_row{font-family:"Lato";font-size: 12%}.main_div_table{border-radius: 10px;max-width:240px;}.pie_chart_all{max-width: 230px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
+@media (max-width:176px){.font_size_title{font-family:"Lato"; font-weight:700;font-size: 10%}.font_size_row{font-family:"Lato";font-size: 8%}.main_div_table{border-radius: 10px;max-width:176ppx;}.pie_chart_all{max-width: 160px;}.icon{width:10px;height:10px;}.icon2{width:20px;height:10px;}}
 .table_coin_page{width: 60%;margin-bottom:15px;margin-top:15px;border:1px rgb(210, 201, 213) solid;text-align: left;}
 .line_cell_coin_page{max-width:85px;height:30px;vertical-align:middle;text-align: left;}
 #coinbase{max-width:408px;width:100%;}
