@@ -92,7 +92,7 @@ experience.</p>
 own identity with a multi-signature check?
 Alice opts to use a service provider that performs 2-factor authentication on every action Alice makes. This protects both Alice and the company, which
 does not need to change its permission structure to accommodate the choice of 2-factor authentication.</p>
-<p class="centered"><img class="img-responsive img-thumbnail" src="assets/img/dynamic-accounts.png"/ alt="Dynamic Accounts"></p>
+<p class="centered"><img class="img-responsive img-thumbnail" src="assets/img/dynamic-accounts.png"/ alt="Dynamic Account Permissions"></p>
 <br />
 <h2 id="solution">Solution</h2>
 <p>BitShares introduced a new approach to permissions based upon accounts which are assigned globally unique IDs.</p>
