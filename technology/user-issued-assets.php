@@ -72,7 +72,7 @@
 <p>Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these assets among their depositors. Companies like Dwolla and PayPal essentially issue deposit receipts and then offer cheaper transfers among their users than between banks. With BitShares, it is now possible to move these internal databases onto the blockchain where it is possible to use the deposits with other smart contracts such as the internal markets, escrow, or bonds.</p>
 <p>By talking to many different banks and exchanges, BitShares learnt what the law requires of those who wish to issue deposit receipts.</p>
 <br />
-<h3 id="2-know-your-customer">2. Know Your Customer</h3>
+<h3 id="2-know-your-customer">2. Know Your Customer (KYC)</h3>
 <p>First and foremost, the issuer must know every single customer. BitShares supports this by enabling both whitelists and blacklists. Rather than requiring every issuer to whitelist every customer separately, an issuer may specify a set of identity verifiers that they trust to do this job. This allows issuers to benefit from the network effect of validated users without having to do any direct identity verification themselves.</p>
 <p>When an asset enables whitelists, no account may send or receive that asset without being on an authorized whitelist. Removing an account from the whitelist will freeze the account’s funds.</p>
 <br />
