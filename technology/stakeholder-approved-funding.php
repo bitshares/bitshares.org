@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BitShares blockchain is self-funding and has a reserve pool self-sustained by fees, whereby Stakeholder-Approved Funding direct where blockchain budgets go.">
+    <meta name="description" content="BitShares blockchain is self-funding and has a reserve pool self-sustained by fees, and Stakeholder-Approved Funding directs where blockchain budgets go.">
     <meta name="keywords" content="bitshares, blockchain, stakeholder approved funding">
 
     <title>Stakeholder Approved Funding | BitShares Blockchain</title>
@@ -20,7 +20,7 @@
 
     <!--  Open Graph Tags -->
     <meta property="og:title" content="Stake-holder Approved Funding | BitShares Blockchain">
-    <meta property="og:description" content="BitShares blockchain is self-funding and has a reserve pool self-sustained by fees, whereby Stakeholder-Approved Funding direct where blockchain budgets go.">
+    <meta property="og:description" content="BitShares blockchain is self-funding and has a reserve pool self-sustained by fees, and Stakeholder-Approved Funding directs where blockchain budgets go.">
     <meta property="og:image" content="../assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
@@ -61,20 +61,18 @@
 		</section>
       <section class="section section-x">
         <div class="container">
-          <p>BitShares is self-funded and self-sustaining so that stakeholder-approved funding directs where to spend blockchain budgets. There is a reserve pool of 0.9 billion BTS (March 2019) that automatically grows with the collection of transaction fees. Each day, the blockchain is authorized to autonomously spend up to 432,000 BTS, which at current market rates is enough to hire a small team to maintain the <a href="https://bitshares.org/technology/industrial-performance-scalability" target="_blank"> network</a> for years.</p>
-<br />
-<p><img class="img-responsive img-thumbnail" src="assets/img/cashflow.png" alt="Cashflow"/></p>
+          <p>BitShares is self-funded and self-sustaining, and stakeholder-approved funding directs where to spend blockchain budgets. There is a reserve pool of 0.9 billion BTS (March 2019) that automatically grows with the collection of transaction fees. Each day, the blockchain is authorized to autonomously spend up to 432,000 BTS, which at current market rates is enough to hire a small team to maintain the <a href="https://bitshares.org/technology/industrial-performance-scalability" target="_blank"> network</a> for years.</p>
 <br />
 <h2 id="income">Income</h2>
-<p>The network’s ultimate goal is to collect more from transaction fees than it spends through paying witnesses and workers. Delegates can adjust the transaction fees and
+<p>The network’s ultimate goal is to collect more from transaction fees than it spends on paying witnesses and workers. Delegates can adjust the transaction fees and
   referral commission rates to ensure that the network remains sustainable. By charging appropriate fees and distributing the income in an effective manner, BitShares-powered
-  networks can grow, even while others struggle. Members pay fees similar to Bitcoin ($0.04 per transaction), while users pay fees similar to Dwolla ($0.20 per transaction)
+  networks can grow, even while others struggle. Lifetime Members pay fees similar to Bitcoin ($0.04 per transaction), while users pay fees similar to Dwolla ($0.20 per transaction)
   or centralized exchanges (0.2% of trade volume).</p>
 <br />
 <h2 id="workers">Workers</h2>
 <p>A worker is a paid position elected by the stakeholders to fund new blockchain infrastructure or features and dApps. A Worker’s “smart contract” specifies a start date, an end date, a daily pay rate ($BTS), and a vesting period for receiving their pay. Each day, a budget allocation totalling 432,000 BTS is paid to all workers. The workers are automatically sorted by net stakeholder approval and paid in turn, until the daily budget runs out. After this point, approving further workers is not possible.</p>
   <!-- New paragraph -->
-<p>Workers typically engage the whole community to campaign votes for their proposal. Once in action, progress is public to the stakeholders and community, possibly along with a foundation or escrow service acting in proxy for the funds. This applies an additional layer of reassurance, with professional reviews of work undertaken. All stakeholders (holders of BTS tokens) have the opportunity to review workers, follow links published to their descriptions, GitHub pages, and accounting, and make decisions whether to vote for them.</p>
+<p>Workers typically engage the whole community to campaign votes for their proposal. Once in action, progress is public to the stakeholders and community, typically along with a foundation or escrow service acting in proxy for the funds. An escrow applies an additional layer of reassurance for stakeholders, with professional reviews of work undertaken. All stakeholders (holders of BTS tokens) have the opportunity to review workers by following links published online to their descriptions or reports.</p>
 <p>Each worker can specify a vesting period for funds received. This optional vesting period reassures stakeholders that a proposed worker has a long-term commitment because it prevents them from selling their received funds immediately.</p>
 <br />
 <h2 id="refund-workers">Refund Workers</h2>
