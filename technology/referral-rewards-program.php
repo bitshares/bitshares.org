@@ -85,12 +85,11 @@
          <p>BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow. In the article <a href="http://www.forentrepreneurs.com/startup-killer/" target="_blank">“Startup Killer: The Cost of Customer Acquisition”</a>, David Skok shared the lessons he learned after watching many failed startups.</p>
          <p><i>However, after closely watching several hundred startups that have failed, I observed that a very large number of these had solved the product/market fit problem, but still failed because they had not found a way to acquire customers at a low enough cost.</i></p>
          <p>A well-balanced business model must have a cost of user acquisition that is much lower than its ability to monetize its customers.</p>
-    <center><img class="img-responsive img-thumbnail" src="/images/wellbalanced.svg"/ alt=""></center>
          <p>In the case of BitShares, this means setting transaction fees that are high enough to cover all costs, including the cost of customer acquisition, while still being low enough to compete against real competitors. Most cryptocurrency networks barely charge enough in transaction fees to cover the cost of running the network. They attempt to attract users with low fees. While low fees are important, undervaluing the service provided is counterproductive. For this reason, BitShares charges a price that is much higher than competing cryptocurrencies but much lower than traditional exchanges and payment networks like Dwolla or PayPal.</p>
          <p>To ensure the cost of customer acquisition is sustainable, the BitShares referral system is designed to always pay out a <i>percentage of <strong>actual profits</strong></i>. BitShares allows the users to draw their own conclusions about the Life Time Value (LTV) of each customer they refer, after educating them about the LTV of customers for similar businesses. We believe that the BitShares network can offer each referrer an average value of $80 per member they sign up, or $40 if they go through an affiliate. Realizing this value over time is possible based on the actual usage of the customers. Even if a customer thinks we are overestimating by a factor of 4, BitShares still offers a larger incentive than PayPal did.</p>
 <br />
     <h2 id="conclusion">Conclusion</h2>
-         <p>BitShares is aim is viral growth, with game-changing, industry-leading incentives.</p>
+         <p>BitShares aim is viral growth, with game-changing, industry-leading incentives.</p>
         </div>
       </section>
     </main>
