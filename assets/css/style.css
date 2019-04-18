@@ -815,8 +815,8 @@ h3.cardTitle {
 
 .home-title {font-weight:500;}
 
-.second_box h2 {font-family: lato, san-serif;}
-.lato-font {font-family: lato, san-serif;}
+.second_box h2 {font-family: "Lato", san-serif;}
+.lato-font {font-family: "Lato", san-serif;}
 
 
 @media all and (min-width : 280px) {
@@ -1663,7 +1663,7 @@ display: none; /*HAMBURGER REMOVAL**/
 }
 
 /***** OVERLAY BACKGROUND ******/
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+/***@import url(https://fonts.googleapis.com/css?family=Varela+Round); **/
 
 @media screen and (max-width: 991px) {
 .button_container {
