@@ -76,7 +76,7 @@ permissions to other accounts. Withdrawal permission includes the following prop
 <li>Start Date</li>
 <li>End Date</li>
 <li>Withdrawal Limit per Period</li>
-<li>Period Length (i.e. 1 month)</li>
+<li>Period Length (i.e. monthly, weekly, daily)</li>
 </ol>
 <p>Any asset type can be used in the withdrawal limit.</p>
 <p>After a user grants the withdrawal permissions, the authorized account can make one transfer per period of an
@@ -85,18 +85,17 @@ amount up to the limit. If there are insufficient funds then the withdrawal will
 transfer of funds unless sufficient signing authority is reached.</p>
 <br />
 <h2 id="daily-withdrawal-limits">Daily Withdrawal Limits</h2>
-<p>For security purposes, many banks place daily withdrawal limits on user accounts. Limiting a thief in the amount of damage they can do if an account is compromised. Withdrawal permissions enable users to
+<p>For security purposes, many banks place daily withdrawal limits on user accounts. Theives are limited in the amount of damage they can do if an account is compromised. Withdrawal permissions enable users to
 protect their BitShares funds in the same manner. To do so, a user creates two accounts: savings and checking.</p>
-<p>The savings account has keys kept offline where they are unlikely to become compromised. Before placing the keys in cold
-storage, the savings account can authorize the checking account to make a daily withdrawal of up to $1000, for example.</p>
-<p>The checking account can then pull money out of savings up to this limit, per day, and use those funds as
+<p>The savings account has keys kept offline where they are unlikely to become compromised. For example - Before placing the keys in cold
+storage, the savings account can authorize the checking account to make a daily withdrawal of up to $1000. The checking account can then pull money out of savings up to this limit, per day, and use those funds as
 needed. This gives the user confidence that their losses are limited if their account is ever compromised.</p>
 <br />
 <h2 id="scheduled-payments">Scheduled Payments</h2>
 <p>As stated above, the withdrawal permission system does not automatically make payments. However, BitShares has another
-feature which enables scheduled payments: <em>proposed</em> transactions. At any time, a user can propose a transaction to
+feature which enables scheduled payments: <em>proposed transactions</em>. At any time, a user can propose a transaction to
 execute at a specific date and time in the future. If the transaction has sufficient authorization (i.e. is properly
-signed by authorities) at the specified time, then it is automatically executed.</p>
+signed by the account authorities) at the specified time, then it is automatically executed.</p>
 <p>A merchant can use this feature, combined with withdrawal permissions, to implement automatic payments after a one-time
 setup fee. In practice, it may be cheaper for merchants to maintain their own scheduler to automate billing, since the
 blockchain charges a fee to propose a transaction separately from the transaction’s own fees.</p>
