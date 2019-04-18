@@ -78,7 +78,7 @@
 			<li>Short positions never expire, except by hitting the maintenance collateral limit, or being force-settled as the least collateralized at the time of forced settlement (see point 2).</li>
 			<li>In the event that the least-collateralized short position lacks enough collateral to cover at the price feed, then all BitUSD positions are automatically force settled at the price of the least collateralized short.</li>
 			</ol>
-			<p>There is a simple metric for testing the validity of our claim that 1.00 BitUSD is always worth <em>at least</em> $1.00 USD. if you can find someone willing to sell 1.00 BitUSD for $1.00, it would be the cheapest option for buying BTS, which demonstrates the value 1.00 BitUSD. This means that 100% of the buying demand for BTS would be available to give liquidity to BitUSD holders as a priority over BTS holders. Proving these conditions are met will be done in the following sections.
+			<p>There is a simple metric for testing the validity of our claim that 1.00 BitUSD is always worth <em>at least</em> $1.00 USD. If you can find someone willing to sell 1.00 BitUSD for $1.00, it would be the cheapest option for buying BTS, which demonstrates the value 1.00 BitUSD. This means that 100% of the buying demand for BTS would be available to give liquidity to BitUSD holders as a priority over BTS holders. Proving these conditions are met will be done in the following sections.
             </p>
 			<p>While the rules are simple, the consequences are less obvious. Let’s analyze this from the perspective of the various players.</p>
 			<br />
