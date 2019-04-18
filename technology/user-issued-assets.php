@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BitShares Blockchain provides user-issued assets for the creation of cryptocurrency enabled tokens to facilitate potential business models for certain types of services.">
-    <meta name="keywords" content="bitshares, user-issued assets, blockchain, tokens">
+    <meta name="description" content="BitShares Blockchain provides User-Issued Assets for the creation of cryptocurrency enabled tokens to facilitate potential business models for certain types of services.">
+    <meta name="keywords" content="bitshares, user-issued assets, uia, blockchain, tokens">
     <title>User Issued Assets | BitShares Blockchain</title>
 	<base href="/">
     <!-- Styles -->
@@ -19,7 +19,7 @@
 
     <!--  Open Graph Tags -->
     <meta property="og:title" content="User-Issued Assets | BitShares Blockchain">
-    <meta property="og:description" content="BitShares Blockchain provides user-issued assets for the creation of cryptocurrency enabled tokens to facilitate potential business models for certain types of services.">
+    <meta property="og:description" content="BitShares Blockchain provides User-Issued Assets for the creation of cryptocurrency enabled tokens to facilitate potential business models for certain types of services.">
     <meta property="og:image" content="../assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
@@ -62,10 +62,11 @@
       <section class="section section-x">
         <div class="container">
           
-<p>BitShares Blockchain provides an important feature known as "user-issued assets" to help facilitate profitable business models for certain types of services. The term refers to a type of custom token registered on the platform, which users can hold and trade within certain restrictions. A creator of a user-issued asset names, describes, and distributes its tokens. They can also specify customized requirements, such as an approved whitelist of accounts permitted to hold the tokens, or the associated trading and transfer fees.</p>
+<p>BitShares Blockchain provides an important feature known as "User-Issued Assets" (BitShares acronym: UIA) to help facilitate profitable business models for certain types of services. The term UIA refers to a type of custom token registered on the platform, which users can hold and trade within certain restrictions. A creator of a UIA names, describes, and distributes its tokens. They can also specify customized requirements, such as an approved whitelist of accounts permitted to hold the tokens, or the associated trading and transfer fees.</p>
 <p>The regulations applied to different kinds of token vary widely and are often different in every jurisdiction. BitShares provides the tools to allow issuers to remain compliant with all applicable regulations when issuing assets. This can prevent potential problems for both issuers and the accounts holding the tokens.</p>
 
-<p>The potential uses for user-issued assets are innumerable. Below are a few sample use cases:</p>
+<h2>Use Cases</h2>
+<p>The potential applications for User-Issued Assets are innumerable. Below are a few sample use cases:</p>
 <br />
 <h3 id="1-deposit-receipts">1. Deposit Receipts</h3>
 <p>Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these assets among their depositors. Companies like Dwolla and PayPal essentially issue deposit receipts and then offer cheaper transfers among their users than between banks. With BitShares, it is now possible to move these internal databases onto the blockchain where it is possible to use the deposits with other smart contracts such as the internal markets, escrow, or bonds.</p>
