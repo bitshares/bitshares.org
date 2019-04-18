@@ -65,8 +65,8 @@
 <br />
 <h2 id="income">Income</h2>
 <p>The network’s ultimate goal is to collect more from transaction fees than it spends on paying witnesses and workers. Delegates can adjust the transaction fees and
-  referral commission rates to ensure that the network remains sustainable. By charging appropriate fees and distributing the income in an effective manner, BitShares-powered
-  networks can grow, even while others struggle. Lifetime Members pay fees similar to Bitcoin ($0.04 per transaction), while users pay fees similar to Dwolla ($0.20 per transaction)
+  referral commission rates to ensure that the network remains sustainable. By charging appropriate fees and distributing the income in an effective manner, the BitShares powered
+  network can grow,  where others may struggle. Lifetime Members pay fees similar to Bitcoin ($0.04 per transaction), while users pay fees similar to Dwolla ($0.20 per transaction)
   or centralized exchanges (0.2% of trade volume).</p>
 <br />
 <h2 id="workers">Workers</h2>
