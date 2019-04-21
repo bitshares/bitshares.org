@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Delegated Proof-of-Stake is a fast, efficient, and flexible consensus algorithm that enables stakeholder voting on the blockchain for democratic decisions.">
-    <meta name="keywords" content="dpos, network, blockchain, consensus, bitshares, witness">
+    <meta name="keywords" content="block, witness, network, stake, stakeholder, bitshares">
 
     <title>Delegated Proof-of-Stake Consensus | BitShares Blockchain</title>
 	<base href="/">
@@ -116,7 +116,7 @@
          <p>While the system is robust against <em>natural</em> chain reorganization events, there is still some potential for software bugs, network interruptions, or an incompetent or malicious witness to create multiple competing histories longer than a block or two. The software always selects the blockchain with the highest witness participation rate. A witness operating on their own can only produce one block per round, and it will always have a lower participation rate than the majority. There is nothing that any witness (or minority group of witnesses) can do to produce a blockchain with a higher participation rate. The participation rate is calculated by comparing the expected number of blocks produced vs the actual number of blocks produced.</p>
 <br />
     <h4 id="maximally-decentralized">Maximally Decentralized</h4>
-         <p>Under DPOS, every stakeholder has influence that is directly proportional to their stake, and no stakeholders are excluded from exercising this influence. Every other consensus system on the market excludes the vast majority of stakeholders from participating. There are many different ways that alternatives exclude stakeholders. Some alternatives use invite-only systems. Others exclude participation by making it cost more to participate than they earn. Still other systems technically allow everyone to participate, but they can be safely ignored by a few large players who produce the vast majority of all blocks. Only DPOS ensures even distribution of block production among the most people and that everyone has a viable means to influence who those people are.</p>
+         <p>Under DPOS, every stakeholder has influence that is directly proportional to their stake, and no stakeholders are excluded from exercising this influence. Every other consensus system on the market excludes the vast majority of stakeholders from participating. There are many different ways that alternatives exclude stakeholders. Some alternatives use invite-only systems. Others exclude participation by making it cost more to participate than they earn. Still other systems technically allow everyone to participate, but they can be safely ignored by a few large players who produce the vast majority of all blocks. Only DPOS ensures even distribution of block production among the most people, and that everyone has a viable means to influence who those people are.</p>
         </div>
       </section>
     </main>
