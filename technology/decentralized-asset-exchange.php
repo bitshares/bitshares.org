@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="BitShares blockchain provides a dApp in the form of a high-performance decentralized exchange. Referred to as simply the 'DEX', it has all the features you would expect from a trading platform.">
-    <meta name="keywords" content="bitshares, dex, bitshares blockchain, decentralized exchange">
+    <meta name="keywords" content="bitshares, exchange, blockchain, cryptocurrency, decentralized exchange">
     <base href="/">    
     
     <title>Decentralized Asset Exchange | Bitshares dApps</title>
@@ -67,16 +67,16 @@
           <p>BitShares blockchain provides a dApp in the form of a high-performance decentralized exchange. Referred to as simply the 'DEX', it has all the features you would expect from a trading platform. It can handle the trading volume of the NASDAQ, whilst settling orders instantly. With this kind of performance on a decentralized exchange, who needs risky centralized exchanges?</p>
 		  <p>Throughout history, centralized exchanges have repeatedly been proven unreliable and untrustworthy. Whether it is <a href="http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/" target="_blank">MF Global</a>, 
         <a href="http://www.wired.com/2014/03/bitcoin-exchange/" target="_blank">Mt. Gox</a>, or <a href="http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/" target="_blank">BitStamp</a>, many
-        people have been cheated because they allowed a 3rd party to hold their funds. It doesn’t matter how big they are, or how many auditors, regulators or insurers are involved, every kind of fraud, abuse, and theft can occur. In the modern financial system, these transgressions happen all too frequently within centralized banks and exchanges operating across the world. It is time for a change. Keep reading to learn about the benefits of using the world’s first fully decentralized exchange, built entirely upon the BitShares blockchain.</p>
+        people have lost cryptocurrency funds because they allowed a 3rd party to hold them. It doesn’t matter how big they are, or how many auditors, regulators or insurers are involved, every kind of fraud, abuse, and theft can occur.These transgressions happen all too frequently within centralized exchanges operating across the world. It is time for a change. Keep reading to learn about the benefits of using the world’s first fully decentralized exchange, built entirely upon the BitShares blockchain.</p>
 		  <br />
 	<h4>Decentralized</h4>
 		  <p>Decentralization means BitShares is better protected from failure than other platforms.  When a centralized exchange (CEX) is compromised, millions of dollars and thousands of users are impacted all at once. In a decentralized system, any attack or failure impacts only a single user and their funds. As a user, you are in control of your own security, which can be safer than trusting a centralized entity.</p>
-          <p>Hacking an individual user or an exchange incurs a fixed cost. The difference is the size of the reward. In most cases, a multi-million dollar bounty exists for compromising a CEX, so there would be very little benefit in attacking an individual account. Which means it’s unlikely a lot of effort would be put into hacking a single user’s account. As a user on the BitShares DEX, you are the only one with access to to your funds, as only you hold the passwords and keys. Safeguarding your keys makes it virtually impossible for any thief to steal your funds.</p>
-          <p>Within any given company, multiple people usually have access to customer funds. As the old expression goes: “Three can keep a secret if two are dead”. Currently, centralized exchanges depend on multiple people who share the responsibility of guarding the secret key that controls the funds. If any one of them is compromised, everyone’s funds are put at risk. Which means, being individually responsible for maintaining your own secrets is the safest option.</p>
+          <p>Hacking an individual user or an exchange incurs a fixed cost. The difference is the size of the reward. In most cases, a multi-million dollar bounty exists for compromising a CEX, so there would be very little benefit in attacking an individual account. Which means it’s unlikely a lot of effort would be put into hacking a single user’s account. As a user on the BitShares DEX, you are the only one with access to to your cryptocurrency, as only you hold the passwords and keys. Safeguarding your keys makes it virtually impossible for any thief to steal your funds.</p>
+          <p>Within any given company, multiple people usually have access to customer funds. As the old expression goes: “Three can keep a secret if two are dead”. Currently, centralized exchanges depend on multiple people who share the responsibility of guarding the secret key that control the main cryptocurrency vaults. If any one of them are compromised, everyone’s funds are put at risk. Which means, being individually responsible for maintaining your own secrets is often considered the safest option.</p>
 
 <br />
 	<h4>Fast, but not too fast</h4>
-		<p>On the BitShares DEX your trades execute in seconds, just like any centralized website interface. However, unlike centralized exchanges, there can be no high-frequency trading, front running, or hidden orders. Traders are thus on a level playing field.</p>
+		<p>On the BitShares DEX your trades execute in seconds, just like any centralized cryptocurrency exchange website interface. However, unlike centralized exchanges, there can be no high-frequency trading, front running, or hidden orders. Traders are thus on a level playing field.</p>
 		<p>On Wall Street, traders go to great lengths to get as physically close to the exchange systems as possible, because their trading bots make decisions so quickly. A decentralized exchange is location-neutral, giving everyone an equal opportunity. You can also setup a local API node - literally bringing the exchange to you.</p>
 
 <br />
@@ -88,12 +88,12 @@
 
     <h4>Low Fees</h4>
          <p>At just fractions of cents per trade*, BitShares is one of the cheapest exchanges around. Other exchanges charge a percentage of your transaction volume. For a $1000 trade on <a href="https://bitstamp.net" target="_blank">BitStamp</a> 
-you will pay $5 vs less than even $0.01c (Jan 2019) to make the same trade on the BitShares exchange. The more traditional exchanges like <a href="https://etrade.com" target="_blank">E-Trade</a> or <a href="https://www.coinbase.com/" target="_blank">Coinbase</a> 
+you will pay $5 vs less than $0.03c (Apr 2019 - with 80% vesting cashback for Lifetime Members) on the BitShares exchange. The more traditional exchanges like <a href="https://etrade.com" target="_blank">E-Trade</a> or <a href="https://www.coinbase.com/" target="_blank">Coinbase</a> 
 charge over $5 per trade. Taking these price comparisons into consideration, clearly it doesn’t get any cheaper than BitShares.</p><br />
 <p>* on SmartCoin pairs. Trading fees for User-issued assets may vary</p>
 <br />
     <h4>Trade Almost Anything</h4>
-         <p>You can trade in Gold, Silver, Gas, and Oil in addition to your national currency and cryptocurrencies. Few limits exist on what can be traded on the exchange, given enough interest. The BitShares DEX can support assets that track stocks, bonds, indexes, or inflation. Companies can issue a stock alternative or placeholder ("IOU") on the BitShares DEX for easy, low-cost distribution with complete protection against naked shorting. Name another cryptocurrency exchange allows you to trade in gold and silver? </p>
+         <p>You can trade in SmartCoins representing Gold, Silver, Gas, and Oil in addition to your national currency and cryptocurrencies. Few limits exist on what can be traded on the exchange, given enough interest and a trustworthy price feed. The BitShares DEX can support assets that track stocks, bonds, indexes, or inflation. Companies can issue a stock alternative or placeholder ("IOU") on the BitShares DEX for easy, low-cost distribution with complete protection against naked shorting. Name another cryptocurrency exchange allows you to trade in gold and silver? </p>
 <br />
          <p><a href="/technology/price-stable-cryptocurrencies" target="_blank">Learn more</a> about how BitShares creates trust-free digital assets pegged to almost anything.</p>
 <br />
@@ -150,7 +150,7 @@ charge over $5 per trade. Taking these price comparisons into consideration, cle
 
 <p>When you hold BitUSD, the value of your holdings will remain pegged to the dollar so long as BitShares itself has reasonable volatility. Reasonable volatility in this case means that it can
   handle greater volatility than Bitcoin has ever seen in its lifetime. The price of BitShares would have to fall to less than 1/3 its starting price in less than 24 hours and then stay there.
-  No legitimate, widely adopted cryptocurrency has ever seen that kind of price movement. This means that BitUSD is secure against just about everything but an unfixable software bug, and BitShares
+  No legitimate, widely adopted cryptocurrency has ever seen that kind of price movement. This means that BitUSD is secure against just about everything but an unfixable software bug, or a
   bug in the BitShares protocol itself. By the time BitShares matures to the level Bitcoin is at today, we expect the probability of that kind of bug to be similar to that of Bitcoin having such an event.</p>
 <br />
 <h4>Global Unified Order Book</h4>
@@ -162,13 +162,13 @@ charge over $5 per trade. Taking these price comparisons into consideration, cle
   trading activity moves to a decentralized, trust-free exchange, the remaining centralized exchanges become much less appealing to high-frequency traders.</p>
 <br />
 <h4>BitUSD to USD Gateways</h4>
-<p>Many gateways prefer the low-risk approach of one-for-one redemption and will simply allow the GatewayUSD to float against BitUSD with a small but variable spread in the market. Users then
-  pay a small variable conversion cost as they exit from BitUSD to fiat USD through GatewayUSD.</p>
+<p>Many gateways prefer the low-risk approach of one-for-one redemption and will simply allow their GatewayUSD to float against BitUSD with a small but variable spread in the market. Users then
+  pay a small variable conversion cost as they exit from BitUSD to fiat USD through the third party GatewayUSD.</p>
 
 <p>On the other hand, many users will want a direct conversion from BitUSD to fiat USD. In this mode of operation, the gateway takes care of providing all of the liquidity within a fixed
   percentage transaction fee. The gateways then compete on offering the lowest possible spread.</p>
 
-<p>Once this happens, BitUSD is effectively as good as USD with a small fixed conversion fee. This fee will likely be no more than the withdraw and deposit fees that current exchanges charge.
+<p>Once this happens, BitUSD is effectively as good as USD with a small fixed conversion fee. This fee will likely be no more than the withdrawal and deposit fees that current exchanges charge.
   At that point, BitShares will be a fully operational exchange with many banking partners providing high liquidity. A truly decentralized exchange will have been realized, and the original vision of BitShares completed.</p>
         </div>
       </section>
