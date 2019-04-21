@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="BitShares achieves incredible confirmation rates and can scale in a manner capable of supporting a global transactional network in near real-time.">
-    <meta name="keywords" content="bitshares, performance, scalability, industrial, blockchain">
+    <meta name="keywords" content="bitshares, transaction, performance, scalability, blockchain">
 
     <title>Industrial Performance and Scalability | BitShares Blockchain</title>
 	<base href="/">
@@ -82,7 +82,7 @@
 
 		<br />
 	<h2 id="lmax-disruptor">The LMAX Disruptor</h2>
-		 <p>The LMAX Disruptor provides a case study on high scalability and performance architecture, showing what is achievable within a single execution thread. LMAX is a retail trading platform that aims to be the fastest exchange in the world, and they have been generous enough to make public what they learned.</p>
+		 <p>The LMAX Disruptor provides a case study on high scalability and performance architecture, showing what is achievable within a single execution thread. LMAX is a retail trading platform that aims to be the fastest exchange in the world, and they were generous enough to make public what they learned.</p>
 		 <p><em>Here is a brief overview of the LMAX architecture:</em></p>
 		 <p>Processing of the sequential transactions and order matching all happens in the Business Logic Processor. It is a single thread that is able to process millions of orders per second. This architecture is readily ported to the realm of cryptocurrencies and blockchain designs.</p>
 		 <p>The role of the Input Disruptor is to gather orders from users from many different sources and assign them in a deterministic order. After assigning them an order they become replicated, logged, and broadcast to many redundant business logic processors. The tasks of the Input Disruptor are parallel and farmed out to a cluster of computers.</p>
