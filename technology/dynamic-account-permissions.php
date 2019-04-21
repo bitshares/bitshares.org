@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="BitShares blockchain designs permissions around people, rather than around cryptography. When used properly, it can virtually eliminate the risk of theft due to hacking.">
-    <meta name="keywords" content="bitshares, security, corporate, blockchain, multi-sig">
+    <meta name="keywords" content="bitshares, corporate, blockchain, permission, sign">
 
     <title>Dynamic Account Permissions | BitShares Blockchain</title>
 	<base href="/">
@@ -64,7 +64,7 @@
           <p>BitShares designs permissions around people rather than cryptography, making it easy to use. Every account can be controlled by
             any weighted combination of other account signatures and private keys. This creates a hierarchical structure that reflects how permissions are
             organized in real life, and makes multi-user control over account authority easier than ever. Multi-user control is the single biggest
-            contributor to security, and, when used properly, it can virtually eliminate the risk of theft due to hacking.</p>
+            contributor to security, and when used properly, can virtually eliminate the risk of theft due to hacking.</p>
 <br />
 <h2 id="background">Background</h2>
 <p>The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the security of the platform.
@@ -153,7 +153,7 @@ unbounded computation.</p>
 <h4 id="scalability">Scalability</h4>
 <p>In theory, accounts can form a hierarchy that is arbitrarily deep, and evaluating that hierarchy can take an arbitrary
 amount of time. In practice, it is unlikely that a single transaction will have signatures more than 2 levels deep,
-which keeps them computation bounded. Anything that requires more than 2 levels is likely to involve many
+which keeps them computationally bounded. Anything that requires more than 2 levels is likely to involve many
 people, and would not be signed all at once. Instead, it would use the built-in proposed transaction
 infrastructure, which tracks partially approved transactions.</p>
 <ul class="ml-25">
