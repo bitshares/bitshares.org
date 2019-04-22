@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="BitShares blockchain provides a dApp in the form of a high-performance decentralized exchange. Referred to as simply the 'DEX', it has all the features you would expect from a trading platform.">
-    <meta name="keywords" content="bitshares, exchange, blockchain, cryptocurrency, decentralized exchange">
+    <meta name="keywords" content="bitshares, decentralized, exchange, blockchain, asset, assets">
     <base href="/">    
     
     <title>Decentralized Asset Exchange | Bitshares dApps</title>
