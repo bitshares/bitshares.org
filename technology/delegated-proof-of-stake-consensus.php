@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Delegated Proof-of-Stake is a fast, efficient, and flexible consensus algorithm that enables stakeholder voting on the blockchain for democratic decisions.">
-    <meta name="keywords" content="block, witness, network, stake, stakeholder, bitshares">
+    <meta name="keywords" content="block, witness, network, consensus, stakeholder, bitshares">
 
     <title>Delegated Proof-of-Stake Consensus | BitShares Blockchain</title>
 	<base href="/">
