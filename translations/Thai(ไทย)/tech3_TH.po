@@ -1,0 +1,426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-22 12:33+0700\n"
+"PO-Revision-Date: 2019-04-22 12:59+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: Technology\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: dynamic-account-permissions-PO.php\n"
+
+#: dynamic-account-permissions-PO.php:40
+msgid "Dynamic Account Permissions"
+msgstr "สิทธิ์การเข้าถึงบัญชี แบบไดนามิก"
+
+#: dynamic-account-permissions-PO.php:41
+msgid "Management for the corporate environment"
+msgstr "การบริหารจัดการ สิ่งแวดล้อมขององค์กร"
+
+#: dynamic-account-permissions-PO.php:53
+msgid "Price:"
+msgstr "ราคา:"
+
+#: dynamic-account-permissions-PO.php:55
+msgid "Market Cap:"
+msgstr "มูลค่าตลาด:"
+
+#: dynamic-account-permissions-PO.php:57
+msgid "Volume (24h):"
+msgstr "ปริมาณ (24ชม.):"
+
+#: dynamic-account-permissions-PO.php:64
+msgid ""
+"BitShares designs permissions around people rather than cryptography, making it easy to use. Every account can be "
+"controlled by\n"
+"            any weighted combination of other account signatures and private keys. This creates a hierarchical "
+"structure that reflects how permissions are\n"
+"            organized in real life, and makes multi-user control over account authority easier than ever. Multi-user "
+"control is the single biggest\n"
+"            contributor to security, and, when used properly, it can virtually eliminate the risk of theft due to "
+"hacking."
+msgstr ""
+"BitShares ออกแบบสิทธิ์การเข้าถึงบัญชีสำหรับทุกคน มากกว่าแค่การเข้ารหัสป้องกัน, ทำการออกแบบให้ง่ายต่อการใช้ บัญชีทุกบัญชีสามารถควบคุมได้\n"
+"โดยการวัดความสำคัญร่วมกับบัญชีอื่น ๆ และคีย์ส่วนตัว สิ่งนี้จะสร้างโครงสร้างตามแบบลำดับชั้น ซึ่งสะท้อนถึงการจัดเตรียมสิทธิ์ในชีวิตจริง\n"
+" และทำให้ผู้ใช้หลายคนสามารถควบคุมการเงินได้ง่ายขึ้นกว่าที่เคย\n"
+"การควบคุมผู้ใช้หลายคน เป็นการให้ความสำคัญสูงสุดด้านความปลอดภัย, และเมื่อทำการอย่างถูกต้อง "
+"ก็จะสามารถลดความเสี่ยงของการถูกโจรกรรมเนื่องจากการแฮ็กได้."
+
+#: dynamic-account-permissions-PO.php:69
+msgid "Background"
+msgstr "เบื้องหลัง"
+
+#: dynamic-account-permissions-PO.php:70
+msgid ""
+"The ability to require multiple digital signatures for sensitive operations on the blockchain is integral to the "
+"security of the platform.\n"
+"While a single secret key may be compromised, multiple keys distributed over multiple locations adds redundant "
+"protections, providing a far more secure\n"
+"experience."
+msgstr ""
+"ความสามารถในการกำหนดลายเซ็นดิจิทัลที่หลากหลายแบบ เพื่อการตรวจสอบที่ละเอียดอ่อนบน blockchain เป็นส่วนสำคัญต่อความปลอดภัยของแพลตฟอร์ม \n"
+"ขณะที่ single key อาจมีโอกาสถูกบุกรุก, แต่ multiple keys ที่กระจายไปทั่ว blockchain \n"
+"ช่วยเพิ่มความคุ้มครองที่ซ้ำซ้อนยากต่อการบุกรุก ซึ่งส่งผลให้เกิดความปลอดภัยยิ่งขึ้น."
+
+#: dynamic-account-permissions-PO.php:73
+msgid "Competing blockchain systems suffer from the following shortcomings:"
+msgstr "การแข่งขันในระบบ blockchain จะได้รับความเสียหายจากข้อบกพร่อง ดังต่อไปนี้:"
+
+#: dynamic-account-permissions-PO.php:75
+msgid "The M-of-N model cannot sufficiently reflect the management hierarchies of many real-life organizations."
+msgstr "โมเดล M-of-N ไม่สามารถสะท้อนถึงการจัดการลำดับชั้นภายในองค์กรเหมือนในชีวิตจริง."
+
+#: dynamic-account-permissions-PO.php:76
+msgid "Equal weighting of M keys is not sufficient to express asymmetric ownership over an account."
+msgstr "การชั่งน้ำหนักความสำคัญของคีย์ M ไม่เพียงพอที่จะแสดงถึงการเป็นเจ้าของบัญชีนั้นๆ."
+
+#: dynamic-account-permissions-PO.php:77
+msgid "Coordination and signing must be done completely out-of-band."
+msgstr "การประสานงานและการลงนามต้องทำอย่างสมบูรณ์แบบ out-of-band."
+
+#: dynamic-account-permissions-PO.php:78
+msgid "Keys cannot be changed without coordination of all other parties."
+msgstr "ไม่สามารถเปลี่ยนแปลง key โดยลำพังไม่ต้องประสานงานกับฝ่ายอื่นๆ ทั้งหมด."
+
+#: dynamic-account-permissions-PO.php:79
+msgid "Signatures cannot be retracted while waiting on other parties."
+msgstr "ไม่สามารถถอนยกเลิกลายเซ็น ในขณะที่รอให้ฝ่ายอื่นๆ ตรวจสอบ."
+
+#: dynamic-account-permissions-PO.php:82
+msgid "Use Case"
+msgstr "กรณีต่างๆ ที่เกิดขึ้นภายในระบบ"
+
+#: dynamic-account-permissions-PO.php:83
+msgid ""
+"Multi-signature technology is all about permission management, and permissions should be defined in terms of people or "
+"organizations rather than keys."
+msgstr "เทคโนโลยีหลายลายเซ็น นั้นเกี่ยวกับการจัดการสิทธิ์ และควรกำหนดสิทธิ์ในรูปแบบของบุคคลหรือองค์กรมากกว่า key."
+
+#: dynamic-account-permissions-PO.php:85
+msgid "Consider an example company that is run by 3 individuals: Alice, Bob, and Carol."
+msgstr "ลองพิจารณาตัวอย่าง บริษัท ที่บริหารโดยบุคคล 3 คน ได้แก่ Alice, Bob และ Carol."
+
+#: dynamic-account-permissions-PO.php:87
+msgid "Alice and Bob each own 40% of the company and Carol owns 20%."
+msgstr "Alice และ Bob แต่ละคนเป็นเจ้าของ 40% ของ บริษัท และ Carol เป็นเจ้าของ 20%."
+
+#: dynamic-account-permissions-PO.php:88
+msgid "This company requires 2 of the 3 principles to approve all expenses."
+msgstr "บริษัท นี้ต้องการ 2 ใน 3 หลักการในการอนุมัติค่าใช้จ่ายทั้งหมด."
+
+#: dynamic-account-permissions-PO.php:91
+msgid ""
+"You could define the company in terms of keys assigned to Alice, Bob, and Carol, but what if Alice wants to protect "
+"her\n"
+"own identity with a multi-signature check?\n"
+"Alice opts to use a service provider that performs 2-factor authentication on every action Alice makes. This protects "
+"both Alice and the company, which\n"
+"does not need to change its permission structure to accommodate the choice of 2-factor authentication."
+msgstr ""
+"คุณสามารถกำหนด บริษัท ในแง่ของกุญแจที่กำหนดให้กับ Alice, Bob และ Carol แต่ถ้าหาก Alice ต้องการปกป้องเธอ\n"
+"ตัวตนของคุณเอง ด้วยการตรวจสอบ multi-signature?\n"
+"Alice เลือกที่จะใช้ผู้ให้บริการที่ดำเนินการตรวจสอบสิทธิ์แบบ 2 ปัจจัยในทุกการกระทำของAlice สิ่งนี้ปกป้องทั้งAlice และบริษัท\n"
+"ซึ่งไม่จำเป็นต้องเปลี่ยนโครงสร้างการอนุญาต เพื่อรองรับตัวเลือกการตรวจสอบสิทธิ์แบบ 2 ปัจจัย."
+
+#: dynamic-account-permissions-PO.php:97
+msgid "Solution"
+msgstr "การแก้ปัญหา"
+
+#: dynamic-account-permissions-PO.php:98
+msgid "BitShares introduced a new approach to permissions based upon accounts which are assigned globally unique IDs."
+msgstr "BitShares นำเสนอแนวทางใหม่ ในการให้สิทธิ์การเข้าถึงบัญชีที่มี โดยมอบ IDs ที่จะไม่ซ้ำกันซึ่งมีเพียงชุดเดียวในโลก."
+
+#: dynamic-account-permissions-PO.php:99
+msgid ""
+"Under this system, it is possible to define an account that has no keys itself, but instead depends solely upon the\n"
+"approval of other accounts.\n"
+"Those other accounts can, in turn, depend upon the approval of other accounts.\n"
+"This process forms a <em>hierarchy</em> of accounts that must grant permission.\n"
+"Each account can change its own permissions independently of any accounts above it in the hierarchy, which is what "
+"makes\n"
+"the permissions <em>dynamic</em>."
+msgstr ""
+"ภายใต้ระบบนี้คุณสามารถกำหนดบัญชีที่ไม่มีคีย์เองได้ แต่ยังขึ้นอยู่กับการอนุมัติจากบัญชีอื่นๆ \n"
+"ในทางกลับกันบัญชีอื่นๆ\n"
+" จะขึ้นอยู่กับการอนุมัติบัญชีถนัดไปเช่นกัน กระบวนการนี้สร้างลำดับชั้นของบัญชีที่ต้องตรวจสอบซึ่งกันและกันในการอนุมัติ\n"
+" แต่ละบัญชีสามารถเปลี่ยนสิทธิ์ของตนเองได้โดยอิสระจากบัญชีใดๆ ที่อยู่ในลำดับบนจากบัญชีตน ซึ่งเป็นสิ่งที่สามารถทำได้ \n"
+"ในการเข้าถึงแบบ ไดนามิก."
+
+#: dynamic-account-permissions-PO.php:105
+#, fuzzy
+#| msgid ""
+#| "Each account defines its permissions as a set of keys and/or other account IDs that are each assigned weights by "
+#| "the\n"
+#| "account holder. If the combined weight of keys and/or accounts exceeds a threshold defined by the account, then\n"
+#| "permission is granted.?> "
+msgid ""
+"Each account defines its permissions as a set of keys and/or other account IDs that are each assigned weights by the\n"
+"account holder. If the combined weight of keys and/or accounts exceeds a threshold defined by the account, then\n"
+"permission is granted."
+msgstr ""
+"แต่ละบัญชีกำหนดสิทธิ์ของตนเป็นชุดคีย์ได้ และหรือ ID บัญชีอื่นๆ  แต่ละบัญชีกำหนดระดับความสำคัญ\n"
+"โดยเจ้าของบัญชี ถ้าการรวมกันของคีย์ และหรือ บัญชี เกินเกณฑ์ที่กำหนด \n"
+"บัญชีดังกล่าวจะไม่ได้รับสิทธิ์."
+
+#: dynamic-account-permissions-PO.php:108
+msgid ""
+"The second solution is to include the partially signed transaction in the consensus state and allow accounts to "
+"publish\n"
+"transactions that add or remove their approval of the transaction.\n"
+"This simplifies the signing coordination problem, enables people to change their mind before the threshold is "
+"reached,\n"
+"and applies the transaction immediately upon receipt of the final approval."
+msgstr ""
+"ทางออกที่สอง คือ การรวมธุรกรรมบางส่วนลงนามในสถานะที่เป็นเอกฉันท์ และอนุญาตให้บัญชีเผยแพร่ธุรกรรม\n"
+" ที่เพิ่มหรือลบการอนุมัติธุรกรรมดังกล่าว ทางออกนี้ช่วยลดปัญหาการลงนาม, \n"
+"ช่วยให้สามารถเปลี่ยนใจเปลี่ยนความคิดก่อนถึงเวลาที่กำหนดได้, \n"
+"และใช้บันทึกรายการทันทีที่ได้รับการอนุมัติขั้นสุดท้าย."
+
+#: dynamic-account-permissions-PO.php:112
+msgid "The process for executing a transaction that requires multi-signature authority is as follows:"
+msgstr "กระบวนการสำหรับ การทำธุรกรรมที่ต้องใช้สิทธิ์จาก multi-signature มีดังนี้:"
+
+#: dynamic-account-permissions-PO.php:114
+msgid "Someone proposes a transaction and approves it with their account."
+msgstr "มีคนเสนอธุรกรรมและอนุมัติบัญชีดังกล่าวด้วยบัญชีของตน."
+
+#: dynamic-account-permissions-PO.php:115
+msgid "Other account holders broadcast transactions, adding their “Yes” or “No” to the proposal."
+msgstr "ผู้ถือบัญชี ที่ออกประกาศรายการ สามารถเพิ่มตัวเลือก “ใช่” หรือ “ไม่” ในข้อเสนอได้."
+
+#: dynamic-account-permissions-PO.php:116
+msgid "When the proposed transaction has the approval of all accounts, it is confirmed."
+msgstr "เมื่อรายการได้รับการอนุมัติจากบัญชีทั้งหมดแล้ว จึงจะได้รับการยืนยัน."
+
+#: dynamic-account-permissions-PO.php:119
+msgid "Owner and Active Keys"
+msgstr "ความเป็นเจ้าของ และ Active Keys"
+
+#: dynamic-account-permissions-PO.php:120
+msgid "Every account is assigned <em>two</em> authorities: owner and active."
+msgstr "ทุกบัญชีจะได้สิทธิ์อยู่ทั้งหมด 2 สิทธิ์ คือ สิทธิ์ความเป็นเจ้าของ และ สิทธิ์ในการอนุมัติ."
+
+#: dynamic-account-permissions-PO.php:122
+msgid "An <em>authority</em> is a set of keys and/or accounts, each of which is assigned a weight."
+msgstr "สิทธิ์ของชุดของคีย์ และ/หรือ บัญชี ซึ่งแต่ละอันมีการกำหนดความสำคัญเอาไว้."
+
+#: dynamic-account-permissions-PO.php:123
+msgid ""
+"Each <em>authority</em> has a weight threshold that must be crossed before an action requiring that <em>authority</em> "
+"may be performed."
+msgstr "แต่ละสิทธิมีระดับความสำคัญที่ต้องผ่านการอนุมัติ ก่อนการดำเนินการที่ต้องใช้สิทธิดังกล่าว."
+
+#: dynamic-account-permissions-PO.php:124
+msgid ""
+"The <em>owner authority</em> is designed for cold-storage, and its primary role is to update the <em>active authority</"
+"em> or to\n"
+"change the <em>owner authority</em>."
+msgstr ""
+"สิทธิ์ความเป็นเจ้าของ ได้รับการออกแบบมาสำหรับ cold-storage และบทบาทหลัก คือ การอัปเดต \n"
+"อนุมัติสิทธิ์ใช้งาน หรือ เปลี่ยนสิทธิ์ความเป็นเจ้าของ."
+
+#: dynamic-account-permissions-PO.php:126
+msgid ""
+"The <em>active authority</em> is meant to be a hot key and can perform any action except changing the <em>owner "
+"authority</em>."
+msgstr "สิทธิ์ในการอนุมัติ หมายถึง hot key และสามารถที่จะดำเนินการใด ๆ ได้ยกเว้นการเปลี่ยนแปลงสิทธิ์ความเป็นเจ้าของ."
+
+#: dynamic-account-permissions-PO.php:127
+msgid ""
+"The motivating use case is a 2-factor authentication provider as a co-signer on the <em>active authority</em>, but not "
+"on the\n"
+"<em>owner authority</em>."
+msgstr "กรณีใช้ในการชักจูง แบบ 2-factor authentication ผู้ให้บริการ เป็น ผู้ลงนามร่วมใน สิทธิ์ในการอนุมัติ แต่ไม่ได้อยู่ใน สิทธิ์ความเป็นเจ้าของ."
+
+#: dynamic-account-permissions-PO.php:130
+msgid ""
+"With this approach, a user can remain confident that their account will always be in their control, and yet that "
+"control\n"
+"can be kept in cold storage where no one can hack it. This means that a company account can require the approval of "
+"its\n"
+"board of directors and each board member may in turn require 2 factor authentication."
+msgstr ""
+"ด้วยวิธีนี้ผู้ใช้สามารถมั่นใจได้ว่าบัญชีของตน จะอยู่ในการควบคุมเสมอ และยังถูกเก็บไว้ใน cold storage \n"
+"ซึ่งไม่มีใครสามารถแฮ็กได้ ซึ่งหมายความว่าบัญชีบริษัท จะต้องได้รับการอนุมัติจากคณะกรรมการบริษัททั้งหมด \n"
+"และสมาชิกในคณะกรรมการบริษัทแต่ละราย จะต้องได้รับการการตรวจสอบ แบบ 2 factor authentication."
+
+#: dynamic-account-permissions-PO.php:133
+msgid "Anyone can rotate keys frequently without having to disturb the permissions on the accounts of its users."
+msgstr "ทุกคนสามารถสลับสับเปลี่ยนคีย์ได้บ่อยๆ โดยไม่ต้องรบกวนสิทธิ์การเข้าถึงในบัญชีของผู้ใช้."
+
+#: dynamic-account-permissions-PO.php:135
+msgid "Gathering Signatures"
+msgstr "การรวบรวมลายเซ็น"
+
+#: dynamic-account-permissions-PO.php:136
+msgid ""
+"One of the challenges that has made multi-signature approaches difficult to use in the past was the act of gathering "
+"required signatures was\n"
+"  entirely manual, or required specialized infrastructure. Once a transaction is signed, there is no ability to "
+"retract your signature, so the\n"
+"  last party to sign gains a slight advantage over the other parties. With deeper hierarchies, gathering signatures "
+"becomes even more complex."
+msgstr ""
+"หนึ่งในการความท้าทายที่ทำให้การทำงานของ multi-signature เป็นวิธีการทำงานที่เกิดขึ้นได้ยากในอดีต การรวบรวมลายเซ็นจึงต้องทำกันแบบแมนนวล "
+"หรือโครงสร้างพื้นฐานที่จำเป็น เมื่อมีการเซ็นธุรกรรม ไม่สามารถที่จะลบหรือถอนลายเซ็นที่ทำธุรกรรมได้ "
+"ดังนั้นฝ่ายสุดท้ายที่จะลงนามธุรกรรมจะได้รับประโยชน์เล็กน้อยจากทุกฝ่าย เมื่อมีลำดับชั้นที่ลึกลงไปจะทำให้รวบรวมลายเซ็นได้ยากยิ่งขึ้น."
+
+#: dynamic-account-permissions-PO.php:139
+msgid ""
+"To simplify this process, a blockchain should manage the signature gathering process by tracking the state of "
+"partially\n"
+"approved proposed transactions.\n"
+"Under this process, each account can add (or remove) their permission to a transaction atomically, without having to "
+"rely\n"
+"upon an outside system to circulate the transaction.\n"
+"This becomes especially critical for hierarchies that are arbitrarily deep."
+msgstr ""
+"เพื่อทำให้กระบวนการนี้ง่ายยิ่งขึ้น blockchain ได้เลือกการจัดการบริหารลายเซ็นโดย การติดตามสถานะของธุรกรรมที่เสนอบางส่วนที่ได้รับอนุมัติ\n"
+" ภายใต้กรรมวิธีนี้ แต่ละบัญชีสามารถ เพิ่ม หรือ ลบ ย้าย สิทธิต่างๆ ไปยังธุรกรรมได้โดยอัตโนมัติ \n"
+"โดยไม่ต้องพึ่งพาระบบภายนอกเพื่อหมุนเวียนธุรกรรม \n"
+"นี่เป็นสิ่งสำคัญอย่างยิ่งสำหรับลำดับชั้นที่มีความลึกและซับซ้อนยิ่งขึ้น."
+
+#: dynamic-account-permissions-PO.php:144
+msgid ""
+"In order to keep things computationally bounded, an individual transaction will only traverse down two layers in a "
+"hierarchy.\n"
+"If more than two layers of hierarchy are present, then an account will have to propose (create one transaction) to\n"
+"approve a proposal (the other transaction).\n"
+"When the first proposal (transaction) is approved, permission is then added to the second proposal (transaction)."
+msgstr ""
+"เพื่อให้สิ่งต่าง ๆ ถูกจำกัดขอบเขต การทำธุรกรรมแต่ละรายการจะทำการสำรวจสองชั้นในลำดับชั้นเท่านั้น \n"
+"ถ้าเกินกว่าสองชั้นในลำดับชั้นที่มีอยู่ บัญชีจะต้องเสนอ (สร้างหนึ่งธุรกรรม) เพื่ออนุมัติข้อเสนอ (ธุรกรรมอื่น ๆ ) \n"
+"เมื่อข้อเสนอแรก (ธุรกรรม) ได้รับการอนุมัติจะมีการเพิ่มสิทธิ์ในข้อเสนอที่สอง (ธุรกรรม)."
+
+#: dynamic-account-permissions-PO.php:149
+msgid ""
+"Under this approach, each individual pays a single transaction fee each time they approve an action, and every action\n"
+"involves at most 1 signature verification by the network. This process allows arbitrarily deep hierarchies to be "
+"formed without exposing the permission system to vulnerability of\n"
+"unbounded computation."
+msgstr ""
+"ภายใต้วิธีนี้ แต่ละคนจ่ายค่าธรรมเนียมการทำธุรกรรมครั้งเดียวทุกครั้งที่พวกเขาอนุมัติการกระทำ \n"
+"และทุกการกระทำเกี่ยวข้องกับการตรวจสอบลายเซ็นสูงสุด 1 ครั้งโดยเครือข่าย กระบวนการนี้อนุญาตให้มีการจัด ลำดับชั้นแบบลึก \n"
+"ได้เลยโดยไม่ต้องการประกาศอนุญาตจากระบบจัดการสิทธิ ตัดความเสี่ยงของการคำนวณไป."
+
+#: dynamic-account-permissions-PO.php:153
+msgid "Scalability"
+msgstr "ความยืดหยุ่น"
+
+#: dynamic-account-permissions-PO.php:154
+msgid ""
+"In theory, accounts can form a hierarchy that is arbitrarily deep, and evaluating that hierarchy can take an "
+"arbitrary\n"
+"amount of time. In practice, it is unlikely that a single transaction will have signatures more than 2 levels deep,\n"
+"which keeps them computation bounded. Anything that requires more than 2 levels is likely to involve many\n"
+"people, and would not be signed all at once. Instead, it would use the built-in proposed transaction\n"
+"infrastructure, which tracks partially approved transactions."
+msgstr ""
+"ในทางทฤษฎี บัญชีสามารถสร้างลำดับชั้นที่ลึกลงไปได้และการประเมินว่าลำดับชั้นสามารถใช้ได้ทุกเวลา ในทางปฏิบัติแล้วนั้น \n"
+"เป็นไปได้ยากมากที่ธุรกรรมเดียวจะมีลายเซ็นมากกว่า 2 ระดับ ซึ่งทำให้การคำนวณนั้นมีขอบเขตที่จำกัด \n"
+"สิ่งใดก็ตามที่ต้องการมากกว่า 2 ระดับมีแนวโน้มที่จะเกี่ยวข้องกับคนจำนวนมาก และจะไม่ได้รับการลงนามทั้งหมดในครั้งเดียว\n"
+"โดยมันจะใช้การแสดงธุรกรรมพื้นฐานภายใน ซึ่งติดตามธุรกรรมที่ได้รับการอนุมัติบางส่วน."
+
+#: dynamic-account-permissions-PO.php:160
+msgid "With this approach, a board member can propose that his company approve a transaction."
+msgstr "ด้วยวิธีการนี้สมาชิกคณะกรรมการ สามารถเสนอให้บริษัทของเขา อนุมัติการทำธุรกรรม."
+
+#: dynamic-account-permissions-PO.php:161
+msgid "This can be extended logically to propose, and account propose, to approve a transaction."
+msgstr "สิ่งนี้สามารถขยายเหตุผลเพื่อเสนอขออนุมัติ และเสนออนุมัติบัญชี เพื่ออนุมัติการทำธุรกรรม."
+
+#: dynamic-account-permissions-PO.php:162
+msgid ""
+"This process would collect transaction fees as all of the layers in the hierarchy gradually add their permissions, "
+"and\n"
+"at no time requires an unbounded calculation."
+msgstr ""
+"กระบวนการนี้จะเก็บค่าธรรมเนียมการทำธุรกรรม เนื่องจากเลเยอร์ทั้งหมดในลำดับชั้นค่อยๆ เพิ่มสิทธิ์ของพวกเขา\n"
+"และในเวลาที่ไม่จำเป็นต้องมีการคำนวณมากนัก."
+
+#: dynamic-account-permissions-PO.php:166
+msgid "Cycles"
+msgstr "วงจร"
+
+#: dynamic-account-permissions-PO.php:167
+msgid "It is possible for two accounts to require each other to approve a transaction."
+msgstr "มีความเป็นไปได้ที่บัญชีสองบัญชีจะต้องอนุมัติธุรกรรมให้ซึ่งกันและกัน."
+
+#: dynamic-account-permissions-PO.php:168
+msgid ""
+"Imagine account X is created that requires A and Y to approve.\n"
+"Imagine account Y is created that requires B and X to approve.\n"
+"The graph looks like this:"
+msgstr ""
+"ลองจินตนาการว่า บัญชี x เป็นผู้สร้าง คำสั่งไปยัง A และ Y ต้องอนุมัติ \n"
+"จิตนาการว่า บัญชี Y เป็นผู้สร้างคำสั่งไปยัง B และ x ต้องเป็นผู้อนุมัติ \n"
+"กราฟจะออกมาในลักษณะนี้:"
+
+#: dynamic-account-permissions-PO.php:175
+msgid ""
+"A proposes that X spend 1 BTS and waits for approval from Y.\n"
+"B proposes that Y approve the proposal from A and waits for approval from X."
+msgstr ""
+"การเสนอที่ให้ X จะจ่าย 1  BTS และรอการอนุมัติจาก Y. \n"
+"B เสนอให้  Y อนุมัติรายการจาก A  และรอการอนุมัติจาก X."
+
+#: dynamic-account-permissions-PO.php:177
+msgid "There is no way to resolve this problem with a single approval from any party due to the following reasons:"
+msgstr "ไม่มีวิธีแก้ไขปัญหานี้ด้วยการอนุมัติเพียงครั้งเดียวจากฝ่ายใดฝ่ายหนึ่งเนื่องจากเหตุผลดังต่อไปนี้:"
+
+#: dynamic-account-permissions-PO.php:179
+#, fuzzy
+#| msgid ""
+#| "Neither account can act without the other and thus nothing can be accomplished.</li>\n"
+#| "<li><?php echo _("
+msgid "Neither account can act without the other and thus nothing can be accomplished."
+msgstr "ทั้งสองบัญชีไม่สามารถกระทำใดได้ หากไม่มีบัญชีอื่น."
+
+#: dynamic-account-permissions-PO.php:180
+msgid ""
+"Cycles don’t have to be direct as in this case, they can involve arbitrarily long sequences and thus be non-obvious."
+msgstr "วงจรไม่จำเป็นต้องตรงกับกรณีนี้ ซึ่งสามารถเกี่ยวข้องกับ ลำดับ โดยไม่เจาะจง จึงทำให้ไม่ชัดเจน."
+
+#: dynamic-account-permissions-PO.php:181
+msgid ""
+"If users create an approval cycle in the <em>active authority</em> then the <em>owner authority</em> can be used to "
+"break the cycle.\n"
+"However, if they construct a cycle in the <em>owner authority</em> and the <em>active authority</em> then the accounts "
+"involved in the cycle would be locked out."
+msgstr ""
+"หากผู้ใช้สร้างวงจรการอนุมัติในหน่วยงานที่ใช้งานอยู่ สิทธิ์ในการเป็นเจ้าของจะถูกนำมาใช้เพื่อแยกวงจรการทำงานนั้น \n"
+"อย่างไรก็ตาม หากพวกเขาสร้างวงจรในอำนาจของเจ้าของ และผู้มีอำนาจที่ใช้งานแล้วบัญชีที่เกี่ยวข้องในวงจรนั้น จะถูกล็อคออก."
+
+#: dynamic-account-permissions-PO.php:183
+msgid "In practice client software can detect cycles and prevent them from being formed."
+msgstr "ในทางปฏิบัติซอฟต์แวร์ไคลเอ็นต์ สามารถตรวจจับวงจร และป้องกันไม่ให้เกิดขึ้น."
+
+#: dynamic-account-permissions-PO.php:186
+msgid "Conclusion"
+msgstr "ข้อสรุป"
+
+#: dynamic-account-permissions-PO.php:187
+msgid ""
+"Dynamic hierarchical threshold multi-signature permissions provides people and organizations with a more natural way\n"
+"to express ownership and control policies. This approach makes the system easier to use, and ultimately more secure "
+"than existing solutions."
+msgstr ""
+"การอนุญาตให้ใช้ลายเซ็นแบบหลายระดับ แบบไดนามิก นี้ช่วยให้ผู้คนและองค์กร ใกล้เคียงกับโลกความเป็นจริงสะดวก\n"
+"และง่ายในการแสดงความเป็นเจ้าของ และนโยบายการควบคุม ซึ่งวิธีนี้ทำให้ระบบใช้งานง่ายขึ้น และยังเป็นวิธีที่ปลอดภัยกว่าโซลูชันที่มีอยู่ในปัจจุบัน."
+
+#: dynamic-account-permissions-PO.php:190
+msgid "Credits"
+msgstr "อ้างอิง"
+
+#: dynamic-account-permissions-PO.php:191
+msgid ""
+"The Ripple wiki documents a <a href='https://developers.ripple.com/multi-signing.html' target='_blank'>similar "
+"Multisign feature</a>, which was discovered independently however was not implemented until more recently."
+msgstr ""
+"เอกสารจาก  Ripple wiki แต่ยังไม่ได้ดำเนินการ <a href=‘https://developers.ripple.com/multi-signing.html' "
+"target=‘_blank’>ข้อเสนอสำหรับคุณสมบัติ Multisign</a> ที่คล้ายคลึงกัน ที่ถูกค้นพบ."

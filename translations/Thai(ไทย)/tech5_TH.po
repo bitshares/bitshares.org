@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-22 13:04+0700\n"
+"PO-Revision-Date: 2019-04-22 13:09+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: Technology\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: named-accounts-PO.php\n"
+
+#: named-accounts-PO.php:39
+msgid "Transferable Named Accounts"
+msgstr "บัญชีที่สามารถเป็นชื่อได้"
+
+#: named-accounts-PO.php:40
+msgid "Easy and secure transactions"
+msgstr "การทำธุรกรรมที่ง่ายและปลอดภัย"
+
+#: named-accounts-PO.php:53
+msgid "Price:"
+msgstr "ราคา:"
+
+#: named-accounts-PO.php:55
+msgid "Market Cap:"
+msgstr "มูลค่าตลาด:"
+
+#: named-accounts-PO.php:57
+msgid "Volume (24h):"
+msgstr "ปริมาณ (24ชม.):"
+
+#: named-accounts-PO.php:64
+msgid ""
+"Named accounts allow you to easily remember and communicate your account information with security. We don't use IP addresses to "
+"browse the internet or numbers to identify our email, so why shouldn't we have human-friendly account names for our blockchain "
+"transactions?"
+msgstr ""
+"บัญชีที่มีชื่อง่ายต่อการจดจำ และสื่อสารข้อมูลภายในบัญชีของพวกเขาได้อย่างง่ายดาย  เราไม่ใช้ IP addresss เพื่อเข้าใช้งานอินเทอร์เน็ต "
+"หรือใช้หมายเลขเพื่อระบุตัวตนหรืออีเมลของเรา ดังนั้นทำไมเราจะไม่สามารถที่จะมีชื่อบัญชีที่ ง่ายต่อการจดจำ ง่ายสำหรับธุรกรรมทางการเงินของเรา?"
+
+#: named-accounts-PO.php:65
+msgid ""
+"Every BitShares blockchain account is assigned a globally unique name that can be selected by its creator. There are many uses for "
+"named accounts beyond security and simply being an alias to a set of <a href='../technology/dynamic-account-permissions' "
+"target='_blank'>dynamic account permissions</a>. They can be used as user logins or even mapped to your domain name. Named accounts "
+"are also transferable, which means a name can become valuable in its own right."
+msgstr ""
+"ทุกบัญชี BitShares ได้รับการกำหนดชื่อที่ไม่ซ้ำกันทั่วโลกที่ผู้สร้างสามารถเลือกได้ มีความเป็นไปได้มากมายที่จะใช้ชื่อบัญชี นอกเหนือจากการเป็นเพียงนามแฝง "
+"สำหรับสิทธิ์การเข้าถึง <a href=‘../technology/dynamic-account-permissions’ target=‘_blank’>บัญชีแบบไดนามิก</a> สามารถใช้เป็นชื่อล็อกอินของผู้ใช้ หรือ "
+"ใช้ร่วมกับชื่อโดเมน ชื่อเหล่านี้สามารถถ่ายโอนได้ ซึ่งหมายความว่า คุณมีสิทธิจะเลือกชื่อบัญชีของตนเองที่หลากหลาย."
+
+#: named-accounts-PO.php:66
+msgid ""
+"BitShares blockchain defines a simple algorithm to determine the fee it charges to reserve a new account name. Names that contain a "
+"number or dash '-', are longer than 8 characters, or contain no vowels are essentially free. Otherwise the name is priced according "
+"to its length. BitShares has the power to adapt to market demands by allowing <a href='../technology/delegated-proof-of-stake-"
+"consensus' target='_blank'>delegates</a> to propose a different fee for each length."
+msgstr ""
+"BitShares blockchain กำหนดอัลกอริทึมอย่างง่าย เพื่อกำหนดค่าธรรมเนียมที่จะเรียกเก็บเพื่อจองชื่อบัญชีใหม่ ชื่อบัญชีจำเป็นต้องมีตัวเลข ผสมอยู่ด้วย "
+"และมีความยาวรวมแล้วมากกว่า 8 ตัวอักษร หรือไม่มีเสียงสระ มิฉะนั้นชื่อบัญชีนั้นๆจะมีราคาตามความยาวของมัน ผู้ใช้สามารถเสนอค่าธรรมเนียมที่แตกต่างกันสำหรับแต่ละความยาว "
+"ซึ่งทำให้ BitShares มีอำนาจใน<a href=‘../technology/delegated-proof-of-stake-consensus’ target=‘_blank’>การปรับ</"
+"a>ให้เข้ากับความต้องการของตลาด."
+
+#: named-accounts-PO.php:68
+msgid "Transferring Names"
+msgstr "การโอนย้ายชื่อ"
+
+#: named-accounts-PO.php:69
+#, fuzzy
+#| msgid ""
+#| "BitShares blockchain ensures security for named account transfers by updating the permissions used to control them. In the "
+#| "context of web-of-trust however, the semantics of transferring an account are slightly different. Named account holders need a "
+#| "means to update their keys for security purposes while maintaining their standing in the web-of-trust. Users must be given a way "
+#| "to explicitly transfer a BitShares account name to a new user while breaking any liability for how the account is used in the "
+#| "future.:) ?></p>\n"
+#| "          <p><?php echo _("
+msgid ""
+"BitShares blockchain ensures security for named account transfers by updating the permissions used to control them. In the context "
+"of web-of-trust however, the semantics of transferring an account are slightly different. Named account holders need a means to "
+"update their keys for security purposes while maintaining their standing in the web-of-trust. Users must be given a way to "
+"explicitly transfer a BitShares account name to a new user while breaking any liability for how the account is used in the future."
+msgstr ""
+"สามารถโอนบัญชีได้โดยอัปเดตการอนุญาตที่ใช้ในการควบคุมบัญชี อย่างไรก็ตาม ความหมายของการถ่ายโอนบัญชี มีความแตกต่างกันเล็กน้อยในรูปแบบของ web-of-trust ได้ "
+"โดยผู้ใช้จำเป็นต้องมีวิธีการอัปเดตคีย์ของพวกเขา เพื่อวัตถุประสงค์ด้านความปลอดภัย ในขณะที่ยังคงอยู่ในรูปแบบของ web-of-trust ที่เชื่อถือได้ กล่าวอีกอย่างหนึ่งคือ "
+"ผู้ใช้จะต้องได้รับวิธีการโอนชื่อบัญชีให้กับผู้ใช้ใหม่อย่างชัดเจน ในขณะที่ต้องรับผิดชอบต่อการใช้บัญชีนั้นๆ ในอนาคต."
+
+#: named-accounts-PO.php:70
+msgid ""
+"When a BitShares blockchain user transfers an account name, they use a special transaction that clears all of the links in the web-"
+"of-trust. This protects both the buyer and the seller, because simply updating the key that controls a named account does not "
+"signify a legal change in ownership."
+msgstr ""
+"เมื่อผู้ใช้ถ่ายโอนชื่อบัญชีไปยังผู้ใช้รายอื่น พวกเขาจะใช้ธุรกรรมพิเศษที่สามารถล้างลิงก์ทั้งหมดใน web-of-trust ได้ ทั้งสองฝ่ายระหว่าง ผู้ซื้อและผู้ขาย "
+"สามารถป้องกันข้อมูลของตนเองได้ เพราะเพียงแค่อัปเดตรหัสที่ควบคุมบัญชี ที่มีชื่ออยู่นั้น ไม่ได้หมายถึงการเปลี่ยนแปลงการเป็นเจ้าของในบัญชี."
