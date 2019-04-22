@@ -1,0 +1,439 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-22 12:23+0700\n"
+"PO-Revision-Date: 2019-04-22 12:53+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: Technology\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: decentralized-asset-exchange-PO.php\n"
+
+#: decentralized-asset-exchange-PO.php:41
+msgid "Decentralized Asset Exchange"
+msgstr "ซื้อขายสินทรัพย์แบบ Decentralized"
+
+#: decentralized-asset-exchange-PO.php:42
+msgid "A fast and fluid trading platform"
+msgstr "รูปแบบการซื้อขายที่รวดเร็วและโปร่งใส"
+
+#: decentralized-asset-exchange-PO.php:55
+msgid "Price:"
+msgstr "ราคา:"
+
+#: decentralized-asset-exchange-PO.php:57
+msgid "Market Cap:"
+msgstr "มูลค่าตลาด:"
+
+#: decentralized-asset-exchange-PO.php:59
+msgid "Volume (24h):"
+msgstr "ปริมาณ(24ชม.):"
+
+#: decentralized-asset-exchange-PO.php:66
+msgid "Background"
+msgstr "เบื้องหลัง"
+
+#: decentralized-asset-exchange-PO.php:67
+msgid ""
+"BitShares blockchain provides a dApp in the form of a high-performance decentralized exchange. Referred to as simply the 'DEX', it "
+"has all the features you would expect from a trading platform. It can handle the trading volume of the NASDAQ, whilst settling "
+"orders instantly. With this kind of performance on a decentralized exchange, who needs risky centralized exchanges?"
+msgstr ""
+"BitShares blockchain มอบประสิทธิภาพสูงสุดของ dApp ระบบ decentralized exchange เพื่อการเทรดดิ้งที่สมบูรณ์แบบด้วย ‘DEX’ สิ่งที่คุณมองหาจากการเทรด "
+"ระบบสามารถรองรับคำสั่งซื้อขายปริมาณมาก ระดับตลาดหุ้นอย่าง แนสแด็ก สามารถประมวลผลคำสั่งสำเร็จภายในไม่กี่วินาที จากประสิทธิภาพการทำงานบนระบบ "
+"decentralized exchange ปราศจากการผิดพลาดจากระบบการแลกเปลี่ยนแบบดั่งเดิม?"
+
+#: decentralized-asset-exchange-PO.php:68
+msgid "Throughout history, centralized exchanges have repeatedly been proven unreliable and untrustworthy. Whether it is "
+msgstr "จากอดีต ระบบการแลกเปลี่ยนแบบมีศูนย์กลาง centralized exchanges เป็นบทเรียนที่ตอกย้ำ ถึงความไม่น่าเชื่อถือและความไม่ปลอดภัยของระบบ เช่นที่ผ่านมาใ"
+
+#: decentralized-asset-exchange-PO.php:69
+msgid "or"
+msgstr "หรือ"
+
+#: decentralized-asset-exchange-PO.php:69
+msgid ""
+", many\n"
+"        people have been cheated because they allowed a 3rd party to hold their funds. It doesn’t matter how big they are, or how "
+"many auditors, regulators or insurers are involved, every kind of fraud, abuse, and theft can occur. In the modern financial "
+"system, these transgressions happen all too frequently within centralized banks and exchanges operating across the world. It is "
+"time for a change. Keep reading to learn about the benefits of using the world’s first fully decentralized exchange, built "
+"entirely upon the BitShares blockchain."
+msgstr ""
+"ตัวอย่างผลกระทบและการสูญเสีย จากการถูกบุกรุก เนื่องจากอนุญาตให้บุคคลที่สามสามารถเข้าถึงข้อมูลการเงินในบัญชีได้ การทุจริต การละเมิด "
+"และการโจรกรรมทุกประเภทจึงเกิดขึ้นได้ จากข้อผิดพลาดต่างๆ หรือแม้เพียงเล็กน้อย ในระบบการเงินยุคใหม่นั้น การละเมิด การบุกรุก จะมาจากข้อผิดพลาดเหล่านี้ "
+"ซึ่งมันเกิดขึ้นบ่อยครั้งในระบบการธนาคารที่มีข้อมูลส่วนกลางเพียงแห่งเดียว และตลาดการแลกเปลี่ยนที่ให้บริการอยู่ทั่วโลกที่ยังใช้ระบบเดียวกัน ถึงเวลาของการเปลี่ยนแปลง "
+"เรียนรู้สู่ประสบการณ์ใหม่ของวงการ exchange ระบบการกระจายอำนาจ การกระจายข้อมูล decentralized exchange อย่างเต็มรูปแบบ ระบบแรกในโลกกับ  BitShares "
+"เพื่อปลอดภัยระดับสูงสุด."
+
+#: decentralized-asset-exchange-PO.php:72
+msgid "Decentralized"
+msgstr "การกระจายอำนาจ การกระจายข้อมูล"
+
+#: decentralized-asset-exchange-PO.php:73
+msgid ""
+"Decentralization means BitShares is better protected from failure than other platforms.  When a centralized exchange (CEX) is "
+"compromised, millions of dollars and thousands of users are impacted all at once. In a decentralized system, any attack or failure "
+"impacts only a single user and their funds. As a user, you are in control of your own security, which can be safer than trusting a "
+"centralized entity."
+msgstr ""
+"โดยทั่วไปบริษัทให้สิทธิ์การเข้าถึงบัญชีการเงินของลูกค้า แก่ผู้มีสิทธิ์จัดการบริหารบัญชีได้หลายคน จึงทำให้ความลับของบัญชีผู้ใช้นั้น ต้องมีผู้ร่วมรับผิดชอบในความปลอดภัยหลายบุคคล "
+"คุณอาจเคยได้ยินประโยคนี้ “คนสามคนสามารถเก็บความลับได้ หาก สองคนต้องตายไป” ในความเป็นจริงแล้วระบบ centralized exchanges."
+
+#: decentralized-asset-exchange-PO.php:74
+msgid ""
+"Hacking an individual user or an exchange incurs a fixed cost. The difference is the size of the reward. In most cases, a multi-"
+"million dollar bounty exists for compromising a CEX, so there would be very little benefit in attacking an individual account. "
+"Which means it’s unlikely a lot of effort would be put into hacking a single user’s account. As a user on the BitShares DEX, you "
+"are the only one with access to to your funds, as only you hold the passwords and keys. Safeguarding your keys makes it virtually "
+"impossible for any thief to steal your funds."
+msgstr ""
+"ทุกคนมีส่วนร่วมรับผิดชอบต่อการรักษาความลับที่สำคัญของระบบ เนื่องจากระบบมีข้อมูลร่วมกันอยู่ที่เดียวหากเกิดการบุกรุก เข้าสู่ข้อมูลได้จากบัญชีหนึ่ง ข้อมูลบัญชีอื่นๆ "
+"ที่อยู่ภายในระบบเดียวกัน ก็จะเกิดความเสี่ยงขึ้นโดยปริยาย ด้วยเหตุนี้การเปลี่ยนสู่ decentralized exchange ที่มีการกระจายข้อมูล เพื่อความปลอดภัยสูงสุด "
+"ปราศจากโอกาสการบุกรุก ที่จะส่งผลกระทบต่อบัญชีอื่นๆ ไม่เกิดความเสี่ยงจากผู้ใช้อื่นๆ อีกต่อไป ฉะนั้นการรักษาความลับของคุณ จะก่อให้เกิดปลอดภัยสูงสุด "
+"สำหรับคุณเพียงคนผู้เดียว."
+
+#: decentralized-asset-exchange-PO.php:75
+msgid ""
+"Within any given company, multiple people usually have access to customer funds. As the old expression goes: “Three can keep a "
+"secret if two are dead”. Currently, centralized exchanges depend on multiple people who share the responsibility of guarding the "
+"secret key that controls the funds. If any one of them is compromised, everyone’s funds are put at risk. Which means, being "
+"individually responsible for maintaining your own secrets is the safest option."
+msgstr ""
+"ในหนึ่งบริษัทการกำหนดกฏต่างๆ อาจทำหลายคนจะสามารถเข้าถึงเงินทุนของลูกค้า ดังที่มีคำกล่าวไว้ว่า: “สามคนสามารถเก็บความลับได้หากสองคนนั้นตาย” "
+"ปัจจุบันการแลกเปลี่ยนแบบ centralized ขึ้นอยู่กับหลายคนที่แบ่งปันความรับผิดชอบในการปกป้องรหัสลับที่ควบคุมเงินทุน หากหนึ่งในนั้นถูกบุกรุกเงินของทุกคนจะตกอยู่ในความเสี่ยง "
+"ซึ่งหมายความว่าการรับผิดชอบต่อการรักษาความลับของคุณ เป็นตัวเลือกที่ปลอดภัยที่สุด."
+
+#: decentralized-asset-exchange-PO.php:78
+msgid "Fast, but not too fast"
+msgstr "เร็ว, แต่ยังไม่เร็วพอ"
+
+#: decentralized-asset-exchange-PO.php:79
+msgid ""
+"On the BitShares DEX your trades execute in seconds, just like any centralized website interface. However, unlike centralized "
+"exchanges, there can be no high-frequency trading, front running, or hidden orders. Traders are thus on a level playing field."
+msgstr ""
+"สำหรับ Bitshares DEX ทุกการเทรดของคุณใช้เวลาประมวลผลในเสี้ยววินาที เหมือนกับการเข้าถึงเว็บไซต์ที่มี เซิฟเวอร์เป็นศูนย์กลางโดยทั่วไป centralized website "
+"ซึ่งจะแตกต่างโดยสิ้นเชิงกับ ระบบการแลกเปลี่ยนที่มีศูนย์กลางข้อมูลที่เดียว centralized exchanges ซึ่งไม่สามารถรองรับข้อมูลการเทรดที่มีจำนวนมากในเวลาเดียวกันได้ "
+"ข้อมูลที่ผ่านเข้าสู่ระบบต้องแสดงทั้งด้านหน้า และข้อมูลที่ต้องส่งเป็นความลับ ทำให้ต้องเกิดการแข่งขันแย่งกันของ การรับ-ส่งข้อมูล จึงนำมาสู่ความผิดพลาดได้."
+
+#: decentralized-asset-exchange-PO.php:80
+msgid ""
+"On Wall Street, traders go to great lengths to get as physically close to the exchange systems as possible, because their trading "
+"bots make decisions so quickly. A decentralized exchange is location-neutral, giving everyone an equal opportunity. You can also "
+"setup a local API node - literally bringing the exchange to you."
+msgstr ""
+"การเทรดใน Wall Street นั้น เทรดเดอร์ทั้งหลายจะได้รับการเข้าถึง exchange รวดเร็วที่สุดเท่าที่จะเป็นไปได้ จากการทำงานโดย trading bots "
+"หรือหุ่นยนต์เทรดดิ้งจำนวนมากที่ทำหน้าที่เป็นผู้ช่วยในการตัดสินใจ ซึ่งนั่นเป็นปัจจัยสำคัญมากในความเร็วที่จะเกิดขึ้นกับการเทรดทั้งหมด แต่ decentralized exchange หรือ "
+"การแลกเปลี่ยนแบบกระจายอำนาจ การกระจายข้อมูล นั้นเป็นระบบที่ทำหน้าเป็นตัวกลาง ทำให้ทุกคนมีโอกาสในการเทรดที่รวดเร็ว และเท่าเทียมกันทั้งหมด."
+
+#: decentralized-asset-exchange-PO.php:83
+msgid "Securely Collateralized SmartCoin Reserves"
+msgstr "การสำรอง SmartCoin ปลอดภัยอย่างปลอดภัย"
+
+#: decentralized-asset-exchange-PO.php:84
+msgid ""
+"Every <a href='../technology/price-stable-cryptocurrencies' target='_blank'>Dollar, Euro, Yuan, and ounce of gold held as a "
+"SmartCoin</a> on the BitShares exchange is backed by up to twice the reserves of traditional centralized exchanges. The "
+"traditional banking system has long practiced fractional reserve banking - or as some jokingly call it "
+msgstr ""
+"ทุก <a href=‘../technology/price-stable-cryptocurrencies’ target=‘_blank’>ดอลลาร์, ยูโร, Bitcoin และ ทอง จัดเป็น SmartCoin</a> ภายใน "
+"Bitshares exchange นั้นได้มีการสำรองข้อมูลที่ถูกต้องถึงสองเท่าจากระบบการแลกเปลี่ยนแบบดั่งเดิม centralized exchanges "
+"เปรียบเหมือนระบบธนาคารที่มีการก่อตั้งมาอย่างยาวนานโดยต้องมี เงินสดสำรองธนาคาร ที่ฝากไว้กับธนาคารกลาง เพื่อเป็นหลักประกันความมั่นคงของธนาคาร, ในระบบ "
+"Bitcoin eco-system เราเตรียมการป้องกันสำรองข้อมูลเกินกว่า 100% เพื่อรับกับเหตุการณ์ต่างๆ ที่จะเกิดขึ้นในอนาคตไม่ว่าจะเป็นการ บุกรุกโจรกรรมบัญชีส่วนบุคคล, "
+"ข้อผิดพลาดที่จะเกิดขึ้น, หรือการโจรกรรมในรูปแบบต่างๆ เราสามารถปรับเปลี่ยนสู่ระบบสำรอง 100% ในระยะเวลาที่รวดเร็ว ไม่ส่งผลกระทบใดๆ ต่อบัญชีผู้ใช้ทั้งหมด "
+
+#: decentralized-asset-exchange-PO.php:85
+msgid ""
+"Always maintaining reserves, means you can rest assured that BitShares is solvent in almost any market. All of the reserves are "
+"kept as BTS held on the blockchain. So they cannot be stolen because there are no private keys on-chain that can be compromised to "
+"steal the reserves."
+msgstr ""
+"เงินสำรองทั้งหมดจะถูกเก็บอยู่ในรูปแบบของ BTS ที่ถือครองไว้ใน blockchain โดยไม่มีศูนย์กลางในการเก็บข้อมูลการเงิน แต่เป็นการกระจายข้อมูลทั้งหมดออกไป "
+"จะไม่สามารถถูกโจรกรรมได้เพราะไม่มี private keys (คีย์หรือรหัสส่วนบุคคลที่จะมีเพียงชุดเดียวต่อหนึ่งบัญชี) ที่อาจถูกบุกรุกเพื่อขโมยเงินสำรองเหล่านี้."
+
+#: decentralized-asset-exchange-PO.php:89
+msgid "Low Fees"
+msgstr "ค่าธรรมเนียมต่ำ"
+
+#: decentralized-asset-exchange-PO.php:90
+msgid ""
+"At just fractions of cents per trade*, BitShares is one of the cheapest exchanges around. Other exchanges charge a percentage of "
+"your transaction volume. For a $1000 trade on <a href='https://bitstamp.net' target='_blank'>BitStamp</a> \n"
+"you will pay $5 vs less than even $0.01c (Jan 2019) to make the same trade on the BitShares exchange. The more traditional "
+"exchanges like <a href='https://etrade.com' target='_blank'>E-Trade</a> or <a href='https://www.coinbase.com/' "
+"target='_blank'>Coinbase</a> \n"
+"charge over $5 per trade. Taking these price comparisons into consideration, clearly it doesn’t get any cheaper than BitShares."
+msgstr ""
+"เพียงส่วนหนึ่งต่อการซื้อขาย * ,BitShares เป็นหนึ่งในการซื้อขายแลกเปลี่ยนที่ถูกที่สุด การแลกเปลี่ยนอื่นคิดค่าเปอร์เซ็นต์ของปริมาณธุรกรรมของคุณ สำหรับการเทรด $1,000 "
+"บน <a href=‘https://bitstamp.net’ target=‘_blank’>BitStamp</a> \n"
+"คุณจะต้องจ่าย $5 เมื่อเทียบกันกับเราน้อยกว่า $ 0.01c (ม.ค. 2019) เพื่อทำธุรกรรมเดียวกันกับการแลกเปลี่ยนบน BitShares เทียบการแลกเปลี่ยนแบบดั้งเดิมเช่น <a "
+"href=‘https://etrade.com’ target=‘_blank’>E-Trade</a> หรือ <a href=‘https://www.coinbase.com/' target=‘_blank’>Coinbase</a>\n"
+" มีค่ามากกว่า $5 ต่อการเทรด พิจารณาเปรียบเทียบราคาเหล่านี้อย่างชัดเจนว่าไม่มีเจ้าไหนราคาถูกกว่า BitShares."
+
+#: decentralized-asset-exchange-PO.php:93
+msgid "* on SmartCoin pairs. Trading fees for User-issued assets may vary"
+msgstr "* บน SmartCoin ค่าธรรมเนียมการซื้อขายสำหรับสินทรัพย์ที่ผู้ใช้ออกอาจแตกต่างกัน"
+
+#: decentralized-asset-exchange-PO.php:95
+msgid "Trade Almost Anything"
+msgstr "เทรดได้ทุกอย่าง"
+
+#: decentralized-asset-exchange-PO.php:96
+msgid ""
+"You can trade in Gold, Silver, Gas, and Oil in addition to your national currency and cryptocurrencies. Few limits exist on what "
+"can be traded on the exchange, given enough interest. The BitShares DEX can support assets that track stocks, bonds, indexes, or "
+"inflation. Companies can issue a stock alternative or placeholder (IOU) on the BitShares DEX for easy, low-cost distribution with "
+"complete protection against naked shorting. Name another cryptocurrency exchange allows you to trade in gold and silver? "
+msgstr ""
+"คุณสามารถเทรดได้หลากหลายไม่ว่าจะเป็น ทอง เงิน แก๊ส และน้ำมัน ในสกุลเงินของประเทศคุณ และสกุลเงินคริปโต ไม่มีข้อจำกัดใดๆ BitShares Dex "
+"และอนุญาตให้มีการซื้อขายแบบง่ายๆ ต้นทุนต่ำ หรือจะเป็นการลงทุนในรูปแบบ(lOU) และมีการป้องกันที่สมบูรณ์แบบ การขายโดยไม่มีหุ้นในมือที่จะส่งมอบ สกุลเงินคริปโตอื่นๆ "
+"ให้คุณสามารถค้าทอง และเงินได้หรือไม่?"
+
+#: decentralized-asset-exchange-PO.php:98
+msgid ""
+"<a href='/technology/price-stable-cryptocurrencies' target='_blank'>Learn more</a> about how BitShares creates trust-free digital "
+"assets pegged to almost anything."
+msgstr ""
+"<a href=‘/technology/price-stable-cryptocurrencies’ target=‘_blank’>มาเรียนรู้เพิ่มเติม</a>เกี่ยวกับวิธีที่ BitShares "
+"สร้างความเชื่อมั่นในสินทรัพย์ดิจิทัลมากกว่าสกุลเงินคริปโตอื่นๆ."
+
+#: decentralized-asset-exchange-PO.php:101
+msgid "Roles of an Exchange"
+msgstr "กฎของการแลกเปลี่ยน"
+
+#: decentralized-asset-exchange-PO.php:102
+msgid "The roles that traditional exchanges perform today encompass:"
+msgstr "บทบาทของการแลกเปลี่ยนแบบดั้งเดิมที่ดำเนินไปในวันนี้ประกอบด้วย:"
+
+#: decentralized-asset-exchange-PO.php:105
+msgid "Receiving cryptocurrency and issuing IOUs."
+msgstr "การรับ cryptocurrency และการออก IOUs."
+
+#: decentralized-asset-exchange-PO.php:106
+msgid "Receiving fiat and issuing IOUs."
+msgstr "การรับ เงินกระดาษ และการออก IOUs."
+
+#: decentralized-asset-exchange-PO.php:107
+msgid "Processing an order book."
+msgstr "ดำเนินการ รายการสั่งซื้อ."
+
+#: decentralized-asset-exchange-PO.php:108
+msgid "Redeeming IOUs."
+msgstr "แลกเปลี่ยน IOUs."
+
+#: decentralized-asset-exchange-PO.php:111
+msgid ""
+"Each of these stages requires a high degree of trust and direct counterparty risk, because they involve an IOU from the exchange. "
+"To get the best liquidity and lowest spreads requires a large and active order book, and this means that most people gravitate "
+"toward a few core exchanges, leaving everyone exposed to the same counterparty risk."
+msgstr ""
+"ในแต่ละขั้นตอนทั้งหมดนี้ จำเป็นต้องมีความน่าเชื่อถือในระดับสูง เพื่อลดความเสี่ยงจากการบิดพลิ้วของคู่ สัญญาฝ่ายใดฝ่ายหนึ่งโดยตรง เนื่องจากเกี่ยวข้องกับ IOU จากการ "
+"exchange เพื่อให้มีสภาพคล่องที่ดีที่สุด และค่าธรรมเนียมที่ต่ำที่สุดของการเทรดทุก order ในปริมาณที่มากและใช้งานได้ทั้งหมด และนั่นหมายความว่าคนส่วนใหญ่จะมองไปหา "
+"exchange หลักแต่เพียงอย่างเดียว ทำให้ทุกคนมีความเสี่ยงจากคู่สัญญาเดียวกัน."
+
+#: decentralized-asset-exchange-PO.php:113
+msgid ""
+"Moving money into or out of an exchange often incurs a significant time delay, which means that active traders must keep their "
+"funds on the exchange. This magnifies the amount of risk to\n"
+"  users of the exchange. It also magnifies the risk to all users in the cryptocurrency ecosystem. Each large security breach "
+"results in significant sell pressure, from both the thief looking to\n"
+"  cash in their loot, and from regular users hoping to sell before the thief."
+msgstr ""
+"การโอนย้ายเงินเข้าหรือออกจาก exchange เกิดปัญหาความล่าช้าอยู่เสมอ นั้นเป็นจุดเริ่มเล็กน้อยที่ทำให้ เทรดเดอร์ จะต้องพักเงินไว้ใน exchange นี้ชั่วระยะเวลาหนึ่ง "
+"เป็นผลทำให้ขยายจำนวนของความเสี่ยง \n"
+"ต่อผู้ใช้ใน exchange นั้นๆ นอกจากนั้นแล้วยังส่งผลให้เกิดความเสี่ยงต่อผู้ใช้โดยรวม ของสกุลเงินคริปโตนั้นด้วย \n"
+"ท้ายที่สุดแรงกดดันเกิดขึ้นในหลายด้าน ทำให้มีการเทขาย, เพื่อลดอัตราความเสี่ยงในสกุลเงินคริปโต."
+
+#: decentralized-asset-exchange-PO.php:118
+msgid "Centralization Compromises Privacy"
+msgstr "ศูนย์รวมความเป็นส่วนตัว"
+
+#: decentralized-asset-exchange-PO.php:119
+msgid ""
+"Cryptocurrencies depend upon a public ledger, which makes privacy challenging because everyone can see every transaction. Bitcoin "
+"gives every user one or more account numbers, and that\n"
+"  gives many people a false sense of security. People assume as long as nobody knows your account number and you use a new account "
+"number with every transaction, nobody can tie\n"
+"  all of your bitcoin transactions to your real identity."
+msgstr ""
+"ความเป็นส่วนตัว เป็นเรื่องท้าทายในการเก็บรักษาของ สกุลเงินคริปโต เพราะการทำธุรกรรมทุกบัญชีเปิดเผยต่อสาธารณะชน Bitcoin จะให้ผู้ใช้มีบัญชีได้ตั้งแต่หนึ่งบัญชีขึ้นไป\n"
+" และนั้นทำให้หลายคนรู้สึกถึงความปลอดภัย หลายคนมักคิดว่าตราบเท่าที่ไม่มีใครรู้หมายเลขบัญชีของคุณ\n"
+" และคุณใช้หมายเลขบัญชีใหม่ในการทำธุรกรรมทุกครั้ง ก็จะไม่มีใครสามารถโยงความสัมพันธ์ระหว่าง bitcoins ทั้งหมดของคุณ กับตัวตนในชีวิตจริงของคุณได้."
+
+#: decentralized-asset-exchange-PO.php:123
+msgid ""
+"This is where the large centralized exchanges become a problem. In order to comply with government regulations, exchanges must "
+"know everyone they do business with. Since many bitcoin\n"
+"  transactions flow through an exchange, the exchange learns who everyone is and can start to track who is doing business with "
+"whom.  <a href='https://www.cryptocoinsnews.com/coinbase-bringing-big-brother-bitcoin-accounts/' target='_blank'>Coinbase have "
+"been known to close accounts</a> based upon who you do business with after withdrawing your bitcoins."
+msgstr ""
+"ซึ่งนั้นกลายมาเป็นปัญหาใหญ่ของระบบ centralized exchanges  เพื่อให้เป็นไปตามข้อบังคับของรัฐบาล ระบบ exchanges ต้องมีข้อมูลยืนยันตัวบุคคลที่อยู่ในระบบทุกคน "
+"เนื่องจากการทำธุรกรรมของ Bitcoin \n"
+"ผ่าน exchange โดยตรงจึงทำให้ระบบ exchange เรียนรู้ได้ว่าใครเป็นใคร และสามารถเริ่มติดตามว่าใครทำธุรกรรมกับใครบ้าง <a href=‘https://www."
+"cryptocoinsnews.com/coinbase-bringing-big-brother-bitcoin-accounts/' target=‘_blank’>Coinbase ทำการปิดบัญชี</"
+"a>ตามที่คุณทำธุรกิจด้วยหลังจากถอน bitcoin ของคุณ."
+
+#: decentralized-asset-exchange-PO.php:126
+msgid ""
+"In order to have even the slightest bit of privacy, the exchange functionality needs to be divided among hundreds of parties who "
+"are unlikely to collude to compromise identity. This is not\n"
+"  economically practical today, because the exchange order book creates market incentives that naturally tend toward "
+"centralization in just a few exchanges with the vast majority of market share."
+msgstr ""
+"เพื่อให้เกิดความเป็นส่วนตัวขึ้นเพียงเล็กน้อย ฟังก์ชันการแลกเปลี่ยนจะต้องแบ่งแยกออกจากกันของผู้ที่มีความเห็นที่แตกต่าง นี้จะไม่เกิดประโยชน์ทางเศรษฐกิจในวันนี้, \n"
+"เนื่องจาก รายการสั่งซื้อของการเทรด ภายใน exchange จะสร้างแรงจูงใจในตลาดที่มีแนวโน้มขยายขึ้นตามธรรมชาติการรวมศูนย์กลาง เป็นเพียงส่วนเล็กน้อยใน exchange "
+"จากส่วนแบ่งการตลาดทั้งหมดเท่านั้น."
+
+#: decentralized-asset-exchange-PO.php:131
+msgid "Separation of Powers"
+msgstr "การแบ่งแยกอำนาจ"
+
+#: decentralized-asset-exchange-PO.php:132
+msgid ""
+"There is no reason why the same entity needs to be responsible for issuing IOUs and for processing the order book. It is only "
+"because these two roles are combined that we have a tendency\n"
+"  toward centralization in the Bitcoin exchange space. If we want to create a decentralized exchange then the first step is to "
+"move the order book on to the blockchain where everyone can see it."
+msgstr ""
+"ไม่มีเหตุผลใดที่ entity เดียวกันต้องรับผิดชอบในการออก IOUs และสำหรับการประมวลผล รายการสั่งซื้อหนังสือ เพียงเพราะบทบาททั้งสองนี้ถูกรวมเข้าด้วยกัน \n"
+"ซึ่งเรามีแนวโน้มที่จะรวมศูนย์กลางในพื้นที่แลกเปลี่ยน Bitcoin ถ้าเราต้องการสร้างการแลกเปลี่ยนแบบกระจายอำนาจ decentralized exchange  "
+"ขั้นตอนแรกคือการย้ายรายการสั่งซื้อไปยัง blockchain ซึ่งทุกคนสามารถเห็นได้."
+
+#: decentralized-asset-exchange-PO.php:136
+msgid ""
+"In this model, exchanges merely act as gateways that receive USD and issue GatewayUSD on the blockchain. Later, they receive "
+"GatewayUSD and then execute a wire transfer. They will make their\n"
+"  money entirely on transaction fees and not from a percentage of market fees."
+msgstr ""
+"ในโมเดลนี้ exchange จะเป็นเพียงท่างผ่านที่จะมารองรับ USD และออก GatewayUSD บน blockchain เท่านั้น เมื่อได้รับ GatewayUSD \n"
+"และทำการประมวลผลพร้อมกับบันทึก พวกเขาจะสามารถทำเงินทั้งหมดได้จากค่าธรรมเนียมในการทำธุรกรรม และซึ่งไม่ได้มาจากอัตราของค่าธรรมเนียมการตลาด."
+
+#: decentralized-asset-exchange-PO.php:139
+msgid ""
+"The blockchain allows users to trade, for example, BitstampUSD against BitfinexUSD, in order to easily move funds from one gateway "
+"to another. Users could even trade BitstampUSD against\n"
+"  BitstampBTC or BitstampUSD vs BitfinexBTC."
+msgstr ""
+"Blockchain ช่วยให้ผู้ใช้สามารถเทรดได้หลากหลาย ตัวอย่างเช่น BitstampUSD กับ BitfinexUSD เพื่อที่จะสามารถเคลื่อนย้ายเงินจาก สกุลเงินหนึ่งไปยังอีก "
+"สกุลเงินหนึ่งได้อย่างง่ายดาย ผู้ใช้ยังสามารถทำการเทรด\n"
+" BitstampUSD กับ BitstampBTC หรือ BitstampUSD กับ BitfinexBTC."
+
+#: decentralized-asset-exchange-PO.php:142
+msgid ""
+"Unfortunately, simply moving the order book to the blockchain is not enough, because the market will naturally centralize around a "
+"few <a href='../technology/user-issued-assets' target='_blank'>gateway IOUs</a>\n"
+"  and the markets for them. BitstampUSD is not fungible with BitfinexUSD because they have different trust profiles and regulatory "
+"considerations. Any of these IOUs are subject to default\n"
+"  just like the IOUs that currently exist on the exchanges` internal databases. What we need to do is move the trust from "
+"individual issuers to the blockchain itself."
+msgstr ""
+"แต่เป็นที่น่าเสียดายหากเพียงแค่ย้ายรายการสั่งซื้อไปยัง blockchain นั้นยังไม่เพียงพอ, เนื่องจากตลาดจะรวบรวม <a href=‘../technology/user-issued-assets’ "
+"target=‘_blank’>เกตเวย์ IOUs</a> \n"
+"และตลาดโดยรอบสำหรับตัวเอง BitstampUSD ไม่สามารถใช้งานร่วมกับ BitfinexUSD ได้เนื่องจากมีรูปแบบความเชื่อถือที่แตกต่างกันและการพิจารณาด้านกฎระเบียบ ซึ่ง "
+"IOUs\n"
+" เหล่านี้อาจมีประเภทเดียวกับ IOUs ที่มีอยู่ในฐานข้อมูลภายในของ exchange สิ่งที่เราต้องทำก็คือ การเพิ่มความไว้วางใจจาก ผู้ออกตราสารหนี้แต่ละรายไปยัง blockchain."
+
+#: decentralized-asset-exchange-PO.php:146
+msgid "Collateralized Blockchain IOUs"
+msgstr "ค้ำประกัน Blockchain IOUs"
+
+#: decentralized-asset-exchange-PO.php:149
+msgid ""
+"When you hold BitUSD, the value of your holdings will remain pegged to the dollar so long as BitShares itself has reasonable "
+"volatility. Reasonable volatility in this case means that it can\n"
+"  handle greater volatility than Bitcoin has ever seen in its lifetime. The price of BitShares would have to fall to less than 1/3 "
+"its starting price in less than 24 hours and then stay there.\n"
+"  No legitimate, widely adopted cryptocurrency has ever seen that kind of price movement. This means that BitUSD is secure against "
+"just about everything but an unfixable software bug, and BitShares\n"
+"  bug in the BitShares protocol itself. By the time BitShares matures to the level Bitcoin is at today, we expect the probability "
+"of that kind of bug to be similar to that of Bitcoin having such an event."
+msgstr ""
+"เมื่อคุณถือ BitUSD มูลค่าของการถือครองของคุณจะยังคงตรึงอยู่กับเงินดอลลาร์ตราบเท่าที่ BitShares มีความผันผวนที่สมเหตุสมผล "
+"ความผันผวนที่สมเหตุสมผลในกรณีนี้หมายความว่า จะสามารถรับมือกับความผันผวนได้มากกว่าชั่วอายุที่ถือกำเนิดของ Bitcoin ราคาของ BitShares จะลดลงเหลือน้อยกว่า 1/3 "
+"ของราคาเริ่มต้นในเวลาไม่ถึง 24 ชั่วโมงและคงที่อยู่แบบนั้น \n"
+"เป็นสิ่งไม่ถูกต้อง ไม่สามารถยอมรับกันได้ในวงการสกุลเงินคริปโต กับการเคลื่อนไหวของราคานั้น \n"
+"ซึ่งหมายความว่า BitUSD สามารถป้องกันได้ทุกอย่าง ยกเว้นข้อบกพร่องของซอฟต์แวร์ ที่ไม่สามารถตอบสนองได้ในโปรโตคอล BitShares\n"
+" เมื่อถึงเวลา BitShares จะไต่ระดับถึงค่าเดียวกับ Bitcoin ในวันนี้ เราคาดการณ์ว่าข้อบกพร่องประเภทนี้ จะคล้ายกับ Bitcoin ที่เคยมีเหตุการณ์ดังกล่าวมาแล้ว."
+
+#: decentralized-asset-exchange-PO.php:154
+msgid "Global Unified Order Book"
+msgstr "คำสั่งซื้อ Global Unified"
+
+#: decentralized-asset-exchange-PO.php:155
+msgid ""
+"Once the market adopts BitUSD and BitBTC as more reliable and decentralized alternatives to BitstampUSD and BitfinexBTC, you will "
+"see the majority of trading volume move toward\n"
+"  BitUSD vs BitBTC. The only time someone would want to move from BitUSD to BitstampUSD is when they are in the process of "
+"withdrawing to the traditional banking system."
+msgstr ""
+"เมื่อเป็นที่รู้จักมาขึ้นระหว่าง BitUSD และ BitBTC จะเป็นทางเลือกใหม่ที่เชื่อถือได้ในการเทรดและกระจายไปยัง BitstampUSD และ BitfinexBTC ตามลำดับ \n"
+"คุณจะเห็นคนส่วนใหญ่จะเทปริมาณการซื้อขายย้ายไป BitUSD และ BitBTC และจะเห็นการแปลงจาก BitUSD ไปยัง BitstampUSD "
+"เมื่อตอนที่พวกเขาต้องการถอนเงินไปยังระบบธนาคารแบบดั้งเดิมเท่านั้น."
+
+#: decentralized-asset-exchange-PO.php:158
+msgid ""
+"The impact of a global unified order book is to end all arbitrage opportunities, minimize spreads, and maximize liquidity. By "
+"having the trades executed on the BitShares network, we also\n"
+"  eliminate high-frequency trading and front running. High frequency trading and front running depend upon centralized exchanges "
+"with high volume and deep markets. When the vast majority of\n"
+"  trading activity moves to a decentralized, trust-free exchange, the remaining centralized exchanges become much less appealing "
+"to high-frequency traders."
+msgstr ""
+"ผลกระทบของคำสั่งซื้อต่อเนื่องทั่วโลก คือ การสิ้นสุดของโอกาสการเก็งกำไรทั้งหมด ค่าธรรมเนียมการเทรดที่น้อยที่สุด และสภาพคล่องที่จะเพิ่มขึ้นสูงสุด "
+"เมื่อมีการซื้อขายบนเครือข่าย\n"
+" BitShares นอกจากนี้เรายังลดการซื้อขายด้วยการเทรดที่มีความถี่สูง และการทำงานด้านหน้า การเทรดดิ้งที่มีความถี่สูง \n"
+"และการวิ่งขึ้นลงอยู่กับ การแลกเปลี่ยนแบบมีศูนย์กลาง กับตลาดที่มีปริมาณมากและตลาดเชิงลึก."
+
+#: decentralized-asset-exchange-PO.php:162
+msgid "BitUSD to USD Gateways"
+msgstr "BitUSD แปลงเป็น USD เกตเวย์"
+
+#: decentralized-asset-exchange-PO.php:163
+msgid ""
+"Many gateways prefer the low-risk approach of one-for-one redemption and will simply allow the GatewayUSD to float against BitUSD "
+"with a small but variable spread in the market. Users then\n"
+"  pay a small variable conversion cost as they exit from BitUSD to fiat USD through GatewayUSD."
+msgstr ""
+"เกตเวย์หลายแห่ง เสนอวิธีการลดความเสี่ยง ความเสี่ยงต่ำสำหรับการไถ่ถอน แบบหนึ่งต่อหนึ่ง และจะช่วยให้ GatewayUSD ลอยตัวกับ BitUSD "
+"จะส่งผลให้เกิดกระแสผันผวนเล็กน้อยในตลาด \n"
+"จากนั้นผู้ใช้จะต้องจ่ายค่าธรรมเนียมเล็กน้อย เมื่อแปลงจาก BitUSD ไปเป็น USD ผ่าน GatewayUSD."
+
+#: decentralized-asset-exchange-PO.php:166
+msgid ""
+"On the other hand, many users will want a direct conversion from BitUSD to fiat USD. In this mode of operation, the gateway takes "
+"care of providing all of the liquidity within a fixed\n"
+"  percentage transaction fee. The gateways then compete on offering the lowest possible spread."
+msgstr ""
+"ในทางกลับกันผู้ใช้จำนวนมากต้องการแปลงจาก BitUSD เป็นสกุลเงิน USD โดยตรง ในโหมดการทำงานนี้เกตเวย์ จะดูแลเรื่องของสภาพคล่องทั้งหมด\n"
+"ภายในค่าธรรมเนียมการทำธุรกรรมคงที่ เกตเวย์จะแข่งขันกับค่าธรรมเนียมในการเทรดที่ต่ำที่สุด."
+
+#: decentralized-asset-exchange-PO.php:169
+msgid ""
+"Once this happens, BitUSD is effectively as good as USD with a small fixed conversion fee. This fee will likely be no more than "
+"the withdraw and deposit fees that current exchanges charge.\n"
+"  At that point, BitShares will be a fully operational exchange with many banking partners providing high liquidity. A truly "
+"decentralized exchange will have been realized, and the original vision of BitShares completed."
+msgstr ""
+"เมื่อเกิดเหตุการณ์เช่นนี้ทิศทางมูลค่าของ BitUSD จะดีขึ้นตามมูลค่าของ USD ด้วยค่าธรรมเนียมการแปลงที่ต่ำ "
+"ค่าธรรมเนียมการแปลงนี้อาจจะไม่เกินค่าธรรมเนียมการเบิกจ่ายและการฝากที่เกิดจาก exchanges \n"
+"ณ จุดนั้น BitShares จะเป็นสกุลเงินที่สมบูรณ์แบบสามารถดำเนินการต่างๆ กับสถาบันการเงินจำนวนมากโดยไม่มีขีดจำกัด เงินฝากของผู้ใช้ "
+"จะปราศจากการสูญเสียที่จะเกิดขึ้นจาก exchange หรือ เกตเวย์ ซึ่งจะการแลกเปลี่ยนแบบกระจายอำนาจ(decentralized exchange)อย่างแท้จริง "
+"เป็นไปตามแบบแผนและวิสัยทัศน์ดั่งเดิมของ BitShares อย่างสมบูรณ์แบบ."
+
+#~ msgid ""
+#~ "The heart of BitShares is the SmartCoin system which enables the creation of 200% collateralized IOUs from the BitShares "
+#~ "network. A BitUSD has all of the properties of Bitcoin combined with the price stability of the US dollar. At any point in time "
+#~ "you can sell a BitUSD for at least 1 dollar worth of BTS. If at any time the value of the collateral falls below a certain "
+#~ "point the blockchain will automatically buy back the BitUSD with a dollars worth of BTS."
+#~ msgstr ""
+#~ "หัวใจของ BitShares คือระบบ SmartCoin ซึ่งช่วยในการสร้าง IOUs ที่มีการค้ำประกัน 200% จากเครือข่าย BitShares BitUSD มีคุณสมบัติทั้งหมดของ Bitcoin "
+#~ "รวมกับเสถียรภาพด้านราคาของเงินดอลลาร์สหรัฐฯ \n"
+#~ "ณ เวลาใดเวลาหนึ่งคุณสามารถขาย BitUSD สำหรับ BTS อย่างน้อย 1 เหรียญ หากมูลค่าของหลักประกันลดลงต่ำกว่าจุดใดจุดหนึ่ง \n"
+#~ "blockchain จะซื้อ BitUSD โดยอัตโนมัติโดยมีมูลค่าเท่ากับ BTS ของ BTS."

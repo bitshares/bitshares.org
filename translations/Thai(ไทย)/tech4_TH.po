@@ -1,0 +1,438 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-22 12:47+0700\n"
+"PO-Revision-Date: 2019-04-22 13:01+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: Technology\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: industrial-performance-scalability-PO.php\n"
+
+#: industrial-performance-scalability-PO.php:38
+msgid "Industrial Performance and Scalability"
+msgstr "ประสิทธิภาพทางอุตสาหกรรม และการขยายขีดความสามารถ"
+
+#: industrial-performance-scalability-PO.php:39
+msgid "Graphene is capable of 100,000 TPS when we pay for the network to go with it"
+msgstr "Graphene มีความสามารถ 100,000 TPS เมื่อเราจ่ายเงินให้เครือข่ายเพื่อก้าวไปกับมัน"
+
+#: industrial-performance-scalability-PO.php:51
+msgid "Price:"
+msgstr "ราคา:"
+
+#: industrial-performance-scalability-PO.php:53
+msgid "Market Cap:"
+msgstr "มูลค่าตลาด:"
+
+#: industrial-performance-scalability-PO.php:55
+msgid "Volume (24h):"
+msgstr "ปริมาณ (24ชม.):"
+
+#: industrial-performance-scalability-PO.php:62
+msgid ""
+"Blockchains must have high performance and scalability in order to deliver the speed required of cryptocurrency and smart "
+"contracts. Designing BitShares from the ground up means it can meet demands to process more transactions every second than VISA "
+"and MasterCard combined. Delegated Proof of Stake ensures the BitShares network can confirm transactions in an average of just 1 "
+"second, limited only by the speed of light."
+msgstr ""
+"เทคโนโลยี blockchain ประสิทธิภาพสูงเป็นสิ่งจำเป็น สำหรับ cryptocurrencies และแพลตฟอร์มสัญญาอัจฉริยะ "
+"เพื่อเป็นทางเลือกที่เป็นไปได้สำหรับแพลตฟอร์มการเงินที่มีอยู่ BitShares ได้รับการออกแบบตั้งแต่พื้นฐานจนถึง การประมวลผลธุรกรรมมากขึ้นทุกวินาทีกว่า VISA และ "
+"MasterCard รวมกัน ด้วย Delegated Proof of Stake เครือข่าย BitShares สามารถยืนยันการทำธุรกรรมโดยเฉลี่ยเพียง 1 วินาทีเท่านั้น เทียบเท่ากับความเร็วแสง."
+
+#: industrial-performance-scalability-PO.php:64
+msgid "Overview"
+msgstr "ภาพรวม"
+
+#: industrial-performance-scalability-PO.php:65
+msgid ""
+"To achieve industry-leading performance, BitShares borrowed lessons from the <a href='http://martinfowler.com/articles/lmax.html' "
+"target='_blank'>LMAX Exchange</a>, which is capable of processing 6 million transactions per second. These were the key lesson "
+"points:"
+msgstr ""
+"เพื่อให้บรรลุถึงการเป็นผู้นำในอุตสาหกรรมนี้ BitShares ได้นำเอาบทเรียนที่เรียนรู้จาก <a href=‘http://martinfowler.com/articles/lmax.html' "
+"target=‘_blank’>LMAX Exchange</a> ซึ่งสามารถประมวลผลธุรกรรมได้ 6 ล้านรายการต่อวินาที จากบทเรียนทั้งหมดนั้นมีประเด็นสำคัญดังต่อไปนี้:"
+
+#: industrial-performance-scalability-PO.php:67 industrial-performance-scalability-PO.php:96
+msgid "Keep everything in memory."
+msgstr "เก็บทุกอย่างไว้ในหน่วยความจำ."
+
+#: industrial-performance-scalability-PO.php:68
+msgid "Keep the core business logic in a single thread."
+msgstr "เก็บ logic หลักของธุรกิจไว้ใน thread เดียว."
+
+#: industrial-performance-scalability-PO.php:69
+msgid "Keep cryptographic operations (hashes and signatures) out of the core business logic."
+msgstr "ป้องกันการเข้ารหัสลับ (hashes และ signatures) จาก logic หลักของธุรกิจ."
+
+#: industrial-performance-scalability-PO.php:70
+msgid "Divide validation into state-dependent and state-independent checks."
+msgstr "แบ่งการตรวจสอบออกเป็น การตรวจสอบที่ต้องขึ้นตรง และการตรวจสอบแบบอิสระ."
+
+#: industrial-performance-scalability-PO.php:71
+msgid "Use an object-oriented data model."
+msgstr "ใช้โมเดลข้อมูลเชิงวัตถุ."
+
+#: industrial-performance-scalability-PO.php:73
+msgid ""
+"By following these simple rules, BitShares is able to process 100,000 transactions per second without any significant effort "
+"devoted to optimization. Future optimizations should bring the performance of BitShares to levels similar to LMAX."
+msgstr ""
+"ด้วยการทำตามกฎง่ายๆเหล่านี้ BitShares สามารถประมวลผลธุรกรรม 100,000 รายการต่อวินาที แม้ยังไม่ได้มีการปรับปรุงระบบ หรือ การเพิ่มประสิทธิภาพการทำงาน "
+"การเพิ่มประสิทธิภาพในอนาคตคาดว่าจะนำประสิทธิภาพของ BitShares ไปสู่ระดับที่ใกล้เคียงกับ LMAX."
+
+#: industrial-performance-scalability-PO.php:74
+msgid ""
+"The scalability and performance achieved by BitShares are dependent upon having a compatible transaction protocol. It would be "
+"impossible to achieve the same level of scalability and performance with the Core Business Logic running in a virtual machine, "
+"performing cryptographic operations and references on all objects with hash identifiers. Performance of a single CPU core is a "
+"scalability bottleneck in single-threaded blockchains. The design of BitShares aims to get the most out of this single thread of "
+"execution."
+msgstr ""
+"ควรสังเกตว่าประสิทธิภาพการทำงานของ BitShares นั้นขึ้นอยู่กับการทำธุรกรรมที่รองรับเป็นไปไม่ได้ ที่จะบรรลุระดับประสิทธิภาพเดียวกัน ในโปรโตคอลที่ Core Business "
+"Logic ทำงานใน virtual machine ที่ดำเนินการเข้ารหัส และอ้างอิงวัตถุทั้งหมดด้วย hash.  Blockchains นั้นมี single-threaded โดยเนื้อแท้และประสิทธิภาพของ "
+"single core ของ CPU เป็นทรัพยากรที่ จำกัด และปรับขนาดได้น้อยที่สุดของทั้งหมด BitShares ได้รับการออกแบบมาเพื่อ ให้ได้ประโยชน์สูงสุดจากการประมวลผล single-"
+"threaded."
+
+#: industrial-performance-scalability-PO.php:76
+msgid "Background"
+msgstr "เบื้องหลัง"
+
+#: industrial-performance-scalability-PO.php:77
+msgid ""
+"A blockchain is a global ledger that orders transactions. Each transaction deterministically modifies a shared global state at a "
+"specified timestamp, and the order in which transactions get processed can change the validity of other transactions. For "
+"example, you cannot withdraw money from your bank until your paycheck clears. It is impossible to know whether a transaction is "
+"valid, before all prior transactions that impact a particular account are processed."
+msgstr ""
+"Blockchain สามารถสั่งทำธุรกรรมจากบัญชีแยกประเภทได้ทั่วโลกโดยแต่ละธุรกรรมจะแก้ไขสถานะ global แบบแบ่งพื้นที่การใช้ที่กำหนดไว้ล่วงหน้าที่ timestamp "
+"ลำดับที่การประมวลผลธุรกรรม สามารถเปลี่ยนความถูกต้องของธุรกรรมอื่น ๆ ได้ตัวอย่าง เช่น คุณไม่สามารถถอนเงินออกจากบัญชีธนาคารของคุณได้ "
+"จนกว่าหลังจากที่การฝากเงิน paycheck ของคุณเสร็จสิ้น มันเป็นไปไม่ได้ที่จะรู้ว่าธุรกรรมนั้นถูกต้องหรือไม่ จนกระทั่งหลังจากธุรกรรม ก่อนหน้านี้ทั้งหมดที่เกี่ยวเนื่องต่อบัญชีนั้นๆ "
+"ได้รับการดำเนินการเสร็จสิ้นแล้ว."
+
+#: industrial-performance-scalability-PO.php:78
+msgid ""
+"In theory, transactions for two unrelated accounts could process at the same time, if they do not share any common dependency. In "
+"practice, the cost of identifying which transactions are independent of each other on a ledger empowered by smart contracts with "
+"arbitrary conditions is intractable. The only way to be sure that two transactions are truly independent, is by maintaining "
+"completely separate ledgers and then periodically transferring value between them. An analogy could be the performance trade-offs "
+"in the design of Non-Uniform Memory Access (NUMA) vs Uniform Memory Access."
+msgstr ""
+"ตามทฤษฎีแล้วการทำธุรกรรมสำหรับสองบัญชีที่ไม่เกี่ยวข้องกัน สามารถดำเนินการได้ในเวลาเดียวกัน โดยที่พวกเขาไม่ได้ใช้ทรัพยากรร่วมกัน ในทางปฏิบัติแล้วนั้น\n"
+"ค่าใช้จ่ายในการทำธุรกรรมที่เป็นอิสระต่อกัน ในแต่ละบัญชีแบบแยกประเภทที่ได้รับสิทธิ์ โดยเงื่อนไขที่ชาญฉลาด ซึ่งยากต่อการปรับเปลี่ยน "
+"วิธีเดียวที่จะตรวจสอบให้แน่ใจว่าธุรกรรมสองรายการนั้น มีความเป็นอิสระอย่างแท้จริงคือ การรักษาบัญชีแยกประเภทที่แยกจากกันอย่างสมบูรณ์ "
+"แล้วจึงโอนมูลค่าระหว่างบัญชีเหล่านั้นเป็นตามลำดับ ความคล้ายคลึงกันทำให้ประสิทธิภาพในการออกแบบ และการแลกเปลี่ยนกันระหว่าง Non-Uniform Memory Access "
+"(NUMA) กับการเข้าถึง Memory Memory."
+
+#: industrial-performance-scalability-PO.php:79
+msgid ""
+"In practice, Uniform Memory Access is much easier and lower cost for developers to design for. NUMA architecture is usually "
+"adopted last resort, on supercomputers or giant clusters."
+msgstr ""
+"ในทางปฏิบัติ Uniform Memory Access นั้นง่ายกว่าสำหรับนักพัฒนาในการออกแบบและมีต้นทุนที่ต่ำกว่า โดยปกติแล้วสถาปัตยกรรม NUMA "
+"มักจะถูกนำมาใช้เป็นทางเลือกสุดท้ายในการสร้างซูเปอร์คอมพิวเตอร์หรือกลุ่ม cluster ขนาดยักษ์."
+
+#: industrial-performance-scalability-PO.php:80
+msgid ""
+"The computer industry has grown to realize that increases in scalability and performance through parallelism are nowhere near as "
+"easy as the early days. In the past all that was necessary was to increase the clock speed of the CPU. It is for this reason that "
+"CPU designers pushed the single-threaded performance to the limits, before attempting multi-threaded approaches. When "
+"multithreading is not enough, then, and only then, is cluster computing considered an option."
+msgstr ""
+"อุตสาหกรรมคอมพิวเตอร์เติบโตขึ้นเพื่อให้ทราบว่าการปรับขนาดผ่าน parallelism นั้นไม่มีที่ใดได้ง่ายเหมือนยุคเริ่มต้น เมื่อสิ่งที่จำเป็นคือการเพิ่มความเร็วสัญญาณนาฬิกาของ "
+"CPU ด้วยเหตุผลนี้เองที่ผู้ออกแบบ CPU จึงทำการดึงประสิทธิภาพ แบบ single-threaded ให้ถึงขีดสุด ก่อนที่จะพยายามนำวิธีการแบบ multi-threaded "
+"มาใช้เพื่อเพิ่มประสิทธิภาพ และเมื่อ multi-threaded ไม่เพียงพอ ดังนั้นจึงมีเพียงการคำนวณ cluster ที่พิจารณาเป็นตัวเลือกต่อไป."
+
+#: industrial-performance-scalability-PO.php:81
+msgid ""
+"Many in the cryptocurrency industry have attempted to solve the scalability issue by immediately moving to a “cluster” solution. "
+"BitShares can fully exploit what is technologically possible on a single core of a single computer."
+msgstr ""
+"หลายคนในอุตสาหกรรม cryptocurrency ได้พยายามที่จะแก้ปัญหาความสามารถในการปรับขนาดได้โดยการย้ายไปยังโซลูชัน “ cluster “ "
+"ทันทีโดยไม่ต้องค้นหาสิ่งที่เป็นไปได้ทางเทคโนโลยีบน core ของคอมพิวเตอร์ทั่วไป."
+
+#: industrial-performance-scalability-PO.php:84
+msgid "The LMAX Disruptor"
+msgstr "คิดต่างอย่าง LMAX"
+
+#: industrial-performance-scalability-PO.php:85
+msgid ""
+"The LMAX Disruptor provides a case study on high scalability and performance architecture, showing what is achievable within a "
+"single execution thread. LMAX is a retail trading platform that aims to be the fastest exchange in the world, and they have been "
+"generous enough to make public what they learned."
+msgstr ""
+"คิดต่างอย่าง LMAX ด้วยการจัดทำกรณีศึกษาเกี่ยวกับสถาปัตยกรรม ที่มีความสามารถในการปรับขยายและประสิทธิภาพในระดับสูง "
+"แสดงให้เห็นสิ่งที่สามารถทำได้ภายในเทรดการเรียกใช้งานครั้งเดียว LMAX เป็นแพลตฟอร์มการค้าปลีกที่มุ่งหวังที่ จะเป็นการแลกเปลี่ยนที่เร็วที่สุดในโลก "
+"พวกเขาใจดีพอที่จะแบ่งปันสิ่งที่เรียนรู้สู่สาธารณะ."
+
+#: industrial-performance-scalability-PO.php:86
+msgid "Here is a brief overview of the LMAX architecture:"
+msgstr "นี่เป็นภาพรวม LMAX สถาปัตยกรรมของพวกเขา:"
+
+#: industrial-performance-scalability-PO.php:87
+msgid ""
+"Processing of the sequential transactions and order matching all happens in the Business Logic Processor. It is a single thread "
+"that is able to process millions of orders per second. This architecture is readily ported to the realm of cryptocurrencies and "
+"blockchain designs."
+msgstr ""
+"Logic ของการประมวลผลทางธุรกิจเป็นที่สำหรับการทำธุรกรรมตามลำดับ และการจับคู่คำสั่งซื้อทั้งหมด เป็น single thread ที่สามารถประมวลผลคำสั่งซื้อนับล้านต่อวินาที "
+"สถาปัตยกรรมนี้ถูกส่งไปยังรูปแบบของ cryptocurrencies และการออกแบบ blockchain อย่างง่ายดาย."
+
+#: industrial-performance-scalability-PO.php:88
+msgid ""
+"The role of the Input Disruptor is to gather orders from users from many different sources and assign them in a deterministic "
+"order. After assigning them an order they become replicated, logged, and broadcast to many redundant business logic processors. "
+"The tasks of the Input Disruptor are parallel and farmed out to a cluster of computers."
+msgstr ""
+"บทบาทของ Input Disruptor คือการรวบรวมคำสั่งซื้อจากผู้ใช้จากหลาย ๆ แหล่งและกำหนดลำดับที่เอาไว้ หลังจากที่พวกเขาได้รับคำสั่ง "
+"พวกเขาจะทำการบันทึกและประกาศซ้ำๆ ให้กับ logic processors ทางธุรกิจ การทำงานของ Input Disruptor คือ การ embarrassingly parallel ไปยัง "
+"cluster ของคอมพิวเตอร์."
+
+#: industrial-performance-scalability-PO.php:89
+msgid ""
+"After the Business Logic Processor has processed the inputs, an Output Disruptor takes care of notifying anyone who cares about "
+"the results. This is also a highly parallel task."
+msgstr "หลังจากตัวประมวลผลทางธุรกิจทางลอจิก ประมวลผลอินพุตอินพุท Disruptor จะดูแลการแจ้งเตือนทุกคนที่ใส่ใจเกี่ยวกับผลลัพธ์ นี่เป็นงานที่ขนานกันอย่างมาก."
+
+#: industrial-performance-scalability-PO.php:90
+msgid ""
+"Ultimately, LMAX was able to process 6 million transactions per second through the Business Logic Processor, using a single core "
+"of a commodity CPU and Java virtual machine. Proof there's no need for cryptocurrency and smart contract platforms to reach for "
+"clustered solutions when they are not even processing 10 transactions per second."
+msgstr ""
+"นั้นคือ LMAX ซึ่งสามารถประมวลผลธุรกรรมได้ 6 ล้านรายการต่อวินาที ผ่านทาง Business Logic Processor โดยใช้ core ของ CPU ตัวเดียวโดยใช้ Java virtual "
+"machine หาก LMAX สามารถทำธุรกรรมได้ 6 ล้านรายการต่อวินาที แน่นอนว่าไม่จำเป็นต้องใช้ cryptocurrency และแพลตฟอร์ม smart contract "
+"เพื่อเข้าถึงโซลูชันคลัสเตอร์เมื่อพวกเขาไม่ได้ประมวลผล 10 ธุรกรรมต่อวินาที."
+
+#: industrial-performance-scalability-PO.php:93
+msgid "High Performance and Scalability on Blockchains"
+msgstr "Blockchains ประสิทธิภาพสูง"
+
+#: industrial-performance-scalability-PO.php:94
+msgid ""
+"To put in place high performance and scalability on the blockchain, BitShares must adopt the same techniques used by LMAX. "
+"Fundamental requirements are:"
+msgstr "ในการติดตั้งบล็อกเชนประสิทธิภาพสูง BitShares จะต้องใช้เทคนิคเดียวกันกับที่ LMAX ใช้ ซึ่งต้องมีฟังก์ชั่นหลักหลายประการ:"
+
+#: industrial-performance-scalability-PO.php:97
+#, fuzzy
+#| msgid "Avoid synchronization primitives (locks, atomic operations)."
+msgid "Avoid synchronization primitives (locks, atomic operations)."
+msgstr "หลีกเลี่ยงการ synchronization แบบดั้งเดิม (locks, atomic operations)."
+
+#: industrial-performance-scalability-PO.php:98
+msgid "Minimize unnecessary computation in the business logic processor."
+msgstr "ลดการคำนวณที่ไม่จำเป็นใน business logic processor."
+
+#: industrial-performance-scalability-PO.php:100
+msgid ""
+"Memory is becoming cheaper every day because it is extremely parallel in its design. The amount of information required to track "
+"the account balance and permissions of every person on the Internet is less than 1 Terabyte of RAM. This can cost less than "
+"$15,000 and it's installable on commodity (high-end) server motherboards. Long before 3 billion people adopt the system, this "
+"kind of hardware will be in the average desktop."
+msgstr ""
+"หน่วยความจำมีราคาถูกลงทุกวัน เพราะมันสามารถขนานกันได้มากในการออกแบบ จำนวนข้อมูลที่ต้องใช้ในการ ติดตามยอดคงเหลือในบัญชี "
+"และการอนุญาตของทุกคนบนอินเทอร์เน็ต นั้นใช้ RAM น้อยกว่า 1 เทราไบต์ ซึ่งสามารถซื้อได้ในราคาต่ำกว่า 15,000 $ และติดตั้งบนเมนบอร์ดเซิร์ฟเวอร์ "
+"ยังใช้เวลาอีกนานก่อนที่คนกว่า 3 พันล้านคน จะหันมาใช้ระบบฮาร์ดแวร์ประเภทนี้ เพื่อให้อยู่ในเดสก์ท็อป."
+
+#: industrial-performance-scalability-PO.php:101
+msgid ""
+" Memory isn`t the real bottleneck, but bandwidth is critical to performance and scalability. At 1 million transactions per second "
+"and 256 bytes per transaction, the network would need 256 megabytes per second (1 Gbit/sec). This kind of bandwidth is not "
+"available to the average desktop; but it is a fraction of the 100 Gbit/s that <a href='http://www.internet2.edu/vision-"
+"initiatives/initiatives/innovation-platform/' target='_blank'>Internet 2</a> furnishes to more than 210 U.S. educational "
+"institutions, 70 corporations, and 45 non-profit and government agencies."
+msgstr ""
+
+#: industrial-performance-scalability-PO.php:102
+msgid "For the scalability and performance to handle millions of transactions per second, a blockchain must keep everything in RAM."
+msgstr ""
+
+#: industrial-performance-scalability-PO.php:105
+msgid "Avoid Hashes, Assign IDs Instead"
+msgstr "หลีกเลี่ยงการ Hashes, กำหนด ID แทน"
+
+#: industrial-performance-scalability-PO.php:106
+msgid ""
+"In a single threaded system, CPU cycles are a scarce resource that needs conserving. Traditional blockchain designs use "
+"cryptographic hashes to generate globally unique IDs that are statistically guaranteed to never have a collision. The problem "
+"with these hashes is that they need much more memory and more CPU cycles to manipulate. It takes a lot more CPU time to look up "
+"an account record by hash than with a direct array index. For example, 64-bit integers are easier to compare and manipulate than "
+"160+bit IDs. Larger hash IDs means there is less room in the CPU cache and that requires more memory. On modern operating "
+"systems, seldom accessed RAM gets compressed, yet hash identifiers are random un-compressible data."
+msgstr ""
+"ในระบบ single threaded วงจรของ CPU เป็นทรัพยากรที่หายาก ที่ต้องได้รับการสงวนไว้ การออกแบบ blockchain แบบดั้งเดิมใช้การเข้ารหัสลับ hashes เพื่อสร้าง "
+"ID ที่ไม่ซ้ำกันทั่วโลกซึ่งรับประกันได้ว่าจะไม่มีการซ้ำกันในทางสถิติ ปัญหาเกี่ยวกับ hashes เหล่านี้คือ พวกมันต้องการหน่วยความจำมากขึ้น และรอบการทำงานของ CPU "
+"ก็ต้องการมากขึ้นเพื่อจัดการกับพวกมัน ใช้เวลา CPU มากขึ้นในการค้นหาเรกคอร์ดบัญชี ซึ่งใช้เวลามากกว่าการค้นหาด้วยดัชนี array โดยตรง ตัวอย่าง เช่น จำนวนเต็ม 64 "
+"บิต จะง่ายต่อการเปรียบเทียบและจัดการมากกว่า 160 บิต + ID โดย ID แฮชที่ใหญ่กว่าหมายถึง มีที่ว่างน้อยกว่าในแคชของ CPU และจำเป็นต้องใช้หน่วยความจำเพิ่มขึ้นด้วย "
+"บนระบบปฏิบัติการที่ทันสมัย RAM ที่เข้าถึงไม่บ่อยนักจะถูกบีบอัดเอาไว้ แต่ตัวระบุแฮชเป็นข้อมูลแบบสุ่มที่ไม่สามารถบีบอัดได้."
+
+#: industrial-performance-scalability-PO.php:107
+msgid ""
+"Fortunately, blockchains give us a means to globally assign unique IDs where no pair can ever be the same. This makes it is "
+"possible to completely remove the need for hash-based identifiers (Bitcoin addresses). In order to refer to an account, balance, "
+"or permission, BitShares simply uses the account name."
+msgstr ""
+"โชคดีที่ blockchains ทำให้เราสามารถกำหนด ID เฉพาะตัวทั่วโลกที่ไม่ขัดแย้งกันได้ ดังนั้นจึงเป็นไปได้ ที่จะลบ hash ที่ไว้ใช้ตัวระบุตัวตนข้อมูล (ที่อยู่ Bitcoin) "
+"เพื่ออ้างถึงบัญชียอดคงเหลือ หรือการอนุญาต."
+
+#: industrial-performance-scalability-PO.php:110
+msgid "Remove Signature Verification from Business Logic Processor"
+msgstr "ลบการยืนยันลายเซ็นจาก Business Logic Processor"
+
+#: industrial-performance-scalability-PO.php:111
+msgid ""
+"All transactions on cryptocurrency networks depend upon cryptographic signatures to validate permissions. In the general case, "
+"the permissions required can change as a result of other transactions. This means that permissions need defining in terms that "
+"need no cryptographic calculations within the Business Logic Processor."
+msgstr ""
+"ธุรกรรมทั้งหมดบนเครือข่าย cryptocurrency ขึ้นอยู่กับลายเซ็นเข้ารหัสลับในการตรวจสอบสิทธิ์ ในกรณีทั่วไปการอนุญาตที่จำเป็น "
+"สามารถเปลี่ยนแปลงได้เนื่องจากการทำธุรกรรมอื่น ๆ ซึ่งหมายความว่าจำเป็นต้องกำหนดสิทธิ์ในแง่ที่ไม่จำเป็นต้องมีการคำนวณรหัสลับภายใน Business Logic Processor."
+
+#: industrial-performance-scalability-PO.php:112
+msgid ""
+"To do this, every public key needs to have a unique and immutable ID. After an ID is chosen, the Input Disruptor(s) can verify "
+"that the signature matches the ID specified. By the time the transaction makes it to the Business Logic Processor, the only "
+"remaining step is to check the IDs."
+msgstr ""
+"ในการทำเช่นนี้ public key ทุกอันจะต้องได้รับการระบุ ID ที่ไม่ซ้ำใครและไม่เปลี่ยนแปลง หลังจากกำหนด ID แล้ว Disruptor "
+"อินพุตสามารถตรวจสอบว่าลายเซ็นที่ให้นั้นตรงกับ ID ที่ระบุ เมื่อถึงเวลาที่ทำธุรกรรมให้กับ Business Logic Processor ขั้นตอนเดียวที่เหลืออยู่คือการตรวจสอบ ID."
+
+#: industrial-performance-scalability-PO.php:113
+msgid "This same technique can remove pre-condition checking on any immutable object with a static ID."
+msgstr "เทคนิคเดียวกันนี้สามารถใช้ใน การลบ การตรวจสอบสภาพ ก่อนกำหนดบน object ที่ไม่เปลี่ยนแปลงใด ๆ ด้วยรหัสคงที่."
+
+#: industrial-performance-scalability-PO.php:116
+msgid "Design Transactions for Static Validation"
+msgstr "การออกแบบธุรกรรม เพื่อการตรวจสอบแบบคงที่"
+
+#: industrial-performance-scalability-PO.php:117
+msgid ""
+"It is possible to check many transaction properties statically, without the need to reference the current global state. <br/"
+">These checks include range checking of parameters, de-duplication of inputs, sort order of arrays, etc. Generally speaking, many "
+"checks get performed if the transaction includes the data it “assumes” about the global state. After these checks all that "
+"remains for the Business Logic Processor to do is make sure the “assumptions” are still true, which usually boils down to "
+"checking a modification timestamp on objects referenced, relative to the time the transaction got signed."
+msgstr ""
+"คุณสมบัติการทำธุรกรรมจำนวนมาก สามารถตรวจสอบแบบคงที่ โดยไม่จำเป็นต้องอ้างอิงสถานะ global ปัจจุบัน การตรวจสอบเหล่านี้รวมถึงการตรวจสอบช่วงของพารามิเตอร์, "
+"การทำซ้ำของอินพุต, เรียงลำดับของ array, ฯลฯ โดยทั่วไปแล้วการตรวจสอบจำนวนมาก สามารถดำเนินการได้หากการทำธุรกรรมมีข้อมูลที่ “assumes” เกี่ยวกับสถานะ "
+"global หลังจากดำเนินการตรวจสอบเหล่านี้แล้วสิ่งที่จำเป็นสำหรับ Business Logic Processor ให้ทำคือ ตรวจสอบให้แน่ใจว่า “assumptions” ยังคงเป็นจริง "
+"ซึ่งโดยทั่วไปสามารถลงไปเพื่อตรวจสอบ timestamp การเปลี่ยนบน objects ที่อ้างอิง ซึ่งสัมพันธ์กับเวลาที่มีการเซ็นธุรกรรม."
+
+#: industrial-performance-scalability-PO.php:119
+msgid "Smart Contracts"
+msgstr "สัญญาอัจฉริยะ"
+
+#: industrial-performance-scalability-PO.php:120
+msgid ""
+"Many blockchains are adopting a general-purpose scripting language to define all operations. These designs end up defining the "
+"“Business Logic Processor” as a virtual machine, and all transactions get defined as scripts run by the virtual machine. This "
+"approach takes the single-threaded limitations of a real CPU and compounds them by forcing everything through a virtual CPU. A "
+"virtual CPU, even with Just-In-Time compilation, will always be slower than a real CPU, but pure speed of calculation isn’t the "
+"only issue with the “everything is a script” approach."
+msgstr ""
+"Blockchains ส่วนใหญ่ใช้ภาษาสคริปต์วัตถุประสงค์ทั่วไปเพื่อกำหนดการทำงานทั้งหมด การออกแบบเหล่านี้จบลงด้วยการกำหนด ‘Business Logic Processor’ เป็น "
+"virtual machine และการทำธุรกรรมทั้งหมดจะถูกกำหนดเป็นสคริปต์ที่จะเรียกใช้โดย virtual machine วิธีนี้ใช้ข้อจำกัด แบบ single-threaded ของ CPU "
+"จริงและทำการผสมโดยบังคับให้ทุกสิ่งผ่าน CPU เสมือน CPU เสมือนแม้จะมีการรวบรวม Just-In-Time จะช้ากว่า CPU จริง แต่ความเร็วในการคำนวณที่แท้จริง "
+"ไม่ใช่ปัญหาเดียวของวิธีการ ‘ทุกอย่างคือสคริปต์’."
+
+#: industrial-performance-scalability-PO.php:121
+msgid ""
+"When transactions get defined at such a low level, it means that most of the static checks and cryptographic operations get "
+"sucked back into the Business Logic Processing and the overall throughput falls. A scripting engine should never require a "
+"cryptographic signature check even if it is done through a native call."
+msgstr ""
+"เมื่อการทำธุรกรรมถูกกำหนดในระดับที่ต่ำ เช่นนั้นก็หมายความว่าการตรวจสอบแบบสแตติก และการดำเนินการเข้ารหัสส่วนใหญ่จะถูกดึงกลับเข้าไปใน Business Logic "
+"Processing และการรับส่งข้อมูลโดยรวมลดลง เครื่องมือในการสร้างสคริปต์ไม่ควรต้องการ การตรวจสอบลายเซ็นต์เข้ารหัสลับ แม้ว่าจะทำผ่านการเรียกใช้แบบ native "
+"ก็ตาม."
+
+#: industrial-performance-scalability-PO.php:122
+msgid ""
+"Based on the lessons we borrowed from LMAX, we knew that when designing a virtual machine for a blockchain we should prioritise "
+"on single-threaded performance. This means it should get optimized for Just-In-Time compilation from the beginning, and that the "
+"most frequently used smart contracts should have native support by the blockchain, leaving only the rarely-used custom contracts "
+"to run in a virtual machine. These custom contracts should focus on performance, which means the Virtual Machine should limit the "
+"addressable memory to something that will fit within the CPU cache."
+msgstr ""
+"จากบทเรียนที่เราเรียนรู้จาก LMAX เรารู้ว่าเครื่องเสมือนสำหรับ blockchain ควรได้รับการออกแบบโดยคำนึงถึงประสิทธิภาพของ single-threaded "
+"ซึ่งหมายความว่าควรปรับให้เหมาะสมสำหรับการรวบรวม Just-In-Time ตั้งแต่ต้น และ smart contracts ที่ใช้บ่อยที่สุดควรได้รับการสนับสนุนโดย blockchain "
+"เหลือเพียงสัญญาที่กำหนดเองที่ไม่ค่อยใช้เพื่อเรียกใช้ใน virtual machine สัญญาที่กำหนดเองเหล่านี้ควรได้รับการออกแบบให้มีประสิทธิภาพซึ่งหมายความว่าเครื่องเสมือนควร "
+"จำกัด หน่วยความจำที่สามารถเข้าถึงได้ให้อยู่ในระดับที่เหมาะสมกับแคชของ CPU."
+
+#: industrial-performance-scalability-PO.php:125
+msgid "Object-Oriented Data Model:"
+msgstr "Object Oriented ดาต้าโมเดล:"
+
+#: industrial-performance-scalability-PO.php:126
+msgid ""
+"One of the benefits of keeping everything in memory is that the software can mimic the real-world relationships of data. This "
+"means that the Business Logic Processor can quickly follow in-memory pointers to the data it needs, rather than forcing it to "
+"perform expensive database queries. It also means that data is accessible without copying it, and that it is possible to modify "
+"the data in-place. This single optimization offers an order-of-magnitude performance gain over using a database-based approach."
+msgstr ""
+"ข้อดีอย่างหนึ่ง ของการเก็บทุกอย่างไว้ในหน่วยความจำคือซอฟต์แวร์ สามารถออกแบบให้เลียนแบบความสัมพันธ์ของข้อมูล ในโลกแห่งความเป็นจริงได้ ซึ่งหมายความว่า "
+"Business Logic Processor สามารถติดตามตัวชี้ในหน่วยความจำ ไปยังข้อมูลที่ต้องการได้อย่างรวดเร็ว แทนที่จะถูกบังคับให้ทำการค้นหาฐานข้อมูลที่มีความซับซ้อน "
+"นอกจากนี้ยังหมายความว่าสามารถเข้าถึงข้อมูลได้ โดยไม่ต้องคัดลอกข้อมูลและสามารถแก้ไขข้อมูลได้เอง การปรับให้เหมาะสมครั้งเดียวนี้ "
+"จะเสนอประสิทธิภาพตามลำดับของขนาดที่เพิ่มขึ้น ซึ่งใช้ฐานข้อมูลเป็นหลัก."
+
+#: industrial-performance-scalability-PO.php:129
+msgid "Transaction Sizes"
+msgstr "ขนาดของธุรกรรม"
+
+#: industrial-performance-scalability-PO.php:130
+msgid ""
+"A blockchain that processes 100,000 transactions every second generates a lot of data. The average size of a transaction on "
+"competing networks, such as Ripple and Bitcoin, is about 250 bytes. A similar transaction on BitShares averages just 100 bytes. "
+"In other words, competing systems require 2.5 times the bandwidth to propagate the same number of transactions. Assuming a "
+"gigabit connection to the internet, it would take about 0.1 seconds just to transfer a block containing 100,000 transactions. "
+"Competing networks would need 0.25 seconds. After considering latency and multiple hops on a peer-to-peer network, it becomes "
+"clear that transaction size directly impacts the block interval, and therefore the confirmation latency."
+msgstr ""
+"Blockchain ที่ประมวลผล 100,000 ธุรกรรมทุกวินาที ต้องสร้างข้อมูลจำนวนมาก ขนาดเฉลี่ยของธุรกรรมบนเครือข่าย ที่แข่งขันกันเช่น Ripple และ Bitcoin "
+"นั้นมีขนาดประมาณ 250 ไบต์ ธุรกรรมที่คล้ายกันใน BitShares เฉลี่ยเพียง 100 ไบต์ กล่าวอีกนัยหนึ่ง ระบบอื่นๆ ต้องใช้แบนด์วิดท์ 2.5 "
+"เท่าในการเผยแพร่ธุรกรรมจำนวนเดียวกันกับ BitShares  สมมติว่าการเชื่อมต่อกิกะบิตกับอินเทอร์เน็ตจะใช้เวลาประมาณ 0.1 วินาทีในการถ่ายโอนบล็อกที่มีการทำธุรกรรม "
+"100,000 รายการ เครือข่ายอื่นจะต้องใช้เวลา 0.25 วินาที หลังจากความหน่วงแฝงและการกระโดดหลายครั้งบนเครือข่าย peer-to-peerได้รับการพิจารณาเป็นที่ชัดเจนว่า "
+"ขนาดของธุรกรรมมีผลโดยตรงต่อช่วงเวลาบล็อก และดังนั้นจึงมีความหน่วงแฝงในการยืนยันธุรกรรมแต่ละครั้ง."
+
+#: industrial-performance-scalability-PO.php:131
+msgid ""
+"Transaction sizes indicate the amount of data the CPU must process in its critical path. Therefore, they serve as a signal of how "
+"soon the single threaded performance of a CPU will be hit."
+msgstr ""
+"ขนาดการทำธุรกรรม มักเป็นตัวบ่งชี้ปริมาณข้อมูลที่ CPU ต้องดำเนินการประมวลผลส่วนที่สำคัญ ดังนั้นมันจึงเป็นเครื่องบ่งชี้ว่าการทำงานของ single threaded ของ CPU "
+"ได้เร็วเพียงใด."
+
+#: industrial-performance-scalability-PO.php:132
+msgid ""
+"Some optimizations are possible in all protocols if they assume that all nodes have prior knowledge of all broadcast transactions "
+"and only need the ordered list of transaction IDs to broadcast every block. This would be an implementation detail."
+msgstr ""
+"การปรับแต่งให้เหมาะสมซึ่งเป็นไปได้ในโปรโตคอลทั้งหมด หากคิดว่าโหนดทั้งหมดมีองค์ความรู้ของ broadcast ธุรกรรมทั้งหมด และต้องการเพียงรายการสั่งซื้อของ ID "
+"ธุรกรรม เพื่อ broadcast ทุกบล็อค นี่จะเป็นรายละเอียดการใช้งาน."
+
+#: industrial-performance-scalability-PO.php:135
+msgid "Conclusion"
+msgstr "ข้อสรุป"
+
+#: industrial-performance-scalability-PO.php:136
+#, fuzzy
+#| msgid ""
+#| "Designing a high-performance blockchain with scalability isn’t rocket science. It doesn’t need complex, hard-to-understand "
+#| "protocols. Nor must it be processing among all the nodes on the network. All that is necessary to build a high-performance "
+#| "blockchain is to remove all calculations that are not part of the critical, order-dependent, evaluation from the core business "
+#| "logic. Also, to design a protocol that facilitates these kinds of optimizations. This is what BitShares has done."
+msgid ""
+"Designing a high-performance blockchain with scalability isn't rocket science. It doesn't need complex, hard-to-understand "
+"protocols. Nor must it be processing among all the nodes on the network. All that is necessary to build a high-performance "
+"blockchain is to remove all calculations that are not part of the critical, order-dependent, evaluation from the core business "
+"logic. Also, to design a protocol that facilitates these kinds of optimizations. This is what BitShares has done."
+msgstr ""
+"การออกแบบบล็อกเชนประสิทธิภาพสูงไม่ใช่วิทยาศาสตร์จรวด และไม่ต้องการโปรโตคอลที่ซับซ้อน และเข้าใจยาก "
+"ซึ่งไม่จำเป็นต้องแบ่งการประมวลผลระหว่างโหนดทั้งหมดบนเครือข่าย แต่ทั้งหมดที่จำเป็นในการสร้าง blockchain ที่มีประสิทธิภาพสูงคือ การลบการคำนวณทั้งหมด "
+"ที่ไม่ได้เป็นส่วนสำคัญของการทำงาน และเกี่ยวเนื่องกันกับ order การประเมินจาก business logic หลัก "
+"และการออกแบบโปรโตคอลที่อำนวยความสะดวกในการเพิ่มประสิทธิภาพเหล่านี้."
