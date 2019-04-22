@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-04-16 15:59+0700\n"
+"PO-Revision-Date: 2019-04-22 12:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: Technology\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: delegated-proof-of-stake-consensus-PO.php\n"
+
+#: delegated-proof-of-stake-consensus-PO.php:43
+msgid "Delegated Proof-of-Stake Consensus"
+msgstr "การลงความเห็นร่วมกัน"
+
+#: delegated-proof-of-stake-consensus-PO.php:44
+msgid "A robust and flexible decision making protocol"
+msgstr "โปโตคอล การลงความเห็นร่วมกันที่เปี่ยมประสิทธิภาพ และยืดหยุ่น"
+
+#: delegated-proof-of-stake-consensus-PO.php:59
+msgid "Price:"
+msgstr "ราคา:"
+
+#: delegated-proof-of-stake-consensus-PO.php:61
+msgid "Market Cap:"
+msgstr "มูลค่าตลาด:"
+
+#: delegated-proof-of-stake-consensus-PO.php:63
+msgid "Volume (24h):"
+msgstr "ปริมาณ (24ชม.):"
+
+#: delegated-proof-of-stake-consensus-PO.php:71
+msgid "Background"
+msgstr "เบื้องหลัง"
+
+#: delegated-proof-of-stake-consensus-PO.php:72
+msgid ""
+"Delegated Proof-of-Stake (DPoS) consensus is a fast, efficient, decentralized, and highly flexible "
+"blockchain design. The BitShares blockchain leverages the power of stakeholder approval voting, to "
+"resolve consensus issues in a manner which is democratic and fair. All network parameters, from fee "
+"schedules to block intervals and transaction sizes, can be tuned via elected delegates (Committee). "
+"Deterministic selection of block producers (Witnesses) allows transactions to be confirmed in an "
+"average of just 1 second. Perhaps most importantly, the consensus protocol is designed to protect all "
+"participants in a free and fair, transparent environment."
+msgstr ""
+"การยืนยันธุรกรรมในระบบโดยให้คนลงความเห็น Delegated Proof of Stake (DPOS) เป็นระบบที่เร็วที่สุด มีประสิทธิภาพมากที่สุด "
+"มีการกระจายอำนาจมากที่สุด และมีความยืดหยุ่นมากที่สุดซึ่งพร้อมใช้งานอยู่ในขณะนี้ ยกระดับการออกเสียง การลงคะแนนอนุมัติของ "
+"stakeholder ในการแก้ไขปัญหาร่วมกันอย่างเป็นธรรม และเป็นประชาธิปไตย การกำหนดควบคุมค่าต่างๆ ของระบบเครือข่ายทั้งหมดนั้น "
+"อย่างตารางค่าธรรมเนียม เวลาการจัดการของ block และขนาดของรายการต่างๆภายใน สามารถปรับเปลี่ยน "
+"ผ่านทางตัวแทนที่ได้รับการเลือกตั้ง การเลือกผู้จัดการของ  block ที่เป็นไปตามข้อกำหนด "
+"จะช่วยให้การทำธุรกรรมได้รับการยืนยันโดยเฉลี่ยเพียง 1 วินาที สิ่งสำคัญที่สุด คือ\n"
+"โปโตคอลการลงความเห็นร่วมกัน consensus protocol ถูกออกแบบมาเพื่อปกป้องผู้เข้าร่วมทั้งหมด "
+"ต่อการแทรกแซงตามกฎข้อบังคับที่ไม่พึงประสงค์."
+
+#: delegated-proof-of-stake-consensus-PO.php:74
+msgid ""
+"BitShares is first and foremost a globally distributed database that is used as a ledger to track "
+"ownership of digital assets. To allow the database to remain consistent and universally agreed upon, "
+"all updates must be validated and applied in the proper order. Reaching a consensus over every ledger "
+"update is the purpose of Delegated Proof-of-Stake (DPoS)."
+msgstr ""
+"BitShares เป็นรายแรกและประสบผลสำเร็จที่สุด กับการที่นำระบบฐานข้อมูลแบบกระจายทั่วโลกมาใช้\n"
+"ใช้เป็นบัญชีแยกประเภท เพื่อติดตามยืนยันความเป็นเจ้าของสินทรัพย์ดิจิทัล การปรับปรุงข้อมูลทั้งหมดของบัญชีแยกประเภท "
+"ต้องได้รับการตรวจสอบ และใช้ตามลำดับที่ถูกต้อง เพื่อให้ฐานข้อมูลมีความสอดคล้องและได้รับความเห็นชอบอย่างทั่วถึง "
+"การลงความเห็นร่วมกัน consensus เพื่อยืนยันการทำธุรกรรมต่างๆ ที่ถูกต้องของแต่ละบัญชี คือวัตถุประสงค์หลักของ Delegated Proof "
+"of Stake (DPoS)."
+
+#: delegated-proof-of-stake-consensus-PO.php:76
+msgid "Overview"
+msgstr "ภาพรวมทั่วไป"
+
+#: delegated-proof-of-stake-consensus-PO.php:77
+msgid "The questions that must be answered by any consensus process include, but are not limited to:"
+msgstr "คำถามทั่วไปที่ต้องตอบสำหรับผู้ที่จะร่วม กระบวนการลงความเห็นร่วมกัน:"
+
+#: delegated-proof-of-stake-consensus-PO.php:79
+msgid "Who will produce the next block of updates to apply to the database?"
+msgstr "บุคคลที่จะสร้างบล็อคต่อไป แก้ไขเปลี่ยนแปลงข้อมูล บันทึกสิ่งเหล่านั้นสู่ฐานข้อมูล?"
+
+#: delegated-proof-of-stake-consensus-PO.php:80
+msgid "When will the next block be produced?"
+msgstr "จะสร้างบล็อกต่อไปเมื่อใด?"
+
+#: delegated-proof-of-stake-consensus-PO.php:81
+msgid "What transactions should be included in the next block?"
+msgstr "ควรทำธุรกรรมใดบ้างภายในบล็อก?"
+
+#: delegated-proof-of-stake-consensus-PO.php:82
+msgid "How are changes to the blockchain protocol applied?"
+msgstr "ควรเปลี่ยนไปใช้โปรโตคอลใด?"
+
+#: delegated-proof-of-stake-consensus-PO.php:83
+msgid "How should competing transaction histories be resolved?"
+msgstr "ควรทำอย่างไรเพื่อให้ประวัติการทำธุรกรรมได้รับการแก้ไข?"
+
+#: delegated-proof-of-stake-consensus-PO.php:85
+msgid ""
+"By answering these questions, the goal of the BitShares blockchain is to ensure the consensus process "
+"is robust against attackers gaining control over the Delegated Proof-of-Stake network. In practice, "
+"control means acquiring the ability to unilaterally censor transactions (and corrupt or centralize the "
+"consensus protocol). The process must be autonomous against any inconsistency attack to the database "
+"state on different computers."
+msgstr ""
+"เป้าหมาย คือ การค้นหาคำตอบสำหรับคำถามเหล่านี้ เพื่อให้แน่ใจว่ากระบวนการลงความเห็นร่วมกัน เป็นไปอย่างมีประสิทธิภาพ "
+"พร้อมที่จะต่อต้านต่อกลุ่มคนที่หวัง การควบคุม ชี้ขาดภายในเครือข่าย ในทางปฏิบัตินั้น การควบคุม "
+"หมายถึงการได้รับสิทธิ์ในการตรวจสอบการทำธุรกรรมเพียงฝ่ายเดียว ซึ่งกระบวนการนี้จะทำการต่อต้าน ปกป้อง "
+"จากผู้บุกรุกที่จะใช้ประโยชน์จากช่วงเวลาหนึ่ง ที่เกิดการไม่เสถียรภายในฐานข้อมูล บนคอมพิวเตอร์เครื่องอื่นๆ."
+
+#: delegated-proof-of-stake-consensus-PO.php:87
+msgid "Block Production by Elected Witnesses"
+msgstr "การสร้าง Block โดย Witnesses ที่มาจากการเลือกตั้ง"
+
+#: delegated-proof-of-stake-consensus-PO.php:88
+msgid ""
+"The term witness was chosen because it is a literal metaphor and noun which describes the robotic "
+"function of the 'Witness Node' servers and those elected to operate them. <em>Witness</em > also "
+"happens to be a legally neutral word, free from trademark or brand copyrights. Traditional contracts "
+"often have a place for witnesses to sign. For extremely important contracts, a <a href='http://en."
+"wikipedia.org/wiki/Notary_public' target='_blank'>public notary</a> is sometimes used. Neither are "
+"party to the contract, but they serve a very important role of certifying that the contract was signed "
+"by the specified individuals at the specified time. In BitShares, witnesses serve a similar role of "
+"validating signatures and timestamping transactions by including them in blocks."
+msgstr ""
+"คำว่า พยาน (witness) ที่ได้มาจากการเลือกตั้งนั้น เป็นคำที่หมายถึงความเป็นอิสระจากการควบคุมของผู้ใด เป็นสัญญาตั้งแต่อดีตที่ พยาน "
+"ต้องเซ็นรับรอง สำหรับสัญญาที่มีความสำคัญมากๆ จะต้องมี เจ้าหน้าที่ public notary ผู้มีอำนาจลงลายมือชื่อ "
+"รับรองความถูกต้องของเอกสารว่าชอบด้วยกฎหมาย ทั้ง witness และ <a href=‘http://en.wikipedia.org/wiki/"
+"Notary_public' target=‘_blank’>public notary</a> ทั้งคู่เป็นไม่ได้เป็นส่วนหนึ่งของสัญญา แต่พวกเขามีบทบาทสำคัญมาก "
+"ในการรับรองว่าสัญญาลงนามโดยบุคคลที่ระบุ ในเวลาที่กำหนดถูกต้อง witness มีบทบาทคล้ายคลึงกัน ในการตรวจสอบลายเซ็น "
+"และการจับเวลาการทำธุรกรรมโดยรวมไว้ในบล็อค."
+
+#: delegated-proof-of-stake-consensus-PO.php:89
+#, php-format
+msgid ""
+"Under Delegated Proof-of-Stake (DPoS), the stakeholders can elect any number of witnesses to generate "
+"blocks. A block is a group of transactions which update the state of the database. Each account is "
+"allowed one vote per share per witness, a process known as <a href='http://en.wikipedia.org/wiki/"
+"Approval_voting' target='_blank'>approval voting</a>. The top N witnesses by total approval are "
+"selected. (N) is defined such that at least 50% of voting stakeholders believe there is enough "
+"decentralization. When stakeholders express a desired number of witnesses, they should also vote for "
+"at least that many. A stakeholder cannot vote for more decentralization for which they actually cast "
+"votes."
+msgstr ""
+"ภายใต้ DPOS เหล่าบรรดา stakeholder สามารถเลือกพยานจำนวนหนึ่งเพื่อสร้าง "
+"blockได้บล็อกเป็นกลุ่มของธุรกรรมที่ปรับปรุงสถานะของ database บัญชีแต่ละบัญชีสามารถที่จะโหวตได้ 1 เสียง ต่อ 1 หุ้น ต่อ 1 พยาน "
+"ซึ่งเป็นกระบวนการที่เรียกว่า <a href=‘http://en.wikipedia.org/wiki/Approval_voting' "
+"target=‘_blank’>การลงมติอนุมัติ</a> (N)witness สูงสุดจะถูกเลือกโดยการอนุมัติจาก witness ทั้งหมด จำนวนของ (N)witness "
+"ถูกกำหนดไว้ เช่นว่า อย่างน้อย 50% ของการออกเสียงลงคะแนนของ stakeholders เชื่อว่าเป็นการตัดสินที่เพียงพอในระบบ "
+"decentralization เมื่อ stakeholders แสดงจำนวน witness ที่ต้องการ พวกเขาจะต้องลงคะแนนเสียงเพื่อพยานเหล่านั้น "
+"stakeholdersไม่สามารถลงคะแนนใน decentralization ได้มากกว่าพยานที่พวกเขาได้ลงมติ."
+
+#: delegated-proof-of-stake-consensus-PO.php:90
+msgid ""
+"Each time a witness produces a block, they are paid for their services. Their pay rate is set by the "
+"stakeholders via the elected delegates. If a witness fails to produce a block, they are not paid. The "
+"record of missed blocks is kept, and may lead to a witness becoming voted out in the future."
+msgstr ""
+"แต่ละครั้งที่ witness ทำการสร้าง block พวกเขาจะได้รับค่าตอบแทนสำหรับการทำงานของเขา อัตราค่าจ้างของพวกเขา "
+"จะถูกกำหนดโดย stakeholders ผ่านทางตัวแทนที่ได้รับการเลือกตั้ง (ซึ่งจะกล่าวถึงในภายหลัง) หาก witness ไม่สามารถสร้าง "
+"block ได้ พวกเขาจะไม่ได้รับค่าตอบแทน และอาจถูกโหวตให้ออกจากทีมได้ในอนาคต."
+
+#: delegated-proof-of-stake-consensus-PO.php:91
+msgid ""
+"The slate of active witnesses is updated once every maintenance interval (1 day) when the votes are "
+"tallied. They are then shuffled, and each witness given a turn to produce a block at a fixed schedule "
+"of one block every 2 seconds. After all the witnesses have had a turn, they are shuffled again. If a "
+"witness does not produce a block in their time slot, then that time slot is skipped, and the next "
+"witness produces the next block."
+msgstr ""
+"การทำงานของ witness ที่ทำงานอยู่จะอัพเดจทุกๆ ช่วงเวลาในการบำรุงรักษา (ตลอด 1 วัน) เมื่อมีการนับคะแนนเสียง witness "
+"จะถูกสับเปลี่ยนอยู่ตลอดเพื่อให้ witness ทำการผลิต block ใหม่ขึ้น โดยจะกำหนดไว้หนึ่ง block ทุก 2 วินาที หลังจากที่ witness "
+"ทั้งหมดทำงานครบทุกคนแล้ว พวกเขาจะสับเปลี่ยนกันอีกครั้ง หาก witness ที่ยังไม่ได้สร้างบล็อกในช่องเวลาของตนนั้น จะถูกข้ามไปและ "
+"witness คนต่อไปจะสร้าง block ต่อไปแทน."
+
+#: delegated-proof-of-stake-consensus-PO.php:92
+msgid ""
+"Historically, BitShares has maintained a 99% witness participation rate. Anyone can monitor the "
+"network health by observing this metric. Any time witness participation falls below a certain level, "
+"users of the network can allow more time for transactions to confirm, and be extra vigilant about "
+"their network connectivity. This property gives BitShares the unique advantage of being able to alert "
+"users of a potential problem within 1 minute of it occuring."
+msgstr ""
+"ทุกคนสามารถตรวจสอบสถานะต่างๆ เครือข่าย โดยสามารถติดตามทุกการทำงานการมีส่วนร่วมของ witness ได้ "
+"จากรายการประวัติการทำงาน BitShares เปิดให้ witness มีส่วนร่วมในทุกธุรกรรมถึง 99% หากเมื่อใดการทำงานของ witness "
+"ต่ำกว่าระดับที่เหมาะสม ผู้ใช้ภายในเครือข่ายจะได้รับการเตือน "
+"เพื่อที่จะสามารถตรวจสอบเวลาในการทำธุรกรรมเพื่อรับรองการยืนยันได้มากขึ้น "
+"และเพิ่มความระมัดระวังได้ด้วยตัวเองในระหว่างการเชื่อมต่อเครือข่ายของตนให้มากขึ้น คุณสมบัตินี้ช่วยให้ BitShares "
+"มีข้อได้เปรียบที่เป็นเอกลักษณ์ในการแจ้งเตือนผู้ใช้ถึงปัญหาที่อาจเกิดขึ้น ภายในเวลาไม่ถึง 1 นาทีหลังจากที่ปัญหาเกิดขึ้น."
+
+#: delegated-proof-of-stake-consensus-PO.php:95
+msgid "Parameter Changes by Elected Delegates - Committee"
+msgstr "เปลี่ยนแปลง พารามิเตอร์ โดยผู้ที่ได้รับคัดเลือก"
+
+#: delegated-proof-of-stake-consensus-PO.php:96
+msgid ""
+"Delegates known as the ‘Committee’ are also elected in BitShares. The delegates each become a co-"
+"signer on a special account that has the privilege of proposing changes to the network parameters. "
+"This account is known as the <em>genesis</em> account. These parameters include everything from "
+"transaction fees, to block sizes, witness pay, and block intervals. After the majority of delegates "
+"have approved a proposed change, the stakeholders are granted a 2 week review period. During the "
+"review, stakeholders may vote out delegated committee members and nullify the proposed changes. The "
+"Committee are unpaid, however the parameters are not changed very often."
+msgstr ""
+"ผู้ที่ได้รับคัดเลือกล้วนแล้วแต่ได้รับการลงมติเลือกในลักษณะคล้ายกับ witness ผู้รับมอบสิทธิ์จะกลายเป็น ผู้ร่วมลงนามในบัญชีพิเศษ "
+"ที่มีสิทธิ์เสนอการเปลี่ยนแปลง พารามิเตอร์ เครือข่าย บัญชีนี้จะถูกเรียกว่า บัญชีเริ่มต้น genesis account พารามิเตอร์ "
+"เหล่านี้ประกอบด้วยทุกอย่างจาก ค่าธรรมเนียมการทำธุรกรรม จนถึงขนาดของ block การเบิกจ่ายของ witness และ "
+"ระยะห่างช่วงเวลาภายใน block หลังจากที่ได้รับการอนุมัติจากส่วนรวม ถึงการเปลี่ยนแปลงที่เสนอ stakeholders จะได้รับระยะเวลา "
+"2 สัปดาห์ เพื่อตรวจสอบการเปลี่ยนแปลง ที่จะนำมาสู่การออกเสียงลงคะแนนสนับสนุนการเปลี่ยนแปลงนั้นตามเสียงส่วนใหญ่ "
+"หรือยกเลิกการเปลี่ยนแปลงที่นำเสนอมา."
+
+#: delegated-proof-of-stake-consensus-PO.php:97
+msgid ""
+"This design was chosen to ensure that delegates technically have no direct power, and all network "
+"parameter changes are ultimately approved only by the stakeholders. With this delegated Proof-of-"
+"Stake, we can truly say that the administrative authority is fully decentralized and in the hands of "
+"the users (BTS token holders), and not the delegates nor the witnesses."
+msgstr ""
+"การออกแบบการคัดเลือกแบบนี้ เพื่อให้มั่นใจได้ว่า ผู้ที่ได้รับคัดเลือก ในทางเทคนิคจะไม่มีอำนาจโดยตรง และการเปลี่ยนแปลง "
+"พารามิเตอร์เครือข่ายทั้งหมด แต่จะผ่านการอนุมัติโดย stakeholders เป็นลำดับสุดท้าย ทำเช่นนี้เพื่อปกป้อง ผู้ที่ได้รับคัดเลือก "
+"กับข้อบังคับที่อาจใช้กับ ผู้จัดการ หรือ ผู้ดูแลระบบ ของ cryptocurrencies ภายใต้ DPOS, เราสามารถมั่นใจได้ว่า "
+"อำนาจการบริหารจัดการ อยู่ในมือของผู้ใช้อย่างแท้จริงแทนที่จะเป็น ตัวแทน หรือ witness."
+
+#: delegated-proof-of-stake-consensus-PO.php:98
+msgid ""
+"The <em>genesis account</em> can technically perform any action that any other account can perform. "
+"This means it is possible to send funds to the <em>genesis account</em> or specify the <em>genesis "
+"account</em> as an escrow agent. The <em>genesis account</em> can also be used to issue new assets. "
+"This method provides a very high degree of trust and accountability, which creates an untold number of "
+"applications whereby elected delegates can perform tasks to aid stakeholders."
+msgstr ""
+"บัญชีเจเนซิส genesis account สามารถดำเนินการต่างๆ ได้เสมือนกันกับที่บัญชีอื่น ๆ สามารถดำเนินการ "
+"ซึ่งหมายความว่าคุณสามารถส่งเงินไปยัง genesis account หรือจะระบุ genesis account เป็น escrow agent "
+"(คนกลางซึ่งมีความมั่นคงและน่าเชื่อถือ ทำหน้าที่ดูแลการชำระหนี้ตามสัญญาให้ถูกต้องและสมบูรณ์) genesis account "
+"ยังสามารถใช้เพื่อออกสินทรัพย์ใหม่ได้ มี applications จำนวนนับไม่ถ้วนที่ ผู้ที่ได้รับคัดเลือก สามารถช่วย stakeholders "
+"ในการปฏิบัติงานที่ต้องใช้ความเชื่อมั่นไว้วางใจเป็นอย่างมากและความรับผิดชอบระดับสูง."
+
+#: delegated-proof-of-stake-consensus-PO.php:100
+msgid "Changing the Rules (aka Hard-Forks)"
+msgstr "การเปลี่ยนกฏ (aka Hard Forks)"
+
+#: delegated-proof-of-stake-consensus-PO.php:101
+msgid ""
+"From time to time, it is necessary to upgrade a network to add new features. Under DPoS, all changes "
+"must be triggered by active stakeholder approval. While it is technically possible for the witnesses "
+"to collude and change their software unilaterally, it is not in their interest to do so. A witness is "
+"selected based upon their commitment to remain neutral to blockchain policy, which protects them "
+"against false allegations they are the administrators/managers/owners/operators of the network. A "
+"witness is merely an employee of the stakeholders."
+msgstr ""
+"ในบางครั้งก็มีความจำเป็นที่ต้องอัปเกรดเครือข่าย เพื่อเพิ่มคุณสมบัติใหม่ให้กับระบบ ภายใต้ DPOS "
+"เมื่อจำเป็นต้องมีการเปลี่ยนแปลงส่วนหนึ่งส่วนใดหรือ ทั้งหมด จะต้องได้รับการอนุมัติจาก stakeholder ทั้งหมดเท่านั้น "
+"ถึงแม้ว่าจะมีความเป็นไปได้ในทางเทคนิค สำหรับ witness ที่จะสมรู้ร่วมคิด และเปลี่ยนซอฟต์แวร์เพียงฝ่ายเดียว "
+"แต่ก็จะไม่มีเหตุจุงใจเพื่อให้พวกเขากระทำการเหล่านั้น witness แต่ละคนจะถูกเลือกตามความมุ่งมั่นของพวกเขา "
+"ที่แสดงถึงความเป็นกลางตามนโยบายของระบบ blockchain เป็นกลางเพื่อการปกป้อง witness จากข้อครหาว่าพวกเขาเป็น "
+"ผู้ดูแลระบบ, ผู้จัดการ, เจ้าของ, หรือผู้บริหาร ของระบบเครื่อข่าย witness เป็นเพียงพนักงานของ stakeholders."
+
+#: delegated-proof-of-stake-consensus-PO.php:102
+msgid ""
+"Developers may implement whatever changes they deem appropriate, so long as those changes are "
+"contingent upon stakeholder approval. This policy protects the developers as much as it protects the "
+"stakeholders and ensures that no individual has unilateral control over the direction of the network."
+msgstr ""
+"นักพัฒนา สามารถเปลี่ยนแปลงใด ๆ ได้ตามที่เห็นสมควร ตราบเท่าที่การเปลี่ยนแปลงเหล่านั้น ได้รับการอนุมัติของ stakeholders "
+"นโยบายนี้ช่วยปกป้องนักพัฒนาได้เท่ากันกับที่จะปกป้อง stakeholders และทำให้มั่นใจได้ว่าจะไม่มีบุคคลใด "
+"ที่มีอำนาจในการควบคุมจากด้านเดียว เพื่อชี้ทิศทางของเครือข่าย."
+
+#: delegated-proof-of-stake-consensus-PO.php:103
+#, php-format
+msgid ""
+"The threshold for changing the rules is the same as replacing 51% of the elected witnesses. The more "
+"stakeholder participation in electing witnesses, the harder it becomes to change the rules."
+msgstr ""
+"หลักเกณฑ์สำหรับการเปลี่ยนกฎ เป็นเช่นเดียวกับการแทนที่ 51% ของ witness ที่ได้รับการเลือกตั้ง การมีส่วนร่วมของ stakeholder "
+"มากขึ้นในการเลือก witness ก็ยิ่งยากที่จะเปลี่ยนกฎ."
+
+#: delegated-proof-of-stake-consensus-PO.php:104
+msgid ""
+"Ultimately, changing the rules depends upon everyone on the network to upgrade their software, and no "
+"blockchain level protocol can enforce how rules are changed. This means that hard-forking “bug fixes” "
+"can be rolled out without requiring a vote of the stakeholders, so long as they remain true to the "
+"universally expected behavior of the code."
+msgstr ""
+"ท้ายที่สุดการเปลี่ยนแปลงกฎขึ้นอยู่กับทุกคนในเครือข่าย เพื่อนำอัปเกรดซอฟต์แวร์ของตนโดยไม่ให้ blockchain "
+"โปรโตคอลในทุกระดับสามารถบังคับ ใช้กฎที่เปลี่ยนแปลงได้ หมายความว่าสามารถแก้ไข “Bug fixes การแก้ไขบั๊ก” "
+"ที่ยากต่อการแก้ไขได้โดยไม่ต้องมีการลงคะแนนเสียงของ stakeholders ตราบใดที่พวกเขายังคง ปฏิบัติตามหลักจรรยาบรรณ "
+"ที่ได้กำหนดขึ้นอย่างเคร่งคัด."
+
+#: delegated-proof-of-stake-consensus-PO.php:105
+msgid ""
+"In practice, only security critical hard-forks should be implemented in such a manner. The developers "
+"and witnesses should wait for the stakeholders to approve even the most minor changes."
+msgstr ""
+"ซึ่งในทางปฏิบัตินั้น การรักษาความปลอดภัยเป็นสิ่งที่สำคัญเมื่อเกิดการ hard-forks และจึงควรจะดำเนินการตามแบบแผน คือ นักพัฒนาและ "
+"witness ควรรอให้ stakeholders อนุมัติ แม้การเปลี่ยนแปลงเล็กน้อยก็ตาม."
+
+#: delegated-proof-of-stake-consensus-PO.php:108
+msgid "Double Spend Attack"
+msgstr "การจ่ายซ้ำซ้อน"
+
+#: delegated-proof-of-stake-consensus-PO.php:109
+msgid ""
+"A double spend can occur anytime a blockchain reorganization excludes a previously included "
+"transaction. For instance, the witnesses have a communication breakdown caused by a brief global "
+"Internet disruption. With DPoS, the probability of a communication breakdown enabling a double spend "
+"attack is very low. The network can immediately detect any loss in communication, as witnesses fail to "
+"produce the blocks on schedule. The network can throttle itself so users have to wait until half of "
+"the witnesses have confirmed their transactions, which could be up to a minute or two."
+msgstr ""
+"การจ่ายซ้ำซ้อนอาจเกิดขึ้นได้ตลอดเวลาภายใน Blockchain ทั่วไป หากไม่จัดการตรวจสอบธุรกรรมก่อนหน้า จะทำให้เกิดปัญหาดังกล่าว "
+"ซึ่งเกิดจากการที่ witness \n"
+"ขาดการติดต่อสื่อสาร ขัดข้องจากระบบอินเทอร์เน็ตพื้นฐาน เมื่อเทียบกับ DPOS ความน่าจะเป็นของการขาดการติดต่อสื่อสาร "
+"และทำให้เกิดการโจมตี แบบจ่ายซ้ำซ้อนสองครั้ง โอกาสที่เกิดขึ้นได้ต่ำมาก."
+
+#: delegated-proof-of-stake-consensus-PO.php:111
+msgid "Transactions as Proof-of-Stake"
+msgstr "ธรุกรรมแบบ Proof-of-Stake"
+
+#: delegated-proof-of-stake-consensus-PO.php:112
+msgid ""
+"Each transaction on the network may optionally include the hash of a recent block. If this is done, "
+"the signer of the transaction can be confident that their transaction may not be applied to any "
+"blockchain instance that does not include that block. A side effect of this process is that, over "
+"time, all stakeholders end up directly certifying the long-term integrity of the transaction history."
+msgstr ""
+"แต่ละรายการในเครือข่าย ซึ่งรวมถึงการ hash ของบล็อกล่าสุด การทำเช่นนี้ ผู้ลงนามของธุรกรรมนั้นสามารถมั่นใจได้ว่า "
+"การทำธุรกรรมของพวกเขา จะไม่สามารถใช้กับ blockchain ใด ๆ ได้ แต่ไม่รวมถึงบล็อกดังกล่าว ผลกระทบของกระบวนการนี้คือ "
+"เมื่อเวลาผ่านไป stakeholders ทุกคนจะต้องรับรองโดยตรงถึงความสมบูรณ์แบบของธุรกรรม ในระยะยาวของประวัติการทำธุรกรรม."
+
+#: delegated-proof-of-stake-consensus-PO.php:114
+msgid "Blockchain Reorganizations"
+msgstr "การปรับปรุงโครงสร้างของ Blockchain"
+
+#: delegated-proof-of-stake-consensus-PO.php:115
+msgid ""
+"Because all witnesses are elected, highly accountable, and granted dedicated time slots to produce "
+"blocks, there are rarely any situations where two competing chains can co-exist. From time to time, "
+"network latency will prevent one witness from receiving the prior block in time. If this happens, the "
+"next witness will resolve the issue by building on whichever block they received first. With 99% "
+"witness participation, a transaction has a 99% chance of being confirmed after reaching a single "
+"witness."
+msgstr ""
+"เนื่องจาก witness ทั้งหมดได้รับการเลือกตั้ง ต้องมีความรับผิดชอบสูง และยังต้องทุ่มเทเวลาในการผลิตบล็อก "
+"จึงทำให้แทบไม่มีสถานการณ์ที่จะเกิดการแข่งขันระหว่างสองกลุ่มเกิดขึ้น ในบางครั้ง,ความล่าช้าของเครือข่าย จะป้องกันไม่ให้ witness "
+"สร้างบล็อคเกินว่าเวลาที่กำหนด หากเกิดเหตุการณ์นี้ witness คนต่อไปจะแก้ปัญหา โดยการสร้าง บล๊อค ที่พวกเขาได้รับก่อนนี้แทน "
+"การมีส่วนร่วมในการเป็น winess 99% ในการทำธุรกรรม มีโอกาส 99% ที่จะได้รับการยืนยันหลังจาก witness เพียงคนเดียว."
+
+#: delegated-proof-of-stake-consensus-PO.php:116
+msgid ""
+"While the system is robust against <em>natural</em> chain reorganization events, there is still some "
+"potential for software bugs, network interruptions, or an incompetent or malicious witness to create "
+"multiple competing histories longer than a block or two. The software always selects the blockchain "
+"with the highest witness participation rate. A witness operating on their own can only produce one "
+"block per round, and it will always have a lower participation rate than the majority. There is "
+"nothing that any witness (or minority group of witnesses) can do to produce a blockchain with a higher "
+"participation rate. The participation rate is calculated by comparing the expected number of blocks "
+"produced vs the actual number of blocks produced."
+msgstr ""
+"ถึงแม้ว่าระบบจะมีความเสถียรรองรับกับเหตุการณ์ การปรับโครงสร้างโดยธรรมชาติของ chain "
+"แต่ก็ยังคงมีข้อบกพร่องเล็กน้อยด้านซอฟต์แวร์อยู่บ้าง ปัญหาการหยุดชะงักของเครือข่าย หรือ witness ที่ไร้ความสามารถ หรือ witness "
+"ที่เป็นอันตราย โดยสร้างประวัติการแข่งขันที่หลากหลาย ที่ยาวกว่า บล็อค\n"
+"ในทุกๆ ครั้งซอฟต์แวร์จะเลือก blockchain ที่มีอัตราการมีส่วนร่วมของ witness สูงสุด ซึ่งการทำงานของ witness "
+"นั้นสามารถผลิตได้เพียง 1 บล็อกต่อรอบ และอัตราการมีส่วนร่วมจะน้อยกว่าคนส่วนใหญ่เสมอ witness (หรือกลุ่ม witness บางส่วน) "
+"ไม่สามารถที่จะสร้าง blockchain ที่มีอัตราการมีส่วนร่วมสูงขึ้นได้ อัตราการมีส่วนร่วมคำนวณได้โดย "
+"การเปรียบเทียบจำนวนบล็อกที่จะสามารถผลิตได้ กับ จำนวนบล็อกที่ผลิตขึ้นจริง."
+
+#: delegated-proof-of-stake-consensus-PO.php:118
+msgid "Maximally Decentralized"
+msgstr "การกระจายข้อมูลมากที่สุด"
+
+#: delegated-proof-of-stake-consensus-PO.php:119
+msgid ""
+"Under DPOS, every stakeholder has influence that is directly proportional to their stake, and no "
+"stakeholders are excluded from exercising this influence. Every other consensus system on the market "
+"excludes the vast majority of stakeholders from participating. There are many different ways that "
+"alternatives exclude stakeholders. Some alternatives use invite-only systems. Others exclude "
+"participation by making it cost more to participate than they earn. Still other systems technically "
+"allow everyone to participate, but they can be safely ignored by a few large players who produce the "
+"vast majority of all blocks. Only DPOS ensures even distribution of block production among the most "
+"people and that everyone has a viable means to influence who those people are."
+msgstr ""
+"ภายใต้ DPOS, stakeholders ทุกคนมีอิทธิพลการออกเสียงตามสัดส่วนกับหุ้นของพวกเขา, และไม่มี stakeholders "
+"คนใดจะได้รับการยกเว้นจากใช้อิทธิพลนี้ ทุกระบบเป็นการออกเสียงแบบมติเอกฉันท์ในตลาด ไม่รวมส่วนใหญ่ของ stakeholders "
+"จากการมีส่วนร่วม มีหลายทางเลือกที่ไม่รวม stakeholders."
