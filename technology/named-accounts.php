@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Named accounts enable users to easily remember and communicate their account information. Every BitShares account is assigned a globally unique name that can be selected by its creator.">
-    <meta name="keywords" content="bitshares, blockchain, named accounts, security">
+    <meta name="keywords" content="bitshares, account, named account, blockchain, security">
 	
     <title>Named Accounts | BitShares Blockchain</title>
     <base href="/">    
@@ -66,7 +66,7 @@
           <p>BitShares blockchain defines a simple algorithm to determine the fee it charges to reserve a new account name. Names that contain a number or dash '-', are longer than 8 characters, or contain no vowels are essentially free. Otherwise the name is priced according to its length. BitShares has the power to adapt to market demands by allowing <a href="../technology/delegated-proof-of-stake-consensus" target="_blank">delegates</a> to propose a different fee for each length.</p>
 <br />
 <h2 id="transferring-names">Transferring Names</h2>
-          <p>BitShares blockchain ensures security for named account transfers by updating the permissions used to control them. In the context of web-of-trust however, the semantics of transferring an account are slightly different. Named account holders need a means to update their keys for security purposes while maintaining their standing in the web-of-trust. Users must be given a way to explicitly transfer a BitShares account name to a new user while breaking any liability for how the account is used in the future.</p>
+          <p>BitShares blockchain ensures security for named account transfers by updating the permissions used to control them. In the context of a web-of-trust however, the semantics of transferring an account are slightly different. Named account holders need a means to update their keys for security purposes while maintaining their standing in the web-of-trust. Users must be given a way to explicitly transfer a BitShares account name to a new user while breaking any liability for how the account is used in the future.</p>
           <p>When a BitShares blockchain user transfers an account name, they use a special transaction that clears all of the links in the web-of-trust. This protects both the buyer and the seller, because simply updating the key that controls a named account does not signify a legal change in ownership.</p>
       </section>
     </main>
