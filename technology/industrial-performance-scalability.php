@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="BitShares achieves incredible confirmation rates and can scale in a manner capable of supporting a global transactional network in near real-time.">
-    <meta name="keywords" content="bitshares, transaction, performance, scalability, blockchain">
+    <meta name="keywords" content="bitshares, transaction, performance, scalability, industrial, blockchain">
 
     <title>Industrial Performance and Scalability | BitShares Blockchain</title>
 	<base href="/">
