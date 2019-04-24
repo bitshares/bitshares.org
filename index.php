@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="The BitShares Blockchain is an Industrial-grade self-funding decentralized eco-system">
+    <meta name="description" content="Industrial-grade decentralized (DPoS) eco-system on blockchain">
     <meta name="keywords" content="decentralized network, blockchain, industrial, business, BitShares">
-    <title>BitShares 2.0 - Industrial-grade decentralized (DPoS) eco-system on blockchain</title>
+    <title>BitShares.org - Home for the BitShares blockchain 3.0</title>
 	<base href="/">
     <!-- Styles -->
     <link href="assets/css/core.min.css" rel="stylesheet">
@@ -18,12 +18,12 @@
     <link rel="icon" href="assets/img/favicon.ico">
 	
     <!--OpenGraphTags-->
-    <meta property="og:title" content="BitShares 2.0">
+    <meta property="og:title" content="BitShares 3.0">
     <meta property="og:description" content="Industrial-grade decentralized (DPoS) eco-system on blockchain">
     <meta property="og:image" content="assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
-
+	
     <!-- Topbar Navigation Bar Begins-->
     <?php require('assets/php/header.php');?>
     <!-- Top Navigation Bar Ends-->
@@ -47,10 +47,10 @@
 <div class="uploading-template"> 
 <img src="logo.png" width=256/>
 </div>
-            <h1 class="hidden-sm-down home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;BLOCKCHAIN</span></h1>
-            <h1 class="hidden-md-up home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;BLOCKCHAIN</span></h1>
-			<h2 class="hidden-sm-down home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Industrial-grade decentralized platform</span></h2>
-			<h2 class="hidden-md-up home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Industrial-grade decentralized platform</span></h2>
+            <h1 class="hidden-sm-down home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;3.0.1</span></h1>
+            <h1 class="hidden-md-up home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;3.0.1</span></h1>
+			<h2 class="hidden-sm-down home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Industrial-grade decentralized (DPoS) eco-system on blockchain</span></h2>
+			<h2 class="hidden-md-up home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Industrial-grade decentralized (DPoS) eco-system on blockchain</span></h2>
             <br>
 			
          </div>
