@@ -1,7 +1,7 @@
 <!-- Footer -->
       
       <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        #mc_embed_signup{background:#fff; clear:left; font:14px "Lato"; }
         #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
         #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox; width:auto;}
         #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
@@ -51,8 +51,8 @@
             display:block;
             width:auto;
             margin-left:8px;
-            font-weight:bold;
-            font-family: Helvetica;
+            font-weight:normal;
+            font-family: "Lato";
             color: #5d5d5d;
         }
 
@@ -79,7 +79,7 @@
             -webkit-appearance: none;
         }
         select {
-          background:#fff url(https://bitshares.us19.list-manage.com/images/icons/signup-sprite.png) no-repeat right -295px;
+          background:#fff url(https://bitshares.org/assets/img/signup-sprite.png) no-repeat right -295px;
         }
         .field-group input, select, textarea, .dijitInputField {
             font-size: 14px;
@@ -100,16 +100,16 @@
               <div class="nav flex-column">
                 <a class="nav-link" target="_blank" href="https://bitshares-explorer.io/">Block Explorer</a>
                 <a class="nav-link" target="_blank" href="https://dev.bitshares.works">Dev Integration Guide</a>
-                <a class="nav-link" target="_blank" href="https://how.bitshares.works">Documentation</a>
-                <a class="nav-link" target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a>
+                <a class="nav-link" target="_blank" href="https://docs.bitshares.org">Documentation</a>
+                <a class="nav-link" target="_blank" href="https://doxygen.bitshares.org">Doxygen</a>
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 hideit">
               <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Access</h6>
               <div class="nav flex-column">
-				<a class="nav-link" target="_blank" href="https://wallet.bitshares.org">BitShares UI</a>
+				<a class="nav-link" target="_blank" href="https://wallet.bitshares.org">BitShares DEX</a>
 				<a class="nav-link" href="create-account">Create Basic Account</a>
-				<a class="nav-link" href="assets/bitshares-media-kit.zip">Media Kit</a>
+				<a class="nav-link" href="assets/bitshares-media-kit.zip">Download Media Kit</a>
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 hideit">
@@ -143,7 +143,7 @@
                     <span class="close">&times;</span>
                     <!-- Begin Mailchimp Signup Form -->
                     <div id="mc_embed_signup">
-                    <h2 class="mail-chimp-h2"><img alt="bitshares powered logo" class="left mail-chimp-img" data-file-id="357671" src="https://gallery.mailchimp.com/bd722493f0fc05df682c6b82f/images/a279a629-c45c-4b78-8953-5e99809b82d0.png">&nbsp;<code class="mail-chimp-code"><span class="nowrap mail-chimp-span">BitShares.org Newsletter</span></code></h2>
+                    <h2 class="mail-chimp-h2"><img alt="bitshares powered logo" class="left mail-chimp-img" data-file-id="357671" src="https://bitshares.org/assets/img/a279a629-c45c-4b78-8953-5e99809b82d0.png">&nbsp;<code class="mail-chimp-code"><span class="nowrap mail-chimp-span">BitShares.org Newsletter</span></code></h2>
                     <form action="https://bitshares.us19.list-manage.com/subscribe/post?u=bd722493f0fc05df682c6b82f&amp;id=1228ad58e8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
@@ -421,16 +421,16 @@
                     <div class="mc-field-group">
                         <div class="space-break"><strong>I would like to receive the following </strong></div>
                         <ul>
-                          <li class="flexify"><input type="checkbox" value="1" name="group[2403][1]" id="mce-group[2403]-2403-0"><label for="mce-group[2403]-2403-0">BitShares Informer monthly newsletter</label></li>
+                          <li class="flexify"><input type="checkbox" value="1" name="group[2403][1]" id="mce-group[2403]-2403-0"><label for="mce-group[2403]-2403-0">BitShares Informer (Monthly newsletter)</label></li>
                           <li class="flexify"><input type="checkbox" value="2" name="group[2403][2]" id="mce-group[2403]-2403-1"><label for="mce-group[2403]-2403-1">Development updates</label></li>
-                          <li class="flexify"><input type="checkbox" value="4" name="group[2403][4]" id="mce-group[2403]-2403-2"><label for="mce-group[2403]-2403-2">Inform me on latest stable software releases</label></li>
+                          <li class="flexify"><input type="checkbox" value="4" name="group[2403][4]" id="mce-group[2403]-2403-2"><label for="mce-group[2403]-2403-2">Inform me on latest software releases</label></li>
                         </ul>
                     </div>
                       <div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">Submit</button></div>
                     </div>
                   </form>
                   </div>
-                  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[2]='MMERGE2';ftypes[2]='text';fnames[3]='COUNTRY';ftypes[3]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                  <script type='text/javascript' src='https://bitshares.org/assets/js/mc-validate.min.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[2]='MMERGE2';ftypes[2]='text';fnames[3]='COUNTRY';ftypes[3]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                 </div>
               </div>
               <hr>
@@ -438,7 +438,7 @@
               <a class="social-twitter" target="_blank" href="https://github.com/bitshares"><img class="social-btns" src="../assets/img/github.svg" /></a>
 			  <a class="social-reddit" target="_blank" href="https://reddit.com/r/bitshares"><img class="social-btns" src="../assets/img/reddit.svg" /></a>
 			  <a class="social-reddit" target="_blank" href="https://steemit.com/trending/bitshares"><img class="social-btns" src="../assets/img/steemit.svg" /></a>
-			  <a class="social-twitter" target="_blank" href="https://twitter.com/search?q=bitshares"><img class="social-btns" src="../assets/img/twitter.svg" /></a>		  
+			  <a class="social-twitter" target="_blank" href="https://twitter.com/BitSharesOrg"><img class="social-btns" src="../assets/img/twitter.svg" /></a>		  
 			  <a class="social-reddit" target="_blank" href="https://whaleshares.io/trending/bitshares"><img class="social-btns" src="../assets/img/whaleshares.svg" /></a>
 			  
               </div>
