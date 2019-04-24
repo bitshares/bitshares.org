@@ -62,7 +62,7 @@
           <p>Blockchains must have high performance and scalability in order to deliver the speed required of cryptocurrency and smart contracts. Designing BitShares from the ground up means it can meet demands to process more transactions every second than VISA and MasterCard combined. Delegated Proof of Stake ensures the BitShares network can confirm transactions in an average of just 1 second, limited only by the speed of light.</p>
 		  <br />
 		  <h2>Overview</h2>
-      <p>To achieve industry-leading performance, BitShares borrowed lessons from the <a href="http://martinfowler.com/articles/lmax.html" target="_blank">LMAX Exchange</a>, which is capable of processing 6 million transactions per second. These were the key lesson points:</p>
+      <p>To achieve industry-leading performance, BitShares borrowed lessons from the <a href="https://martinfowler.com/articles/lmax.html" target="_blank">LMAX Exchange</a>, which is capable of processing 6 million transactions per second. These were the key lesson points:</p>
 			<ul class="ml-50">
 				<li>Keep everything in memory.</li>
 				<li>Keep the core business logic in a single thread.</li>
@@ -98,7 +98,7 @@
 			<li>Minimize unnecessary computation in the business logic processor.</li>
 			</ul>
 		 <p>Memory is becoming cheaper every day because it is extremely parallel in its design. The amount of information required to track the account balance and permissions of every person on the Internet is less than 1 Terabyte of RAM. This can cost less than $15,000 and it's installable on commodity (high-end) server motherboards. Long before 3 billion people adopt the system, this kind of hardware will be in the average desktop.</p>
-		 <p>Memory isn't the real bottleneck, but bandwidth is critical to performance and scalability. At 1 million transactions per second and 256 bytes per transaction, the network would need 256 megabytes per second (1 Gbit/sec). This kind of bandwidth is not available to the average desktop; but it is a fraction of the 100 Gbit/s that <a href="http://www.internet2.edu/vision-initiatives/initiatives/innovation-platform/" target="_blank">Internet 2</a> furnishes to more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.</p>
+		 <p>Memory isn't the real bottleneck, but bandwidth is critical to performance and scalability. At 1 million transactions per second and 256 bytes per transaction, the network would need 256 megabytes per second (1 Gbit/sec). This kind of bandwidth is not available to the average desktop; but it is a fraction of the 100 Gbit/s that <a href="https://www.internet2.edu/vision-initiatives/initiatives/innovation-platform/" target="_blank">Internet 2</a> furnishes to more than 210 U.S. educational institutions, 70 corporations, and 45 non-profit and government agencies.</p>
 		 <p>For the scalability and performance to handle millions of transactions per second, a blockchain must keep everything in RAM.</p>
 
 			<br />

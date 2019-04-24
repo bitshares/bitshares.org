@@ -5,14 +5,14 @@ This stylesheet contains some additional UI enhancements for Foundation.
 These are thankfully derived from Twitter's Bootstrap Framework.
 
 Extended and Integrated by Designova Webtech.
-http://www.designova.net
+https://www.designova.net
 
 
 Icons are by Glyphicons.
 
 */
 
-/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+/* https://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
 
 .clearfix:before,
 .clearfix:after {
@@ -244,7 +244,7 @@ a:focus { outline: none; }
  }
  
  /***Enhanced Text Shadows*****/
- /*refer: http://www.midwinter-dg.com/permalink-7-great-css-based-text-effects-using-the-text-shadow-property_2011-03-03.html */
+ /*refer: https://www.midwinter-dg.com/permalink-7-great-css-based-text-effects-using-the-text-shadow-property_2011-03-03.html */
  
  .text-shadow-letterpress {
   text-shadow: 0px 1px 1px #4d4d4d;

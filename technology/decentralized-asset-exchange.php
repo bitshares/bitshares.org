@@ -65,8 +65,8 @@
         <div class="container">
     <h2>Background</h2>
           <p>BitShares blockchain provides a dApp in the form of a high-performance decentralized exchange. Referred to as simply the 'DEX', it has all the features you would expect from a trading platform. It can handle the trading volume of the NASDAQ, whilst settling orders instantly. With this kind of performance on a decentralized exchange, who needs risky centralized exchanges?</p>
-		  <p>Throughout history, centralized exchanges have repeatedly been proven unreliable and untrustworthy. Whether it is <a href="http://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/" target="_blank">MF Global</a>, 
-        <a href="http://www.wired.com/2014/03/bitcoin-exchange/" target="_blank">Mt. Gox</a>, or <a href="http://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/" target="_blank">BitStamp</a>, many
+		  <p>Throughout history, centralized exchanges have repeatedly been proven unreliable and untrustworthy. Whether it is <a href="https://www.forbes.com/sites/francinemckenna/2012/07/16/auditors-all-fall-down-pfgbest-and-mf-global-frauds-reveal-weak-watchdogs/" target="_blank">MF Global</a>, 
+        <a href="https://www.wired.com/2014/03/bitcoin-exchange/" target="_blank">Mt. Gox</a>, or <a href="https://www.coindesk.com/bitstamp-claims-roughly-19000-btc-lost-hot-wallet-hack/" target="_blank">BitStamp</a>, many
         people have been cheated because they allowed a 3rd party to hold their funds. It doesn’t matter how big they are, or how many auditors, regulators or insurers are involved, every kind of fraud, abuse, and theft can occur. In the modern financial system, these transgressions happen all too frequently within centralized banks and exchanges operating across the world. It is time for a change. Keep reading to learn about the benefits of using the world’s first fully decentralized exchange, built entirely upon the BitShares blockchain.</p>
 		  <br />
 	<h4>Decentralized</h4>

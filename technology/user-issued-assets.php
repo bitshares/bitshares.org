@@ -90,7 +90,7 @@
 <br />
 <h3 id="6-company-shares">6. Company Shares</h3>		
 <p>Corporate shares are heavily regulated by the SEC, but none of those regulations prevents issuing or trading them on an 
-  <a href="http://en.wikipedia.org/wiki/Alternative_trading_system" target="_blank">alternative trading system</a>. The regulations in many
+  <a href="https://en.wikipedia.org/wiki/Alternative_trading_system" target="_blank">alternative trading system</a>. The regulations in many
  jurisdictions require registering all shares (aka held by known identities). BitShares corporate shares can be collateral for a bond or be
  useful in any number of smart contracts.</p>
 <br />
@@ -129,7 +129,7 @@ auctioning them off to the highest bidder, who would then resell them. This ensu
 <p>It is possible to use arbitrary financial indexes for the price feed to mimic all manner of exotic assets.</p>
 <br />
 <h2 id="informationprediction-markets">Information/Prediction Markets</h2>
-<p>A <a href="http://en.wikipedia.org/wiki/Prediction_market" target="_blank">prediction market</a> is a specialization of SmartCoins where there is no need for margin calls, or forced settlement, because all positions are fully collateralized at any price. A prediction market has a price between 0 and 1 and the issuer settles all positions after the event occurs and the final price is known. These prediction markets can be very secure if the issuer is a multi-sig account with many independent and trustworthy parties involved.</p>
+<p>A <a href="https://en.wikipedia.org/wiki/Prediction_market" target="_blank">prediction market</a> is a specialization of SmartCoins where there is no need for margin calls, or forced settlement, because all positions are fully collateralized at any price. A prediction market has a price between 0 and 1 and the issuer settles all positions after the event occurs and the final price is known. These prediction markets can be very secure if the issuer is a multi-sig account with many independent and trustworthy parties involved.</p>
 <br />
 <h2 id="how-to-profit-by-issuing-an-asset">How to Profit by Issuing an Asset</h2>
 <p>There are many ways to profit from issuing an asset. As the issuer, you have complete control over market fees and can tune parameters such as the percentage of each trade that is collected as a fee. It is also possible to bound this percentage by a minimum and maximum fee. The combination of these three parameters gives issuers great flexibility in pricing.</p>

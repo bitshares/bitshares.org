@@ -82,7 +82,7 @@
          <p>Giving people money is both expensive and potentially unsustainable, but it works.</p>
 <br />
     <h2 id="cost-of-customer-acquisition-vs-lifetime-value-of-customer">Cost of Customer Acquisition vs Lifetime Value of Customer</h2>
-         <p>BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow. In the article <a href="http://www.forentrepreneurs.com/startup-killer/" target="_blank">“Startup Killer: The Cost of Customer Acquisition”</a>, David Skok shared the lessons he learned after watching many failed startups.</p>
+         <p>BitShares recognizes that a sustainable system must be able to cover all operating expenses from cash flow. In the article <a href="https://www.forentrepreneurs.com/startup-killer/" target="_blank">“Startup Killer: The Cost of Customer Acquisition”</a>, David Skok shared the lessons he learned after watching many failed startups.</p>
          <p><i>However, after closely watching several hundred startups that have failed, I observed that a very large number of these had solved the product/market fit problem, but still failed because they had not found a way to acquire customers at a low enough cost.</i></p>
          <p>A well-balanced business model must have a cost of user acquisition that is much lower than its ability to monetize its customers.</p>
     <center><img class="img-responsive img-thumbnail" src="/images/wellbalanced.svg"/ alt=""></center>

@@ -34,7 +34,7 @@
 									<div class="cbp-hrsub-inner mt-20">
 										<div class="menu-part">
 											<ul>
-												<li class="ml-20"></li><a class="nav-link" target="_blank" href="http://how.bitshares.works">Documentation</a></li>
+												<li class="ml-20"></li><a class="nav-link" target="_blank" href="https://how.bitshares.works">Documentation</a></li>
 											</ul>
 										</div>
 									</div>

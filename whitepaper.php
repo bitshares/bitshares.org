@@ -130,7 +130,7 @@
         </ul>
        
         <br />
-        <p>By following these simple rules, BitShares is theoretically able to process >10,000 (ten thousand) transactions per second without any significant effort devoted to optimization. To put things into <a href="http://blocktivity.info/" target="_blank">perspective</a>, at peak times, the Ethereum and Bitcoin Blockchain jointly process roughly 0.7% of the peak capacity of the BitShares Blockchain (Q1/2018) as proven from distributed stress testing.</p>
+        <p>By following these simple rules, BitShares is theoretically able to process >10,000 (ten thousand) transactions per second without any significant effort devoted to optimization. To put things into <a href="https://blocktivity.info/" target="_blank">perspective</a>, at peak times, the Ethereum and Bitcoin Blockchain jointly process roughly 0.7% of the peak capacity of the BitShares Blockchain (Q1/2018) as proven from distributed stress testing.</p>
         
     <h2 id="identity">3 - Identity</h2>
         <p>BitShares makes use of human-readable account names that have to be registered together with public-keys in the blockchain prior to its usage. Thus, the blockchain acts as a name-to-public-key resolver similar to the traditional domain name service (DNS). These named accounts enable users to easily remember and communicate their account information instead of using error-prone <em>addresses</em>. Depending on individual needs, applications making use of the BitShares Blockchain can create environments which have full KYC (Know Your Customer) support through so called <em>whitelisting</em> which enables a maximum of control or transparency when so desired.</p>

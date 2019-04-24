@@ -342,16 +342,16 @@
 											<td class="title_cell">#</td>
 											<td class="title_cell"><img class="icon"  src="design/icon/symbol.png" alt="symbol"></td>
 											<td class="title_cell">Name</td>
-											<td class="title_cell pl-8">Activity <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Number of operations on the blockchain during the last 24h (more about it at <a href="http://www.blocktivity.info/">Blocktivity.info</a>).</span></div></td>
-											<td class="title_cell">Average <span class="exposant">(7d)</span><div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Average number of operation on the blockchain during the last 7 days (more about it at <a href="http://www.blocktivity.info/">Blocktivity.info</a>).</div></td>
-											<td class="title_cell">Record <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Absolute transaction / day record (more about it at <a href="http://www.blocktivity.info/">Blocktivity.info</a>)</span></div></td>
+											<td class="title_cell pl-8">Activity <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Number of operations on the blockchain during the last 24h (more about it at <a href="https://www.blocktivity.info/">Blocktivity.info</a>).</span></div></td>
+											<td class="title_cell">Average <span class="exposant">(7d)</span><div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Average number of operation on the blockchain during the last 7 days (more about it at <a href="https://www.blocktivity.info/">Blocktivity.info</a>).</div></td>
+											<td class="title_cell">Record <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Absolute transaction / day record (more about it at <a href="https://www.blocktivity.info/">Blocktivity.info</a>)</span></div></td>
 											<td class="title_cell pl-8">Market Cap <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">In BILLION dollars.</span></div></td>
-											<td class="title_cell pl-8">AVI <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Activity Valuation Index (AVI) - A ratio of blockchain activity to market cap valuation (more about it at <a href="http://www.blocktivity.info/">Blocktivity.info</a>).</span></div></td>
-											<td class="title_cell">CUI <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Capacity Utilization Index (CUI) - A ratio of blockchain daily activity to total blockchain capacity(more about it at <a href="http://www.blocktivity.info/">Blocktivity.info</a>).</span></div></td>
+											<td class="title_cell pl-8">AVI <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Activity Valuation Index (AVI) - A ratio of blockchain activity to market cap valuation (more about it at <a href="https://www.blocktivity.info/">Blocktivity.info</a>).</span></div></td>
+											<td class="title_cell">CUI <div class="tooltip"><span class="exposant">&#9432;</span><span class="tooltiptext">Capacity Utilization Index (CUI) - A ratio of blockchain daily activity to total blockchain capacity(more about it at <a href="https://www.blocktivity.info/">Blocktivity.info</a>).</span></div></td>
 										</tr>
 										<tr><td colspan="10" class="cell-pad"></td></tr>
 										<?php echo $table_text; ?>
-										<tr><td colspan="10" class="w3-text-blue-grey line_btm cell-pad"></br><a href="http://www.blocktivity.info/">Visit Blocktivity.info for more information and analysis.</a></td></tr>
+										<tr><td colspan="10" class="w3-text-blue-grey line_btm cell-pad"></br><a href="https://www.blocktivity.info/">Visit Blocktivity.info for more information and analysis.</a></td></tr>
 								</table>
 							</div> 
 					</div>

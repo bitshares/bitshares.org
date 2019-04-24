@@ -61,7 +61,7 @@
 	transform: translateX(0px);
 }
 
-/* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
+/* Effect 2: 3D rolling links, idea from https://hakim.se/thoughts/rolling-links */
 .cl-effect-2 a {
 	line-height: 44px;
 	-webkit-perspective: 1000px;
@@ -479,7 +479,7 @@
 	transform: translateX(0%);
 }
 
-/* Effect 11: text fill based on Lea Verou's animation http://dabblet.com/gist/6046779 */
+/* Effect 11: text fill based on Lea Verou's animation https://dabblet.com/gist/6046779 */
 .cl-effect-11 a {
 	padding: 10px 0;
 	border-top: 2px solid #0972b4;
