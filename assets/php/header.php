@@ -14,8 +14,8 @@
 						<a class="nav-link" href="#">Development
 						<i class="fa fa-caret-right"></i></a>
 						<div class="nav-submenu">
-							<a class="nav-link" target="_blank" href="http://dev.bitshares.works">Dev Integration Guide</a>
-							<a class="nav-link" target="_blank" href="https://bitshares.org/doxygen/">Doxygen</a>
+							<a class="nav-link" target="_blank" href="https://dev.bitshares.works">Dev Integration Guide</a>
+							<a class="nav-link" target="_blank" href="https://doxygen.bitshares.org">Doxygen</a>
 							<a class="nav-link" target="_blank" href="https://github.com/bitshares" >GitHub</a>
 						</div>
 					</div>
@@ -23,11 +23,11 @@
 					<div class="nav-item">
 						<a class="nav-link" href="#">Native dApps<i class="fa fa-caret-right"></i></a>
 						<div class="nav-submenu">
-							<a class="nav-link" target="_blank"href="https://wallet.bitshares.org" >BitShares DEX</a>
+							<a class="nav-link" target="_blank" href="https://wallet.bitshares.org" >BitShares DEX</a>
 						</div>
 					</div>
 
-					<a class="nav-link" target="_blank" href="http://how.bitshares.works">Documentation</a>
+					<a class="nav-link" target="_blank" href="https://docs.bitshares.org">Documentation</a>
 				</div>
 				</li>
 				<li class="nav-item"><a class="nav-link" href="#">Technology<i class="fa fa-caret-down"></i></a>
