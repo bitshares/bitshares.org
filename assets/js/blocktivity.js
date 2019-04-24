@@ -41,7 +41,7 @@ return $gauge_return;
 //*************************************************************************************************  Extraction data from API
 //***************************************************************************************************************************
 	
-read_wp("http://www.blocktivity.info/blocktivity_own_api.html");
+read_wp("https://www.blocktivity.info/blocktivity_own_api.html");
 
 		$starting_string = '{"id":"bitcouille","name":"Bitcouille","symbol":"B==D","rank":"25","price_usd":"1.06223","price_btc":"0.00018161","volume_24h_usd":"1058240.0","market_cap_usd":"259009597.0","available_supply":"243835702.0","total_supply":"260809796.0","percent_change_1h":"-2.37","percent_change_24h":"4.0","percent_change_7d":"-11.97","last_updated":"1508025261"}';
 		// We start with a false coin API so the script run ok with the first one (BTC)
