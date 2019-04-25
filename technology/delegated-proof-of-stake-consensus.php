@@ -6,13 +6,13 @@
     <meta name="description" content="Delegated Proof-of-Stake is a fast, efficient, and flexible consensus algorithm that enables stakeholder voting on the blockchain for democratic decisions.">
     <meta name="keywords" content="block, witness, network, consensus, stakeholder, bitshares">
 
-    <title>Delegated Proof-of-Stake Consensus | BitShares Blockchain</title>
+    <title>Delegated Proof-of-Stake Consensus | BitShares 3.0</title>
 	<base href="/">
     <!-- Styles -->
     <link href="../assets/css/core.min.css" rel="stylesheet">
     <link href="../assets/css/thesaas.min.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="../assets/css/popup.css">
+<!--	<link rel="stylesheet" href="../assets/css/popup.css"> -->
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
@@ -21,10 +21,10 @@
 .ls-none {list-style:none;}
 </style>
     <!--  Open Graph Tags -->
-    <meta property="og:title" content="Bitshares - Delegated Proof-of-Stake Consensus">
+    <meta property="og:title" content="Bitshares 3.0">
     <meta property="og:description" content="Delegated Proof-of-Stake is a fast, efficient, and flexible consensus algorithm that enables stakeholder voting on the blockchain for democratic decisions.">
-    <meta property="og:image" content="assets/img/og-img.jpg">
-    <meta property="og:url" content="https://bitshares.org/">
+    <meta property="og:image" content="../assets/img/og-img.jpg">
+    <meta property="og:url" content="https://bitshares.org/technology/delegated-proof-of-stake-consensus/">
     <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
