@@ -172,6 +172,29 @@ $(function()
 		max-width: 89% ;
 		}	
 	}
+	@media screen and (max-width: 414px) {
+		.g-recaptcha {
+		  transform:scale(1);transform-origin:0 0
+		}
+	}
+	@media screen and (max-width: 411px) {
+		.g-recaptcha {
+		  transform:scale(0.98);transform-origin:0 0
+		}
+	}
+	@media screen and (max-width: 375px) {
+		.g-recaptcha {
+		  transform:scale(0.89);transform-origin:0 0
+		}
+	}
+	@media screen and (min-width: 361px) {
+		.compact-hide {display:none;}
+		.normal-hide {display:inherit;}
+	}
+	@media screen and (max-width: 360px) {
+		.compact-hide {display:inherit; height:90px;}
+		.normal-hide {display:none;}
+	}
 </style>
 	
     <!--  Open Graph Tags -->
@@ -228,8 +251,13 @@ $(function()
 						<textarea id="message" class="form-control form-control-lg" rows="8" maxlenght="5000" placeholder="Your Message" name="message" required></textarea>
 					  </div>
 					  <div class="text-xs-center">
-                      <div class="g-recaptcha" data-sitekey="6LdI73oUAAAAAE6g5PkvYXrH7OOwdBcc-CyA5-hT"></div>
-                      </div>
+					  <div class="text-xs-center normal-hide">
+						<div class="g-recaptcha" data-sitekey="6LdI73oUAAAAAE6g5PkvYXrH7OOwdBcc-CyA5-hT"></div>
+                      			  </div>
+					  <div class="text-xs-center compact-hide">
+						<div class="g-recaptcha" data-size="compact" data-sitekey="6LdI73oUAAAAAE6g5PkvYXrH7OOwdBcc-CyA5-hT"></div>
+                      			  </div>
+                     			  </div>
 					  <div class="text-center">
 						<button class="btn btn-lg btn-primary" type="submit">Submit Inquiry</button>
 					  </div>
