@@ -127,76 +127,12 @@
 
       <section class="section section-x">
         <div class="container">
-          <h2>Token Factory</h2>
-
-        	<p>Create your own cryptocurrency tokens by publically representing and listing a User Issued Asset on
-            the blockchain. User-Issued Assets enable entrepreneurs to issue their own cryptocurrency smart tokens.
-            Event tickets, company shares, crowd-funding, loyalty/credits are just a few of the numerous examples.
-            Whitelist to create fully regulatory compliant KYC/AML tokens. Publically describe, list, and provide liquidity
-            for your assets. The potential use cases for user-issued assets are innumerable, and the regulations that apply to
-            each kind of token vary widely and are often different in every jurisdiction. BitShares provides the tools to allow
-            issuers to remain compliant with all applicable regulations when issuing assets.</p></br >
-
-<br />
-
-<h2>BitShares blockchain UIAs - Use Cases</h2>
-
-<h3>Deposit Receipts</h3>
-<p>Banks are merely companies that maintain a database of customer account balances and facilitate the transfer of these assets among their depositors. Companies like Dwolla and PayPal issue deposit receipts and then offer cheaper transfers among their users than between banks. With BitShares, it is now possible to move these internal databases onto the blockchain where deposits get written in smart contracts for the domestic markets, escrows, or bonds.</p><br />
-        <ul>
-        <li>KYC: Allows issuers to benefit from the network effect of validated users.</li>
-           <p>First and foremost the issuer must know every single customer. BitShares supports this by enabling both whitelists and blacklists. Rather than requiring every issuer to whitelist every customer separately, an issuer may specify a set of identity verifiers that they trust to do this job. </p><br />
-        <li>Asset Seizing</li>
-           <p>May be a required feature in some jurisdictions. An issuer can determine whether or not they wish to revoke this privilege. From time to time, an issuer may be required to seize funds as a result of a court order. While this may be unappealing to cryptocurrency purists, it is an unavoidable reality of trust-based assets. </p><br />
-        <li>Market Restriction</li>
-           <p>An issuer who offers both USD and EUR deposits may need to restrict direct trading between their USD and EUR assets to avoid being subject to foreign currency exchange regulations. Some cryptocurrency exchanges allow trading between fiat and cryptocurrencies, but not between two fiat currencies. Without this feature, many exchanges would be unable to issue their assets on the BitShares blockchain.</p><br />
-        <li>Transfer Restrictions</li>
-           <p>The deposit receipt example is probably one of the most important, and  most heavily regulated, use cases of User-Issued Assets. A transfer-restricted asset allows the holders of the asset to trade it in the markets but not transfer it from person to person. Only a few cryptocurrency exchanges allow user-to-user transfer of funds outside the market, because this particular activity is often subject to a different set of money transmission regulations.</p><br />
-        <li>Privatized SmartCoins / Fully collateralized price-stable cryptocurrencies</li>
-            <p>Price-stable cryptocurrencies (aka SmartCoins) were the inspiration for BitShares. Now, users can create their own price-stable assets with custom parameters designed to track the value of any asset they can imagine. They are fully collateralized, and the issuer only needs to be trusted to appoint an honest set of independent (non-collusive) feed producers. Value of a Privatized SmartCoin is secured even if the issuer disappears.</p><br />
-      </ul>
-
-      <h3>Company Shares</h3>
-      <p>The SEC heavily regulates corporate shares, but none of those regulations prevent them from being issued or traded on an alternative trading system. The rules in many jurisdictions require all shares to be registered (aka held by known identities).  Corporate shares issued on BitShares can become collateral for a bond or used in another smart contract.
-
-
-  <h3>Event Tickets</h3><br />
-  <p>Event tickets are a mostly unregulated use case for user-issued assets. Tickets to a school play are supplied as digital tokens and auctioned off to the highest bidder, who would then resell them. The auction ensures that the ticket issuer raises as much money as possible up front while transferring the risk of ticket sales on to speculators.</p>
-
-  <p>On the day of the event, the issuer can freeze all trading of the asset and then allow users to cryptographically check-in.</p>
-
-
-  <h3>Reward or Loyalty Points</h3><br />
-  <p>Retail merchants around the world offer reward schemes for loyal customers. These points are accumulated to earn discounts on future purchases. Rewards systems are a prime opportunity to add value by implementing them on the BitShares blockchain.</p>
-
-
-  <h3>Individual or Corporate Debt</h3></br >
-  <p>Many businesses raise money by selling bonds. With BitShares, these bonds become tradeable and fungible, which makes them more compelling to investors.</p>
-
-
-  <h3>Crowd Funding</h3>
-  <br>
-  <p>Whether being used as a transferable coupon for a pre-sale or doing an IPO on a small company, issuing an asset is one of the most effective means of raising money for a cause.</p>
-
-
-  <h3>Digital Property</h3>
-  <br>
-  <p>Software and music licenses can be made transferable by issuing them as a digital asset. Every copy of a program can check to make sure that the user has control of a token before running. Software implementing such a licensing scheme can remain functional even if the company that produced the license goes out of business.</p>
-
-  <p>Trading cards simulated by creating many limited issue assets. Online games can use these assets to represent game items.</p>
-
-
-  <h3>Privatized SmartCoins (Stable Cryptocurrencies)</h3>
-  <br>
-  <p>Price-stable cryptocurrencies (aka SmartCoins) were the inspiration for BitShares. Now, users can create their price-stable assets with custom parameters designed to track the value of any asset they can imagine. The benefit of price-stable cryptocurrencies is that they are fully collateralized, and the issuer only needs to be trusted to appoint an honest set of independent (non-collusive) feed producers. Unlike deposit receipts, even if the issuer disappears the value of a Privatized SmartCoin is secure.</p>
-      
-
+  bitshares-token-factory-dapp.php
 </div>
       </section>
     </main>
     <!-- END Main container -->
 
-<!-- Footer -->
 <!-- Footer -->
       <footer class="site-footer py-90">
         <div class="container">
