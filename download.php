@@ -54,7 +54,7 @@
       <section class="section section-x">
         <div class="container">
 			<br />
-			<h4>BitShares 2.0 (GUI January 08, 2019 / Core February 20, 2019)</h4>
+			<h4>BitShares 2.0 (GUI April 24, 2019 / Core May 15, 2019)</h4>
 			<ul class="ml-40 ls-none">
 				<li class="mt-20">
 					<a target="_blank" href="https://github.com/bitshares/bitshares-ui/releases/download/2.0.181212/BitShares.Setup.2.0.181212.exe"><img class="h-25 mt-0 mb-12 mx-0" src="assets/img/windows.svg" alt="Windows"/> Windows </a>
