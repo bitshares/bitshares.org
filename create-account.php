@@ -9,8 +9,8 @@
     <title>Create Free Account | BitShares Blockchain</title>
    	<base href="/">
 	<!-- Styles -->
-    <link href="assets/css/core.min.css" rel="stylesheet">
-    <link href="assets/css/thesaas.min.css" rel="stylesheet">
+    <link href="assets/css/core.css" rel="stylesheet">
+    <link href="assets/css/thesaas.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 	
     <!-- Favicons -->
@@ -56,19 +56,12 @@
 <!-- End Slide Mobile Menu -->
     <!-- Scripts -->
     <script src="assets/js/core.min.js"></script>
-    <script src="assets/js/thesaas.js"></script>
     <script src="assets/js/script.js"></script>
-	<script type="text/javascript" src="assets/js/marketcap.js"></script>
 	<!-- End Scripts -->
 	<!-- Go to Top Button -->
 	  <div id="stop" class="scrollTop bttt-border bttt-round bttt-positionRight bttt-slideFromBottom">
 		<i class='fa fa-chevron-up'></i>
 	  </div>
 	<!-- End Go to Top Button -->
-	  	<script>
-			$(function() {
-				cbpHorizontalMenu.init();
-			});
-		</script>
-	</body>
+	  	</body>
 </html>

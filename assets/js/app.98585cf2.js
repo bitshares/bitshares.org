@@ -520,7 +520,7 @@
                                 case 0:
                                     return this.start = !0, setTimeout(function () {
                                         e.step2()
-                                    }, 3e3), this.bitshares = new n["a"]("wss://status200.bitshares.apasia.tech/ws"), t.next = 5, this.bitshares.connect();
+                                    }, 3e3), this.bitshares = new n["a"]("wss://eu.nodes.bitshares.ws"), t.next = 5, this.bitshares.connect();
                                 case 5:
                                     this.api = t.sent, console.log(this.api);
                                 case 7:

@@ -9,10 +9,10 @@
     <title>Industrial Performance and Scalability | BitShares Blockchain</title>
 	<base href="/">
     <!-- Styles -->
-    <link href="../assets/css/core.min.css" rel="stylesheet">
-    <link href="../assets/css/thesaas.min.css" rel="stylesheet">
+    <link href="../assets/css/core.css" rel="stylesheet">
+    <link href="../assets/css/thesaas.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="../assets/css/popup.css">
+	
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
     <link rel="icon" href="../assets/img/favicon.ico">
@@ -44,20 +44,7 @@
     <!-- END Header -->
     <!-- Main container -->
     <main class="main-content">
-		<section class="section no-show-btn pt-0 pb-0 cmc_div">
-			<!-- MARKET CAP & PRICE -->
-			<div class="price_mc">
-			<div class="mc_data">
-				<div class="mc_bts_price">BTS Price:</div><div class="coinmarketcap-currency-wig" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="true"></div>
-			
-				<div class="mc_bts_mc">Market Cap:</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="true" data-volume="false" data-stats="USD" data-statsticker="true"></div>
-			
-				<div class="mc_bts_24">Volume (24h):</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="true" data-stats="USD" data-statsticker="true"></div>
-			</div>
-			</div>
-			<!-- MARKET CAP & PRICE -->
-		</section>
-      <section class="section section-x">
+	  <section class="section section-x">
         <div class="container">
           <p>Blockchains must have high performance and scalability in order to deliver the speed required of cryptocurrency and smart contracts. Designing BitShares from the ground up means it can meet demands to process more transactions every second than VISA and MasterCard combined. Delegated Proof of Stake ensures the BitShares network can confirm transactions in an average of just 1 second, limited only by the speed of light.</p>
 		  <br />
@@ -153,19 +140,12 @@
 
     <!-- Scripts -->
     <script src="../assets/js/core.min.js"></script>
-    <script src="../assets/js/thesaas.js"></script>
     <script src="../assets/js/script.js"></script>
-	<script type="text/javascript" src="../assets/js/marketcap.js"></script>
 	<!-- End Scripts -->
 	<!-- Go to Top Button -->
 	  <div id="stop" class="scrollTop bttt-border bttt-round bttt-positionRight bttt-slideFromBottom">
 		<i class='fa fa-chevron-up'></i>
 	  </div>
 	<!-- End Go to Top Button -->
-	  	<script>
-			$(function() {
-				cbpHorizontalMenu.init();
-			});
-		</script>
 	</body>
 </html>

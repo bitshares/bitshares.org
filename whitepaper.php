@@ -6,22 +6,19 @@
     <meta name="description" content="Revised Whitepaper by BitShares Blockchain Foundation.">
     <meta name="keywords" content="white-paper, whitepaper, white, paper, dpos, network, blockchain, consensus, bitshares, whitepaper">
 
-    <title>Whitepaper 2.0 | BitShares Blockchain</title>
+    <title>Revised Whitepaper | BitShares Blockchain</title>
 	<base href="/">
     <!-- Styles -->
-    <link href="assets/css/core.min.css" rel="stylesheet">
-    <link href="assets/css/thesaas.min.css" rel="stylesheet">
+    <link href="assets/css/core.css" rel="stylesheet">
+    <link href="assets/css/thesaas.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/popup.css">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
     <link rel="icon" href="assets/img/favicon.ico">
-<style>
-.ls-none {list-style:none;}
-</style>
+
     <!--  Open Graph Tags -->
-    <meta property="og:title" content="Whitepaper 2.0 | BitShares Blockchain">
+    <meta property="og:title" content="Revised Whitepaper | BitShares Blockchain">
     <meta property="og:description" content="Revised Whitepaper by BitShares Blockchain Foundation.">
     <meta property="og:image" content="assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
@@ -41,8 +38,8 @@
         <div class="row">
           <div class="col-12 col-lg-8 offset-lg-2">
 
-            <h1>Whitepaper 2.0</h1>
-            <p class="fs-18 opacity-70">The BitShares Blockchain</p>
+            <h1>Revised Whitepaper</h1>
+            <p class="fs-18 opacity-70">BitShares Blockchain</p>
 
           </div>
         </div>
@@ -53,31 +50,56 @@
 
     <!-- Main container -->
     <main class="main-content">
-		<section class="section no-show-btn pt-0 pb-0 cmc_div">
-			<!-- MARKET CAP & PRICE -->
-			<div class="price_mc">
-			<div class="mc_data">
-				<div class="mc_bts_price">BTS Price:</div><div class="coinmarketcap-currency-wig" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="true"></div>
-			
-				<div class="mc_bts_mc">Market Cap:</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="true" data-volume="false" data-stats="USD" data-statsticker="true"></div>
-			
-				<div class="mc_bts_24">Volume (24h):</div><div class="coinmarketcap-currency-widget" data-currency="bitshares" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="true" data-stats="USD" data-statsticker="true"></div>
-			</div>
-			</div>
-			<!-- MARKET CAP & PRICE -->
-		</section>
-      <section class="section section-x">
+		<section class="section section-x">
         <div class="container">
         
           <h4>The BitShares Blockchain Foundation</h4>       
           <p><em>elected spokesperson of the BitShares Blockchain</em></p>
           <a href="https://www.bitshares.foundation">www.bitshares.foundation</a>
           <br />
-            <br />
-    <h2 id="abstract">Abstract</h2>
+          
+          <h2 id="abstract">Abstract</h2>
          <p><em>The BitShares Blockchain is an industrial-grade decentralized platform built for high-performance financial smart contracts. It represents the first decentralized autonomous community that lets its core token holder decide on its future direction and products.</em> </p>
+            <br />
+            
+            <p class="toc_title">Contents</p>
+    <ul class="toc_list">
+        <li><a href="#intro">1 - Introduction</a>
+        </li>
+        <li><a href="#2-architecture">2 - Architecture</a></li>
+    
+            <ul>
+              <li><a href="#2-1-transactions">2.1 Transactions</a></li>
+              <li><a href="#2-2-blockchain">2.2 - Blockchain</a></li>
+              <li><a href="#2-3-networking">2.3 - Networking</a></li>
+              <li><a href="#2-4-consensus">2.4 - Consensus</a></li>
+              <li><a href="#2-5-protocol">2.5 - Protocol</a></li>
+              <li><a href="#2-6-extensibility">2.6 - Extensibility</a></li>
+              <li><a href="#2-7-performance-and-scalability">2.7 - Performance and Scalability</a></li>
+            </ul>
+        
+        <li><a href="#identity">3 - Identity</a></li>
+            <ul>
+               <li><a href="#3-1-permissions">3.1 - Permissions</a></li>
+               <li><a href="#3-2-permissions">3.2 - Permissions</a></li>
+               <li><a href="#3-3-encrypted-memos">3.3 - Encrypted Memos</a></li>
+               <li><a href="#3-4-referral-program">3.4 - Referral Program</a></li>
+               <li><a href="#3-5-fees">3.5 - Fees</a></li>
+            </ul>
+              
+        <li><a href="#4-bts-utility-token">4 - BTS: The Utility Token</a></li>
+            <ul>
+                <li><a href="#4-1-governance">4.1 - Governance</a></li>
+                <li><a href="#4-2-initial-allocation">4.2 - Initial Allocation</a></li>
+                <li><a href="#4-3-supply">4.3 - Supply</a></li>
+                <li><a href="#4-4-working-budget">4.4 - Working Budget</a></li>
+                <li><a href="#4-5-transaction-fees-fee-schedule">4.5 - Transaction Fees & Fee Schedule</a></li>
+                <li><a href="#4-6-legality-bts-token">4.6 - Legality of the BTS token</a></li>
+            </ul>
+    
+</ul>
 
-    <h2>1 - Introduction</h2>
+    <h2 id="intro">1 - Introduction</h2>
          <p>The BitShares Blockchain, as it exists today, was launched on 13th October 2015 with its community being established already in 2013. It implements an industrial-grade decentralized platform built for high-performance smart contracts with focus on the financial technologies sector.</p>
          <p>Furthermore, BitShares represents the first decentralized autonomous cooperation that lets holders of its core native token BTS decide on its future direction and governance aspects. For sake of clarity and to avoid confusion with other smart contracting platforms, the BitShares Blockchain implements its contracts in form of operations. Even though the BitShares Blockchain comes with over 50 already implemented operations which deserve to be presented, this document focuses on the description of the BitShares Blockchain as a platform, its architecture as well as its governance system using the core native token BTS.</p>    
     <br />
@@ -208,19 +230,12 @@
 
     <!-- Scripts -->
     <script src="assets/js/core.min.js"></script>
-    <script src="assets/js/thesaas.js"></script>
     <script src="assets/js/script.js"></script>
-	<script type="text/javascript" src="assets/js/marketcap.js"></script>
 	<!-- End Scripts -->
 	<!-- Go to Top Button -->
 	  <div id="stop" class="scrollTop bttt-border bttt-round bttt-positionRight bttt-slideFromBottom">
 		<i class='fa fa-chevron-up'></i>
 	  </div>
 	<!-- End Go to Top Button -->
-	  	<script>
-			$(function() {
-				cbpHorizontalMenu.init();
-			});
-		</script>
-	</body>
+	  	</body>
 </html>

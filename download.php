@@ -10,10 +10,9 @@
 	<base href="/">
 
     <!-- Styles -->
-    <link href="assets/css/core.min.css" rel="stylesheet">
-    <link href="assets/css/thesaas.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/popup.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link rel="stylesheet" href="assets/css/thesaas.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 	
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -42,7 +41,7 @@
           <div class="col-12 col-lg-8 offset-lg-2">
 
             <h1>Download</h1>
-            <p class="fs-18 opacity-70">Blockchain and native dApps Download section for BitShares 2.0</p>
+            <p class="fs-18 opacity-70">native dApps Download section of BitShares Blockchain</p>
           </div>
         </div>
       </div>
@@ -54,16 +53,16 @@
       <section class="section section-x">
         <div class="container">
 			<br />
-			<h4>BitShares 2.0 (GUI January 08, 2019 / Core February 20, 2019)</h4>
+			<h4>BitShares UI (GitHub Release April 26, 2019)</h4>
 			<ul class="ml-40 ls-none">
 				<li class="mt-20">
-					<a target="_blank" href="https://github.com/bitshares/bitshares-ui/releases/download/2.0.181212/BitShares.Setup.2.0.181212.exe"><img class="h-25 mt-0 mb-12 mx-0" src="assets/img/windows.svg" alt="Windows"/> Windows </a>
+					<a target="_blank" href="https://github.com/bitshares/bitshares-ui/releases/download/2.0.190424/BitShares.Setup.2.0.190424.exe"><img class="h-25 mt-0 mb-12 mx-0" src="assets/img/windows.svg" alt="Windows"/> Windows </a>
 				</li>
-<!--				<li class="mt-25">
-					<a href="https://github.com/bitshares/bitshares-ui/releases/download/2.0.181212/BitShares-2.0.181212.dmg"><img class="h-25 mt-0 mb-12 mx-0" src="assets/img/mac.svg"/ alt="Mac"> Mac </a>
-				</li> -->
 				<li class="mt-25">
-					<a target="_blank" href="https://github.com/bitshares/bitshares-ui/releases/download/2.0.181212/BitShares2-light_2.0.181212_amd64.deb"><img  class="h-25 mt-0 mb-12 mx-0" src="assets/img/linux.svg"/ alt="Linux"> Linux </a>
+					<a href="https://github.com/bitshares/bitshares-ui/releases/download/2.0.190424/BitShares-2.0.190424.dmg"><img class="h-25 mt-0 mb-12 mx-0" src="assets/img/mac.svg"/ alt="Mac"> Mac </a>
+				</li>
+				<li class="mt-25">
+					<a target="_blank" href="https://github.com/bitshares/bitshares-ui/releases/download/2.0.190424/BitShares2-light_2.0.190424_amd64.deb"><img  class="h-25 mt-0 mb-12 mx-0" src="assets/img/linux.svg"/ alt="Linux"> Linux </a>
 				</li>
 				<h4 id="recommended-system-requirements">System Requirements:</h4>
 			<ul class="ml-30">
@@ -72,10 +71,10 @@
 			</ul>
 			<br />
 			</ul>
-			<p>The latest official core client release:
-			<a target="_blank" href="https://github.com/bitshares/bitshares-core/releases/latest">DOWNLOAD</a></p>
-			<p>The latest official GUI release:
-			<a target="_blank" href="https://github.com/bitshares/bitshares-ui/releases/latest">DOWNLOAD</a></p>
+			<p>The latest updates on `bitshares-core` open-source software can be found
+			<a target="_blank" href="https://github.com/bitshares/bitshares-core/releases/latest"> here</a></p>
+			<p>The latest updates on `bitshares-ui` open-source software can be found
+			<a target="_blank" href="https://github.com/bitshares/bitshares-ui/releases/latest"> here</a></p>
 			<br />
 			<h4 id="technical-support">Technical Support</h4>
 			<p>Technical support is available in the community <a target="_blank" href="https://bitsharestalk.org/index.php/board,45.0.html" target="_blank">Technical Support Forum</a>.</p>
@@ -97,7 +96,6 @@
 
     <!-- Scripts -->
     <script src="assets/js/core.min.js"></script>
-    <script src="assets/js/thesaas.js"></script>
     <script src="assets/js/script.js"></script>
 	<!-- End Scripts -->
 	<!-- Go to Top Button -->
@@ -105,10 +103,5 @@
 		<i class='fa fa-chevron-up'></i>
 	  </div>
 	<!-- End Go to Top Button -->
-	  	<script>
-			$(function() {
-				cbpHorizontalMenu.init();
-			});
-		</script>
-	</body>
+	  	</body>
 </html>

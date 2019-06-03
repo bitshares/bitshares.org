@@ -3,31 +3,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Industrial-grade decentralized (DPoS) eco-system on blockchain">
+    <meta name="description" content="Open-source business development and financial management platform">
     <meta name="keywords" content="decentralized network, blockchain, industrial, business, BitShares">
-    <title>BitShares.org - Home for the BitShares blockchain 3.0</title>
+    <title>BitShares.org - Home for the BitShares blockchain</title>
 	<base href="/">
     <!-- Styles -->
-    <link href="assets/css/core.min.css" rel="stylesheet">
-    <link href="assets/css/thesaas.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link rel="stylesheet" href="assets/css/thesaas.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/blocktivity.css">
-		<!-- <link rel="stylesheet" href="assets/css/popup.css"> -->
+		
 	<!-- Favicons -->
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
     <link rel="icon" href="assets/img/favicon.ico">
 	
-    <!--OpenGraphTags-->
+    <!-- OG Tags -->
     <meta property="og:title" content="BitShares 3.0">
-    <meta property="og:description" content="Industrial-grade decentralized (DPoS) eco-system on blockchain">
+    <meta property="og:description" content="Open-source business development and financial management platform">
     <meta property="og:image" content="assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
 	
-    <!-- Topbar Navigation Bar Begins-->
+    <!-- Header -->
     <?php require('assets/php/header.php');?>
-    <!-- Top Navigation Bar Ends-->
+    <!-- End Header -->
+    
     <?php require('assets/php/blocktivity-api.php');?>
+
 </head>
 
 <body>
@@ -45,18 +47,19 @@
         <div class="row h-full">
           <div class="col-12 col-lg-8 offset-lg-2 align-self-center pt-150">
 <div class="uploading-template"> 
-<img src="logo.png" width=256/>
+<img src="assets/images/logo.png" width="256" />
 </div>
-            <h1 class="hidden-sm-down home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;3.0.1</span></h1>
-            <h1 class="hidden-md-up home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;3.0.1</span></h1>
-			<h2 class="hidden-sm-down home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Industrial-grade decentralized (DPoS) eco-system on blockchain</span></h2>
-			<h2 class="hidden-md-up home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Industrial-grade decentralized (DPoS) eco-system on blockchain</span></h2>
-            <br>
-			
+            <h1 class="hidden-sm-down home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;BLOCKHAIN</span></h1>
+            <h1 class="hidden-md-up home-title" data-aos="fade-down"><span class="bts-color fw-700">BITSHARES&nbsp;BLOCKCHAIN</span></h1>
+			<h2 class="hidden-sm-down home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Open-source business development and financial management platform</span></h2>
+			<h2 class="hidden-md-up home-sub-title fw-500" data-aos="fade-up"><span class="text-dark">Open-source business development and financial management platform</span></h2>
+			<br>
          </div>
-
+         <div class="col-12 align-self-end text-center">
+          <a class="btn btn-round btn-lg btn-primary w-300 shadow-5" href="./create-account">Create Free Account</a>
+          </div>
           <div class="col-12 align-self-end text-center pb-70">
-		  <a class="scroll-down-1 scroll-down-inverse" href="#" data-scrollto="section-features"><span></span></a>
+          <a class="scroll-down-1 scroll-down-inverse" href="#" data-scrollto="section-features"><span></span></a>
           </div>
 
         </div>
@@ -487,29 +490,26 @@
 		</section>
 	</main>
     <!-- END Main container -->
-
+<!-- Footer -->
 <?php require('assets/php/footer.php');?>
-
+<!-- End Footer -->
 </div>
+
 <!-- Responsive Menu -->
 <?php require('assets/php/mobilemenu.php');?>
 <!-- Responsive Menu -->
+
     <!-- Scripts -->
     <script src="assets/js/core.min.js"></script>
-    <script src="assets/js/thesaas.js"></script>
     <script src="assets/js/script.js"></script>
     <script type="text/javascript" src="assets/js/marketcap.js"></script>
-
 	<!-- End Scripts -->
+	
 	<!-- Go to Top Button -->
 	  <div id="stop" class="scrollTop bttt-border bttt-round bttt-positionRight bttt-slideFromBottom">
 		<i class='fa fa-chevron-up'></i>
 	  </div>
 	<!-- End Go to Top Button -->
-			<script>
-			$(function() {
-				cbpHorizontalMenu.init();
-			});
-		</script>
+
   </body>
 </html>
