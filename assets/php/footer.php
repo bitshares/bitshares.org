@@ -3,9 +3,8 @@
         <div class="container containerf">
           <div class="row gap-y">
             <div class="col-6 col-md-4 col-lg-2 hideit">
-              <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Learn</h6>
+              <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Docs</h6>
               <div class="nav flex-column">
-                <a class="nav-link" target="_blank" href="https://bitshares-explorer.io/">Block Explorer</a>
                 <a class="nav-link" target="_blank" href="https://dev.bitshares.works">Dev Integration Guide</a>
                 <a class="nav-link" target="_blank" href="https://docs.bitshares.org">Documentation</a>
                 <a class="nav-link" target="_blank" href="https://doxygen.bitshares.org">Doxygen</a>
@@ -14,16 +13,18 @@
             <div class="col-6 col-md-4 col-lg-2 hideit">
               <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Access</h6>
               <div class="nav flex-column">
-				<a class="nav-link" target="_blank" href="https://wallet.bitshares.org">BitShares DEX</a>
-				<a class="nav-link" href="create-account">Create Basic Account</a>
+				<a class="nav-link" target="_blank" href="https://wallet.bitshares.org">BitShares UI</a>
+				<a class="nav-link" target="_blank" href="https://bitshares-explorer.io/">Block Explorer</a>
+				<a class="nav-link" href="create-account">Create Free Account</a>
 				<a class="nav-link" href="assets/bitshares-media-kit.zip">Download Media Kit</a>
-              </div>
+		      	  </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 hideit">
               <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Community</h6>
               <div class="nav flex-column">
-				<a class="nav-link" target="_blank" href="https://github.com/bitshares">GitHub</a>
 				<a class="nav-link" target="_blank" href="https://www.bitsharestalk.org/">Forums</a>
+		      		<a class="nav-link" target="_blank" href="https://github.com/bitshares">GitHub</a>
+				<a class="nav-link" target="_blank" href="https://hackthedex.io/">HackTheDex Bounty</a>
 			  </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 hideit">
