@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/core.css">
     <link rel="stylesheet" href="assets/css/thesaas.css">
     <link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/blocktivity.css">
+    <link rel="stylesheet" href="assets/css/blocktivity.css">
 		
 	<!-- Favicons -->
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -28,7 +28,7 @@
     <?php require('assets/php/header.php');?>
     <!-- End Header -->
     
-    <?php require('assets/php/blocktivity-api.php');?>
+    <?php include('assets/php/blocktivity-api.php');?>
 
 </head>
 
@@ -73,7 +73,7 @@
 			<header class="section-header">
 				<h2>Decentralized Autonomous Cooperation (DAC)</h2>
 				<hr>
-				<p class="lead">BitShares Blockchain implements an industrial-grade technology focused on businesses, organizations or individuals, with an amazing eco-system and free-market economy. Based on open-source MIT-licensed Graphene technology, BitShares was launched in its existing form on 13th October 2015, known prior to that as a community project: 'ProtoShares'. Ever since then, the BitShares blockchain and its dApps have been maintained and developed  by workers elected via stakeholder consensus, consisting of more than 30 highly skilled professionals.</p>
+				<p class="lead">BitShares Blockchain implements an industrial-grade technology focused on businesses, organizations or individuals, with an amazing eco-system and free-market economy. Based on open-source MIT-licensed Graphene technology, BitShares was launched in its existing form on 13th October 2015, known prior to that as a community project: 'ProtoShares'. Ever since then, the BitShares blockchain and its dApps have been maintained and developed by workers (through consensus) elected via core-token holders, consisting of more than 30 highly skilled professionals.</p>
 			</header>
 		</section>
 		<div class="container container-x">
@@ -99,7 +99,7 @@
 									</div>
 									<div class="back">
 									  <div class="content">
-										<p>The election process makes sure that stakeholders are ultimately in control because stakeholders lose the most when the network does not operate smoothly”. <em>Dan Larimer</em></p>
+										<p>The election process makes sure that core-token holders are ultimately in control because stakeholders lose the most when the network does not operate smoothly”. <em>Dan Larimer</em></p>
 										<p>DPoS (Delegated Proof of Stake) specifically replaces environmentally reckless ‘mining’.</p><br />
 									  </div>
 									</div>
