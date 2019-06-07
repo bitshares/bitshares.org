@@ -47,7 +47,7 @@
     <main class="main-content">
 	  <section class="section section-x">
         <div class="container">
-          <p>BitShares is self-funded and self-sustaining so that BTS holder approved funding directs where to spend blockchain budgets. The budget is a reserve pool of 876 millionn BTS (June 2019) that grows with the collection of transaction fees. Each day, the blockchain is authorized to autonomously spend up to 432,000 BTS (hard limit), which at current market rates is enough to hire a small team to maintain the <a href="https://bitshares.org/technology/industrial-performance-scalability" target="_blank"> network</a> for years.</p>
+          <p>BitShares is self-funded and self-sustaining so that core token (BTS) holder approved funding directs where to spend blockchain budgets. The budget is a reserve pool of 876 millionn BTS (June 2019) that grows with the collection of transaction fees. Each day, the blockchain is authorized to autonomously spend up to 432,000 BTS (hard limit), which at current market rates is enough to hire a small team to maintain the <a href="https://bitshares.org/technology/industrial-performance-scalability" target="_blank"> network</a> for years.</p>
 <br />
 <p><img class="img-responsive img-thumbnail" src="assets/img/cashflow.png" alt="Cashflow"/></p>
 <br />
@@ -59,7 +59,7 @@
 <h2 id="workers">Workers</h2>
 <p>A worker is a paid position elected by the BTS holders to fund new blockchain infrastructure, features and dApps. A Worker’s “smart contract” specifies a start date, an end date, a daily pay rate ($BTS), and a vesting period for receiving their pay. The daily budget payout is 270,926 BTS (June 2019) and it depends on the current size of the reserve pool (with a hard limit on 432,000 BTS). It is paid to workers sorted by sorted by net BTS holder approval and when the daily budget runs out, all subsequent workers are considered not active.</p>
   <!-- New paragraph -->
-<p>Workers typically engage the whole community to campaign votes for their proposal. Once in action, progress is public to the stakeholders and community, possibly along with a foundation or escrow service acting in proxy for the funds. This applies an additional layer of reassurance, with professional reviews of work undertaken. All stakeholders (holders of BTS tokens) have the opportunity to review workers, follow links published to their descriptions, GitHub pages, and accounting, and make decisions whether to vote for them.</p>
+<p>Workers typically engage the whole community to campaign votes for their proposal. Once in action, progress is public to the BTS holders and community, possibly along with an escrow service acting in proxy for the funds. This applies an additional layer of reassurance, with professional reviews of work undertaken. All holders of BTS tokens have the opportunity to review workers, follow links published to their descriptions, GitHub pages, and accounting, and make decisions whether to vote for them.</p>
 <p>Each worker can specify a vesting period for funds received. This optional vesting period reassures stakeholders that a proposed worker has a long-term commitment because it prevents them from selling their received funds immediately.</p>
 <br />
 <h2 id="refund-workers">Refund Workers</h2>
