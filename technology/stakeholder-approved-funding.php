@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BitShares blockchain is self-funding and has a reserve pool self-sustained by fees, whereby Stakeholder-Approved Funding direct where blockchain budgets go.">
+    <meta name="description" content="BitShares blockchain is self-funding and has a reserve pool self-sustained by fees, whereby BTS Holder Approved Funding direct where blockchain budgets go.">
     <meta name="keywords" content="bitshares, blockchain, stakeholder approved funding">
 
     <title>BTS Holder Approved Funding | BitShares Blockchain</title>
