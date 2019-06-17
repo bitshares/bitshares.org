@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BitShares blockchain is self-funding and has a reserve pool sustained by fees, whereby BTS Holder Approved Funding direct where blockchain budgets go.">
+    <meta name="description" content="BitShares blockchain is self-funding and has a reserve pool sustained by fees, whereby BTS Holder Approved Funding directs where blockchain budgets go.">
     <meta name="keywords" content="bitshares, bts, workers, blockchain, bts holder approved funding, bts worker, fees, reserve pool">
 
     <title>BTS Holder Approved Funding | BitShares Blockchain</title>
@@ -19,7 +19,7 @@
 
     <!--  Open Graph Tags -->
     <meta property="og:title" content="BTS Holder Approved Funding | BitShares Blockchain">
-    <meta property="og:description" content="BitShares blockchain is self-funding and has a reserve pool sustained by fees, whereby BTS Holder Approved Funding direct where blockchain budgets go.">
+    <meta property="og:description" content="BitShares blockchain is self-funding and has a reserve pool sustained by fees, whereby BTS Holder Approved Funding directs where blockchain budgets go.">
     <meta property="og:image" content="../assets/img/og-img.jpg">
     <meta property="og:url" content="https://bitshares.org/">
     <meta name="twitter:card" content="summary_large_image">
