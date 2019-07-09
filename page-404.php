@@ -9,9 +9,9 @@
     <title>(404) Page not found | BitShares Blockchain</title>
 	<base href="/">
     <!-- Styles -->
-    <link href="assets/css/core.min.css" rel="stylesheet">
-    <link href="assets/css/thesaas.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link rel="stylesheet" href="assets/css/thesaas.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -46,9 +46,7 @@
 <?php require('assets/php/footer.php');?>
 <?php require('assets/php/mobilemenu.php');?>
     <script src="assets/js/core.min.js"></script>
-    <script src="assets/js/thesaas.js"></script>
     <script src="assets/js/script.js"></script>
-	<script type="text/javascript" src="assets/js/marketcap.js"></script>
 	<!-- End Scripts -->
 	<!-- Go to Top Button -->
 	  <div id="stop" class="scrollTop bttt-border bttt-round bttt-positionRight bttt-slideFromBottom">
