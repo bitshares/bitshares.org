@@ -8,7 +8,7 @@
 		<div class="topbar-right">
 			<ul class="topbar-nav nav nav-toggle-click">
 				<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="">Docs<i class="fa fa-caret-down"></i></a>
+				<li class="nav-item"><a class="nav-link" href="#">Docs<i class="fa fa-caret-down"></i></a>
 				<div class="nav-submenu">
 					<a class="nav-link" target="_blank" href="https://docs.bitshares.org">BitShares Docs</a>
 					<a class="nav-link" target="_blank" href="https://dev.bitshares.works">Integration for Developers</a>
