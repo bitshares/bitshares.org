@@ -257,6 +257,7 @@ fw-norm {font-weight:normal;}
 }
 
 .infograph-bg {
+    display: none;
     width: 100%;
 	background:#055288;
     background-image: url('../img/infograph-bg.jpg');
