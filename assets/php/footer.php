@@ -24,7 +24,6 @@
               <div class="nav flex-column">
 				<a class="nav-link" target="_blank" href="https://www.bitsharestalk.org/">Forums</a>
 		      		<a class="nav-link" target="_blank" href="https://github.com/bitshares">GitHub</a>
-				<a class="nav-link" target="_blank" href="https://hackthedex.io/">HackTheDex Bounty</a>
 			  </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2 hideit">
