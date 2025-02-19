@@ -58,7 +58,7 @@
                     <p>Name: bitshares-core (Active)</p>
                     <p>Description: BitShares Core is the BitShares blockchain implementation and command-line interface.</p>
                     <p>Tags: #blockchain #cryptocurrency #bitshares #cli #cpp</p>
-                    <p>More info: <a href='https://dev.bitshares.works/'>Developers portal</a>
+                    <p>More info: <a href='https://docs.bitshares.dev/'>Developers portal</a>
                         &nbsp;
                         <a target="_blank" href='https://github.com/bitshares/bitshares-core'>GitHub repository</a>
                     <p>Download(s): <a target="_blank" href='https://github.com/bitshares/bitshares-core/releases/latest'>latest official core release</a>
