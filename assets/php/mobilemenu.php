@@ -15,7 +15,7 @@
 										<div class="menu-comm">
 											<ul>
 												<li class="ml-20"><a target="_blank" href="https://docs.bitshares.org">BitShares Docs</a></li>
-												<li class="ml-20"><a target="_blank" href="https://dev.bitshares.works">Integration for Developers</a></li>
+												<li class="ml-20"><a target="_blank" href="https://docs.bitshares.dev">Integration for Developers</a></li>
 												<li class="ml-20"><a target="_blank" href="https://doxygen.bitshares.org">Doxygen</a></li>
 												<li class="ml-20"><a target="_blank" href="https://github.com/bitshares-foundation/bitshares.foundation/blob/master/download/articles/BitSharesBlockchain.pdf">Revised Whitepaper</a></li>
 											</ul>
