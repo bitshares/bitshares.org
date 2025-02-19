@@ -5,7 +5,7 @@
             <div class="col-6 col-md-4 col-lg-2 hideit">
               <h6 class="heading-alt text-uppercase fs-14 mb-3 untext">Docs</h6>
               <div class="nav flex-column">
-                <a class="nav-link" target="_blank" href="https://dev.bitshares.works">Dev Integration Guide</a>
+                <a class="nav-link" target="_blank" href="https://docs.bitshares.dev">Dev Integration Guide</a>
                 <a class="nav-link" target="_blank" href="https://docs.bitshares.org">Documentation</a>
                 <a class="nav-link" target="_blank" href="https://doxygen.bitshares.org">Doxygen</a>
               </div>
