@@ -11,7 +11,7 @@
 				<li class="nav-item"><a class="nav-link" href="#">Docs<i class="fa fa-caret-down"></i></a>
 				<div class="nav-submenu">
 					<a class="nav-link" target="_blank" href="https://docs.bitshares.org">BitShares Docs</a>
-					<a class="nav-link" target="_blank" href="https://dev.bitshares.works">Integration for Developers</a>
+					<a class="nav-link" target="_blank" href="https://docs.bitshares.dev">Integration for Developers</a>
 					<a class="nav-link" target="_blank" href="https://doxygen.bitshares.org">Doxygen</a>
 					<a class="nav-link" target="_blank" href="https://github.com/bitshares-foundation/bitshares.foundation/blob/master/download/articles/BitSharesBlockchain.pdf">Revised Whitepaper</a>
 				</div>
